@@ -1,6 +1,7 @@
 import { defineDb, defineTable, column } from 'astro:db';
 
 // https://astro.build/db/config
+// database schema
 export default defineDb({
   tables: {
     posts: defineTable({
