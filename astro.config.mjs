@@ -21,5 +21,5 @@ export default defineConfig({
     // clerk(),
   ],
   adapter: cloudflare(),
-  output: "server",
+  output: "static",
 });
