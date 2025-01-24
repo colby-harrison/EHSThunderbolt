@@ -3,13 +3,13 @@ import { SidebarTrigger } from "./ui/sidebar";
 
 export default function Navbar() {
   return (
-    <header className="w-full p-2 md:pl-0">
+    <header className="w-full p-2">
       <div className='flex h-12 flex-row bg-sidebar text-sidebar-foreground rounded-lg border border-sidebar-border shadow'>
         <div className='flex basis-1/2 flex-row items-center justify-start gap-4 pl-2 md:basis-1/3'>
-          <SidebarTrigger className='md:hidden' />
+          <SidebarTrigger />
           <a href='/'>
             <img
-              src='/logo.png'
+              src='/CheyenneEast.png'
               alt='EHS Logo'
               className='h-10 w-auto max-md:h-12'
             />

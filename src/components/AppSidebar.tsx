@@ -50,7 +50,7 @@ export function AppSidebar() {
     return savedOpenState ? JSON.parse(savedOpenState) : true;
   });
   return (
-    <Sidebar collapsible='icon' variant='floating'>
+    <Sidebar collapsible='offcanvas' variant='floating' className="z-50 h-[calc(100vh-3rem-0.5rem)] bottom-0">
       <SidebarHeader />
       <SidebarContent>
         <Collapsible
@@ -61,7 +61,7 @@ export function AppSidebar() {
           <SidebarGroup>
             <SidebarGroupLabel asChild>
               <CollapsibleTrigger>
-                EHS
+                EHS ThunderBolt
                 <ChevronDown className='ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180' />
               </CollapsibleTrigger>
             </SidebarGroupLabel>

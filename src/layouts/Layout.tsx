@@ -15,10 +15,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <SidebarProvider open={open} onOpenChange={setOpen}>
       {/* <Progress /> */}
-      <AppSidebar />
-      <main className='flex flex-col w-full h-full'>
+      <main className='w-full h-full'>
         <Navbar />
-        <div className='h-[calc(100vh-3rem)]'>{children}</div>
+        <div className='h-[calc(100vh-3rem)] flex flex-row'>
+        <AppSidebar />
+        {children}</div>
       </main>
     </SidebarProvider>
   );
