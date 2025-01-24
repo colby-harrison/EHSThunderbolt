@@ -1,8 +1,29 @@
 ---
 import '../styles/globals.css';
 ---
+
+{/* Dark-light mode */}
+<script is:inline>
+	const getThemePreference = () => {
+		if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+			return localStorage.getItem('theme');
+		}
+		return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+	};
+	const isDark = getThemePreference() === 'dark';
+	document.documentElement.classList[isDark ? 'add' : 'remove']('dark');
+ 
+	if (typeof localStorage !== 'undefined') {
+		const observer = new MutationObserver(() => {
+			const isDark = document.documentElement.classList.contains('dark');
+			localStorage.setItem('theme', isDark ? 'dark' : 'light');
+		});
+		observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+	}
+</script>
+
 <!doctype html>
-<html lang="en" class="m-0 width-full h-screen">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
@@ -11,6 +32,7 @@ import '../styles/globals.css';
 		<title>Astro Basics</title>
 	</head>
 	<body class="m-0 width-full h-screen">
+		{/* This component allows the page to be used as a layout, DO NOT REMOVE */}
 		<slot />
 	</body>
 </html>
