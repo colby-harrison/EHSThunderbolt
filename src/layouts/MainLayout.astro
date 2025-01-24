@@ -1,5 +1,6 @@
 ---
 import '../styles/globals.css';
+import Layout from '../layouts/Layout';
 ---
 
 {/* Dark-light mode */}
@@ -31,8 +32,10 @@ import '../styles/globals.css';
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro Basics</title>
 	</head>
-	<body class="m-0 width-full h-screen">
-		{/* This component allows the page to be used as a layout, DO NOT REMOVE */}
-		<slot />
+	<body class="h-svh w-screen overflow-hidden">
+		<Layout client:only="react">
+			{/* This component allows the page to be used as a layout, DO NOT REMOVE */}
+      <slot />
+    </Layout>
 	</body>
 </html>
