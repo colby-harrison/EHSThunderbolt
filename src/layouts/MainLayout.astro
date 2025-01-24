@@ -1,5 +1,7 @@
 ---
 import '../styles/globals.css';
+import Layout from '../layouts/Layout';
+import background from '../assets/background.svg';
 ---
 
 {/* Dark-light mode */}
@@ -27,12 +29,15 @@ import '../styles/globals.css';
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/png" href="/CheyenneEast.png" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>EHS Thunderbolt</title>
 	</head>
-	<body class="m-0 width-full h-screen">
-		{/* This component allows the page to be used as a layout, DO NOT REMOVE */}
-		<slot />
+	<body class="h-svh w-screen overflow-hidden">
+		<img src={background.src} alt="" fetchpriority="high" class=" fixed top-o left-0 w-full h-full -z-[1] blur-[100px]" />
+		<Layout client:only="react">
+			{/* This component allows the page to be used as a layout, DO NOT REMOVE */}
+      <slot />
+    </Layout>
 	</body>
 </html>
