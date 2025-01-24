@@ -1,5 +1,8 @@
+---
+import '../styles/globals.css';
+---
 <!doctype html>
-<html lang="en">
+<html lang="en" class="m-0 width-full h-screen">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
@@ -7,16 +10,7 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro Basics</title>
 	</head>
-	<body>
+	<body class="m-0 width-full h-screen">
 		<slot />
 	</body>
 </html>
-
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
