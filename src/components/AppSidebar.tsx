@@ -47,10 +47,10 @@ export function AppSidebar() {
   const [sidebar_collapsible_5_open, sidebar_collapsible_5_setOpen] = useSidebarState(5);
   const [sidebar_open, sidebar_setOpen] = React.useState(() => {
     const savedOpenState = sessionStorage.getItem("main-sidebarOpen");
-    return savedOpenState ? JSON.parse(savedOpenState) : true;
+    return savedOpenState ? JSON.parse(savedOpenState) : false;
   });
   return (
-    <Sidebar collapsible='offcanvas' variant='floating' className="z-50 h-[calc(100vh-3rem-0.5rem)] bottom-0">
+    <Sidebar collapsible='offcanvas' variant='floating' className="h-[calc(100vh-3rem-0.5rem)] bottom-0">
       <SidebarHeader />
       <SidebarContent>
         <Collapsible

@@ -1,6 +1,7 @@
 ---
 import '../styles/globals.css';
 import Layout from '../layouts/Layout';
+import background from '../assets/background.svg';
 ---
 
 {/* Dark-light mode */}
@@ -33,6 +34,7 @@ import Layout from '../layouts/Layout';
 		<title>EHS Thunderbolt</title>
 	</head>
 	<body class="h-svh w-screen overflow-hidden">
+		<img src={background.src} alt="" fetchpriority="high" class=" fixed top-o left-0 w-full h-full -z-[1] blur-[100px]" />
 		<Layout client:only="react">
 			{/* This component allows the page to be used as a layout, DO NOT REMOVE */}
       <slot />
