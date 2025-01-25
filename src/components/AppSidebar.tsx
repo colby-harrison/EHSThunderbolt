@@ -50,7 +50,7 @@ export function AppSidebar() {
     return savedOpenState ? JSON.parse(savedOpenState) : false;
   });
   return (
-    <Sidebar collapsible='offcanvas' variant='floating' className="bottom-0 pt-[4rem]">
+    <Sidebar collapsible='offcanvas' variant='floating'>
       <SidebarHeader />
       <SidebarContent>
         <Collapsible
