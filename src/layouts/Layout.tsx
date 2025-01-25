@@ -17,11 +17,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       {/* <Progress /> */}
       <main className='w-full h-full'>
         <Navbar />
-        <div className='h-[calc(100vh-3rem)] flex flex-row'>
-        <AppSidebar />
-        <div className="w-full h-full px-2 pb-2 overflow-y-scroll overflow-x-hidden">
-        {children}
-        </div>
+        <div className='h-[calc(100vh-3rem)]'>
+          <AppSidebar />
+          <div className='w-full h-full px-2 pb-2 overflow-y-scroll'>
+            {children}
+          </div>
         </div>
       </main>
     </SidebarProvider>

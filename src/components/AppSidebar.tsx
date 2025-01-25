@@ -45,6 +45,7 @@ export function AppSidebar() {
   const [sidebar_collapsible_3_open, sidebar_collapsible_3_setOpen] = useSidebarState(3);
   const [sidebar_collapsible_4_open, sidebar_collapsible_4_setOpen] = useSidebarState(4);
   const [sidebar_collapsible_5_open, sidebar_collapsible_5_setOpen] = useSidebarState(5);
+  useSidebarState(6);
   const [sidebar_open, sidebar_setOpen] = React.useState(() => {
     const savedOpenState = sessionStorage.getItem("main-sidebarOpen");
     return savedOpenState ? JSON.parse(savedOpenState) : false;
@@ -262,16 +263,6 @@ export function AppSidebar() {
         </Collapsible>
       </SidebarContent>
       <SidebarSeparator />
-      <SidebarFooter>
-        <SidebarMenu>
-          <SidebarMenuItem>
-            <SidebarMenuButton onClick={toggleSidebar}>
-              <PanelLeft />
-              <span className='ml-auto'>Toggle Sidebar</span>
-            </SidebarMenuButton>
-          </SidebarMenuItem>
-        </SidebarMenu>
-      </SidebarFooter>
       <SidebarRail />
     </Sidebar>
   );
