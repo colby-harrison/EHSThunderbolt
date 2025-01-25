@@ -19,7 +19,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <Navbar />
         <div className='h-[calc(100vh-3rem)] flex flex-row'>
         <AppSidebar />
-        <div className="w-full h-full p-2 overflow-y-scroll overflow-x-hidden">
+        <div className="w-full h-full px-2 pb-2 overflow-y-scroll overflow-x-hidden">
         {children}
         </div>
         </div>
