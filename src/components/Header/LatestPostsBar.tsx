@@ -1,10 +1,11 @@
 import { useIsMobile } from "@/hooks/use-mobile";
-import { Suspense, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+import { motion } from "motion/react";
 
 type WordPressApiResponse = {
   id: number;
-  date: string;
-  date_gmt: string;
+  date: Date;
+  date_gmt: Date;
   guid: { rendered: string };
   modified: string;
   modified_gmt: string;
@@ -31,7 +32,8 @@ type WordPressApiResponse = {
 
 export default function LatestPostsBar() {
   const mobile = useIsMobile();
-  const [tempData, setTempData] = useState<string | null>(null);
+  const [tempData, setTempData] = useState<WordPressApiResponse[] | null>(null);
+  const [isPaused, setIsPaused] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -39,7 +41,7 @@ export default function LatestPostsBar() {
         "https://ehsthunderbolt.com/wp-json/wp/v2/posts"
       );
       const data: WordPressApiResponse[] = await response.json();
-      setTempData(data[0].title.rendered);
+      setTempData(data);
     };
     fetchData();
   }, []);
@@ -48,15 +50,38 @@ export default function LatestPostsBar() {
   }
   return (
     <>
-      <div className='flex flex-row items-center h-full'>
+      <div className='flex flex-row items-center'>
         {tempData === null ? (
           <h1 className='text-2xl'>Loading...</h1>
         ) : (
           <>
-          <div className="bg-ehs-white text-ehs-black p-1 font-bold">
-            <h1 className='text-2xl bold'>Latest posts</h1>
-          </div>
-          <h1 className='text-2xl'>{tempData}</h1>
+            <div className='bg-ehs-white text-ehs-black p-1 pr-2'>
+              <h1 className='text-2xl font-bold whitespace-nowrap'>Latest posts</h1>
+            </div>
+            <div className='relative overflow-hidden w-full'>
+              <motion.div
+                className='flex flex-row whitespace-nowrap'
+                initial={{ x: "100%" }}
+                animate={{ x: "-150%" }}
+                transition={{
+                  repeat: Infinity,
+                  duration: 5*tempData.length, // Adjust this for the speed of scrolling
+                  ease: "linear",
+                }}
+              >
+                {tempData.map((post, index) => (
+                  <div key={index} className='mx-2'>
+                    <a
+                      href={post.link}
+                      className='hover:bg-ehs-gray/50 text-xs md:text-xl font-bold rounded p-2'
+                    >
+                      {post.title.rendered} |{" "}
+                      {post.date_gmt.toString().split("T")[0]}
+                    </a>
+                  </div>
+                ))}
+              </motion.div>
+            </div>
           </>
         )}
       </div>

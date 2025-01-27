@@ -11,7 +11,7 @@ export default function Navbar() {
             <img
               src='/CheyenneEast.png'
               alt='EHS Logo'
-              className='h-10 w-auto max-md:h-12'
+              className='h-12 w-auto'
             />
           </a>
         </div>
