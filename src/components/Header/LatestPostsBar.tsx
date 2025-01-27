@@ -29,10 +29,9 @@ type WordPressApiResponse = {
   _links: Record<string, { href: string; [key: string]: any }[]>;
 };
 
-
 export default function LatestPostsBar() {
   const mobile = useIsMobile();
-  const [tempData, setTempData] = useState<string>("");
+  const [tempData, setTempData] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -44,23 +43,23 @@ export default function LatestPostsBar() {
     };
     fetchData();
   }, []);
+  if (mobile) {
+    return null;
+  }
   return (
     <>
-      {!mobile && (
-        <Suspense fallback={<Loading />}>
-          <div className='flex flex-row justify-center items-center h-full'>
-            <h1 className='text-2xl'>{tempData}</h1>
+      <div className='flex flex-row items-center h-full'>
+        {tempData === null ? (
+          <h1 className='text-2xl'>Loading...</h1>
+        ) : (
+          <>
+          <div className="bg-ehs-white text-ehs-black p-1 font-bold">
+            <h1 className='text-2xl bold'>Latest posts</h1>
           </div>
-        </Suspense>
-      )}
+          <h1 className='text-2xl'>{tempData}</h1>
+          </>
+        )}
+      </div>
     </>
-  );
-}
-
-function Loading() {
-  return (
-    <div className='flex flex-row justify-center items-center h-full'>
-      <h1 className='text-2xl'>Loading...</h1>
-    </div>
   );
 }
