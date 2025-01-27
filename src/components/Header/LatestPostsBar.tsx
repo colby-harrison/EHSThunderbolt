@@ -65,7 +65,7 @@ export default function LatestPostsBar() {
                 animate={{ x: "-400%" }}
                 transition={{
                   repeat: Infinity,
-                  duration: 5*tempData.length, // Adjust this for the speed of scrolling
+                  duration: 7.5*tempData.length, // Adjust this for the speed of scrolling
                   ease: "linear",
                 }}
               >
