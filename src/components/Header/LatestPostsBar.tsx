@@ -60,9 +60,9 @@ export default function LatestPostsBar() {
             </div>
             <div className='relative overflow-hidden w-full'>
               <motion.div
-                className='flex flex-row whitespace-nowrap'
+                className='flex flex-row whitespace-nowrap gap-2'
                 initial={{ x: "100%" }}
-                animate={{ x: "-150%" }}
+                animate={{ x: "-400%" }}
                 transition={{
                   repeat: Infinity,
                   duration: 5*tempData.length, // Adjust this for the speed of scrolling
@@ -70,7 +70,7 @@ export default function LatestPostsBar() {
                 }}
               >
                 {tempData.map((post, index) => (
-                  <div key={index} className='mx-2'>
+                  <div key={index}>
                     <a
                       href={post.link}
                       className='hover:bg-ehs-gray/50 text-xs md:text-xl font-bold rounded p-2'
