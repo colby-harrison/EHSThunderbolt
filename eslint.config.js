@@ -5,7 +5,7 @@ import eslintPluginAstro from 'eslint-plugin-astro';
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
-  { files: ['**/*.{js,mjs,cjs,ts,astro}'] },
+  { files: ['**/*.{js,mjs,cjs,ts,astro,tsx,jsx}'] },
   { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
   {
     ignores: [
