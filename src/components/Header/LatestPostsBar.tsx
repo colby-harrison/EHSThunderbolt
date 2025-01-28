@@ -23,17 +23,18 @@ type WordPressApiResponse = {
   sticky: boolean;
   template: string;
   format: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   meta: Record<string, any>;
   categories: number[];
   tags: number[];
   class_list?: string[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   _links: Record<string, { href: string; [key: string]: any }[]>;
 };
 
 export default function LatestPostsBar() {
   const mobile = useIsMobile();
   const [tempData, setTempData] = useState<WordPressApiResponse[] | null>(null);
-  const [isPaused, setIsPaused] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {

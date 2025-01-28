@@ -7,6 +7,7 @@ import eslintPluginAstro from 'eslint-plugin-astro';
 export default [
   {files: ["**/*.{js,mjs,cjs,ts,astro}"]},
   {languageOptions: { globals: {...globals.browser, ...globals.node} }},
+  {ignores: [".astro/", "node_modules/", "dist/", ".wrangler/", ".github/", ".vscode/", "tailwind.config.mjs"]},
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   ...eslintPluginAstro.configs.recommended,
