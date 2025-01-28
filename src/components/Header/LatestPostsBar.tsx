@@ -59,7 +59,7 @@ export default function LatestPostsBar() {
             <div
               className={`text-ehs-black p-1 bg-arrow-right-bottom relative z-10`}
             >
-              <h1 className="text-2xl font-bold whitespace-nowrap pr-4">
+              <h1 className="text-2xl font-bold whitespace-nowrap pr-10">
                 Latest posts
               </h1>
             </div>
