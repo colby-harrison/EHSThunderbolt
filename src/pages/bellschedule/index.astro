@@ -1,0 +1,10 @@
+---
+import Layout from '@/layouts/MainLayout.astro';
+import BellScheduleTable from '@/components/BellSchedule/Table';
+---
+
+<Layout>
+	<div class="container mx-auto flex flex-col items-center justify-center p-8">
+		<BellScheduleTable client:only="react" />
+	</div>
+</Layout>

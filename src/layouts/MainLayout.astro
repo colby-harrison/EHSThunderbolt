@@ -34,10 +34,18 @@ import background from '../assets/background.svg';
 		<title>EHS Thunderbolt</title>
 	</head>
 	<body class="h-svh w-screen overflow-hidden">
-		<img src={background.src} alt="" fetchpriority="high" class=" fixed top-o left-0 w-full h-full -z-[1] blur-[100px]" />
+		<img src={background.src} alt="" fetchpriority="high" class="fixed top-0 left-0 w-full h-full -z-[1] blur-[100px]" />
 		<Layout client:only="react">
 			{/* This component allows the page to be used as a layout, DO NOT REMOVE */}
       <slot />
     </Layout>
 	</body>
 </html>
+
+<style is:global>
+	.bg-arrow-right-bottom {
+		background-image: url(/boxwithtriangleonrightface.svg);
+		background-repeat: no-repeat;
+		background-position: right bottom;
+	}
+</style>

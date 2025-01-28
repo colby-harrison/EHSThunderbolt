@@ -50,22 +50,26 @@ export default function LatestPostsBar() {
   }
   return (
     <>
-      <div className='flex flex-row items-center'>
+      <div className='flex flex-row items-center relative py-2'>
         {tempData === null ? (
           <h1 className='text-2xl'>Loading...</h1>
         ) : (
           <>
-            <div className='bg-ehs-white text-ehs-black p-1 pr-2'>
-              <h1 className='text-2xl font-bold whitespace-nowrap'>Latest posts</h1>
+            <div
+              className={`text-ehs-black p-1 bg-arrow-right-bottom relative z-10`}
+            >
+              <h1 className='text-2xl font-bold whitespace-nowrap pr-4'>
+                Latest posts
+              </h1>
             </div>
-            <div className='relative overflow-hidden w-full'>
+            <div className='relative overflow-hidden w-full z-0'>
               <motion.div
                 className='flex flex-row whitespace-nowrap gap-2'
                 initial={{ x: "100%" }}
                 animate={{ x: "-400%" }}
                 transition={{
                   repeat: Infinity,
-                  duration: 7.5*tempData.length, // Adjust this for the speed of scrolling
+                  duration: 7.5 * tempData.length, // Adjust this for the speed of scrolling
                   ease: "linear",
                 }}
               >
