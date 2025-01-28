@@ -1,4 +1,4 @@
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import {
   Table,
   TableBody,
@@ -6,19 +6,19 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table";
+} from '@/components/ui/table';
 
 export default function BellScheduleTable() {
   return (
-    <Tabs defaultValue='a_b'>
+    <Tabs defaultValue="a_b">
       <TabsList>
-        <TabsTrigger value='a_b'>A/B-Day</TabsTrigger>
-        <TabsTrigger value='c'>C-Day</TabsTrigger>
-        <TabsTrigger value='half'>Half-Day</TabsTrigger>
-        <TabsTrigger value='delayed'>Delayed-Start</TabsTrigger>
+        <TabsTrigger value="a_b">A/B-Day</TabsTrigger>
+        <TabsTrigger value="c">C-Day</TabsTrigger>
+        <TabsTrigger value="half">Half-Day</TabsTrigger>
+        <TabsTrigger value="delayed">Delayed-Start</TabsTrigger>
       </TabsList>
-      <TabsContent value='a_b'>
-      <Table>
+      <TabsContent value="a_b">
+        <Table>
           <TableHeader>
             <TableRow>
               <TableHead>Period</TableHead>
@@ -31,8 +31,16 @@ export default function BellScheduleTable() {
               <TableCell>7:45 AM - 9:11 AM</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell>TBTV<br/>2A/6B Period</TableCell>
-              <TableCell>9:17 AM - 9:27 AM<br/>9:27 AM - 10:53 AM</TableCell>
+              <TableCell>
+                TBTV
+                <br />
+                2A/6B Period
+              </TableCell>
+              <TableCell>
+                9:17 AM - 9:27 AM
+                <br />
+                9:27 AM - 10:53 AM
+              </TableCell>
             </TableRow>
             <TableRow>
               <TableCell>Lunch</TableCell>
@@ -49,8 +57,8 @@ export default function BellScheduleTable() {
           </TableBody>
         </Table>
       </TabsContent>
-      <TabsContent value='c'>
-      <Table>
+      <TabsContent value="c">
+        <Table>
           <TableHeader>
             <TableRow>
               <TableHead>Period</TableHead>
@@ -59,8 +67,16 @@ export default function BellScheduleTable() {
           </TableHeader>
           <TableBody>
             <TableRow>
-              <TableCell>1A/5B Period<br/>Advisement</TableCell>
-              <TableCell>7:45 AM - 8:57 AM<br/>8:57 AM - 9:12 AM</TableCell>
+              <TableCell>
+                1A/5B Period
+                <br />
+                Advisement
+              </TableCell>
+              <TableCell>
+                7:45 AM - 8:57 AM
+                <br />
+                8:57 AM - 9:12 AM
+              </TableCell>
             </TableRow>
             <TableRow>
               <TableCell>Flex</TableCell>
@@ -85,8 +101,8 @@ export default function BellScheduleTable() {
           </TableBody>
         </Table>
       </TabsContent>
-      <TabsContent value='half'>
-      <Table>
+      <TabsContent value="half">
+        <Table>
           <TableHeader>
             <TableRow>
               <TableHead>Period</TableHead>
@@ -113,8 +129,8 @@ export default function BellScheduleTable() {
           </TableBody>
         </Table>
       </TabsContent>
-      <TabsContent value='delayed'>
-      <Table>
+      <TabsContent value="delayed">
+        <Table>
           <TableHeader>
             <TableRow>
               <TableHead>Period</TableHead>

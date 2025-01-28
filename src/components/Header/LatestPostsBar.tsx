@@ -1,6 +1,6 @@
-import { useIsMobile } from "@/hooks/use-mobile";
-import { useState, useEffect } from "react";
-import { motion } from "motion/react";
+import { useIsMobile } from '@/hooks/use-mobile';
+import { useState, useEffect } from 'react';
+import { motion } from 'motion/react';
 
 type WordPressApiResponse = {
   id: number;
@@ -23,22 +23,23 @@ type WordPressApiResponse = {
   sticky: boolean;
   template: string;
   format: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   meta: Record<string, any>;
   categories: number[];
   tags: number[];
   class_list?: string[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   _links: Record<string, { href: string; [key: string]: any }[]>;
 };
 
 export default function LatestPostsBar() {
   const mobile = useIsMobile();
   const [tempData, setTempData] = useState<WordPressApiResponse[] | null>(null);
-  const [isPaused, setIsPaused] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
-        "https://ehsthunderbolt.com/wp-json/wp/v2/posts"
+        'https://ehsthunderbolt.com/wp-json/wp/v2/posts',
       );
       const data: WordPressApiResponse[] = await response.json();
       setTempData(data);
@@ -50,37 +51,39 @@ export default function LatestPostsBar() {
   }
   return (
     <>
-      <div className='flex flex-row items-center relative py-2'>
+      <div className="flex flex-row items-center relative py-2">
         {tempData === null ? (
-          <h1 className='text-2xl'>Loading...</h1>
+          <h1 className="text-2xl">Loading...</h1>
         ) : (
           <>
             <div
               className={`text-ehs-black p-1 bg-arrow-right-bottom relative z-10`}
             >
-              <h1 className='text-2xl font-bold whitespace-nowrap pr-4'>
+              <h1 className="text-2xl font-bold whitespace-nowrap pr-10">
                 Latest posts
               </h1>
             </div>
-            <div className='relative overflow-hidden w-full z-0'>
+            <div className="relative overflow-hidden w-full z-0">
               <motion.div
-                className='flex flex-row whitespace-nowrap gap-2'
-                initial={{ x: "100%" }}
-                animate={{ x: "-400%" }}
+                className="flex flex-row whitespace-nowrap gap-2"
+                // eslint-disable-next-line id-length
+                initial={{ x: '100%' }}
+                // eslint-disable-next-line id-length
+                animate={{ x: '-400%' }}
                 transition={{
                   repeat: Infinity,
                   duration: 7.5 * tempData.length, // Adjust this for the speed of scrolling
-                  ease: "linear",
+                  ease: 'linear',
                 }}
               >
                 {tempData.map((post, index) => (
                   <div key={index}>
                     <a
                       href={post.link}
-                      className='hover:bg-ehs-gray/50 text-xs md:text-xl font-bold rounded p-2'
+                      className="hover:bg-ehs-gray/50 text-xs md:text-xl font-bold rounded p-2"
                     >
-                      {post.title.rendered} |{" "}
-                      {post.date_gmt.toString().split("T")[0]}
+                      {post.title.rendered} |{' '}
+                      {post.date_gmt.toString().split('T')[0]}
                     </a>
                   </div>
                 ))}

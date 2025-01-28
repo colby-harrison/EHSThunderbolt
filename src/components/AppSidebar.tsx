@@ -10,7 +10,7 @@ import {
   SidebarMenuItem,
   SidebarRail,
   SidebarSeparator,
-} from "@/components/ui/sidebar";
+} from '@/components/ui/sidebar';
 import {
   ChevronDown,
   Newspaper,
@@ -28,25 +28,29 @@ import {
   BicepsFlexed,
   School,
   ShieldHalf,
-} from "lucide-react";
+} from 'lucide-react';
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "./ui/collapsible";
-import React from "react";
+} from './ui/collapsible';
+import React from 'react';
 
 export function AppSidebar() {
-  const [sidebar_collapsible_1_open, sidebar_collapsible_1_setOpen] = useSidebarState(1);
-  const [sidebar_collapsible_2_open, sidebar_collapsible_2_setOpen] = useSidebarState(2);
-  const [sidebar_collapsible_3_open, sidebar_collapsible_3_setOpen] = useSidebarState(3);
-  const [sidebar_collapsible_4_open, sidebar_collapsible_4_setOpen] = useSidebarState(4);
+  const [sidebar_collapsible_1_open, sidebar_collapsible_1_setOpen] =
+    useSidebarState(1);
+  const [sidebar_collapsible_2_open, sidebar_collapsible_2_setOpen] =
+    useSidebarState(2);
+  const [sidebar_collapsible_3_open, sidebar_collapsible_3_setOpen] =
+    useSidebarState(3);
+  const [sidebar_collapsible_4_open, sidebar_collapsible_4_setOpen] =
+    useSidebarState(4);
   return (
-    <Sidebar collapsible='offcanvas' variant='floating'>
+    <Sidebar collapsible="offcanvas" variant="floating">
       <SidebarHeader />
       <SidebarContent>
         <Collapsible
-          className='group/collapsible'
+          className="group/collapsible"
           open={sidebar_collapsible_1_open}
           onOpenChange={sidebar_collapsible_1_setOpen}
         >
@@ -54,7 +58,7 @@ export function AppSidebar() {
             <SidebarGroupLabel asChild>
               <CollapsibleTrigger>
                 EHS ThunderBolt
-                <ChevronDown className='ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180' />
+                <ChevronDown className="ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180" />
               </CollapsibleTrigger>
             </SidebarGroupLabel>
             <CollapsibleContent>
@@ -62,7 +66,7 @@ export function AppSidebar() {
                 <SidebarMenu>
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
-                      <a href='/blog'>
+                      <a href="/blog">
                         <House />
                         <span>Home</span>
                       </a>
@@ -70,7 +74,7 @@ export function AppSidebar() {
                   </SidebarMenuItem>
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
-                      <a href='/community'>
+                      <a href="/community">
                         <Sparkle />
                         <span>Community</span>
                       </a>
@@ -78,7 +82,7 @@ export function AppSidebar() {
                   </SidebarMenuItem>
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
-                      <a href='/grads'>
+                      <a href="/grads">
                         <GraduationCap />
                         <span>2025 Grads</span>
                       </a>
@@ -86,7 +90,7 @@ export function AppSidebar() {
                   </SidebarMenuItem>
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
-                      <a href='/studentlife'>
+                      <a href="/studentlife">
                         <NotebookPen />
                         <span>Student Life</span>
                       </a>
@@ -94,7 +98,7 @@ export function AppSidebar() {
                   </SidebarMenuItem>
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
-                      <a href='/clubsandactivities'>
+                      <a href="/clubsandactivities">
                         <SquareActivity />
                         <span>Clubs and Activities</span>
                       </a>
@@ -102,7 +106,7 @@ export function AppSidebar() {
                   </SidebarMenuItem>
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
-                      <a href='/sports'>
+                      <a href="/sports">
                         <Trophy />
                         <span>Sports</span>
                       </a>
@@ -110,7 +114,7 @@ export function AppSidebar() {
                   </SidebarMenuItem>
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
-                      <a href='/news'>
+                      <a href="/news">
                         <Newspaper />
                         <span>News</span>
                       </a>
@@ -123,7 +127,7 @@ export function AppSidebar() {
         </Collapsible>
         <SidebarSeparator />
         <Collapsible
-          className='group/collapsible'
+          className="group/collapsible"
           open={sidebar_collapsible_2_open}
           onOpenChange={sidebar_collapsible_2_setOpen}
         >
@@ -131,7 +135,7 @@ export function AppSidebar() {
             <SidebarGroupLabel asChild>
               <CollapsibleTrigger>
                 Media
-                <ChevronDown className='ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180' />
+                <ChevronDown className="ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180" />
               </CollapsibleTrigger>
             </SidebarGroupLabel>
             <CollapsibleContent>
@@ -139,7 +143,7 @@ export function AppSidebar() {
                 <SidebarMenu>
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
-                      <a href='/photos'>
+                      <a href="/photos">
                         <Camera />
                         <span>Photos</span>
                       </a>
@@ -147,7 +151,7 @@ export function AppSidebar() {
                   </SidebarMenuItem>
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
-                      <a href='/videos'>
+                      <a href="/videos">
                         <Video />
                         <span>Videos</span>
                       </a>
@@ -160,7 +164,7 @@ export function AppSidebar() {
         </Collapsible>
         <SidebarSeparator />
         <Collapsible
-          className='group/collapsible'
+          className="group/collapsible"
           open={sidebar_collapsible_3_open}
           onOpenChange={sidebar_collapsible_3_setOpen}
         >
@@ -168,7 +172,7 @@ export function AppSidebar() {
             <SidebarGroupLabel asChild>
               <CollapsibleTrigger>
                 School Info
-                <ChevronDown className='ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180' />
+                <ChevronDown className="ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180" />
               </CollapsibleTrigger>
             </SidebarGroupLabel>
             <CollapsibleContent>
@@ -176,7 +180,7 @@ export function AppSidebar() {
                 <SidebarMenu>
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
-                      <a href='/bellschedule'>
+                      <a href="/bellschedule">
                         <BellElectric />
                         <span>Bell Schedule</span>
                       </a>
@@ -184,7 +188,7 @@ export function AppSidebar() {
                   </SidebarMenuItem>
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
-                      <a href='/flextime'>
+                      <a href="/flextime">
                         <BicepsFlexed />
                         <span>Flex Time</span>
                       </a>
@@ -192,7 +196,7 @@ export function AppSidebar() {
                   </SidebarMenuItem>
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
-                      <a href='https://east.laramie1.org'>
+                      <a href="https://east.laramie1.org">
                         <School />
                         <span>Offical School Website</span>
                       </a>
@@ -200,7 +204,7 @@ export function AppSidebar() {
                   </SidebarMenuItem>
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
-                      <a href='https://laramie1.org'>
+                      <a href="https://laramie1.org">
                         <ShieldHalf />
                         <span>LCSD1 Website</span>
                       </a>
@@ -211,10 +215,10 @@ export function AppSidebar() {
             </CollapsibleContent>
           </SidebarGroup>
         </Collapsible>
-        
+
         <SidebarSeparator />
         <Collapsible
-          className='group/collapsible'
+          className="group/collapsible"
           open={sidebar_collapsible_4_open}
           onOpenChange={sidebar_collapsible_4_setOpen}
         >
@@ -222,7 +226,7 @@ export function AppSidebar() {
             <SidebarGroupLabel asChild>
               <CollapsibleTrigger>
                 School Staff
-                <ChevronDown className='ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180' />
+                <ChevronDown className="ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180" />
               </CollapsibleTrigger>
             </SidebarGroupLabel>
             <CollapsibleContent>
@@ -230,7 +234,7 @@ export function AppSidebar() {
                 <SidebarMenu>
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
-                      <a href='/thunderboltstaff'>
+                      <a href="/thunderboltstaff">
                         <Code />
                         <span>ThunderBolt Staff</span>
                       </a>
@@ -238,7 +242,7 @@ export function AppSidebar() {
                   </SidebarMenuItem>
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
-                      <a href='/ehsteachers'>
+                      <a href="/ehsteachers">
                         <UsersRound />
                         <span>EHS Teachers</span>
                       </a>
@@ -260,7 +264,7 @@ export function AppSidebar() {
 function useSidebarState(collapsibleNumber: number) {
   const [isOpen, setIsOpen] = React.useState(() => {
     const savedOpenState = sessionStorage.getItem(
-      `main-sidebar-collapsible-${collapsibleNumber}Open`
+      `main-sidebar-collapsible-${collapsibleNumber}Open`,
     );
     return savedOpenState ? JSON.parse(savedOpenState) : true;
   });
@@ -268,7 +272,7 @@ function useSidebarState(collapsibleNumber: number) {
   React.useEffect(() => {
     sessionStorage.setItem(
       `main-sidebar-collapsible-${collapsibleNumber}Open`,
-      JSON.stringify(isOpen)
+      JSON.stringify(isOpen),
     );
   }, [isOpen, collapsibleNumber]);
 
