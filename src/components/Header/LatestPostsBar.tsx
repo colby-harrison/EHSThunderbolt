@@ -66,7 +66,9 @@ export default function LatestPostsBar() {
             <div className="relative overflow-hidden w-full z-0">
               <motion.div
                 className="flex flex-row whitespace-nowrap gap-2"
+                // eslint-disable-next-line id-length
                 initial={{ x: '100%' }}
+                // eslint-disable-next-line id-length
                 animate={{ x: '-400%' }}
                 transition={{
                   repeat: Infinity,
