@@ -17,12 +17,14 @@ export default function TeachersCard({ teacher }: { teacher: teacherProps }) {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>{teacher.name.split(" ").map((word, index) => (
-    <span key={index}>
-      {word}
-      <br />
-    </span>
-  ))}</CardTitle>
+        <CardTitle>
+          {teacher.name.split(' ').map((word, index) => (
+            <span key={index}>
+              {word}
+              <br />
+            </span>
+          ))}
+        </CardTitle>
         <CardDescription>{teacher.job}</CardDescription>
       </CardHeader>
       <CardContent>
