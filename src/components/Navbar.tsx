@@ -1,5 +1,11 @@
 import { ModeToggle as ThemeToggle } from './ModeToggle';
 import { SidebarTrigger } from './ui/sidebar';
+import {
+  SignedIn,
+  SignedOut,
+  UserButton,
+  SignInButton,
+} from '@clerk/astro/react';
 
 export default function Navbar() {
   return (
@@ -18,6 +24,12 @@ export default function Navbar() {
         <div className="flex basis-1/3 flex-row items-center justify-center gap-4 max-md:hidden"></div>
         <div className="flex flex-auto basis-1/2 flex-row items-center justify-end gap-2 pr-2 md:basis-1/3">
           <ThemeToggle />
+          <SignedOut>
+            <SignInButton mode="modal" />
+          </SignedOut>
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
         </div>
       </div>
     </header>
