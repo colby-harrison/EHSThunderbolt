@@ -4,7 +4,8 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "remote:dev": "astro dev --remote",
+    "build": "astro build --remote",
     "preview": "astro preview",
     "astro": "astro",
     "astro:check": "astro check",
@@ -16,6 +17,7 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/cloudflare": "^12.2.1",
+    "@astrojs/db": "^0.14.6",
     "@astrojs/react": "^4.1.6",
     "@astrojs/tailwind": "^5.1.5",
     "@radix-ui/react-collapsible": "^1.1.2",

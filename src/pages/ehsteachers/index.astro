@@ -1,7 +1,14 @@
 ---
 import Layout from '@/layouts/MainLayout.astro';
+import TeacherCard from '@/components/ehsteachers/Card';
+import { db, teachers } from 'astro:db';
+const dataRaw = await db.select().from(teachers);
+// eslint-disable-next-line id-length
+const data = dataRaw.sort((a, b) => a.name.localeCompare(b.name));
 ---
 
 <Layout>
-  <div class="content-container"></div>
+  <div class="content-container flex flex-row flex-wrap gap-2">
+    {data && data.map((teacher) => <TeacherCard teacher={teacher} />)}
+  </div>
 </Layout>
