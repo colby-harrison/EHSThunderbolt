@@ -15,9 +15,14 @@ type teacherProps = {
 
 export default function TeachersCard({ teacher }: { teacher: teacherProps }) {
   return (
-    <Card className="max-w-96 flex-shrink">
+    <Card>
       <CardHeader>
-        <CardTitle>{teacher.name}</CardTitle>
+        <CardTitle>{teacher.name.split(" ").map((word, index) => (
+    <span key={index}>
+      {word}
+      <br />
+    </span>
+  ))}</CardTitle>
         <CardDescription>{teacher.job}</CardDescription>
       </CardHeader>
       <CardContent>
