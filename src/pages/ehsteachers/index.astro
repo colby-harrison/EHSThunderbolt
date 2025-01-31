@@ -45,7 +45,7 @@ if (Astro.request.method === 'POST' && isAdmin) {
     {
       Teachers &&
         Teachers.map((teacher) => (
-          <TeacherCard teacher={teacher} isAdmin={isAdmin} client:load />
+          <TeacherCard teacher={teacher} isAdmin={isAdmin} client:only="react" />
         ))
     }
   </div>
