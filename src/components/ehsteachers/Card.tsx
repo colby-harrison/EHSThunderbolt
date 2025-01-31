@@ -50,6 +50,7 @@ export default function TeachersCard({
         <form method="POST">
           <CardHeader>
             <CardTitle>
+              <Input type="hidden" name="id" value={teacher.id} />
               <Input
                 type="text"
                 id="name"
