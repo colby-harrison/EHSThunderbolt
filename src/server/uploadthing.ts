@@ -3,21 +3,12 @@
 // you should not be messing with this file
 
 import { createUploadthing, type FileRouter } from 'uploadthing/server';
-import { useStore } from '@nanostores/react';
-import { $userStore } from '@clerk/astro/client';
-import data from '@/server/queries';
 
 // eslint-disable-next-line id-length
 const f = createUploadthing();
 
 // eslint-disable-next-line
-async function auth(req: Request) {
-  const user = useStore($userStore);
-  if (!user) return null;
-  const userData = await data.get.byId.author.clerkId(user.id);
-  const userID = userData[0].id || user.id;
-  return { id: userID };
-}
+const auth = (req: Request) => ({ id: "fakeId" }); // Fake auth function
 
 // FileRouter for your app, can contain multiple FileRoutes
 export const ourFileRouter = {
