@@ -1,8 +1,14 @@
+// Import UploadThing's Tailwind config wrapper
 import { withUt } from "uploadthing/tw";
+
+// Import brand colors
+import ehs from "./colors.brand.config.mjs";
 
 /** @type {import('tailwindcss').Config} */
 export default withUt({
+  // Make site theming use class not attribute
   darkMode: ["class"],
+  // Make site theming apply to all files
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     extend: {
@@ -12,12 +18,7 @@ export default withUt({
         sm: "calc(var(--radius) - 4px)",
       },
       colors: {
-        ehs: {
-          blue: "#6caadd",
-          gray: "#dcdcdc",
-          black: "#000000",
-          white: "#ffffff",
-        },
+        ehs: ehs,
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
