@@ -3,19 +3,22 @@
 // you will likely never need to edit this file
 // but if you do, This will be well documented
 
-// Import global styles
+// Start of imports
 import '../styles/globals.css';
-// Import main react based layout
 import Layout from '../layouts/Layout';
-// Import background image SVG
 import background from '../assets/background.svg';
 import data from '@/server/queries';
 import { types } from '@/lib';
+// End of imports
 
+// Get current user data from Clerk
 const userData = await Astro.locals.currentUser();
 
+// check if the user is signed in
 if (userData) {
+  // if the user is signed in, check if they are synced
   if (!userData.publicMetadata.synced) {
+    // if they are not synced, sync them
     const userObject: types.authorCreate = {
       clerkId: userData.id,
       name: userData.fullName!,
