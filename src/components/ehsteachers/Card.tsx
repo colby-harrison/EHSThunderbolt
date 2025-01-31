@@ -36,7 +36,10 @@ export default function TeachersCard({
   const [job, setJob] = useState(teacher.job);
   const [picture, setPicture] = useState(teacher.picture);
   const [uploading, setUploading] = useState(false);
-  if (picture === '/CheyenneEast.png' || picture === 'bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU') {
+  if (
+    picture === '/CheyenneEast.png' ||
+    picture === 'bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU'
+  ) {
     setPicture(
       'https://kzekz7a45c.ufs.sh/f/bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU',
     );
@@ -47,9 +50,23 @@ export default function TeachersCard({
         <form method="POST" action="/api/teachers/update">
           <CardHeader>
             <CardTitle>
-              <Input type="text" id="name" name="name" value={name} onChange={(value) => setName(value.target.value)} />
+              <Input
+                type="text"
+                id="name"
+                name="name"
+                value={name}
+                onChange={(value) => setName(value.target.value)}
+              />
             </CardTitle>
-            <CardDescription><Input type="text" id="job" name="job" value={job} onChange={(value) => setJob(value.target.value)} /></CardDescription>
+            <CardDescription>
+              <Input
+                type="text"
+                id="job"
+                name="job"
+                value={job}
+                onChange={(value) => setJob(value.target.value)}
+              />
+            </CardDescription>
           </CardHeader>
           <CardContent>
             <img src={picture} alt={teacher.name} />
@@ -83,7 +100,10 @@ export default function TeachersCard({
             <Button type="submit" disabled={uploading}>
               Edit
             </Button>
-            <Button disabled={uploading} onClick={() => data.post.teachers.delete(teacher.id)}>
+            <Button
+              disabled={uploading}
+              onClick={() => data.post.teachers.delete(teacher.id)}
+            >
               Delete
             </Button>
           </CardFooter>
