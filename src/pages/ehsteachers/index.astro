@@ -30,9 +30,13 @@ if (Astro.request.method === 'POST' && isAdmin) {
       picture: String(teacherData.get('picture')),
       job: String(teacherData.get('job')),
     };
-    await db.update(teachers).set(teacherObject).where(eq(teachers.id, teacherObject.id)).catch((err) => {
-      console.log(err);
-    });
+    await db
+      .update(teachers)
+      .set(teacherObject)
+      .where(eq(teachers.id, teacherObject.id))
+      .catch((err) => {
+        console.log(err);
+      });
     return Astro.redirect('/ehsteachers');
   }
 }

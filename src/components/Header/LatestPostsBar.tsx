@@ -104,7 +104,7 @@ export default function LatestPostsBar() {
                       href={post.link}
                       className="hover:bg-ehs-gray/50 text-xs md:text-xl font-bold rounded p-2"
                     >
-                      {post.title.rendered.replaceAll("&#8217;", "'")} |{' '}
+                      {post.title.rendered.replaceAll('&#8217;', "'")} |{' '}
                       {post.date_gmt.toString().split('T')[0]}
                     </a>
                   </div>

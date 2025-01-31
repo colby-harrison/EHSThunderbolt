@@ -8,7 +8,7 @@ import { createUploadthing, type FileRouter } from 'uploadthing/server';
 const f = createUploadthing();
 
 // eslint-disable-next-line
-const auth = (req: Request) => ({ id: "fakeId" }); // Fake auth function
+const auth = (req: Request) => ({ id: 'fakeId' }); // Fake auth function
 
 // FileRouter for your app, can contain multiple FileRoutes
 export const ourFileRouter = {
