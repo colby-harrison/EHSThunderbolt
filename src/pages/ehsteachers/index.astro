@@ -4,6 +4,7 @@ import TeacherCard from '@/components/ehsteachers/Card';
 import data from '@/server/queries';
 import type { types } from '@/lib';
 const dataRaw = await data.get.all.teachers();
+import { db, teachers, eq } from 'astro:db';
 // eslint-disable-next-line id-length
 const Teachers = dataRaw.sort((a, b) => a.job.localeCompare(b.job));
 
@@ -28,7 +29,8 @@ if (Astro.request.method === 'POST' && isAdmin) {
       picture: String(teacherData.get('picture')),
       job: String(teacherData.get('job')),
     };
-    await data.post.teachers.update(teacherObject.id, teacherObject);
+    await db.update(teachers).set(teacherObject).where(eq(teachers.id, teacherObject.id));
+    return Astro.redirect('/ehsteachers');
   }
 }
 ---
