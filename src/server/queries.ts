@@ -37,10 +37,7 @@ export default {
           return await db.select().from(authors).where(eq(authors.clerkId, id));
         },
         async thunderboltId(id: string) {
-          return await db
-            .select()
-            .from(authors)
-            .where(eq(authors.id, id));
+          return await db.select().from(authors).where(eq(authors.id, id));
         },
       },
       async catagory(id: string) {
