@@ -4,35 +4,12 @@
 
 import { db, teachers, authors, catagories, posts, eq, sql } from 'astro:db';
 
-type teacherProps = {
-  id: number;
-  name: string;
-  picture: string;
-  job: string;
-};
+import { types } from '@/lib';
 
-type authorProps = {
-  id: string;
-  clerkId: string;
-  name: string;
-  admin: boolean;
-};
-
-type catagoryProps = {
-  id: string;
-  name: string;
-};
-
-type postProps = {
-  id: string;
-  title: string;
-  content: string;
-  author: string;
-  catagory: string;
-  needsReview: boolean;
-  published: boolean;
-  date: Date;
-};
+type teacherProps = types.teacherCreate;
+type authorProps = types.authorCreate;
+type catagoryProps = types.catagoryCreate;
+type postProps = types.postCreate;
 
 export default {
   // GET operations
@@ -55,8 +32,13 @@ export default {
       async teacher(id: number) {
         return await db.select().from(teachers).where(eq(teachers.id, id));
       },
-      async author(id: string) {
-        return await db.select().from(authors).where(eq(authors.id, id));
+      author: {
+        async clerkId(id: string) {
+          return await db.select().from(authors).where(eq(authors.clerkId, id));
+        },
+        async thunderboltId(id: string) {
+          return await db.select().from(authors).where(eq(authors.id, id));
+        },
       },
       async catagory(id: string) {
         return await db.select().from(catagories).where(eq(catagories.id, id));
