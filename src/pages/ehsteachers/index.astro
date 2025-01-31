@@ -21,6 +21,7 @@ if (userData) {
 
 if (Astro.request.method === 'POST' && isAdmin) {
   const formData = await Astro.request.formData();
+  console.log(formData);
   if (formData.get('type') === 'update') {
     const teacherData = formData;
     const teacherObject: types.teacher = {
