@@ -47,7 +47,7 @@ export default function TeachersCard({
   if (isAdmin) {
     return (
       <Card>
-        <form method="POST" action="/api/teachers/update">
+        <form method="POST">
           <CardHeader>
             <CardTitle>
               <Input
@@ -95,6 +95,7 @@ export default function TeachersCard({
               value={picture}
               onChange={(value) => setPicture(value.target.value)}
             />
+            <Input type="hidden" name="type" value="update" />
           </CardContent>
           <CardFooter>
             <Button type="submit" disabled={uploading}>
