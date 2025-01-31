@@ -37,8 +37,7 @@ export default function TeachersCard({
   const [picture, setPicture] = useState(teacher.picture);
   const [uploading, setUploading] = useState(false);
   if (
-    picture === '/CheyenneEast.png' ||
-    picture === 'bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU'
+    picture === '/CheyenneEast.png'
   ) {
     setPicture(
       'bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU',
