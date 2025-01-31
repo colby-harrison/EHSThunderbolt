@@ -11,6 +11,7 @@ import { Input } from '../ui/input';
 import { useState } from 'react';
 import { UploadButton } from '@/lib/uploadthing';
 import { Button } from '../ui/button';
+import data from '@/server/queries';
 // End of imports
 
 // Start of teacherProps type | DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING
@@ -35,7 +36,7 @@ export default function TeachersCard({
   const [job, setJob] = useState(teacher.job);
   const [picture, setPicture] = useState(teacher.picture);
   const [uploading, setUploading] = useState(false);
-  if (picture === '/CheyenneEast.png') {
+  if (picture === '/CheyenneEast.png' || picture === 'bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU') {
     setPicture(
       'https://kzekz7a45c.ufs.sh/f/bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU',
     );
@@ -80,7 +81,10 @@ export default function TeachersCard({
           </CardContent>
           <CardFooter>
             <Button type="submit" disabled={uploading}>
-              Save
+              Edit
+            </Button>
+            <Button disabled={uploading} onClick={() => data.post.teachers.delete(teacher.id)}>
+              Delete
             </Button>
           </CardFooter>
         </form>
