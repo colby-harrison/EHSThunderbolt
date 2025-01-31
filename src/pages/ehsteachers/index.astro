@@ -13,7 +13,6 @@ let isAdmin = false;
 if (userData) {
   const user = await data.get.byId.author.clerkId(userData.id);
   if (
-    import.meta.env.DEV ||
     userData.publicMetadata.isAdmin ||
     user[0].admin == true
   ) {
