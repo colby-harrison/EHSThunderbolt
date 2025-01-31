@@ -71,7 +71,7 @@ export default function TeachersCard({
           </CardHeader>
           <CardContent>
             <img src={picture} alt={teacher.name} />
-            <UploadButton
+            {/* <UploadButton
               endpoint="imageUploader"
               onUploadBegin={() => setUploading(true)}
               onClientUploadComplete={(res) => {
@@ -86,7 +86,7 @@ export default function TeachersCard({
                 alert(`Upload failed: ${error.message}`);
                 setUploading(false);
               }}
-            />
+            /> */}
             <Input
               type="text"
               id="picture"
