@@ -9,7 +9,7 @@ import {
 } from '@/components/ui/card';
 import { Input } from '../ui/input';
 import { useState } from 'react';
-import { UploadButton } from '@/lib/uploadthing';
+// import { UploadButton } from '@/lib/uploadthing';
 import { Button } from '../ui/button';
 import data from '@/server/queries';
 // End of imports
