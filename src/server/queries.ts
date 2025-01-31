@@ -202,7 +202,13 @@ export default {
     },
     authors: {
       async create(data: authorProps) {
-        return await db.insert(authors).values(data);
+        const finalData: types.author = {
+          id: crypto.randomUUID(),
+          clerkId: data.clerkId,
+          name: data.name,
+          admin: data.admin,
+        };
+        return await db.insert(authors).values(finalData);
       },
       async update(id: string, data: authorProps) {
         return await db.update(authors).set(data).where(eq(authors.id, id));
@@ -213,7 +219,11 @@ export default {
     },
     catagories: {
       async create(data: catagoryProps) {
-        return await db.insert(catagories).values(data);
+        const finalData: types.catagory = {
+          id: crypto.randomUUID(),
+          name: data.name,
+        };
+        return await db.insert(catagories).values(finalData);
       },
       async update(id: string, data: catagoryProps) {
         return await db
@@ -227,7 +237,17 @@ export default {
     },
     posts: {
       async create(data: postProps) {
-        return await db.insert(posts).values(data);
+        const finalData: types.post = {
+          id: crypto.randomUUID(),
+          title: data.title,
+          content: data.content,
+          author: data.author,
+          catagory: data.catagory,
+          needsReview: data.needsReview,
+          published: data.published,
+          date: new Date(),
+        };
+        return await db.insert(posts).values(finalData);
       },
       async update(id: string, data: postProps) {
         return await db.update(posts).set(data).where(eq(posts.id, id));
