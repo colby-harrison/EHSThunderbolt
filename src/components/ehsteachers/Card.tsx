@@ -73,19 +73,16 @@ export default function TeachersCard({
             <img src={picture} alt={teacher.name} />
             <UploadButton
               endpoint="imageUploader"
-              onUploadBegin={() => {
-                setUploading(true);
-              }}
+              onUploadBegin={() => setUploading(true)}
               onClientUploadComplete={(res) => {
-                // Do something with the response
-                console.log('Files: ', res);
-                alert('Upload Completed');
-                setPicture(res[0].url);
+                if (res && res[0]) {
+                  setPicture(res[0].url);
+                  alert('Upload Completed');
+                }
                 setUploading(false);
               }}
               onUploadError={(error: Error) => {
-                // Do something with the error.
-                alert(`ERROR! ${error.message}`);
+                alert(`Upload failed: ${error.message}`);
                 setUploading(false);
               }}
             />
