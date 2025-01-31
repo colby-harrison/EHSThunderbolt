@@ -35,13 +35,9 @@ export default function TeachersCard({
   const [name, setName] = useState(teacher.name);
   const [job, setJob] = useState(teacher.job);
   const [picture, setPicture] = useState(teacher.picture);
-  const [uploading, setUploading] = useState(false);
-  if (
-    picture === '/CheyenneEast.png'
-  ) {
-    setPicture(
-      'bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU',
-    );
+  // const [uploading, setUploading] = useState(false);
+  if (picture === '/CheyenneEast.png') {
+    setPicture('bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU');
   }
   if (isAdmin) {
     return (
@@ -69,7 +65,10 @@ export default function TeachersCard({
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <img src={`https://kzekz7a45c.ufs.sh/f/${picture}`} alt={teacher.name} />
+            <img
+              src={`https://kzekz7a45c.ufs.sh/f/${picture}`}
+              alt={teacher.name}
+            />
             {/* <UploadButton
               endpoint="imageUploader"
               onUploadBegin={() => setUploading(true)}
@@ -96,13 +95,8 @@ export default function TeachersCard({
             <Input type="hidden" name="type" value="update" />
           </CardContent>
           <CardFooter>
-            <Button type="submit" disabled={uploading}>
-              Edit
-            </Button>
-            <Button
-              disabled={uploading}
-              onClick={() => data.post.teachers.delete(teacher.id)}
-            >
+            <Button type="submit">Edit</Button>
+            <Button onClick={() => data.post.teachers.delete(teacher.id)}>
               Delete
             </Button>
           </CardFooter>
@@ -124,7 +118,10 @@ export default function TeachersCard({
         <CardDescription>{teacher.job}</CardDescription>
       </CardHeader>
       <CardContent>
-        <img src={`https://kzekz7a45c.ufs.sh/f/${picture}`} alt={teacher.name} />
+        <img
+          src={`https://kzekz7a45c.ufs.sh/f/${picture}`}
+          alt={teacher.name}
+        />
       </CardContent>
     </Card>
   );
