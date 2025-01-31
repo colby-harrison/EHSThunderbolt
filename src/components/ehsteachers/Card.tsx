@@ -75,6 +75,7 @@ export default function TeachersCard({
               endpoint="imageUploader"
               onUploadBegin={() => setUploading(true)}
               onClientUploadComplete={(res) => {
+                console.log('Files: ', res);
                 if (res && res[0]) {
                   setPicture(res[0].url);
                   alert('Upload Completed');
