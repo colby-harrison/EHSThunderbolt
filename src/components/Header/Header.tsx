@@ -14,8 +14,8 @@ export default function Header({ ShowNav }: { ShowNav: boolean }) {
     <header className="w-full bg-ehs-blue text-ehs-white">
       <img src={artboard.src} alt="" className="w-full h-full" />
       <LatestPostsBar />
-      { /* This removes home page navbar on mobile devices */ }
-      { /* This is here to make the site look nicer on mobile devices */ }
+      {/* This removes home page navbar on mobile devices */}
+      {/* This is here to make the site look nicer on mobile devices */}
       {ShowNav && !mobile && (
         <div className="flex flex-row justify-between h-full p-2 gap-2">
           <HeaderBtn text="Community" href="/community" />

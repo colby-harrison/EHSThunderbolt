@@ -49,7 +49,7 @@ export default function LatestPostsBar() {
   // you should not be messing with this section
   // This section will be removed in the future
   const [tempData, setTempData] = useState<WordPressApiResponse[] | null>(null);
-  
+
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
