@@ -3,7 +3,7 @@ import data from '@/server/queries';
 import type { types } from '@/lib';
 
 // eslint-disable-next-line
-export const GET: APIRoute = async ({ params, request, locals }) => {
+export const POST: APIRoute = async ({ params, request, locals }) => {
   const { userId } = locals.auth();
 
   if (!userId) {
