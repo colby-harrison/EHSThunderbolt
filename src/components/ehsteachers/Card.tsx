@@ -31,8 +31,8 @@ export default function TeachersCard({
   teacher: teacherProps;
   isAdmin: boolean;
 }) {
-  // const [name, setName] = useState(teacher.name);
-  // const [job, setJob] = useState(teacher.job);
+  const [name, setName] = useState(teacher.name);
+  const [job, setJob] = useState(teacher.job);
   const [picture, setPicture] = useState(teacher.picture);
   const [uploading, setUploading] = useState(false);
   if (picture === '/CheyenneEast.png') {
@@ -46,14 +46,9 @@ export default function TeachersCard({
         <form method="POST" action="/api/teachers/update">
           <CardHeader>
             <CardTitle>
-              {teacher.name.split(' ').map((word, index) => (
-                <span key={index}>
-                  {word}
-                  <br />
-                </span>
-              ))}
+              <Input type="text" id="name" name="name" value={name} onChange={(value) => setName(value.target.value)} />
             </CardTitle>
-            <CardDescription>{teacher.job}</CardDescription>
+            <CardDescription><Input type="text" id="job" name="job" value={job} onChange={(value) => setJob(value.target.value)} /></CardDescription>
           </CardHeader>
           <CardContent>
             <img src={picture} alt={teacher.name} />
