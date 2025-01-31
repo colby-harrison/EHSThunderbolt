@@ -4,7 +4,10 @@ const teachers = defineTable({
   columns: {
     id: column.number({ primaryKey: true }),
     name: column.text(),
-    picture: column.text({ default: '/CheyenneEast.png' }),
+    picture: column.text({
+      default:
+        'https://kzekz7a45c.ufs.sh/f/bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU',
+    }),
     job: column.text(),
   },
 });

@@ -1,16 +1,36 @@
 ---
 import Layout from '@/layouts/MainLayout.astro';
 import TeacherCard from '@/components/ehsteachers/Card';
-import { db, teachers } from 'astro:db';
-const dataRaw = await db.select().from(teachers);
+import data from '@/server/queries';
+const dataRaw = await data.get.all.teachers();
 // eslint-disable-next-line id-length
-const data = dataRaw.sort((a, b) => a.job.localeCompare(b.job));
+const Teachers = dataRaw.sort((a, b) => a.job.localeCompare(b.job));
+
+const userData = await Astro.locals.currentUser();
+
+let isAdmin = false;
+
+if (userData) {
+  const user = await data.get.byId.author.clerkId(userData.id);
+  if (
+    import.meta.env.DEV ||
+    userData.publicMetadata.isAdmin ||
+    user[0].admin == true
+  ) {
+    isAdmin = true;
+  }
+}
 ---
 
 <Layout>
   <div
     class="content-container grid lg:grid-cols-6 md:grid-cols-4 grid-cols-2 gap-2"
   >
-    {data && data.map((teacher) => <TeacherCard teacher={teacher} />)}
+    {
+      Teachers &&
+        Teachers.map((teacher) => (
+          <TeacherCard teacher={teacher} isAdmin={isAdmin} client:load />
+        ))
+    }
   </div>
 </Layout>
