@@ -1,10 +1,17 @@
 ---
+// MainLayout | This is the main *ASTRO* layout for the site;
+// you will likely never need to edit this file
+// but if you do, This will be well documented
+
+// Import global styles
 import '../styles/globals.css';
+// Import main react based layout
 import Layout from '../layouts/Layout';
+// Import background image SVG
 import background from '../assets/background.svg';
 ---
 
-{/* Dark-light mode */}
+{/* Start of Dark-light mode | There is no reason to edit this section */}
 <script is:inline>
   const getThemePreference = () => {
     if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
@@ -28,8 +35,11 @@ import background from '../assets/background.svg';
     });
   }
 </script>
+{/* End of Dark-light mode | There is no reason to edit this section */}
 
+{/* Start of HTML */}
 <html lang="en">
+  {/* TODO: Move head to a separate component */}
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -38,6 +48,7 @@ import background from '../assets/background.svg';
     <title>EHS Thunderbolt</title>
   </head>
   <body class="h-svh w-screen overflow-hidden">
+    { /* background image | DO NOT REMOVE */ }
     <img
       src={background.src}
       alt=""
@@ -52,7 +63,11 @@ import background from '../assets/background.svg';
     </Layout>
   </body>
 </html>
+{/* End of HTML */}
 
+{
+  /* Header arrow styling */
+}
 <style is:global>
   .bg-arrow-right-bottom {
     background-image: url(/boxwithtriangleonrightface.svg);

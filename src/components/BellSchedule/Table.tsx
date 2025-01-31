@@ -1,3 +1,7 @@
+// BellScheduleTable | THERE IS NO REASON TO EDIT THIS FILE
+// UNLESS THERE IS A REASON TO
+
+// Start of imports
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import {
   Table,
@@ -7,6 +11,7 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table';
+// End of imports
 
 export default function BellScheduleTable() {
   return (

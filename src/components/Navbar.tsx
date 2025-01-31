@@ -1,3 +1,4 @@
+// Start of imports
 import { ModeToggle as ThemeToggle } from './ModeToggle';
 import { SidebarTrigger } from './ui/sidebar';
 import {
@@ -6,6 +7,7 @@ import {
   UserButton,
   SignInButton,
 } from '@clerk/astro/react';
+// End of imports
 
 export default function Navbar() {
   return (
@@ -24,12 +26,14 @@ export default function Navbar() {
         <div className="flex basis-1/3 flex-row items-center justify-center gap-4 max-md:hidden"></div>
         <div className="flex flex-auto basis-1/2 flex-row items-center justify-end gap-2 pr-2 md:basis-1/3">
           <ThemeToggle />
+          {/* Start of Auth buttons */}
           <SignedOut>
             <SignInButton mode="modal" />
           </SignedOut>
           <SignedIn>
             <UserButton />
           </SignedIn>
+          {/* End of Auth buttons */}
         </div>
       </div>
     </header>
