@@ -1,11 +1,16 @@
 ---
 import Layout from '@/layouts/MainLayout.astro';
 import BellScheduleTable from '@/components/BellSchedule/Table';
+
+const calendar =
+  'https://docs.google.com/viewer?url=https%3A//laramie1.sharepoint.com/Departments/Technology/IS/_layouts/15/download.aspx%3FUniqueId%3Dcd0f4378-9853-4b50-a66b-a77b3c4976c5%26Translate%3Dfalse%26tempauth%3Dv1.eyJzaXRlaWQiOiJhNmJlOThkZS1jMWQ3LTQ1M2MtOWY5OC03ZTEwYTQ5ZWYzMTkiLCJhcHBfZGlzcGxheW5hbWUiOiJTY2hvb2wgQmxvY2tzIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2xhcmFtaWUxLnNoYXJlcG9pbnQuY29tQDU2MzQ3ZjE2LWQ0OWYtNGUzZi1iOTQzLTU4ZjRmMTY0YWEzMCIsImV4cCI6IjE3MzgzNjA1NTEifQ.CgoKBHNuaWQSAjY0EgsIpNH83fWQ4T0QBRoNNDAuMTI2LjI2LjE2MCosUXVVUnVGZ0h3N3l4dHRFdDRVU2UrM3F3MG5RSVc2N1MzMWw4L0Jla0NKQT0wkQE4AUIQoX0FLg9wAHDSUOcnyhWUkkoQaGFzaGVkcHJvb2Z0b2tlbnoBMboBKWdyb3VwLnJlYWQgYWxsZmlsZXMucmVhZCBhbGxwcm9maWxlcy5yZWFkwgFJZTkwNDM2NjYtYzcxMi00ZmRkLWI4ZWEtMDNmMjEyYmUwMTk0QDU2MzQ3ZjE2LWQ0OWYtNGUzZi1iOTQzLTU4ZjRmMTY0YWEzMMgBAQ.can-9PHInsGa9oF-xj_yQ0WR5E56nE198myWWX6Jolg%26ApiVersion%3D2.0&amp;embedded=true';
 ---
 
 <Layout>
-  <div class="content-container grid grid-cols-1 sm:grid-cols-2 gap-2 items-center justify-center">
+  <div
+    class="content-container grid grid-cols-1 sm:grid-cols-2 gap-2 items-center justify-center h-fit"
+  >
     <BellScheduleTable client:only="react" />
-    
+    <iframe aria-hidden="true" class="w-full h-full" src={calendar}></iframe>
   </div>
 </Layout>

@@ -70,7 +70,7 @@ export function AppSidebar() {
                 <SidebarMenu>
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
-                      <a href="/blog">
+                      <a href="/">
                         <House />
                         <span>Home</span>
                       </a>
