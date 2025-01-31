@@ -10,7 +10,9 @@ import vercel from "@astrojs/vercel";
 export default defineConfig({
   integrations: [tailwind(), react(), clerk(), db()],
   output: "server",
-
+  // this is only used for the dev server.
+  // tools like cloudflare tunnels don't
+  // like working without this.
   vite: {
     server: {
       allowedHosts: true,

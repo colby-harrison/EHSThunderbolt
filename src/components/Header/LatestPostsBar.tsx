@@ -1,7 +1,13 @@
+// Start of imports
 import { useIsMobile } from '@/hooks/use-mobile';
 import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
+// End of imports
 
+// WordPressApiResponse type | DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING
+// if you do not know what is going on in this section without comments
+// you should not be messing with this section
+// This section will be removed in the future
 type WordPressApiResponse = {
   id: number;
   date: Date;
@@ -31,9 +37,17 @@ type WordPressApiResponse = {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   _links: Record<string, { href: string; [key: string]: any }[]>;
 };
+// End of WordPressApiResponse type | DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING
+// if you do not know what is going on in this section without comments
+// you should not be messing with this section
 
 export default function LatestPostsBar() {
+  // see if the site is on a mobile device using the useIsMobile hook
   const mobile = useIsMobile();
+  // Start of tempData fetching | DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING
+  // if you do not know what is going on in this section without comments
+  // you should not be messing with this section
+  // This section will be removed in the future
   const [tempData, setTempData] = useState<WordPressApiResponse[] | null>(null);
 
   useEffect(() => {
@@ -46,6 +60,14 @@ export default function LatestPostsBar() {
     };
     fetchData();
   }, []);
+  // End of tempData fetching | DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING
+  // if you do not know what is going on in this section without comments
+  // you should not be messing with this section
+
+  // if the site is on a mobile device, do not return anything,
+  // this is here to make the site look nicer on mobile devices
+  // without this, the white arrow will likely take up the whole
+  // section, making it look weird
   if (mobile) {
     return null;
   }

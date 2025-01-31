@@ -1,3 +1,6 @@
+// eslint config | DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING
+// if you do not know what is going on in this file without comments
+// you should not be messing with this file
 import globals from 'globals';
 import pluginJs from '@eslint/js';
 import tseslint from 'typescript-eslint';

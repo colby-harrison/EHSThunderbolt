@@ -1,6 +1,9 @@
+/* Tailwindcss imports */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* variables for Shadcn UI */
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -72,13 +75,16 @@
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 }
+
 @layer base {
+  /* base styles */
   * {
     @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
   }
+  /* main content container for all pages */
   .content-container {
     @apply container mx-auto p-2;
   }

@@ -1,3 +1,7 @@
+// DB Queries | DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING
+// if you do not know what is going on in this file without comments
+// you should not be messing with this file
+
 import { db, teachers, authors, catagories, posts, eq, sql } from 'astro:db';
 
 type teacherProps = {

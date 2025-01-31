@@ -1,3 +1,4 @@
+// Start of imports
 import {
   Sidebar,
   SidebarContent,
@@ -35,8 +36,10 @@ import {
   CollapsibleTrigger,
 } from './ui/collapsible';
 import React from 'react';
+// End of imports
 
 export function AppSidebar() {
+  // Start state saving for collapsibles
   const [sidebar_collapsible_1_open, sidebar_collapsible_1_setOpen] =
     useSidebarState(1);
   const [sidebar_collapsible_2_open, sidebar_collapsible_2_setOpen] =
@@ -45,6 +48,7 @@ export function AppSidebar() {
     useSidebarState(3);
   const [sidebar_collapsible_4_open, sidebar_collapsible_4_setOpen] =
     useSidebarState(4);
+  // End state saving for collapsibles
   return (
     <Sidebar collapsible="offcanvas" variant="floating">
       <SidebarHeader />

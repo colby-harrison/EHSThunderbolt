@@ -1,21 +1,21 @@
+// React Layout | This is the main *REACT* layout for the site;
+// you will likely never need to edit this file
+// but if you do, This will be well documented
+
+// Start of imports
 import { SidebarProvider } from '@/components/ui/sidebar';
 import { AppSidebar } from '@/components/AppSidebar';
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Header from '@/components/Header/Header';
 // import Progress from "./progressbar";
+// End of imports
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  const [open, setOpen] = React.useState(() => {
-    const savedOpenState = sessionStorage.getItem('main-sidebarOpen');
-    return savedOpenState ? JSON.parse(savedOpenState) : false;
-  });
-  React.useEffect(() => {
-    sessionStorage.setItem('main-sidebarOpen', JSON.stringify(open));
-  }, [open]);
+  // Check if the current page is the home page
   const ShowNav = window.location.pathname == '/';
   return (
-    <SidebarProvider open={open} onOpenChange={setOpen}>
+    <SidebarProvider>
       {/* <Progress /> */}
       <main className="w-full h-full">
         <Navbar />
