@@ -9,6 +9,7 @@ import Layout from '../layouts/Layout';
 import background from '../assets/background.svg';
 import data from '@/server/queries';
 import { types } from '@/lib';
+import UploadThingSSR from '@/components/UploadThingSSR.astro';
 // End of imports
 
 // Get current user data from Clerk
@@ -77,6 +78,7 @@ if (userData) {
     <meta name="generator" content={Astro.generator} />
     <title>EHS Thunderbolt</title>
   </head>
+  <UploadThingSSR />
   <body class="h-svh w-screen overflow-hidden">
     {/* background image | DO NOT REMOVE */}
     <img

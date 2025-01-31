@@ -3,12 +3,21 @@
 // you should not be messing with this file
 
 import { createUploadthing, type FileRouter } from 'uploadthing/server';
+import { useStore } from '@nanostores/react';
+import { $userStore } from '@clerk/astro/client';
+import data from '@/server/queries';
 
 // eslint-disable-next-line id-length
 const f = createUploadthing();
 
 // eslint-disable-next-line
-const auth = (req: Request) => ({ id: 'fakeId' }); // Fake auth function
+async function auth(req: Request) {
+  const user = useStore($userStore);
+  if (!user) return null;
+  const userData = await data.get.byId.author.clerkId(user.id);
+  const userID = userData[0].id || user.id;
+  return { id: userID };
+}
 
 // FileRouter for your app, can contain multiple FileRoutes
 export const ourFileRouter = {
@@ -41,7 +50,7 @@ export const ourFileRouter = {
       console.log('file url', file.url);
 
       // !!! Whatever is returned here is sent to the clientside `onClientUploadComplete` callback
-      return { uploadedBy: metadata.userId };
+      return { uploadedBy: metadata.userId, fileUrl: file.url };
     }),
 } satisfies FileRouter;
 
