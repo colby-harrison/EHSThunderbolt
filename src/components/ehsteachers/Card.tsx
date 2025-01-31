@@ -41,7 +41,7 @@ export default function TeachersCard({
     picture === 'bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU'
   ) {
     setPicture(
-      'https://kzekz7a45c.ufs.sh/f/bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU',
+      'bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU',
     );
   }
   if (isAdmin) {
@@ -70,7 +70,7 @@ export default function TeachersCard({
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <img src={picture} alt={teacher.name} />
+            <img src={`https://kzekz7a45c.ufs.sh/f/${picture}`} alt={teacher.name} />
             {/* <UploadButton
               endpoint="imageUploader"
               onUploadBegin={() => setUploading(true)}
@@ -125,7 +125,7 @@ export default function TeachersCard({
         <CardDescription>{teacher.job}</CardDescription>
       </CardHeader>
       <CardContent>
-        <img src={picture} alt={teacher.name} />
+        <img src={`https://kzekz7a45c.ufs.sh/f/${picture}`} alt={teacher.name} />
       </CardContent>
     </Card>
   );
