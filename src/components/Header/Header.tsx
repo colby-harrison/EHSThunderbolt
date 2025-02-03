@@ -7,7 +7,7 @@ import HeaderBtn from './HeaderBtn';
 import LatestPostsBar from './LatestPostsBar';
 // End of imports
 
-export default function Header({ ShowNav }: { ShowNav: boolean }) {
+export default function Header() {
   // see if the site is on a mobile device using the useIsMobile hook
   const mobile = useIsMobile();
   return (
@@ -16,7 +16,7 @@ export default function Header({ ShowNav }: { ShowNav: boolean }) {
       <LatestPostsBar />
       {/* This removes home page navbar on mobile devices */}
       {/* This is here to make the site look nicer on mobile devices */}
-      {ShowNav && !mobile && (
+      {!mobile && (
         <div className="flex flex-row justify-between h-full p-2 gap-2">
           <HeaderBtn text="Community" href="/community" />
           <HeaderBtn text="2025 Grads" href="/grads" />

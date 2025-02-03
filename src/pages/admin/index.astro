@@ -1,0 +1,68 @@
+---
+import CatagoriesCard from '@/components/Admin/CategoriesCard';
+import Layout from '@/layouts/MainLayout.astro';
+import type { types } from '@/lib';
+import data from '@/server/queries';
+import { db, catagories, eq } from 'astro:db';
+
+const userData = await Astro.locals.currentUser();
+
+let isAdmin = import.meta.env.DEV;
+
+if (!import.meta.env.DEV) {
+  if (userData) {
+    const user = await data.get.byId.author.clerkId(userData.id);
+    if (userData.publicMetadata.isAdmin || user[0].admin == true) {
+      isAdmin = true;
+    } else {
+      return Astro.redirect('/?error=action-not-permitted');
+    }
+  } else {
+    return Astro.redirect('/?error=action-not-permitted');
+  }
+}
+
+console.log(isAdmin);
+
+if (Astro.request.method === 'POST' && isAdmin) {
+  console.log('post recived');
+  const formData = await Astro.request.formData();
+  console.log(formData);
+  if (formData.get('formFor') === 'categories') {
+    const catagoryData = formData;
+    const catagoryObject: types.catagory = {
+      id: String(crypto.randomUUID()),
+      name: String(catagoryData.get('name')),
+    };
+    await db
+      .insert(catagories)
+      .values(catagoryObject)
+      .catch((err) => {
+        console.log(err);
+        alert(`Error creating catagory; ${err}`);
+      })
+      .finally(() => {
+        console.log(`Catagory created: ${catagoryObject.name}`);
+      });
+  } else if (formData.get('formFor') === 'delete') {
+    const deleteData = formData;
+    if (deleteData.get('table') === 'catagories') {
+      await db
+        .delete(catagories)
+        // @ts-expect-error it dumb
+        .where(eq(catagories.id, deleteData.get('id')))
+        .catch((err) => {
+          console.log(err);
+          alert(`Error deleting catagory; ${err}`);
+        });
+    }
+  }
+  return Astro.redirect('/admin');
+}
+---
+
+<Layout>
+  <div class="content-container flex flex-col sm:flex-row sm:flex-wrap gap-2">
+    <CatagoriesCard />
+  </div>
+</Layout>

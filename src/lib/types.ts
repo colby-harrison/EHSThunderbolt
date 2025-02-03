@@ -58,3 +58,15 @@ export type postCreate = {
   published: boolean;
 };
 // End of database types
+
+// other types
+/**
+ * Type for form inputs;
+ * used to make modular forms easily
+ */
+export type FormInput = {
+  name: string;
+  type: string;
+  placeholder: string;
+  required: boolean;
+};
