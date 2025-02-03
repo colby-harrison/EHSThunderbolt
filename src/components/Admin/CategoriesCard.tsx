@@ -1,7 +1,7 @@
 import data from '@/server/queries';
 import { types } from '@/lib';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
-import Form from './forms';
+import Form from './forms ';
 import DeleteBtn from './DeleteBtn';
 import { Suspense } from 'react';
 
