@@ -12,8 +12,6 @@ import Header from '@/components/Header/Header';
 // End of imports
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  // Check if the current page is the home page
-  const ShowNav = window.location.pathname == '/';
   return (
     <SidebarProvider>
       {/* <Progress /> */}
@@ -22,7 +20,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="h-[calc(100vh-3rem)]">
           <AppSidebar />
           <div className="w-full h-full px-2 pb-2 overflow-y-scroll">
-            <Header ShowNav={ShowNav} />
+            <Header />
             {children}
           </div>
         </div>

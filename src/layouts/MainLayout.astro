@@ -39,6 +39,8 @@ if (userData) {
     });
   }
 }
+
+const isDev = import.meta.env.DEV;
 ---
 
 {/* Start of Dark-light mode | There is no reason to edit this section */}
@@ -71,6 +73,15 @@ if (userData) {
 <html lang="en">
   {/* TODO: Move head to a separate component */}
   <head>
+    {
+      isDev && (
+        <script
+          is:inline
+          crossorigin="anonymous"
+          src="//unpkg.com/react-scan/dist/auto.global.js"
+        />
+      )
+    }
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/png" href="/CheyenneEast.png" />

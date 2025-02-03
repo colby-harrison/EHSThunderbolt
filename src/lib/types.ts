@@ -58,3 +58,12 @@ export type postCreate = {
   published: boolean;
 };
 // End of database types
+
+
+// other types
+export type FormInput = {
+  name: string;
+  type: string;
+  placeholder: string;
+  required: boolean;
+};
