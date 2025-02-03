@@ -3,6 +3,7 @@ import { types } from '@/lib';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
 import Form from './forms';
 import DeleteBtn from './DeleteBtn';
+import { Separator } from '../ui/separator';
 
 const categoriesInputs: types.FormInput[] = [
   {
@@ -18,11 +19,15 @@ export default async function CategoriesCard() {
   return (
     <Card>
       <CardHeader><CardTitle>Categories</CardTitle></CardHeader>
+      <Separator />
       <CardContent className="flex flex-row gap-2">
+        <div className=" basis-1/3">
         <Form method="POST" formFor="categories" inputs={categoriesInputs} />
-        <div className="flex flex-col gap-2 overflow-y-scroll">
+        </div>
+        <Separator orientation='vertical' />
+        <div className="flex flex-col gap-2 overflow-y-scroll basis-2/3">
           {allCategories.map((category) => (
-            <div className="flex flex-row gap-2">
+            <div className="flex flex-row gap-2 justify-between">
               <div className="w-full">{category.name}</div>
               <DeleteBtn table="catagories" id={category.id} />
             </div>

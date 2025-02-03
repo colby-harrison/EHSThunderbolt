@@ -45,6 +45,7 @@ if (Astro.request.method === 'POST' && isAdmin) {
     if (deleteData.get('table') === 'catagories') {
       await db
         .delete(catagories)
+        // @ts-expect-error it dumb
         .where(eq(catagories.id, deleteData.get('id')))
         .catch((err) => {
           console.log(err);
@@ -57,7 +58,7 @@ if (Astro.request.method === 'POST' && isAdmin) {
 ---
 
 <Layout>
-  <div class="content-container flex flex-row flex-wrap gap-2">
+  <div class="content-container flex flex-col sm:flex-row sm:flex-wrap gap-2">
     <CatagoriesCard />
   </div>
 </Layout>
