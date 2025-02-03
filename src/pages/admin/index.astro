@@ -25,7 +25,7 @@ if (!import.meta.env.DEV) {
 console.log(isAdmin);
 
 if (Astro.request.method === 'POST' && isAdmin) {
-  console.log("post recived")
+  console.log('post recived');
   const formData = await Astro.request.formData();
   console.log(formData);
   if (formData.get('formFor') === 'categories') {
@@ -34,12 +34,16 @@ if (Astro.request.method === 'POST' && isAdmin) {
       id: String(crypto.randomUUID()),
       name: String(catagoryData.get('name')),
     };
-    await db.insert(catagories).values(catagoryObject).catch((err) => {
-      console.log(err);
-      alert(`Error creating catagory; ${err}`);
-    }).finally(() => {
-      console.log(`Catagory created: ${catagoryObject.name}`);
-    });
+    await db
+      .insert(catagories)
+      .values(catagoryObject)
+      .catch((err) => {
+        console.log(err);
+        alert(`Error creating catagory; ${err}`);
+      })
+      .finally(() => {
+        console.log(`Catagory created: ${catagoryObject.name}`);
+      });
   } else if (formData.get('formFor') === 'delete') {
     const deleteData = formData;
     if (deleteData.get('table') === 'catagories') {

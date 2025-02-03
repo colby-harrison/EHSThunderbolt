@@ -59,8 +59,11 @@ export type postCreate = {
 };
 // End of database types
 
-
 // other types
+/**
+ * Type for form inputs;
+ * used to make modular forms easily
+ */
 export type FormInput = {
   name: string;
   type: string;

@@ -7,11 +7,18 @@ interface FormProps {
   method: string;
   formFor: string;
   inputs: types.FormInput[];
-  flexDirection?: "col" | "row" | "col-reverse" | "row-reverse";
+  flexDirection?: 'col' | 'row' | 'col-reverse' | 'row-reverse';
 }
 
-export default function Form({ method, formFor, inputs, flexDirection }: FormProps) {
-  const formClass = flexDirection ? `flex flex-${flexDirection} gap-4` : "flex flex-col gap-4";
+export default function Form({
+  method,
+  formFor,
+  inputs,
+  flexDirection,
+}: FormProps) {
+  const formClass = flexDirection
+    ? `flex flex-${flexDirection} gap-4`
+    : 'flex flex-col gap-4';
   return (
     <form method={method} className={formClass}>
       <Input type="hidden" name="formFor" value={formFor} />

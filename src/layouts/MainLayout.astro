@@ -7,38 +7,38 @@
 import '../styles/globals.css';
 import Layout from '../layouts/Layout';
 import background from '../assets/background.svg';
-import data from '@/server/queries';
-import { types } from '@/lib';
+// import data from '@/server/queries';
+// import { types } from '@/lib';
 // End of imports
 
 // Get current user data from Clerk
-const userData = await Astro.locals.currentUser();
+// const userData = await Astro.locals.currentUser();
 
 // check if the user is signed in
-if (userData) {
-  // if the user is signed in, check if they are synced
-  if (!userData.publicMetadata.synced) {
-    // if they are not synced, sync them
-    const userObject: types.authorCreate = {
-      clerkId: userData.id,
-      name: userData.fullName!,
-      admin: false,
-    };
-    await data.post.authors.create(userObject);
-    await fetch(`https://api.clerk.com/v1/users/${userData.id}`, {
-      method: 'PATCH',
-      headers: {
-        'Content-Type': 'application/json',
-        Authorization: `Bearer ${import.meta.env.CLERK_SECRET_KEY}`,
-      },
-      body: JSON.stringify({
-        public_metadata: {
-          synced: true,
-        },
-      }),
-    });
-  }
-}
+// if (userData) {
+//   // if the user is signed in, check if they are synced
+//   if (!userData.publicMetadata.synced) {
+//     // if they are not synced, sync them
+//     const userObject: types.authorCreate = {
+//       clerkId: userData.id,
+//       name: userData.fullName!,
+//       admin: false,
+//     };
+//     await data.post.authors.create(userObject);
+//     await fetch(`https://api.clerk.com/v1/users/${userData.id}`, {
+//       method: 'PATCH',
+//       headers: {
+//         'Content-Type': 'application/json',
+//         Authorization: `Bearer ${import.meta.env.CLERK_SECRET_KEY}`,
+//       },
+//       body: JSON.stringify({
+//         public_metadata: {
+//           synced: true,
+//         },
+//       }),
+//     });
+//   }
+// }
 
 const isDev = import.meta.env.DEV;
 ---

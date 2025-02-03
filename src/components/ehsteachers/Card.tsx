@@ -96,7 +96,10 @@ export default function TeachersCard({
           </CardContent>
           <CardFooter>
             <Button type="submit">Edit</Button>
-            <Button onClick={() => data.post.teachers.delete(teacher.id)} variant={"destructive"}>
+            <Button
+              onClick={() => data.post.teachers.delete(teacher.id)}
+              variant={'destructive'}
+            >
               Delete
             </Button>
           </CardFooter>
