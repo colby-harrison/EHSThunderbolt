@@ -70,6 +70,17 @@ export default withUt({
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      // Custom keyframes for the scrolling carousel
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+      },
+      // Custom animation using the keyframes above
+      animation: {
+        scroll: 'scroll 20s linear infinite',
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
