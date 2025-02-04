@@ -19,10 +19,10 @@ const StoryCard: React.FC<StoryProps> = ({ title, summary, date }) => {
         {date && <span className="text-sm text-gray-500">{date}</span>}
       </div>
       <p className="mt-2 text-sm">
-        {expanded 
-          ? summary 
-          : summary.length > 100 
-            ? summary.substring(0, 100) + '...' 
+        {expanded
+          ? summary
+          : summary.length > 100
+            ? summary.substring(0, 100) + '...'
             : summary}
       </p>
       <div className="mt-2 text-blue-500 text-sm">

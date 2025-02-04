@@ -18,7 +18,10 @@ const NewStories: React.FC = () => {
         const parsed = JSON.parse(stored) as Story[];
         // Sort stories by date descending (newest first)
         parsed.sort((firstStory, secondStory) => {
-          return new Date(secondStory.date).getTime() - new Date(firstStory.date).getTime();
+          return (
+            new Date(secondStory.date).getTime() -
+            new Date(firstStory.date).getTime()
+          );
         });
         setStories(parsed.slice(0, 3));
       } catch (error) {

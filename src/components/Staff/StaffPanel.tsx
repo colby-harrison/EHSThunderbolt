@@ -70,11 +70,15 @@ const StaffPanel: React.FC = () => {
   if (!loggedIn) {
     return (
       <div className="p-4 max-w-md mx-auto bg-white dark:bg-gray-800 rounded shadow">
-        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">Staff Login</h2>
+        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+          Staff Login
+        </h2>
         {message && <p className="mb-4 text-red-500">{message}</p>}
         <form onSubmit={handleLogin} className="space-y-4">
           <div>
-            <label className="block mb-1 text-gray-900 dark:text-gray-100">Username:</label>
+            <label className="block mb-1 text-gray-900 dark:text-gray-100">
+              Username:
+            </label>
             <input
               type="text"
               value={username}
@@ -84,7 +88,9 @@ const StaffPanel: React.FC = () => {
             />
           </div>
           <div>
-            <label className="block mb-1 text-gray-900 dark:text-gray-100">Password:</label>
+            <label className="block mb-1 text-gray-900 dark:text-gray-100">
+              Password:
+            </label>
             <input
               type="password"
               value={password}
@@ -93,7 +99,10 @@ const StaffPanel: React.FC = () => {
               required
             />
           </div>
-          <button type="submit" className="bg-blue-500 text-white p-2 rounded w-full">
+          <button
+            type="submit"
+            className="bg-blue-500 text-white p-2 rounded w-full"
+          >
             Log In
           </button>
         </form>
@@ -104,19 +113,33 @@ const StaffPanel: React.FC = () => {
   if (selectedAction === null) {
     return (
       <div className="p-4 max-w-md mx-auto bg-white dark:bg-gray-800 rounded shadow">
-        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">Staff Dashboard</h2>
+        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+          Staff Dashboard
+        </h2>
         {message && <p className="mb-4 text-green-500">{message}</p>}
         <div className="space-y-4">
-          <button onClick={() => setSelectedAction('addStory')} className="bg-blue-500 text-white p-2 rounded w-full">
+          <button
+            onClick={() => setSelectedAction('addStory')}
+            className="bg-blue-500 text-white p-2 rounded w-full"
+          >
             Add Story
           </button>
-          <button onClick={() => setSelectedAction('updateStory')} className="bg-blue-500 text-white p-2 rounded w-full">
+          <button
+            onClick={() => setSelectedAction('updateStory')}
+            className="bg-blue-500 text-white p-2 rounded w-full"
+          >
             Update Story
           </button>
-          <button onClick={() => setSelectedAction('addScore')} className="bg-blue-500 text-white p-2 rounded w-full">
+          <button
+            onClick={() => setSelectedAction('addScore')}
+            className="bg-blue-500 text-white p-2 rounded w-full"
+          >
             Add Score
           </button>
-          <button onClick={() => setSelectedAction('updateScore')} className="bg-blue-500 text-white p-2 rounded w-full">
+          <button
+            onClick={() => setSelectedAction('updateScore')}
+            className="bg-blue-500 text-white p-2 rounded w-full"
+          >
             Update Score
           </button>
         </div>
@@ -127,24 +150,52 @@ const StaffPanel: React.FC = () => {
   if (selectedAction === 'addStory') {
     return (
       <div className="p-4 max-w-md mx-auto bg-white dark:bg-gray-800 rounded shadow">
-        <button onClick={() => setSelectedAction(null)} className="mb-4 text-blue-500">
+        <button
+          onClick={() => setSelectedAction(null)}
+          className="mb-4 text-blue-500"
+        >
           &larr; Back to Dashboard
         </button>
-        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">Add Story</h2>
+        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+          Add Story
+        </h2>
         <form onSubmit={handleStorySubmit} className="space-y-4">
           <div>
-            <label className="block mb-1 text-gray-900 dark:text-gray-100">Title:</label>
-            <input type="text" name="title" className="border border-gray-300 dark:border-gray-700 p-2 w-full rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100" required />
+            <label className="block mb-1 text-gray-900 dark:text-gray-100">
+              Title:
+            </label>
+            <input
+              type="text"
+              name="title"
+              className="border border-gray-300 dark:border-gray-700 p-2 w-full rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+              required
+            />
           </div>
           <div>
-            <label className="block mb-1 text-gray-900 dark:text-gray-100">Summary:</label>
-            <textarea name="summary" className="border border-gray-300 dark:border-gray-700 p-2 w-full rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100" required></textarea>
+            <label className="block mb-1 text-gray-900 dark:text-gray-100">
+              Summary:
+            </label>
+            <textarea
+              name="summary"
+              className="border border-gray-300 dark:border-gray-700 p-2 w-full rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+              required
+            ></textarea>
           </div>
           <div>
-            <label className="block mb-1 text-gray-900 dark:text-gray-100">Date:</label>
-            <input type="date" name="date" className="border border-gray-300 dark:border-gray-700 p-2 w-full rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100" required />
+            <label className="block mb-1 text-gray-900 dark:text-gray-100">
+              Date:
+            </label>
+            <input
+              type="date"
+              name="date"
+              className="border border-gray-300 dark:border-gray-700 p-2 w-full rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+              required
+            />
           </div>
-          <button type="submit" className="bg-green-500 text-white p-2 rounded w-full">
+          <button
+            type="submit"
+            className="bg-green-500 text-white p-2 rounded w-full"
+          >
             Submit Story
           </button>
         </form>
@@ -155,20 +206,42 @@ const StaffPanel: React.FC = () => {
   if (selectedAction === 'addScore') {
     return (
       <div className="p-4 max-w-md mx-auto bg-white dark:bg-gray-800 rounded shadow">
-        <button onClick={() => setSelectedAction(null)} className="mb-4 text-blue-500">
+        <button
+          onClick={() => setSelectedAction(null)}
+          className="mb-4 text-blue-500"
+        >
           &larr; Back to Dashboard
         </button>
-        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">Add Score</h2>
+        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+          Add Score
+        </h2>
         <form onSubmit={handleScoreSubmit} className="space-y-4">
           <div>
-            <label className="block mb-1 text-gray-900 dark:text-gray-100">Game:</label>
-            <input type="text" name="game" className="border border-gray-300 dark:border-gray-700 p-2 w-full rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100" required />
+            <label className="block mb-1 text-gray-900 dark:text-gray-100">
+              Game:
+            </label>
+            <input
+              type="text"
+              name="game"
+              className="border border-gray-300 dark:border-gray-700 p-2 w-full rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+              required
+            />
           </div>
           <div>
-            <label className="block mb-1 text-gray-900 dark:text-gray-100">Score:</label>
-            <input type="text" name="score" className="border border-gray-300 dark:border-gray-700 p-2 w-full rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100" required />
+            <label className="block mb-1 text-gray-900 dark:text-gray-100">
+              Score:
+            </label>
+            <input
+              type="text"
+              name="score"
+              className="border border-gray-300 dark:border-gray-700 p-2 w-full rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+              required
+            />
           </div>
-          <button type="submit" className="bg-green-500 text-white p-2 rounded w-full">
+          <button
+            type="submit"
+            className="bg-green-500 text-white p-2 rounded w-full"
+          >
             Submit Score
           </button>
         </form>
@@ -179,13 +252,18 @@ const StaffPanel: React.FC = () => {
   if (selectedAction === 'updateStory' || selectedAction === 'updateScore') {
     return (
       <div className="p-4 max-w-md mx-auto bg-white dark:bg-gray-800 rounded shadow">
-        <button onClick={() => setSelectedAction(null)} className="mb-4 text-blue-500">
+        <button
+          onClick={() => setSelectedAction(null)}
+          className="mb-4 text-blue-500"
+        >
           &larr; Back to Dashboard
         </button>
         <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">
           {selectedAction === 'updateStory' ? 'Update Story' : 'Update Score'}
         </h2>
-        <p className="text-gray-500 dark:text-gray-300">Update functionality coming soon.</p>
+        <p className="text-gray-500 dark:text-gray-300">
+          Update functionality coming soon.
+        </p>
       </div>
     );
   }

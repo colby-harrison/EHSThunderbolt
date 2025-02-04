@@ -73,13 +73,13 @@ export default withUt({
       // Custom keyframes for the scrolling carousel
       keyframes: {
         scroll: {
-          '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-50%)' },
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
         },
       },
       // Custom animation using the keyframes above
       animation: {
-        scroll: 'scroll 20s linear infinite',
+        scroll: "scroll 20s linear infinite",
       },
     },
   },
