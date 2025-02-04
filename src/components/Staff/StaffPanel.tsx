@@ -3,6 +3,17 @@ import React, { useState } from 'react';
 
 type ActionType = 'addStory' | 'updateStory' | 'addScore' | 'updateScore';
 
+interface Story {
+  title: string;
+  summary: string;
+  date: string;
+}
+
+interface Score {
+  game: string;
+  score: string;
+}
+
 const StaffPanel: React.FC = () => {
   // Login state
   const [loggedIn, setLoggedIn] = useState(false);
@@ -13,13 +24,13 @@ const StaffPanel: React.FC = () => {
   // Dashboard state for selected action
   const [selectedAction, setSelectedAction] = useState<ActionType | null>(null);
 
-  // Local data storage for testing
-  const [stories, setStories] = useState<any[]>([]);
-  const [scores, setScores] = useState<any[]>([]);
+  // Local data storage for testing with proper types
+  const [stories, setStories] = useState<Story[]>([]);
+  const [scores, setScores] = useState<Score[]>([]);
 
   // Handle login form submission
-  const handleLogin = (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleLogin = (event: React.FormEvent) => {
+    event.preventDefault();
     // For testing, use hardcoded credentials: username: "admin", password: "password"
     if (username === 'admin' && password === 'password') {
       setLoggedIn(true);
@@ -30,34 +41,32 @@ const StaffPanel: React.FC = () => {
   };
 
   // Handle add story form submission
-  const handleStorySubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const formData = new FormData(e.currentTarget);
+  const handleStorySubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const formData = new FormData(event.currentTarget);
     const title = formData.get('title') as string;
     const summary = formData.get('summary') as string;
     const date = formData.get('date') as string;
-    const newStory = { title, summary, date };
+    const newStory: Story = { title, summary, date };
     const updatedStories = [...stories, newStory];
     setStories(updatedStories);
     setMessage('Story added locally!');
-    // Save stories to localStorage (for later retrieval on the homepage)
     localStorage.setItem('stories', JSON.stringify(updatedStories));
-    e.currentTarget.reset();
+    event.currentTarget.reset();
   };
 
   // Handle add score form submission
-  const handleScoreSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const formData = new FormData(e.currentTarget);
+  const handleScoreSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const formData = new FormData(event.currentTarget);
     const game = formData.get('game') as string;
     const score = formData.get('score') as string;
-    const newScore = { game, score };
+    const newScore: Score = { game, score };
     setScores([...scores, newScore]);
     setMessage('Score added locally!');
-    e.currentTarget.reset();
+    event.currentTarget.reset();
   };
 
-  // If not logged in, display the login form
   if (!loggedIn) {
     return (
       <div className="p-4 max-w-md mx-auto bg-white dark:bg-gray-800 rounded shadow">
@@ -69,7 +78,7 @@ const StaffPanel: React.FC = () => {
             <input
               type="text"
               value={username}
-              onChange={(e) => setUsername(e.target.value)}
+              onChange={(event) => setUsername(event.target.value)}
               className="border border-gray-300 dark:border-gray-700 p-2 w-full rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
               required
             />
@@ -79,7 +88,7 @@ const StaffPanel: React.FC = () => {
             <input
               type="password"
               value={password}
-              onChange={(e) => setPassword(e.target.value)}
+              onChange={(event) => setPassword(event.target.value)}
               className="border border-gray-300 dark:border-gray-700 p-2 w-full rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
               required
             />
@@ -92,35 +101,22 @@ const StaffPanel: React.FC = () => {
     );
   }
 
-  // If logged in but no action is selected, display the dashboard
   if (selectedAction === null) {
     return (
       <div className="p-4 max-w-md mx-auto bg-white dark:bg-gray-800 rounded shadow">
         <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">Staff Dashboard</h2>
         {message && <p className="mb-4 text-green-500">{message}</p>}
         <div className="space-y-4">
-          <button
-            onClick={() => setSelectedAction('addStory')}
-            className="bg-blue-500 text-white p-2 rounded w-full"
-          >
+          <button onClick={() => setSelectedAction('addStory')} className="bg-blue-500 text-white p-2 rounded w-full">
             Add Story
           </button>
-          <button
-            onClick={() => setSelectedAction('updateStory')}
-            className="bg-blue-500 text-white p-2 rounded w-full"
-          >
+          <button onClick={() => setSelectedAction('updateStory')} className="bg-blue-500 text-white p-2 rounded w-full">
             Update Story
           </button>
-          <button
-            onClick={() => setSelectedAction('addScore')}
-            className="bg-blue-500 text-white p-2 rounded w-full"
-          >
+          <button onClick={() => setSelectedAction('addScore')} className="bg-blue-500 text-white p-2 rounded w-full">
             Add Score
           </button>
-          <button
-            onClick={() => setSelectedAction('updateScore')}
-            className="bg-blue-500 text-white p-2 rounded w-full"
-          >
+          <button onClick={() => setSelectedAction('updateScore')} className="bg-blue-500 text-white p-2 rounded w-full">
             Update Score
           </button>
         </div>
@@ -128,7 +124,6 @@ const StaffPanel: React.FC = () => {
     );
   }
 
-  // Display form for adding a story
   if (selectedAction === 'addStory') {
     return (
       <div className="p-4 max-w-md mx-auto bg-white dark:bg-gray-800 rounded shadow">
@@ -157,7 +152,6 @@ const StaffPanel: React.FC = () => {
     );
   }
 
-  // Display form for adding a score
   if (selectedAction === 'addScore') {
     return (
       <div className="p-4 max-w-md mx-auto bg-white dark:bg-gray-800 rounded shadow">
@@ -182,7 +176,6 @@ const StaffPanel: React.FC = () => {
     );
   }
 
-  // Update functionality (coming soon)
   if (selectedAction === 'updateStory' || selectedAction === 'updateScore') {
     return (
       <div className="p-4 max-w-md mx-auto bg-white dark:bg-gray-800 rounded shadow">
