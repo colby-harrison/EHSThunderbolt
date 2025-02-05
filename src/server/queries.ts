@@ -17,28 +17,24 @@ export default {
     all: {
       /**
        * Get all teachers
-       * @returns {Promise<import("astro/zod").infer<typeof teachers>>}
        */
       async teachers() {
         return await db.select().from(teachers);
       },
       /**
        * Get all authors
-       * @returns {Promise<import("astro/zod").infer<typeof authors>>}
        */
       async authors() {
         return await db.select().from(authors);
       },
       /**
        * Get all catagories
-       * @returns {Promise<import("astro/zod").infer<typeof catagories>>}
        */
       async catagories() {
         return await db.select().from(catagories);
       },
       /**
        * Get all posts
-       * @returns {Promise<import("astro/zod").infer<typeof posts>>}
        */
       async posts() {
         return await db.select().from(posts);
@@ -48,7 +44,6 @@ export default {
       /**
        * Get a teacher by id
        * @param {number} id
-       * @returns {Promise<import("astro/zod").infer<typeof teachers>>}
        */
       async teacher(id: number) {
         return await db.select().from(teachers).where(eq(teachers.id, id));
@@ -61,7 +56,6 @@ export default {
          * Get an author by clerkId
          * @deprecated use clerk directly for any user data instead
          * @param {string} id
-         * @returns {Promise<import("astro/zod").infer<typeof authors>>}
          */
         async clerkId(id: string) {
           return await db.select().from(authors).where(eq(authors.clerkId, id));
@@ -70,7 +64,6 @@ export default {
          * Get an author by thunderboltId
          * @deprecated use clerk directly for any user data instead
          * @param {string} id
-         * @returns {Promise<import("astro/zod").infer<typeof authors>>}
          */
         async thunderboltId(id: string) {
           return await db.select().from(authors).where(eq(authors.id, id));
@@ -79,7 +72,6 @@ export default {
       /**
        * Get a catagory by id
        * @param {string} id
-       * @returns {Promise<import("astro/zod").infer<typeof catagories>>}
        */
       async catagory(id: string) {
         return await db.select().from(catagories).where(eq(catagories.id, id));
@@ -87,7 +79,6 @@ export default {
       /**
        * Get a post by id
        * @param {string} id
-       * @returns {Promise<import("astro/zod").infer<typeof posts>>}
        */
       async post(id: string) {
         return await db.select().from(posts).where(eq(posts.id, id));
@@ -101,7 +92,6 @@ export default {
        * Get paginated teachers
        * @param {number} page
        * @param {number} perPage
-       * @returns {Promise<import("astro/zod").infer<typeof teachers>>}
        */
       async teachers(page: number, perPage: number) {
         return await db
@@ -116,7 +106,6 @@ export default {
        * @deprecated use clerk directly for any user data instead
        * @param {number} page
        * @param {number} perPage
-       * @returns {Promise<import("astro/zod").infer<typeof authors>>}
        */
       async authors(page: number, perPage: number) {
         return await db
@@ -130,7 +119,6 @@ export default {
        * Get paginated catagories
        * @param {number} page
        * @param {number} perPage
-       * @returns {Promise<import("astro/zod").infer<typeof catagories>>}
        */
       async catagories(page: number, perPage: number) {
         return await db
@@ -144,7 +132,6 @@ export default {
        * Get paginated posts
        * @param {number} page
        * @param {number} perPage
-       * @returns {Promise<import("astro/zod").infer<typeof posts>>}
        */
       async posts(page: number, perPage: number) {
         return await db
@@ -161,7 +148,6 @@ export default {
         /**
          * Get the total number of pages for teachers
          * @param {number} perPage
-         * @returns {Promise<number>}
          */
         async teachers(perPage: number) {
           const count = await db.run(sql`SELECT COUNT(*) FROM teachers`);
@@ -183,7 +169,6 @@ export default {
          * Get the total number of pages for authors
          * @deprecated use clerk directly for any user data instead
          * @param {number} perPage
-         * @returns {Promise<number>}
          */
         async authors(perPage: number) {
           const count = await db.run(sql`SELECT COUNT(*) FROM authors`);
@@ -204,7 +189,6 @@ export default {
         /**
          * Get the total number of pages for catagories
          * @param {number} perPage
-         * @returns {Promise<number>}
          */
         async catagories(perPage: number) {
           const count = await db.run(sql`SELECT COUNT(*) FROM catagories`);
@@ -225,7 +209,6 @@ export default {
         /**
          * Get the total number of pages for posts
          * @param {number} perPage
-         * @returns {Promise<number>}
          */
         async posts(perPage: number) {
           const count = await db.run(sql`SELECT COUNT(*) FROM posts`);
@@ -249,7 +232,6 @@ export default {
       /**
        * Get all posts by catagory
        * @param {string} catagoryId
-       * @returns {Promise<import("astro/zod").infer<typeof posts>>}
        */
       async posts(catagoryId: string) {
         return await db
@@ -263,7 +245,6 @@ export default {
          * @param {string} catagoryId
          * @param {number} page
          * @param {number} perPage
-         * @returns {Promise<import("astro/zod").infer<typeof posts>>}
          */
         async posts(catagoryId: string, page: number, perPage: number) {
           return await db
@@ -279,7 +260,6 @@ export default {
            * Get the total number of pages for posts by catagory
            * @param {string} catagoryId
            * @param {number} perPage
-           * @returns {Promise<number>}
            */
           async posts(catagoryId: string, perPage: number) {
             const count = await db.run(
@@ -309,27 +289,24 @@ export default {
       /**
        * Create a teacher
        * @param {teacherProps} data
-       * @returns {Promise<import("astro/zod").infer<typeof teachers>>}
        */
       async create(data: teacherProps) {
-        return await db.insert(teachers).values(data);
+        await db.insert(teachers).values(data);
       },
       /**
        * Update a teacher
        * @param {number} id
        * @param {teacherProps} data
-       * @returns {Promise<import("astro/zod").infer<typeof teachers>>}
        */
       async update(id: number, data: teacherProps) {
-        return await db.update(teachers).set(data).where(eq(teachers.id, id));
+        await db.update(teachers).set(data).where(eq(teachers.id, id));
       },
       /**
        * Delete a teacher
        * @param {number} id
-       * @returns {Promise<import("astro/zod").infer<typeof teachers>>}
        */
       async delete(id: number) {
-        return await db.delete(teachers).where(eq(teachers.id, id));
+        await db.delete(teachers).where(eq(teachers.id, id));
       },
     },
     authors: {
@@ -337,7 +314,6 @@ export default {
        * Create an author
        * @deprecated use clerk directly for any user data instead
        * @param {authorProps} data
-       * @returns {Promise<import("astro/zod").infer<typeof authors>>}
        */
       async create(data: authorProps) {
         const finalData: types.author = {
@@ -346,49 +322,45 @@ export default {
           name: data.name,
           admin: data.admin,
         };
-        return await db.insert(authors).values(finalData);
+        await db.insert(authors).values(finalData);
       },
       /**
        * Update an author
        * @deprecated use clerk directly for any user data instead
        * @param {string} id
        * @param {authorProps} data
-       * @returns {Promise<import("astro/zod").infer<typeof authors>>}
        */
       async update(id: string, data: authorProps) {
-        return await db.update(authors).set(data).where(eq(authors.id, id));
+        await db.update(authors).set(data).where(eq(authors.id, id));
       },
       /**
        * Delete an author
        * @deprecated use clerk directly for any user data instead
        * @param {string} id
-       * @returns {Promise<import("astro/zod").infer<typeof authors>>}
        */
       async delete(id: string) {
-        return await db.delete(authors).where(eq(authors.id, id));
+        await db.delete(authors).where(eq(authors.id, id));
       },
     },
     catagories: {
       /**
        * Create a catagory
        * @param {catagoryProps} data
-       * @returns {Promise<import("astro/zod").infer<typeof catagories>>}
        */
       async create(data: catagoryProps) {
         const finalData: types.catagory = {
           id: crypto.randomUUID(),
           name: data.name,
         };
-        return await db.insert(catagories).values(finalData);
+        await db.insert(catagories).values(finalData);
       },
       /**
        * Update a catagory
        * @param {string} id
        * @param {catagoryProps} data
-       * @returns {Promise<import("astro/zod").infer<typeof catagories>>}
        */
       async update(id: string, data: catagoryProps) {
-        return await db
+        await db
           .update(catagories)
           .set(data)
           .where(eq(catagories.id, id));
@@ -396,17 +368,15 @@ export default {
       /**
        * Delete a catagory
        * @param {string} id
-       * @returns {Promise<import("astro/zod").infer<typeof catagories>>}
        */
       async delete(id: string) {
-        return await db.delete(catagories).where(eq(catagories.id, id));
+        await db.delete(catagories).where(eq(catagories.id, id));
       },
     },
     posts: {
       /**
        * Create a post
        * @param {postProps} data
-       * @returns {Promise<import("astro/zod").infer<typeof posts>>}
        */
       async create(data: postProps) {
         const finalData: types.post = {
@@ -419,24 +389,22 @@ export default {
           published: data.published,
           date: new Date(),
         };
-        return await db.insert(posts).values(finalData);
+        await db.insert(posts).values(finalData);
       },
       /**
        * Update a post
        * @param {string} id
        * @param {postProps} data
-       * @returns {Promise<import("astro/zod").infer<typeof posts>>}
        */
       async update(id: string, data: postProps) {
-        return await db.update(posts).set(data).where(eq(posts.id, id));
+        await db.update(posts).set(data).where(eq(posts.id, id));
       },
       /**
        * Delete a post
        * @param {string} id
-       * @returns {Promise<import("astro/zod").infer<typeof posts>>}
        */
       async delete(id: string) {
-        return await db.delete(posts).where(eq(posts.id, id));
+        await db.delete(posts).where(eq(posts.id, id));
       },
     },
   },
