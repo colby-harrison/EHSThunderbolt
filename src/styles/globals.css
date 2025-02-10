@@ -89,3 +89,76 @@
     @apply container mx-auto p-2;
   }
 }
+
+@layer utilities {
+  .ios-device .extra-top-padding {
+    @apply pt-[6rem];
+  }
+  .prose {
+    @apply container mx-auto px-4 pt-8 pb-16 sm:px-6 lg:px-8 max-w-[1024px];
+  }
+  .prose h1,
+  .prose-h1 {
+    @apply scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl;
+  }
+  .prose h2,
+  .prose-h2 {
+    @apply scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0;
+  }
+  .prose .noborder {
+    @apply border-none;
+  }
+  .prose h3,
+  .prose-h3 {
+    @apply scroll-m-20 text-2xl font-semibold tracking-tight;
+  }
+  .prose h4,
+  .prose-h4 {
+    @apply scroll-m-20 text-xl font-semibold tracking-tight;
+  }
+  .prose p,
+  .prose-p {
+    @apply leading-7 [&:not(:first-child)]:mt-6;
+  }
+  .prose blockquote,
+  .prose-blockquote {
+    @apply mt-6 border-l-2 pl-6 italic;
+  }
+  .prose ul,
+  .prose-ul {
+    @apply my-6 ml-6 list-disc [&>li]:mt-2;
+  }
+  .prose ol,
+  .prose-ol {
+    @apply my-6 ml-6 list-decimal [&>li]:mt-2;
+  }
+  .prose a,
+  .prose-a {
+    @apply text-primary underline hover:text-primary/90;
+  }
+  .prose b,
+  .prose-b {
+    @apply font-bold;
+  }
+  .prose dl,
+  .prose-dl {
+    @apply my-6 ml-6 list-disc [&>dt]:mt-2 [&>dd]:ml-6;
+  }
+  .prose dt,
+  .prose-dt {
+    @apply font-bold;
+  }
+  .mention {
+    border-radius: 3px !important;
+    padding: 0 2px !important;
+    transition:
+      background-color 50ms ease-out,
+      color 50ms ease-out !important;
+    cursor: pointer !important;
+    border-radius: 3px !important;
+    padding: 0 2px !important;
+    font-weight: 500 !important;
+    unicode-bidi: plaintext !important;
+    background: hsl(235 calc(1 * 85.6%) 64.7% / 0.3) 100% !important;
+  }
+}
