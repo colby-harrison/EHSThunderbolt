@@ -15,10 +15,13 @@ import Strike from '@tiptap/extension-strike';
 import Link from '@tiptap/extension-link';
 import Underline from '@tiptap/extension-underline';
 import Highlight from '@tiptap/extension-highlight';
+import Placeholder from '@tiptap/extension-placeholder';
+import CharacterCount from '@tiptap/extension-character-count';
 
 import React from 'react';
 import {
   Bold as BoldIcon,
+  ChevronDown,
   Highlighter,
   Italic as ItalicIcon,
   Strikethrough,
@@ -212,11 +215,12 @@ const MenuBar = () => {
         </Button>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant="outline">Clear</Button>
+            <Button variant="outline">
+              Clear <ChevronDown />
+            </Button>
           </DropdownMenuTrigger>
-          <DropdownMenuContent className="w-56 gap-2 flex flex-col">
+          <DropdownMenuContent className="w-56 gap-2 flex flex-col bg-background p-2 border rounded-lg">
             <DropdownMenuItem>
-              {' '}
               <Button
                 onClick={() => editor.chain().focus().unsetAllMarks().run()}
                 variant={'outline'}
@@ -346,6 +350,8 @@ const extensions = [
       }
     },
   }),
+  Placeholder,
+  CharacterCount,
 ];
 
 const content = `
@@ -359,7 +365,7 @@ const editorProps = {
 
 export default function Tiptap() {
   return (
-    <Card className='p-2'>
+    <Card className="p-2">
       <EditorProvider
         slotBefore={<MenuBar />}
         // @ts-expect-error its being dumb
@@ -368,6 +374,7 @@ export default function Tiptap() {
         editorProps={editorProps}
       >
         <EditorFormInput />
+        <EditorCharacterCount />
       </EditorProvider>
     </Card>
   );
@@ -375,6 +382,16 @@ export default function Tiptap() {
 
 const EditorFormInput = () => {
   const { editor } = useCurrentEditor();
-
   return <input type="hidden" name="html" value={editor?.getHTML()} />;
+};
+
+const EditorCharacterCount = () => {
+  const { editor } = useCurrentEditor();
+  return (
+    <div>
+      {editor?.storage.characterCount.characters()} characters
+      <br />
+      {editor?.storage.characterCount.words()} words
+    </div>
+  );
 };
