@@ -1,7 +1,6 @@
-import { type APIRoute } from "astro"
-import data from '@/server/queries'
-import {types} from '@/lib'
-
+import { type APIRoute } from 'astro';
+import data from '@/server/queries';
+import { types } from '@/lib';
 
 export const POST: APIRoute = async ({ request, redirect, locals }) => {
   const user = await locals.currentUser();
@@ -10,14 +9,14 @@ export const POST: APIRoute = async ({ request, redirect, locals }) => {
       return redirect('/?error=action-not-permitted');
     }
   }
-  const body = await request.formData()
+  const body = await request.formData();
   if (body.get('formFor') === 'posts') {
-    const title = String(body.get('title'))
-    const content = String(body.get('content'))
-    const author = String(body.get('author'))
-    const catagory = String(body.get('catagory'))
-    const needsReview = Boolean(body.get('needsReview'))
-    const published = Boolean(body.get('published'))
+    const title = String(body.get('title'));
+    const content = String(body.get('content'));
+    const author = String(body.get('author'));
+    const catagory = String(body.get('catagory'));
+    const needsReview = Boolean(body.get('needsReview'));
+    const published = Boolean(body.get('published'));
     if (title && content && author && catagory && needsReview && published) {
       const post: types.postCreate = {
         title,
@@ -25,10 +24,10 @@ export const POST: APIRoute = async ({ request, redirect, locals }) => {
         author,
         catagory,
         needsReview,
-        published
-      }
-      await data.post.posts.create(post)
+        published,
+      };
+      await data.post.posts.create(post);
     }
   }
-  return redirect(String(body.get('redirectTo')))
-}
+  return redirect(String(body.get('redirectTo')));
+};

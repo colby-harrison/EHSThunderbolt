@@ -1,7 +1,7 @@
 import { Color } from '@tiptap/extension-color';
 import ListItem from '@tiptap/extension-list-item';
 import TextStyle from '@tiptap/extension-text-style';
-import { EditorProvider, useCurrentEditor } from '@tiptap/react';
+import { EditorProvider, useCurrentEditor, type JSONContent } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import { Button } from '@/components/ui/button';
 import { Toggle } from '@/components/ui/toggle';
@@ -17,6 +17,8 @@ import Underline from '@tiptap/extension-underline';
 import Highlight from '@tiptap/extension-highlight';
 import Placeholder from '@tiptap/extension-placeholder';
 import CharacterCount from '@tiptap/extension-character-count';
+import Text from '@tiptap/extension-text';
+import { generateHTML } from '@tiptap/html';
 
 import React from 'react';
 import {
@@ -368,7 +370,6 @@ export default function Tiptap() {
     <Card className="p-2">
       <EditorProvider
         slotBefore={<MenuBar />}
-        // @ts-expect-error its being dumb
         extensions={extensions}
         content={content}
         editorProps={editorProps}
@@ -382,7 +383,7 @@ export default function Tiptap() {
 
 const EditorFormInput = () => {
   const { editor } = useCurrentEditor();
-  return <input type="hidden" name="html" value={editor?.getHTML()} />;
+  return <input type="hidden" name="content" value={editor?.getHTML()} />;
 };
 
 const EditorCharacterCount = () => {
@@ -395,3 +396,14 @@ const EditorCharacterCount = () => {
     </div>
   );
 };
+
+
+export function GenerateHTML(content: JSONContent[]) {
+  return generateHTML(
+    {
+      type: 'doc',
+      content: content,
+    },
+    extensions,
+  )
+}

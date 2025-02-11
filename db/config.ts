@@ -6,7 +6,7 @@ const teachers = defineTable({
     name: column.text(),
     picture: column.text({
       default:
-        'https://kzekz7a45c.ufs.sh/f/bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU',
+        'bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU',
     }),
     job: column.text(),
   },
@@ -20,6 +20,7 @@ const catagories = defineTable({
 });
 
 const authors = defineTable({
+  deprecated: true,
   columns: {
     id: column.text({ primaryKey: true, default: sql`UUID()` }),
     clerkId: column.text(),
@@ -32,8 +33,12 @@ const posts = defineTable({
   columns: {
     id: column.text({ primaryKey: true, default: sql`UUID()` }),
     title: column.text(),
+    image: column.text({
+      default:
+        'bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU',
+    }),
     content: column.text(),
-    author: column.text({ references: () => authors.columns.id }),
+    author: column.text(),
     catagory: column.text({ references: () => catagories.columns.id }),
     needsReview: column.boolean({ default: true }),
     published: column.boolean({ default: false }),

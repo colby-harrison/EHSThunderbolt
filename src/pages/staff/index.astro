@@ -1,7 +1,7 @@
 ---
 import Layout from '@/layouts/MainLayout.astro';
-import Tiptap from '@/components/Staff/Posts/TextEditor';
-// import data from '@/server/queries';
+import PostsCreationForm from '@/components/Staff/Posts/Form';
+import data from '@/server/queries';
 
 const userData = await Astro.locals.currentUser();
 
@@ -19,11 +19,13 @@ if (!import.meta.env.DEV) {
   }
 }
 
-console.log(isAdmin);
+void isAdmin;
+
+const categories = await data.get.all.catagories();
 ---
 
 <Layout>
   <div class="content-container flex flex-col sm:flex-row sm:flex-wrap gap-2">
-    <Tiptap client:only="react" />
+    <PostsCreationForm client:only="react" categories={categories} />
   </div>
 </Layout>
