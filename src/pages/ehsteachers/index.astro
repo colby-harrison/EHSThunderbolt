@@ -10,15 +10,14 @@ const Teachers = dataRaw.sort((a, b) => a.job.localeCompare(b.job));
 
 const userData = await Astro.locals.currentUser();
 
-let isAdmin = false;
-
-if (userData) {
-  const user = await data.get.byId.author.clerkId(userData.id);
-  if (userData.publicMetadata.isAdmin || user[0].admin == true) {
-    isAdmin = true;
+let isAdmin = true;
+if (!import.meta.env.DEV) {
+  if (userData) {
+    if (userData.publicMetadata.isAdmin) {
+      isAdmin = true;
+    }
   }
 }
-
 if (Astro.request.method === 'POST' && isAdmin) {
   const formData = await Astro.request.formData();
   console.log(formData);
