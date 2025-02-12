@@ -1,7 +1,6 @@
-import { type APIRoute } from "astro"
-import data from '@/server/queries'
-import {types} from '@/lib'
-
+import { type APIRoute } from 'astro';
+import data from '@/server/queries';
+import { types } from '@/lib';
 
 export const POST: APIRoute = async ({ request, redirect, locals }) => {
   const user = await locals.currentUser();
@@ -10,20 +9,20 @@ export const POST: APIRoute = async ({ request, redirect, locals }) => {
       return redirect('/?error=action-not-permitted');
     }
   }
-  const body = await request.formData()
+  const body = await request.formData();
   if (body.get('formFor') === 'update') {
-    const name = String(body.get('name'))
-    const picture = String(body.get('picture'))
-    const job = String(body.get('job'))
-    const id = Number(body.get('id'))
+    const name = String(body.get('name'));
+    const picture = String(body.get('picture'));
+    const job = String(body.get('job'));
+    const id = Number(body.get('id'));
     if (name && picture && job) {
       const post: types.teacherCreate = {
         name,
         picture,
         job,
-      }
-      await data.post.teachers.update(id, post)
+      };
+      await data.post.teachers.update(id, post);
     }
   }
-  return redirect(String(body.get('redirectTo')))
-}
+  return redirect(String(body.get('redirectTo')));
+};

@@ -2,14 +2,25 @@
 // if you do not know what is going on in this file without comments
 // you should not be messing with this file
 
-import { db, teachers, authors, catagories, posts, eq, sql } from 'astro:db';
+import {
+  db,
+  teachers,
+  authors,
+  catagories,
+  posts,
+  eq,
+  sql,
+  images,
+} from 'astro:db';
 
 import { types } from '@/lib';
+import { uploadThing } from '@/lib/uploadthing-server';
 
 type teacherProps = types.teacherCreate;
 type authorProps = types.authorCreate;
 type catagoryProps = types.catagoryCreate;
 type postProps = types.postCreate;
+type imageProps = types.imageCreate;
 
 export default {
   // GET operations
@@ -38,6 +49,12 @@ export default {
        */
       async posts() {
         return await db.select().from(posts);
+      },
+      /**
+       * Get all images
+       */
+      async images() {
+        return await db.select().from(images);
       },
     },
     byId: {
@@ -82,6 +99,13 @@ export default {
        */
       async post(id: string) {
         return await db.select().from(posts).where(eq(posts.id, id));
+      },
+      /**
+       * Get a image by id
+       * @param {string} id
+       */
+      async image(id: string) {
+        return await db.select().from(images).where(eq(images.id, id));
       },
     },
     /**
@@ -138,6 +162,14 @@ export default {
           .select()
           .from(posts)
           .orderBy(posts.id)
+          .offset((page - 1) * perPage)
+          .limit(perPage);
+      },
+      async images(page: number, perPage: number) {
+        return await db
+          .select()
+          .from(images)
+          .orderBy(images.id)
           .offset((page - 1) * perPage)
           .limit(perPage);
       },
@@ -212,6 +244,26 @@ export default {
          */
         async posts(perPage: number) {
           const count = await db.run(sql`SELECT COUNT(*) FROM posts`);
+          // @ts-expect-error this works, its just being dumb
+          const rows: number = count.rows[0]['COUNT(*)'];
+          const pagestemp = rows / perPage;
+          if (
+            pagestemp !== 0 &&
+            pagestemp !== null &&
+            pagestemp !== undefined &&
+            !Number.isNaN(pagestemp)
+          ) {
+            return Math.ceil(pagestemp);
+          } else {
+            return 0;
+          }
+        },
+        /**
+         * Get the total number of pages for images
+         * @param {number} perPage
+         */
+        async images(perPage: number) {
+          const count = await db.run(sql`SELECT COUNT(*) FROM images`);
           // @ts-expect-error this works, its just being dumb
           const rows: number = count.rows[0]['COUNT(*)'];
           const pagestemp = rows / perPage;
@@ -360,10 +412,7 @@ export default {
        * @param {catagoryProps} data
        */
       async update(id: string, data: catagoryProps) {
-        await db
-          .update(catagories)
-          .set(data)
-          .where(eq(catagories.id, id));
+        await db.update(catagories).set(data).where(eq(catagories.id, id));
       },
       /**
        * Delete a catagory
@@ -387,6 +436,7 @@ export default {
           catagory: data.catagory,
           needsReview: data.needsReview,
           published: data.published,
+          image: data.image,
           date: new Date(),
         };
         await db.insert(posts).values(finalData);
@@ -405,6 +455,36 @@ export default {
        */
       async delete(id: string) {
         await db.delete(posts).where(eq(posts.id, id));
+      },
+    },
+    images: {
+      /**
+       * Create an image
+       * @param {imageProps} data
+       */
+      async create(data: imageProps) {
+        const unixTime = Math.floor(Date.now() / 1000);
+        const finalFileName = `${crypto.randomUUID()}-${unixTime}-${data.fileName}`;
+        const imageURL = await uploadThing({
+          name: finalFileName,
+          data: data.fileBuffer,
+        });
+        const finalData: types.image = {
+          id: crypto.randomUUID(),
+          fullUrl: imageURL,
+          size: data.size,
+          type: data.type,
+          author: data.author,
+        };
+        await db.insert(images).values(finalData);
+        return imageURL;
+      },
+      /**
+       * Delete an image
+       * @param {string} id
+       */
+      async delete(id: string) {
+        await db.delete(images).where(eq(images.id, id));
       },
     },
   },

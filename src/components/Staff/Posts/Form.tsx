@@ -20,10 +20,29 @@ interface FormProps {
 }
 
 export default function Form({ categories }: FormProps) {
-  const { userId } = useStore($authStore)
-  const [image, setImage] = React.useState('');
+  const { userId } = useStore($authStore);
+  const [image, setImage] = React.useState<File | null>(null);
+  const [preview, setPreview] = React.useState<string | null>(
+    'https://kzekz7a45c.ufs.sh/f/bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU',
+  );
+
+  React.useEffect(() => {
+    if (image) {
+      const objectUrl = URL.createObjectURL(image);
+      setPreview(objectUrl);
+      return () => URL.revokeObjectURL(objectUrl);
+    }
+  }, [image]);
+
   return (
-    <form action="/api/posts/post/create" method="POST">
+    <form
+      action="/api/posts/post/create"
+      method="POST"
+      encType="multipart/form-data"
+    >
+      <input type="hidden" name="formFor" value="posts" />
+      <input type="hidden" value="true" name="needsReview" />
+      <input type="hidden" value="false" name="published" />
       <input type="hidden" value={userId!} name="author" />
       <input type="hidden" name="redirectTo" value="/staff" />
       <Card>
@@ -40,13 +59,25 @@ export default function Form({ categories }: FormProps) {
               <Label htmlFor="catagory">Category</Label>
               <CategoriesCombobox categories={categories} />
             </div>
-            <div className="flex flex-col gap-2">
-              {
-                image &&
-                <img src={image} alt={image} className="w-full h-auto" />
-              }
-              <Label htmlFor="image">Image</Label>
-              <Input type='file' name='image' accept='.jpg, .jpeg, .png, .gif, .webp' value={image} onChange={(value) => setImage(value.target.value)} />
+            <div className="flex flex-row gap-2">
+              {preview && (
+                <img
+                  src={preview}
+                  alt="Preview"
+                  className="w-full h-auto max-h-48 object-contain"
+                />
+              )}
+              <div className="flex flex-col gap-2">
+                <Label htmlFor="image">Poster</Label>
+                <Input
+                  type="file"
+                  name="image"
+                  accept=".jpg, .jpeg, .png, .gif, .webp"
+                  onChange={(value) =>
+                    setImage(value.target.files?.[0] || null)
+                  }
+                />
+              </div>
             </div>
           </div>
           <RTE />

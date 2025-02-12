@@ -1,4 +1,4 @@
-import { utapi } from "@/server/uploadthing-server";
+import { utapi } from '@/server/uploadthing-server';
 
 // Define our local SerializedUploadThingError interface
 interface SerializedUploadThingError {
@@ -20,13 +20,18 @@ interface MyUploadFileResult {
  * @returns The URL of the uploaded file.
  * @throws An error if the upload fails.
  */
-export async function uploadThing(file: { name: string; data: ArrayBuffer }): Promise<string> {
+export async function uploadThing(file: {
+  name: string;
+  data: ArrayBuffer;
+}): Promise<string> {
   const fileObject = new File([file.data], file.name);
 
-  const results = (await utapi.uploadFiles([fileObject])) as MyUploadFileResult[];
+  const results = (await utapi.uploadFiles([fileObject]).catch((err) => {
+    console.log(err);
+  })) as MyUploadFileResult[];
 
   if (results.length === 0) {
-    throw new Error("Upload failed: no response from server.");
+    throw new Error('Upload failed: no response from server.');
   }
 
   // Since we've ensured that results is not empty, we can safely assert that results[0] is defined.
@@ -36,9 +41,8 @@ export async function uploadThing(file: { name: string; data: ArrayBuffer }): Pr
     throw new Error(result.error.message);
   }
 
-  // eslint-disable-next-line @typescript-eslint/prefer-optional-chain
   if (!result.data || !result.data.url) {
-    throw new Error("Upload failed: no URL returned.");
+    throw new Error('Upload failed: no URL returned.');
   }
 
   return result.data.url;

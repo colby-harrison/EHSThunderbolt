@@ -18,7 +18,7 @@ export default function Form({
   inputs,
   flexDirection,
   action,
-  redirectTo
+  redirectTo,
 }: FormProps) {
   const formClass = flexDirection
     ? `flex flex-${flexDirection} gap-4`

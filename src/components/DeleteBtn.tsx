@@ -7,7 +7,12 @@ interface DeleteBtnProps {
   redirectTo?: string;
 }
 
-export default function DeleteBtn({ table, id, action, redirectTo }: DeleteBtnProps) {
+export default function DeleteBtn({
+  table,
+  id,
+  action,
+  redirectTo,
+}: DeleteBtnProps) {
   return (
     <form method="POST" action={action}>
       <input type="hidden" name="table" value={table} />

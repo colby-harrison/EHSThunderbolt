@@ -30,6 +30,7 @@ export type post = {
   catagory: string;
   needsReview: boolean;
   published: boolean;
+  image: string;
   date: Date;
 };
 
@@ -56,6 +57,23 @@ export type postCreate = {
   catagory: string;
   needsReview: boolean;
   published: boolean;
+  image: string;
+};
+
+export type image = {
+  id: string;
+  fullUrl: string;
+  size: number;
+  type: string;
+  author: string;
+};
+
+export type imageCreate = {
+  fileName: string;
+  fileBuffer: ArrayBuffer;
+  size: number;
+  type: string;
+  author: string;
 };
 // End of database types
 

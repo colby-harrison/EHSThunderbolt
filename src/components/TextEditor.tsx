@@ -1,7 +1,11 @@
 import { Color } from '@tiptap/extension-color';
 import ListItem from '@tiptap/extension-list-item';
 import TextStyle from '@tiptap/extension-text-style';
-import { EditorProvider, useCurrentEditor, type JSONContent } from '@tiptap/react';
+import {
+  EditorProvider,
+  useCurrentEditor,
+  type JSONContent,
+} from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import { Button } from '@/components/ui/button';
 import { Toggle } from '@/components/ui/toggle';
@@ -383,7 +387,9 @@ export default function Tiptap() {
 
 const EditorFormInput = () => {
   const { editor } = useCurrentEditor();
-  return <input type="hidden" name="content" value={editor?.getHTML()} />;
+  return (
+    <input type="hidden" name="content" value={String(editor?.getJSON())} />
+  );
 };
 
 const EditorCharacterCount = () => {
@@ -397,7 +403,6 @@ const EditorCharacterCount = () => {
   );
 };
 
-
 export function GenerateHTML(content: JSONContent[]) {
   return generateHTML(
     {
@@ -405,5 +410,5 @@ export function GenerateHTML(content: JSONContent[]) {
       content: content,
     },
     extensions,
-  )
+  );
 }
