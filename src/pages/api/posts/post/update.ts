@@ -27,6 +27,7 @@ export const POST: APIRoute = async ({ request, redirect, locals }) => {
       published &&
       id
     ) {
+      const currentPost = await data.get.byId.post(id);
       const post: types.postCreate = {
         title,
         content,
@@ -34,6 +35,7 @@ export const POST: APIRoute = async ({ request, redirect, locals }) => {
         catagory,
         needsReview,
         published,
+        image: currentPost[0].image,
       };
       await data.post.posts.update(id, post);
     }
