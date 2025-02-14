@@ -4,7 +4,6 @@ import TextStyle from '@tiptap/extension-text-style';
 import {
   EditorProvider,
   useCurrentEditor,
-  type JSONContent,
 } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import { Button } from '@/components/ui/button';
@@ -22,7 +21,6 @@ import Highlight from '@tiptap/extension-highlight';
 import Placeholder from '@tiptap/extension-placeholder';
 import CharacterCount from '@tiptap/extension-character-count';
 import Text from '@tiptap/extension-text';
-import { generateHTML } from '@tiptap/html';
 
 import React from 'react';
 import {
@@ -251,7 +249,7 @@ const MenuBar = () => {
   );
 };
 
-const extensions = [
+export const extensions = [
   Document,
   Image,
   Dropcursor,
@@ -259,7 +257,6 @@ const extensions = [
   Bold,
   Italic,
   Strike,
-  Link,
   Underline,
   Highlight.configure({ multicolor: true }),
   Color.configure({ types: [TextStyle.name, ListItem.name] }),
@@ -388,7 +385,7 @@ export default function Tiptap() {
 const EditorFormInput = () => {
   const { editor } = useCurrentEditor();
   return (
-    <input type="hidden" name="content" value={String(editor?.getJSON())} />
+    <input type="hidden" name="content" value={JSON.stringify(editor?.getJSON())} />
   );
 };
 
@@ -402,13 +399,3 @@ const EditorCharacterCount = () => {
     </div>
   );
 };
-
-export function GenerateHTML(content: JSONContent[]) {
-  return generateHTML(
-    {
-      type: 'doc',
-      content: content,
-    },
-    extensions,
-  );
-}

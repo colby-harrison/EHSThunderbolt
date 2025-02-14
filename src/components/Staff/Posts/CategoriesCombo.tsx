@@ -22,7 +22,7 @@ import type { types } from '@/lib';
 import { Input } from '@/components/ui/input';
 
 interface ComboboxProps {
-  categories: types.catagory[];
+  categories: types.category[];
 }
 
 export function CategoriesCombobox({ categories }: ComboboxProps) {

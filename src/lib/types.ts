@@ -17,7 +17,7 @@ export type author = {
   admin: boolean;
 };
 
-export type catagory = {
+export type category = {
   id: string;
   name: string;
 };
@@ -27,7 +27,7 @@ export type post = {
   title: string;
   content: string;
   author: string;
-  catagory: string;
+  category: string;
   needsReview: boolean;
   published: boolean;
   image: string;
@@ -46,7 +46,7 @@ export type authorCreate = {
   admin: boolean;
 };
 
-export type catagoryCreate = {
+export type categoryCreate = {
   name: string;
 };
 
@@ -54,7 +54,7 @@ export type postCreate = {
   title: string;
   content: string;
   author: string;
-  catagory: string;
+  category: string;
   needsReview: boolean;
   published: boolean;
   image: string;

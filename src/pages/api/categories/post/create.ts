@@ -16,10 +16,10 @@ export const POST: APIRoute = async ({ request, redirect, locals }) => {
   if (body.get('formFor') === 'categories') {
     const name = String(body.get('name'));
     if (name) {
-      const category: types.catagoryCreate = {
+      const category: types.categoryCreate = {
         name,
       };
-      await data.post.catagories.create(category);
+      await data.post.categories.create(category);
     }
   }
   return redirect(String(body.get('redirectTo')));

@@ -1,7 +1,7 @@
 import { Button } from './ui/button';
 
 interface DeleteBtnProps {
-  table: 'catagories' | 'authors' | 'posts' | 'teachers';
+  table: 'categories' | 'authors' | 'posts' | 'teachers';
   id: string | number;
   action?: string;
   redirectTo?: string;

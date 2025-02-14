@@ -15,7 +15,7 @@ export const POST: APIRoute = async ({ request, redirect, locals }) => {
   if (body.get('formFor') === 'delete') {
     const id = String(body.get('id'));
     if (id) {
-      await data.post.catagories.delete(id);
+      await data.post.categories.delete(id);
     }
   }
   return redirect(String(body.get('redirectTo')));

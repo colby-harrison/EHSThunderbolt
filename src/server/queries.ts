@@ -6,7 +6,7 @@ import {
   db,
   teachers,
   authors,
-  catagories,
+  categories,
   posts,
   eq,
   sql,
@@ -18,7 +18,7 @@ import { uploadThing } from '@/lib/uploadthing-server';
 
 type teacherProps = types.teacherCreate;
 type authorProps = types.authorCreate;
-type catagoryProps = types.catagoryCreate;
+type categoryProps = types.categoryCreate;
 type postProps = types.postCreate;
 type imageProps = types.imageCreate;
 
@@ -39,10 +39,10 @@ export default {
         return await db.select().from(authors);
       },
       /**
-       * Get all catagories
+       * Get all categories
        */
-      async catagories() {
-        return await db.select().from(catagories);
+      async categories() {
+        return await db.select().from(categories);
       },
       /**
        * Get all posts
@@ -87,11 +87,11 @@ export default {
         },
       },
       /**
-       * Get a catagory by id
+       * Get a category by id
        * @param {string} id
        */
-      async catagory(id: string) {
-        return await db.select().from(catagories).where(eq(catagories.id, id));
+      async category(id: string) {
+        return await db.select().from(categories).where(eq(categories.id, id));
       },
       /**
        * Get a post by id
@@ -140,15 +140,15 @@ export default {
           .limit(perPage);
       },
       /**
-       * Get paginated catagories
+       * Get paginated categories
        * @param {number} page
        * @param {number} perPage
        */
-      async catagories(page: number, perPage: number) {
+      async categories(page: number, perPage: number) {
         return await db
           .select()
-          .from(catagories)
-          .orderBy(catagories.id)
+          .from(categories)
+          .orderBy(categories.id)
           .offset((page - 1) * perPage)
           .limit(perPage);
       },
@@ -219,11 +219,11 @@ export default {
           }
         },
         /**
-         * Get the total number of pages for catagories
+         * Get the total number of pages for categories
          * @param {number} perPage
          */
-        async catagories(perPage: number) {
-          const count = await db.run(sql`SELECT COUNT(*) FROM catagories`);
+        async categories(perPage: number) {
+          const count = await db.run(sql`SELECT COUNT(*) FROM categories`);
           // @ts-expect-error this works, its just being dumb
           const rows: number = count.rows[0]['COUNT(*)'];
           const pagestemp = rows / perPage;
@@ -280,42 +280,42 @@ export default {
         },
       },
     },
-    byCatagory: {
+    byCategory: {
       /**
-       * Get all posts by catagory
-       * @param {string} catagoryId
+       * Get all posts by category
+       * @param {string} categoryId
        */
-      async posts(catagoryId: string) {
+      async posts(categoryId: string) {
         return await db
           .select()
           .from(posts)
-          .where(eq(posts.catagory, catagoryId));
+          .where(eq(posts.category, categoryId));
       },
       paginated: {
         /**
          * Get paginated posts by category
-         * @param {string} catagoryId
+         * @param {string} categoryId
          * @param {number} page
          * @param {number} perPage
          */
-        async posts(catagoryId: string, page: number, perPage: number) {
+        async posts(categoryId: string, page: number, perPage: number) {
           return await db
             .select()
             .from(posts)
-            .where(eq(posts.catagory, catagoryId))
+            .where(eq(posts.category, categoryId))
             .orderBy(posts.id)
             .offset((page - 1) * perPage)
             .limit(perPage);
         },
         totalPages: {
           /**
-           * Get the total number of pages for posts by catagory
-           * @param {string} catagoryId
+           * Get the total number of pages for posts by category
+           * @param {string} categoryId
            * @param {number} perPage
            */
-          async posts(catagoryId: string, perPage: number) {
+          async posts(categoryId: string, perPage: number) {
             const count = await db.run(
-              sql`SELECT COUNT(*) FROM posts WHERE catagory = ${catagoryId}`,
+              sql`SELECT COUNT(*) FROM posts WHERE catagory = ${categoryId}`,
             );
             // @ts-expect-error this works, its just being dumb
             const rows: number = count.rows[0]['COUNT(*)'];
@@ -394,32 +394,32 @@ export default {
         await db.delete(authors).where(eq(authors.id, id));
       },
     },
-    catagories: {
+    categories: {
       /**
-       * Create a catagory
-       * @param {catagoryProps} data
+       * Create a category
+       * @param {categoryProps} data
        */
-      async create(data: catagoryProps) {
-        const finalData: types.catagory = {
+      async create(data: categoryProps) {
+        const finalData: types.category = {
           id: crypto.randomUUID(),
           name: data.name,
         };
-        await db.insert(catagories).values(finalData);
+        await db.insert(categories).values(finalData);
       },
       /**
-       * Update a catagory
+       * Update a category
        * @param {string} id
-       * @param {catagoryProps} data
+       * @param {categoryProps} data
        */
-      async update(id: string, data: catagoryProps) {
-        await db.update(catagories).set(data).where(eq(catagories.id, id));
+      async update(id: string, data: categoryProps) {
+        await db.update(categories).set(data).where(eq(categories.id, id));
       },
       /**
-       * Delete a catagory
+       * Delete a category
        * @param {string} id
        */
       async delete(id: string) {
-        await db.delete(catagories).where(eq(catagories.id, id));
+        await db.delete(categories).where(eq(categories.id, id));
       },
     },
     posts: {
@@ -433,7 +433,7 @@ export default {
           title: data.title,
           content: data.content,
           author: data.author,
-          catagory: data.catagory,
+          category: data.category,
           needsReview: data.needsReview,
           published: data.published,
           image: data.image,

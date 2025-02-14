@@ -4,6 +4,24 @@ import Layout from '@/layouts/MainLayout.astro';
 import data from '@/server/queries';
 
 const images = await data.get.all.images();
+
+const userData = await Astro.locals.currentUser();
+
+let isAdmin = import.meta.env.DEV;
+
+if (!import.meta.env.DEV) {
+  if (userData) {
+    if (userData.publicMetadata.isAdmin) {
+      isAdmin = true;
+    } else {
+      isAdmin = false;
+    }
+  } else {
+    isAdmin = false;
+  }
+}
+
+void isAdmin;
 ---
 
 <Layout>

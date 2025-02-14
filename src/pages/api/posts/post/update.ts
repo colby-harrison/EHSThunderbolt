@@ -15,7 +15,7 @@ export const POST: APIRoute = async ({ request, redirect, locals }) => {
     const title = String(body.get('title'));
     const content = String(body.get('content'));
     const author = String(body.get('author'));
-    const catagory = String(body.get('catagory'));
+    const catagory = String(body.get('category'));
     const needsReview = Boolean(body.get('needsReview'));
     const published = Boolean(body.get('published'));
     if (
@@ -32,7 +32,7 @@ export const POST: APIRoute = async ({ request, redirect, locals }) => {
         title,
         content,
         author,
-        catagory,
+        category: category,
         needsReview,
         published,
         image: currentPost[0].image,

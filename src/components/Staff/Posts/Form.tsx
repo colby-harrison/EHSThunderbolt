@@ -16,7 +16,7 @@ import { $authStore } from '@clerk/astro/client';
 import React from 'react';
 
 interface FormProps {
-  categories: types.catagory[];
+  categories: types.category[];
 }
 
 export default function Form({ categories }: FormProps) {

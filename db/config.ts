@@ -11,7 +11,7 @@ const teachers = defineTable({
   },
 });
 
-const catagories = defineTable({
+const categories = defineTable({
   columns: {
     id: column.text({ primaryKey: true, default: sql`UUID()` }),
     name: column.text(),
@@ -33,11 +33,11 @@ const posts = defineTable({
     id: column.text({ primaryKey: true, default: sql`UUID()` }),
     title: column.text(),
     image: column.text({
-      default: 'bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU',
+      default: 'https://kzekz7a45c.ufs.sh/f/bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU',
     }),
-    content: column.json(),
+    content: column.text(),
     author: column.text(),
-    catagory: column.text({ references: () => catagories.columns.id }),
+    category: column.text({ references: () => categories.columns.id }),
     needsReview: column.boolean({ default: true }),
     published: column.boolean({ default: false }),
     date: column.date({ default: NOW }),
@@ -58,7 +58,7 @@ const images = defineTable({
 export default defineDb({
   tables: {
     teachers,
-    catagories,
+    categories,
     authors,
     posts,
     images,

@@ -15,7 +15,7 @@ const categoriesInputs: types.FormInput[] = [
 ];
 
 export default async function CategoriesCard() {
-  const allCategories = await data.get.all.catagories();
+  const allCategories = await data.get.all.categories();
   return (
     <Card>
       <CardHeader>
@@ -40,7 +40,7 @@ export default async function CategoriesCard() {
               >
                 <div className="w-full">{category.name}</div>
                 <DeleteBtn
-                  table="catagories"
+                  table="categories"
                   id={category.id}
                   action="/api/categories/post/delete"
                   redirectTo="/admin"

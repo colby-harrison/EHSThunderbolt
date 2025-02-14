@@ -1,8 +1,8 @@
-import { db, catagories } from 'astro:db';
+import { db, categories } from 'astro:db';
 
 // https://astro.build/db/seed
 export default async function seed() {
-  await db.insert(catagories).values([
+  await db.insert(categories).values([
     {
       name: 'test',
     },
