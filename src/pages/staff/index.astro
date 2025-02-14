@@ -1,6 +1,7 @@
 ---
-import CatagoriesCard from '@/components/Admin/CategoriesCard';
 import Layout from '@/layouts/MainLayout.astro';
+import PostsCreationForm from '@/components/Staff/Posts/Form';
+import data from '@/server/queries';
 
 const userData = await Astro.locals.currentUser();
 
@@ -11,18 +12,20 @@ if (!import.meta.env.DEV) {
     if (userData.publicMetadata.isAdmin) {
       isAdmin = true;
     } else {
-      return Astro.redirect('/?error=action-not-permitted');
+      isAdmin = false;
     }
   } else {
     return Astro.redirect('/?error=action-not-permitted');
   }
 }
 
-console.log(isAdmin);
+void isAdmin;
+
+const categories = await data.get.all.categories();
 ---
 
 <Layout>
   <div class="content-container flex flex-col sm:flex-row sm:flex-wrap gap-2">
-    <CatagoriesCard />
+    <PostsCreationForm client:only="react" categories={categories} />
   </div>
 </Layout>
