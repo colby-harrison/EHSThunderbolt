@@ -1,0 +1,46 @@
+---
+import ContentGrid from "src/components/homePage/ContentGrid";
+import Carousel from "src/components/homePage/Carousel";
+import SportsScores from "src/components/homePage/SportsScores";
+import StudentHighlights from "src/components/homePage/StudentHighlights";
+import Navbar from "src/components/ui/navbar.tsx";
+import TopStories from "src/components/homePage/TopStories";
+import Header from "src/components/Header/Header";
+import Sidebar from "src/components/ui/sidebar";
+import Trending from "src/components/homePage/Trending";
+import LatestStories from "src/components/homePage/LatestStories";
+import CategorySection from "src/components/homePage/CategorySection";
+import Footer from "src/components/homePage/Footer";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thunderbolt News</title>
+  </head>
+  <body class="bg-gray-100">
+    <Header client:load/>
+    <Navbar />
+    <main class="max-w-7xl mx-auto p-4 flex flex-col md:flex-row gap-6">
+      <section class="flex-1 space-y-6">
+        <Carousel />
+        <Trending />
+        <TopStories />
+        <LatestStories />
+        <ContentGrid />
+        <CategorySection title="Sports" />
+        <CategorySection title="Student Life" />
+        <CategorySection title="Clubs" />
+        <CategorySection title="Community" />
+        <SportsScores />
+        <StudentHighlights />
+      </section>
+      <aside class="hidden md:block w-80">
+        <Sidebar />
+      </aside>
+    </main>
+    <Footer />
+  </body>
+</html>
