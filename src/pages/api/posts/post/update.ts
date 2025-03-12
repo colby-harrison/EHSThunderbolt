@@ -13,26 +13,29 @@ export const POST: APIRoute = async ({ request, redirect, locals }) => {
   if (body.get('formFor') === 'update') {
     const id = String(body.get('id'));
     const title = String(body.get('title'));
+    const description = String(body.get('description'));
     const content = String(body.get('content'));
     const author = String(body.get('author'));
-    const catagory = String(body.get('category'));
+    const category = String(body.get('category'));
     const needsReview = Boolean(body.get('needsReview'));
     const published = Boolean(body.get('published'));
     if (
       title &&
       content &&
       author &&
-      catagory &&
+      category &&
       needsReview &&
       published &&
-      id
+      id &&
+        description
     ) {
       const currentPost = await data.get.byId.post(id);
       const post: types.postCreate = {
         title,
+        description,
         content,
         author,
-        category: category,
+        category,
         needsReview,
         published,
         image: currentPost[0].image,

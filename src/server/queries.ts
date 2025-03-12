@@ -431,6 +431,7 @@ export default {
         const finalData: types.post = {
           id: crypto.randomUUID(),
           title: data.title,
+          description: data.description,
           content: data.content,
           author: data.author,
           category: data.category,

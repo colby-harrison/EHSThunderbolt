@@ -9,18 +9,12 @@ import StarterKit from '@tiptap/starter-kit';
 import { Button } from '@/components/ui/button';
 import { Toggle } from '@/components/ui/toggle';
 import Youtube from '@tiptap/extension-youtube';
-import Dropcursor from '@tiptap/extension-dropcursor';
-import Document from '@tiptap/extension-document';
 import Image from '@tiptap/extension-image';
-import Bold from '@tiptap/extension-bold';
-import Italic from '@tiptap/extension-italic';
-import Strike from '@tiptap/extension-strike';
 import Link from '@tiptap/extension-link';
 import Underline from '@tiptap/extension-underline';
 import Highlight from '@tiptap/extension-highlight';
 import Placeholder from '@tiptap/extension-placeholder';
 import CharacterCount from '@tiptap/extension-character-count';
-import Text from '@tiptap/extension-text';
 
 import React from 'react';
 import {
@@ -250,13 +244,7 @@ const MenuBar = () => {
 };
 
 export const extensions = [
-  Document,
   Image,
-  Dropcursor,
-  Text,
-  Bold,
-  Italic,
-  Strike,
   Underline,
   Highlight.configure({ multicolor: true }),
   Color.configure({ types: [TextStyle.name, ListItem.name] }),
@@ -357,22 +345,21 @@ export const extensions = [
   CharacterCount,
 ];
 
-const content = `
-`;
-
 const editorProps = {
   attributes: {
     class: 'prose focus:outline-none',
   },
 };
 
-export default function Tiptap() {
+export default function Tiptap({ content }: { content?: string }) {
+  const Content = content || `
+  `;
   return (
     <Card className="p-2">
       <EditorProvider
         slotBefore={<MenuBar />}
         extensions={extensions}
-        content={content}
+        content={Content}
         editorProps={editorProps}
       >
         <EditorFormInput />

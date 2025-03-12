@@ -56,6 +56,10 @@ export default function Form({ categories }: FormProps) {
               <Input type="text" name="title" />
             </div>
             <div className="flex flex-col gap-2">
+              <Label htmlFor="description">Description</Label>
+              <Input type="text" name="description" />
+            </div>
+            <div className="flex flex-col gap-2">
               <Label htmlFor="catagory">Category</Label>
               <CategoriesCombobox categories={categories} />
             </div>

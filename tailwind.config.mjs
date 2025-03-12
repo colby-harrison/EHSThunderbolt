@@ -49,6 +49,9 @@ export default withUt({
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
         },
+        post: {
+          background: "hsl(var(--post-background))",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -83,5 +86,5 @@ export default withUt({
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"),require('@tailwindcss/aspect-ratio')],
 });

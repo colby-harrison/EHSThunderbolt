@@ -25,7 +25,11 @@ export type category = {
 export type post = {
   id: string;
   title: string;
-  content: string;
+  description: string;
+  content: {
+    type: string;
+    content: [];
+  } | string;
   author: string;
   category: string;
   needsReview: boolean;
@@ -52,6 +56,7 @@ export type categoryCreate = {
 
 export type postCreate = {
   title: string;
+  description: string;
   content: string;
   author: string;
   category: string;

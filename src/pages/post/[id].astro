@@ -1,0 +1,155 @@
+---
+import AuthorCard from '@/components/AuthorCard';
+import Layout from '@/layouts/MainLayout.astro';
+import data from '@/server/queries';
+import { GenerateHTML } from '@/components/GenerateHTML';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+
+const userData = await Astro.locals.currentUser();
+
+let isAdmin = import.meta.env.DEV;
+
+if (!import.meta.env.DEV) {
+  if (userData) {
+    if (userData.publicMetadata.isAdmin) {
+      isAdmin = true;
+    } else {
+      isAdmin = false;
+    }
+  } else {
+    isAdmin = false;
+  }
+}
+
+void isAdmin;
+
+if (!Astro.params.id) {
+  return Astro.rewrite('/404');
+}
+
+const post = await data.get.byId.post(Astro.params.id);
+if (!post) {
+  return Astro.rewrite('/404');
+}
+const postTemp = await Promise.all(
+  post.map(async (post) => {
+    const content = JSON.parse(post.content);
+    const response = await fetch(post.image);
+    const arrayBuffer = await response.arrayBuffer();
+    const buffer = Buffer.from(arrayBuffer);
+    const dataUrl = `data:${response.headers.get('content-type')};base64,${buffer.toString('base64')}`;
+    return {
+      id: post.id,
+      title: post.title,
+      description: post.description,
+      author: post.author,
+      date: post.date,
+      image: dataUrl,
+      needsReview: post.needsReview,
+      published: post.published,
+      category: post.category,
+      content: content as {
+        type: string;
+        content: [];
+      },
+    };
+  }),
+);
+const postFormatted = postTemp[0];
+if (!postFormatted) {
+  return Astro.rewrite('/404');
+}
+const category = await data.get.byId.category(postFormatted.category);
+
+let CanEdit = import.meta.env.DEV;
+
+if (!import.meta.env.DEV) {
+  if (userData) {
+    if (userData.publicMetadata.isAdmin) {
+      CanEdit = true;
+    } else {
+      if (postFormatted.author === userData.id) {
+        CanEdit = true;
+      }
+    }
+  } else {
+    CanEdit = false;
+  }
+}
+
+void CanEdit;
+---
+
+<Layout>
+  <div
+    class="content-container prose backdrop-hue-rotate-60 bg-background/30 mb-4 shadow-lg rounded-b-lg"
+  >
+    {
+      !postFormatted ? (
+        <h1>Loading...</h1>
+      ) : (
+        <>
+          <div class="flex flex-col gap-4 p-4">
+            <div class="flex flex-row gap-2 flex-wrap">
+              <>
+                <img
+                  src={postFormatted.image}
+                  alt={postFormatted.title}
+                  class="rounded-lg"
+                />
+                <div class="flex flex-col gap-2 w-full">
+                  <h1 class="flex flex-row justify-between w-full"><span>{postFormatted.title}</span><span>{category[0].name}</span></h1>
+                  <p>{postFormatted.description}</p>
+                </div>
+                {isAdmin && CanEdit && (
+                  <>
+                    {
+                      isAdmin && (
+                    <form action="/api/posts/post/update/approve" method="POST">
+                      <Button variant="outline" type="submit" disabled={!postFormatted.needsReview}>
+                        Approve
+                      </Button>
+                      <Input type="hidden" name="id" value={postFormatted.id} />
+                      <Input type="hidden" name="reviewer" value={userData?.id} />
+                      <Input type="text" name="reason" placeholder="Reason" />
+                    </form>
+                    <form action="/api/posts/post/update/changesneeded" method="POST">
+                      <Button variant="outline" type="submit" disabled={!postFormatted.needsReview}>
+                        Changes Needed
+                      </Button>
+                      <Input type="hidden" name="id" value={postFormatted.id} />
+                      <Input type="hidden" name="reviewer" value={userData?.id} />
+                      <Input type="text" name="reason" placeholder="Reason" />
+                    </form>
+                    )
+                    }
+                    <form action="/api/posts/post/delete" method="POST">
+                      <Button variant="outline" type="submit">
+                        Delete
+                      </Button>
+                      <Input type="hidden" name="id" value={postFormatted.id} />
+                      <Input type="hidden" name="reviewer" value={userData?.id} />
+                      <Input type="text" name="reason" placeholder="Reason" />
+                    </form>
+                    <Button variant="outline" >
+                      Edit
+                    </Button>
+                  </>
+                )}
+              </>
+            </div>
+            <p>Author:</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              <AuthorCard AuthorID={postFormatted.author} />
+            </div>
+          </div>
+          <GenerateHTML
+            type={postFormatted.content.type}
+            content={postFormatted.content.content}
+          />
+        </>
+      )
+    }
+  </div>
+</Layout>

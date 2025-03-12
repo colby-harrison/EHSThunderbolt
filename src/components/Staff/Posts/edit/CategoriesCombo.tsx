@@ -23,14 +23,15 @@ import { Input } from '@/components/ui/input';
 
 interface ComboboxProps {
   categories: types.category[];
+  currentCategory: string;
 }
 
-export function CategoriesCombobox({ categories }: ComboboxProps) {
+export function CategoriesCombobox({ categories, currentCategory }: ComboboxProps) {
   const [open, setOpen] = React.useState(false);
-  const [value, setValue] = React.useState('');
+  const [value, setValue] = React.useState(currentCategory);
   return (
     <Popover open={open} onOpenChange={setOpen}>
-      <Input type="hidden" name="catagory" value={value} />
+      <Input type="hidden" name="category" value={value} />
       <PopoverTrigger asChild>
         <Button
           variant="outline"

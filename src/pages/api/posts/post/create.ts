@@ -12,13 +12,14 @@ export const POST: APIRoute = async ({ request, redirect, locals }) => {
   const body = await request.formData();
   if (body.get('formFor') === 'posts') {
     const title = String(body.get('title'));
+    const description = String(body.get('description'));
     const content = String(body.get('content'));
     const author = String(body.get('author'));
-    const catagory = String(body.get('category'));
+    const category = String(body.get('category'));
     const needsReview = Boolean(body.get('needsReview'));
     const published = Boolean(body.get('published'));
     const imageFile = body.get('image') as File | null;
-    if (title && content && author && catagory && needsReview && published) {
+    if (title && content && author && category && needsReview && published && description) {
       let image: string =
         'https://kzekz7a45c.ufs.sh/f/bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU';
       if (imageFile) {
@@ -33,9 +34,10 @@ export const POST: APIRoute = async ({ request, redirect, locals }) => {
       }
       const post: types.postCreate = {
         title,
+        description,
         content,
         author,
-        category: category,
+        category,
         needsReview,
         published,
         image,

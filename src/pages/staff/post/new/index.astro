@@ -1,0 +1,31 @@
+---
+import Layout from '@/layouts/MainLayout.astro';
+import PostsCreationForm from '@/components/Staff/Posts/create/Form';
+import data from '@/server/queries';
+
+const userData = await Astro.locals.currentUser();
+
+let isAdmin = import.meta.env.DEV;
+
+if (!import.meta.env.DEV) {
+  if (userData) {
+    if (userData.publicMetadata.isAdmin) {
+      isAdmin = true;
+    } else {
+      isAdmin = false;
+    }
+  } else {
+    return Astro.redirect('/?error=action-not-permitted');
+  }
+}
+
+void isAdmin;
+
+const categories = await data.get.all.categories();
+---
+
+<Layout>
+  <div class="content-container flex flex-col sm:flex-row sm:flex-wrap gap-2">
+    <PostsCreationForm client:only="react" categories={categories} />
+  </div>
+</Layout>

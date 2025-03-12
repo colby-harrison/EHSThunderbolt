@@ -14,6 +14,7 @@ const teachers = defineTable({
 const categories = defineTable({
   columns: {
     id: column.text({ primaryKey: true, default: sql`UUID()` }),
+    subcategoryOf: column.text({ optional: true }),
     name: column.text(),
   },
 });
@@ -32,6 +33,7 @@ const posts = defineTable({
   columns: {
     id: column.text({ primaryKey: true, default: sql`UUID()` }),
     title: column.text(),
+    description: column.text(),
     image: column.text({
       default: 'https://kzekz7a45c.ufs.sh/f/bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU',
     }),

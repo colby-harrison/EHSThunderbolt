@@ -39,6 +39,7 @@
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+    --post-background: 0 0% 3.9%;
   }
   .dark {
     --background: 0 0% 3.9%;
@@ -73,6 +74,7 @@
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+    --post-background: 0 0% 100%;
   }
 }
 
@@ -160,5 +162,16 @@
     font-weight: 500 !important;
     unicode-bidi: plaintext !important;
     background: hsl(235 calc(1 * 85.6%) 64.7% / 0.3) 100% !important;
+  }
+}
+
+
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
   }
 }
