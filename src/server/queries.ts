@@ -8,6 +8,7 @@ import {
   authors,
   categories,
   posts,
+  auditLog,
   eq,
   sql,
   images,
@@ -21,6 +22,7 @@ type authorProps = types.authorCreate;
 type categoryProps = types.categoryCreate;
 type postProps = types.postCreate;
 type imageProps = types.imageCreate;
+type auditLogProps = types.auditLogCreate;
 
 export default {
   // GET operations
@@ -42,7 +44,13 @@ export default {
        * Get all categories
        */
       async categories() {
-        return await db.select().from(categories);
+        const categoriesDB = await db.select().from(categories);
+        categoriesDB.push({
+          id: "-1",
+          name: "Uncategorized",
+          subcategoryOf: null
+        })
+        return categoriesDB;
       },
       /**
        * Get all posts
@@ -90,7 +98,17 @@ export default {
        * Get a category by id
        * @param {string} id
        */
-      async category(id: string) {
+      async category(id: string) : Promise<types.category[]> {
+        if (id === "-1") {
+          return new Promise((resolve) => {
+            resolve([
+              {
+                id: "-1",
+                name: "Uncategorized"
+              }
+            ])
+          })
+        }
         return await db.select().from(categories).where(eq(categories.id, id));
       },
       /**
@@ -140,7 +158,7 @@ export default {
           .limit(perPage);
       },
       /**
-       * Get paginated categories
+       * Get paginated categories | does not include "uncategorized"
        * @param {number} page
        * @param {number} perPage
        */
@@ -219,7 +237,7 @@ export default {
           }
         },
         /**
-         * Get the total number of pages for categories
+         * Get the total number of pages for categories | does not include "uncategorized"
          * @param {number} perPage
          */
         async categories(perPage: number) {
@@ -334,6 +352,25 @@ export default {
         },
       },
     },
+    byName: {
+      /**
+       * Get category by name
+       * @param {string} name
+       */
+      async category(name: string) : Promise<types.category[]> {
+        if (name === "Uncategorized") {
+          return new Promise((resolve) => {
+            resolve([
+              {
+                id: "-1",
+                name: "Uncategorized"
+              }
+            ])
+          })
+        }
+        return await db.select().from(categories).where(eq(categories.name, name));
+      },
+    }
   },
   // POST operations
   post: {
@@ -489,4 +526,194 @@ export default {
       },
     },
   },
+  audit: {
+    log: {
+      teachers: {
+        /**
+         * Create an audit log for a teacher
+         * @param {string} user User ID of the user who created the entry
+         * @param {boolean} admin Is the user an admin?
+         * @param {types.teacher} data Teacher Data
+         */
+        async create(user: string, admin: boolean, data: types.teacher) {
+          const formattedData: types.auditLogCreate = {
+            table: "teachers",
+            action: "create",
+            user: user,
+            admin: admin,
+            data: JSON.stringify(data),
+          };
+          await db.insert(auditLog).values(formattedData);
+        },
+        async delete(user: string, admin: boolean, data: types.teacher) {
+          const formattedData: types.auditLogCreate = {
+            table: "teachers",
+            action: "delete",
+            user: user,
+            admin: admin,
+            data: JSON.stringify(data),
+          };
+          await db.insert(auditLog).values(formattedData);
+        },
+        async update(user: string, admin: boolean, before: types.teacher, after: types.teacher) {
+          const formattedData: types.auditLogCreate = {
+            table: "teachers",
+            action: "update",
+            user: user,
+            admin: admin,
+            data: JSON.stringify({
+              before: before,
+              after: after,
+            }),
+          };
+          await db.insert(auditLog).values(formattedData);
+        },
+      },
+      categories: {
+        async create(user: string, admin: boolean, data: types.category) {
+          const formattedData: types.auditLogCreate = {
+            table: "categories",
+            action: "create",
+            user: user,
+            admin: admin,
+            data: JSON.stringify(data),
+          };
+          await db.insert(auditLog).values(formattedData);
+        },
+        async delete(user: string, admin: boolean, data: types.category) {
+          const formattedData: types.auditLogCreate = {
+            table: "categories",
+            action: "delete",
+            user: user,
+            admin: admin,
+            data: JSON.stringify(data),
+          };
+          await db.insert(auditLog).values(formattedData);
+        },
+      },
+      posts: {
+        async create(user: string, admin: boolean, data: types.post) {
+          const formattedData: types.auditLogCreate = {
+            table: "posts",
+            action: "create",
+            user: user,
+            admin: admin,
+            data: JSON.stringify(data),
+          };
+          await db.insert(auditLog).values(formattedData);
+        },
+        async delete(user: string, admin: boolean, data: types.post) {
+          const formattedData: types.auditLogCreate = {
+            table: "posts",
+            action: "delete",
+            user: user,
+            admin: admin,
+            data: JSON.stringify(data),
+          };
+          await db.insert(auditLog).values(formattedData);
+        },
+        async update(user: string, admin: boolean, before: types.post, after: types.post) {
+          const formattedData: types.auditLogCreate = {
+            table: "posts",
+            action: "update",
+            user: user,
+            admin: admin,
+            data: JSON.stringify({
+              before: before,
+              after: after,
+            }),
+          };
+          await db.insert(auditLog).values(formattedData);
+        },
+      },
+      images: {
+        async create(user: string, admin: boolean, data: types.image) {
+          const formattedData: types.auditLogCreate = {
+            table: "images",
+            action: "create",
+            user: user,
+            admin: admin,
+            data: JSON.stringify(data),
+          };
+          await db.insert(auditLog).values(formattedData);
+        },
+        async delete(user: string, admin: boolean, data: types.image) {
+          const formattedData: types.auditLogCreate = {
+            table: "images",
+            action: "delete",
+            user: user,
+            admin: admin,
+            data: JSON.stringify(data),
+          };
+          await db.insert(auditLog).values(formattedData);
+        },
+      },
+      tbtv: {
+        async create(user: string, admin: boolean, data: types.tbtv) {
+          const formattedData: types.auditLogCreate = {
+            table: "tbtv",
+            action: "create",
+            user: user,
+            admin: admin,
+            data: JSON.stringify(data),
+          };
+          await db.insert(auditLog).values(formattedData);
+        },
+        async delete(user: string, admin: boolean, data: types.tbtv) {
+          const formattedData: types.auditLogCreate = {
+            table: "tbtv",
+            action: "delete",
+            user: user,
+            admin: admin,
+            data: JSON.stringify(data),
+          };
+          await db.insert(auditLog).values(formattedData);
+        },
+      },
+    },
+    get: {
+      all: {
+        /**
+         * Get all teachers Audit Logs
+         */
+        async teachers() {
+          return await db.select().from(auditLog).where(eq(auditLog.table, "teachers"));
+        },
+        /**
+         * Get all categories Audit Logs
+         */
+        async categories() {
+          return await db.select().from(auditLog).where(eq(auditLog.table, "categories"));
+        },
+        /**
+         * Get all posts Audit Logs
+         */
+        async posts() {
+          return await db.select().from(auditLog).where(eq(auditLog.table, "posts"));
+        },
+        /**
+         * Get all images Audit Logs
+         */
+        async images() {
+          return await db.select().from(auditLog).where(eq(auditLog.table, "images"));
+        },
+        /**
+         * Get all tbtv Audit Logs
+         */
+        async tbtv() {
+          return await db.select().from(auditLog).where(eq(auditLog.table, "tbtv"));
+        },
+      },
+      async fullDump() {
+        return await db.select().from(auditLog);
+      },
+      async recentFive() {
+        return await db
+          .select()
+          .from(auditLog)
+          .orderBy(auditLog.id)
+          .limit(5);
+      },
+    }
+  }
 };

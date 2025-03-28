@@ -73,6 +73,12 @@ export type image = {
   author: string;
 };
 
+export type tbtv = {
+  id: string;
+  title: string;
+  url: string;
+};
+
 export type imageCreate = {
   fileName: string;
   fileBuffer: ArrayBuffer;
@@ -80,6 +86,12 @@ export type imageCreate = {
   type: string;
   author: string;
 };
+
+export type tbtvCreate = {
+  title: string;
+  url: string;
+};
+
 // End of database types
 
 // other types
@@ -93,3 +105,22 @@ export type FormInput = {
   placeholder: string;
   required: boolean;
 };
+
+// audit log types
+/**
+ * Type for audit log creation
+ */
+export type auditLogCreate = {
+  table: string;
+  action: string;
+  user: string;
+  admin: boolean;
+  data: string;
+};
+/**
+ * Type for audit log
+ */
+export type auditLog = auditLogCreate & {
+  id: number;
+  date: Date;
+}

@@ -39,7 +39,7 @@ const posts = defineTable({
     }),
     content: column.text(),
     author: column.text(),
-    category: column.text({ references: () => categories.columns.id }),
+    category: column.text({ default: "-1" }),
     needsReview: column.boolean({ default: true }),
     published: column.boolean({ default: false }),
     date: column.date({ default: NOW }),
@@ -56,6 +56,26 @@ const images = defineTable({
   },
 });
 
+const tbtv = defineTable({
+  columns: {
+    id: column.text({ primaryKey: true }),
+    title: column.text({ default: "" }),
+    url: column.text(),
+  },
+});
+
+const auditLog = defineTable({
+  columns: {
+    id: column.number({ primaryKey: true }),
+    table: column.text(),
+    action: column.text(),
+    user: column.text(),
+    admin: column.boolean({ default: false }),
+    data: column.text(),
+    date: column.date({ default: NOW }),
+  },
+});
+
 // https://astro.build/db/config
 export default defineDb({
   tables: {
@@ -64,5 +84,7 @@ export default defineDb({
     authors,
     posts,
     images,
+    tbtv,
+    auditLog,
   },
 });

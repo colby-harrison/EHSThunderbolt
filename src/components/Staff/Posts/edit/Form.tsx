@@ -17,6 +17,7 @@ import React from 'react';
 
 interface FormProps {
   categories: types.category[];
+  currentCategory: types.category;
   post: types.post;
 }
 
@@ -39,19 +40,19 @@ export default function Form({ categories, post }: FormProps) {
 
   return (
     <form
-      action="/api/posts/post/edit"
+      action="/api/posts/post/update"
       method="POST"
       encType="multipart/form-data"
     >
       <input type="hidden" name="id" value={post.id} />
-      <input type="hidden" name="formFor" value="posts" />
+      <input type="hidden" name="formFor" value="update" />
       <input type="hidden" value="true" name="needsReview" />
       <input type="hidden" value="false" name="published" />
       <input type="hidden" value={post.author} name="author" />
       <input type="hidden" name="redirectTo" value="/staff" />
       <Card>
         <CardHeader>
-          <CardTitle>New Post</CardTitle>
+          <CardTitle>Edit Post: {post.title}</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="flex flex-row flex-wrap gap-2 py-2">
@@ -88,10 +89,10 @@ export default function Form({ categories, post }: FormProps) {
               </div>
             </div>
           </div>
-          <RTE />
+          <RTE content={post.content as string} />
         </CardContent>
         <CardFooter>
-          <Button type="submit">Edit</Button>
+          <Button type="submit">Submit</Button>
         </CardFooter>
       </Card>
     </form>

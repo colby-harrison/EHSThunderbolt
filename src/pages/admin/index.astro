@@ -1,6 +1,7 @@
 ---
-import CatagoriesCard from '@/components/Admin/CategoriesCard';
+import CategoriesCard from '@/components/Admin/CategoriesCard';
 import Layout from '@/layouts/MainLayout.astro';
+import TBTVCard from '@/components/Admin/TBTVCard';
 
 const userData = await Astro.locals.currentUser();
 
@@ -23,6 +24,7 @@ console.log(isAdmin);
 
 <Layout>
   <div class="content-container flex flex-col sm:flex-row sm:flex-wrap gap-2">
-    <CatagoriesCard />
+    <CategoriesCard />
+    <TBTVCard />
   </div>
 </Layout>

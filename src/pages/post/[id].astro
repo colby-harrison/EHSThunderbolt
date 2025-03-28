@@ -5,6 +5,7 @@ import data from '@/server/queries';
 import { GenerateHTML } from '@/components/GenerateHTML';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import { EditButton } from '@/components/post/EditButton';
 
 const userData = await Astro.locals.currentUser();
 
@@ -128,13 +129,13 @@ void CanEdit;
                       <Button variant="outline" type="submit">
                         Delete
                       </Button>
+                      <Input type="hidden" name="redirectTo" value="/" />
                       <Input type="hidden" name="id" value={postFormatted.id} />
                       <Input type="hidden" name="reviewer" value={userData?.id} />
                       <Input type="text" name="reason" placeholder="Reason" />
+                      <Input type="hidden" name="formFor" value="delete" />
                     </form>
-                    <Button variant="outline" >
-                      Edit
-                    </Button>
+                    <EditButton id={postFormatted.id} client:only="react" />
                   </>
                 )}
               </>

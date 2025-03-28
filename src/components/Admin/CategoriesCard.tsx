@@ -39,12 +39,14 @@ export default async function CategoriesCard() {
                 key={category.id}
               >
                 <div className="w-full">{category.name}</div>
-                <DeleteBtn
-                  table="categories"
-                  id={category.id}
-                  action="/api/categories/post/delete"
-                  redirectTo="/admin"
-                />
+                {category.id != '-1' && (
+                  <DeleteBtn
+                    table="categories"
+                    id={category.id}
+                    action="/api/categories/post/delete"
+                    redirectTo="/admin"
+                  />
+                )}
               </div>
             ))}
           </Suspense>

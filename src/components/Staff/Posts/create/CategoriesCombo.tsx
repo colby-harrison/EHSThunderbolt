@@ -27,7 +27,7 @@ interface ComboboxProps {
 
 export function CategoriesCombobox({ categories }: ComboboxProps) {
   const [open, setOpen] = React.useState(false);
-  const [value, setValue] = React.useState('');
+  const [value, setValue] = React.useState('-1');
   return (
     <Popover open={open} onOpenChange={setOpen}>
       <Input type="hidden" name="category" value={value} />
