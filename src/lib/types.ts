@@ -17,7 +17,7 @@ export type author = {
   admin: boolean;
 };
 
-export type catagory = {
+export type category = {
   id: string;
   name: string;
 };
@@ -25,11 +25,19 @@ export type catagory = {
 export type post = {
   id: string;
   title: string;
-  content: string;
+  description: string;
+  content:
+    | {
+        type: string;
+        content: [];
+      }
+    | string;
   author: string;
+  category: string;
   catagory: string;
   needsReview: boolean;
   published: boolean;
+  image: string;
   date: Date;
 };
 
@@ -45,18 +53,60 @@ export type authorCreate = {
   admin: boolean;
 };
 
-export type catagoryCreate = {
+export type categoryCreate = {
   name: string;
 };
 
 export type postCreate = {
   title: string;
+  description: string;
   content: string;
   author: string;
+  category: string;
+  needsReview: boolean;
+  published: boolean;
+  image: string;
+};
+
+export type postCreateFinal = {
+  title: string;
+  description: string;
+  content: string;
+  author: string;
+  category: string;
   catagory: string;
   needsReview: boolean;
   published: boolean;
+  image: string;
+}
+
+export type image = {
+  id: string;
+  fullUrl: string;
+  size: number;
+  type: string;
+  author: string;
 };
+
+export type tbtv = {
+  id: string;
+  title: string;
+  url: string;
+};
+
+export type imageCreate = {
+  fileName: string;
+  fileBuffer: ArrayBuffer;
+  size: number;
+  type: string;
+  author: string;
+};
+
+export type tbtvCreate = {
+  title: string;
+  url: string;
+};
+
 // End of database types
 
 // other types
@@ -69,4 +119,23 @@ export type FormInput = {
   type: string;
   placeholder: string;
   required: boolean;
+};
+
+// audit log types
+/**
+ * Type for audit log creation
+ */
+export type auditLogCreate = {
+  table: string;
+  action: string;
+  user: string;
+  admin: boolean;
+  data: string;
+};
+/**
+ * Type for audit log
+ */
+export type auditLog = auditLogCreate & {
+  id: number;
+  date: Date;
 };

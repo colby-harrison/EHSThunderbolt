@@ -1,0 +1,25 @@
+name: Renew Screenshots
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  screenshots:
+    if: contains(github.event.head_commit.message, '[DB]')
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm i -g pnpm@9.15.1 && pnpm i
+
+      - name: Push DB
+        run: pnpm astro db push --remote
