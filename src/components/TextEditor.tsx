@@ -1,10 +1,7 @@
 import { Color } from '@tiptap/extension-color';
 import ListItem from '@tiptap/extension-list-item';
 import TextStyle from '@tiptap/extension-text-style';
-import {
-  EditorProvider,
-  useCurrentEditor,
-} from '@tiptap/react';
+import { EditorProvider, useCurrentEditor } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import { Button } from '@/components/ui/button';
 import { Toggle } from '@/components/ui/toggle';
@@ -352,7 +349,9 @@ const editorProps = {
 };
 
 export default function Tiptap({ content }: { content?: string }) {
-  const Content = content || `
+  const Content =
+    content ||
+    `
   `;
   return (
     <Card className="p-2">
@@ -372,7 +371,11 @@ export default function Tiptap({ content }: { content?: string }) {
 const EditorFormInput = () => {
   const { editor } = useCurrentEditor();
   return (
-    <input type="hidden" name="content" value={JSON.stringify(editor?.getJSON())} />
+    <input
+      type="hidden"
+      name="content"
+      value={JSON.stringify(editor?.getJSON())}
+    />
   );
 };
 

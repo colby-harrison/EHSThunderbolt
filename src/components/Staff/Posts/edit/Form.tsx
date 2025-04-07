@@ -24,9 +24,7 @@ interface FormProps {
 export default function Form({ categories, post }: FormProps) {
   // const { userId } = useStore($authStore);
   const [image, setImage] = React.useState<File | null>(null);
-  const [preview, setPreview] = React.useState<string | null>(
-    post.image,
-  );
+  const [preview, setPreview] = React.useState<string | null>(post.image);
   const [title, setTitle] = React.useState(post.title);
   const [description, setDescription] = React.useState(post.description);
 
@@ -58,15 +56,28 @@ export default function Form({ categories, post }: FormProps) {
           <div className="flex flex-row flex-wrap gap-2 py-2">
             <div className="flex flex-col gap-2">
               <Label htmlFor="title">Title</Label>
-              <Input type="text" name="title" value={title} onChange={(element) => setTitle(element.target.value)} />
+              <Input
+                type="text"
+                name="title"
+                value={title}
+                onChange={(element) => setTitle(element.target.value)}
+              />
             </div>
             <div className="flex flex-col gap-2">
               <Label htmlFor="description">Description</Label>
-              <Input type="text" name="description" value={description} onChange={(element) => setDescription(element.target.value)} />
+              <Input
+                type="text"
+                name="description"
+                value={description}
+                onChange={(element) => setDescription(element.target.value)}
+              />
             </div>
             <div className="flex flex-col gap-2">
               <Label htmlFor="catagory">Category</Label>
-              <CategoriesCombobox categories={categories} currentCategory={post.category} />
+              <CategoriesCombobox
+                categories={categories}
+                currentCategory={post.category}
+              />
             </div>
             <div className="flex flex-row gap-2">
               {preview && (

@@ -26,7 +26,10 @@ interface ComboboxProps {
   currentCategory: string;
 }
 
-export function CategoriesCombobox({ categories, currentCategory }: ComboboxProps) {
+export function CategoriesCombobox({
+  categories,
+  currentCategory,
+}: ComboboxProps) {
   const [open, setOpen] = React.useState(false);
   const [value, setValue] = React.useState(currentCategory);
   return (

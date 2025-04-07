@@ -27,7 +27,7 @@ export const POST: APIRoute = async ({ request, redirect, locals }) => {
       needsReview &&
       published &&
       id &&
-        description
+      description
     ) {
       const currentPost = await data.get.byId.post(id);
       const post: types.postCreate = {

@@ -7,10 +7,15 @@ export function PostCard(data: { post: types.post; category: types.category }) {
   const category = data.category;
   return (
     <a href={`/post/${post.id}`}>
-      <AspectRatio ratio={16/9}>
+      <AspectRatio ratio={16 / 9}>
         <Card.Card
           className={`h-full flex flex-col justify-between`}
-          style={{backgroundImage: `url(${post.image})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}
+          style={{
+            backgroundImage: `url(${post.image})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+          }}
         >
           <Card.CardHeader>
             <Card.CardTitle className="flex justify-between">

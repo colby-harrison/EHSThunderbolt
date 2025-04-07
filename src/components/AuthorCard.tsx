@@ -11,7 +11,10 @@ export default async function AuthorCard({ AuthorID }: { AuthorID: string }) {
       <p>
         <img
           src={user.imageUrl}
-          alt={user.username?.slice(0,2) || (user.firstName + ' ' + user.lastName).slice(0,2)}
+          alt={
+            user.username?.slice(0, 2) ||
+            (user.firstName + ' ' + user.lastName).slice(0, 2)
+          }
           className="w-12 h-12 rounded-full inline-flex border mr-2"
         />
         {user.username || user.firstName + ' ' + user.lastName}

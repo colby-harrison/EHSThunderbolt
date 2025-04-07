@@ -14,7 +14,7 @@ const TBTVInputs: types.FormInput[] = [
     type: 'text',
     placeholder: 'TBTV Video URL...',
     required: true,
-  }
+  },
 ];
 
 export default async function TBTVCard() {

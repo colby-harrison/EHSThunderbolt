@@ -26,10 +26,12 @@ export type post = {
   id: string;
   title: string;
   description: string;
-  content: {
-    type: string;
-    content: [];
-  } | string;
+  content:
+    | {
+        type: string;
+        content: [];
+      }
+    | string;
   author: string;
   category: string;
   needsReview: boolean;
@@ -123,4 +125,4 @@ export type auditLogCreate = {
 export type auditLog = auditLogCreate & {
   id: number;
   date: Date;
-}
+};

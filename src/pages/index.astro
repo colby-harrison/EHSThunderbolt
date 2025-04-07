@@ -45,6 +45,11 @@ const postsSorted = postsFormatted.sort((alpha, beta) => {
 
 <Layout>
   <div class="content-container h-full">
-    {postsSorted && postsSorted.map((post) => <PostCard post={post.post} category={post.category} />)}
+    {
+      postsSorted &&
+        postsSorted.map((post) => (
+          <PostCard post={post.post} category={post.category} />
+        ))
+    }
   </div>
 </Layout>

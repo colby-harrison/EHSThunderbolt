@@ -35,11 +35,12 @@ const posts = defineTable({
     title: column.text(),
     description: column.text(),
     image: column.text({
-      default: 'https://kzekz7a45c.ufs.sh/f/bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU',
+      default:
+        'https://kzekz7a45c.ufs.sh/f/bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU',
     }),
     content: column.text(),
     author: column.text(),
-    category: column.text({ default: "-1" }),
+    category: column.text({ default: '-1' }),
     needsReview: column.boolean({ default: true }),
     published: column.boolean({ default: false }),
     date: column.date({ default: NOW }),
@@ -59,7 +60,7 @@ const images = defineTable({
 const tbtv = defineTable({
   columns: {
     id: column.text({ primaryKey: true }),
-    title: column.text({ default: "" }),
+    title: column.text({ default: '' }),
     url: column.text(),
   },
 });

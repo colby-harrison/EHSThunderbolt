@@ -63,6 +63,11 @@ const categories = await data.get.all.categories();
 
 <Layout>
   <div class="content-container flex flex-col sm:flex-row sm:flex-wrap gap-2">
-    <PostsCreationForm client:only="react" categories={categories} currentCategory={category[0]} post={postFormatted} />
+    <PostsCreationForm
+      client:only="react"
+      categories={categories}
+      currentCategory={category[0]}
+      post={postFormatted}
+    />
   </div>
 </Layout>

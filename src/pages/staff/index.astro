@@ -1,7 +1,6 @@
 ---
 import Layout from '@/layouts/MainLayout.astro';
-import PostsCreationForm from '@/components/Staff/Posts/create/Form';
-import data from '@/server/queries';
+// import data from '@/server/queries';
 
 const userData = await Astro.locals.currentUser();
 
@@ -21,7 +20,7 @@ if (!import.meta.env.DEV) {
 
 void isAdmin;
 
-const categories = await data.get.all.categories();
+// const categories = await data.get.all.categories();
 ---
 
 <Layout>

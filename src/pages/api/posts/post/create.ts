@@ -19,7 +19,15 @@ export const POST: APIRoute = async ({ request, redirect, locals }) => {
     const needsReview = Boolean(body.get('needsReview'));
     const published = Boolean(body.get('published'));
     const imageFile = body.get('image') as File | null;
-    if (title && content && author && category && needsReview && published && description) {
+    if (
+      title &&
+      content &&
+      author &&
+      category &&
+      needsReview &&
+      published &&
+      description
+    ) {
       let image: string =
         'https://kzekz7a45c.ufs.sh/f/bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU';
       if (imageFile) {
