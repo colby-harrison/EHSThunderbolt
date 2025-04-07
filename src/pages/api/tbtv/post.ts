@@ -14,15 +14,15 @@ export const POST: APIRoute = async ({ request, redirect, locals }) => {
     const url = String(body.get('url'));
     const title = String(body.get('title'));
     if (url && title) {
-      const insertData = await db.insert(tbtv).values({
+      await db.insert(tbtv).values({
         title: title,
         url: url,
       });
-      const id = insertData.lastInsertRowid?.toString();
+      const postData = await db.select().from(tbtv).where(eq(tbtv.url, url));
       await data.audit.log.tbtv.create(userId, isAdmin, {
-        id: id!,
-        title: title,
-        url: url,
+        id: postData[0].id,
+        title: postData[0].title,
+        url: postData[0].url,
       });
     }
   }

@@ -155,9 +155,9 @@ export function AppSidebar() {
                   </SidebarMenuItem>
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
-                      <a href="/videos">
+                      <a href="/tbtv">
                         <Video />
-                        <span>Videos</span>
+                        <span>TBTV</span>
                       </a>
                     </SidebarMenuButton>
                   </SidebarMenuItem>
