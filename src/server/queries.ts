@@ -482,6 +482,7 @@ export default {
           content: data.content,
           author: data.author,
           category: data.category,
+          catagory: data.category,
           needsReview: data.needsReview,
           published: data.published,
           image: data.image,

@@ -34,6 +34,7 @@ export type post = {
     | string;
   author: string;
   category: string;
+  catagory: string;
   needsReview: boolean;
   published: boolean;
   image: string;
@@ -66,6 +67,18 @@ export type postCreate = {
   published: boolean;
   image: string;
 };
+
+export type postCreateFinal = {
+  title: string;
+  description: string;
+  content: string;
+  author: string;
+  category: string;
+  catagory: string;
+  needsReview: boolean;
+  published: boolean;
+  image: string;
+}
 
 export type image = {
   id: string;

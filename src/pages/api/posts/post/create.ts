@@ -40,12 +40,13 @@ export const POST: APIRoute = async ({ request, redirect, locals }) => {
           author,
         });
       }
-      const post: types.postCreate = {
+      const post: types.postCreateFinal = {
         title,
         description,
         content,
         author,
         category,
+        catagory: category,
         needsReview,
         published,
         image,
