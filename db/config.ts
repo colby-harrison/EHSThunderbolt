@@ -11,6 +11,14 @@ const teachers = defineTable({
   },
 });
 
+const catagories = defineTable({
+  deprecated: true,
+  columns: {
+    id: column.text({ primaryKey: true, default: sql`UUID()` }),
+    name: column.text(),
+  },
+});
+
 const categories = defineTable({
   columns: {
     id: column.text({ primaryKey: true, default: sql`UUID()` }),
@@ -33,7 +41,7 @@ const posts = defineTable({
   columns: {
     id: column.text({ primaryKey: true, default: sql`UUID()` }),
     title: column.text(),
-    description: column.text(),
+    description: column.text({ optional: true }),
     image: column.text({
       default:
         'https://kzekz7a45c.ufs.sh/f/bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU',
@@ -41,6 +49,7 @@ const posts = defineTable({
     content: column.text(),
     author: column.text(),
     category: column.text({ default: '-1' }),
+    catagory: column.text({ default: '-1', deprecated: true }),
     needsReview: column.boolean({ default: true }),
     published: column.boolean({ default: false }),
     date: column.date({ default: NOW }),
@@ -81,6 +90,7 @@ const auditLog = defineTable({
 export default defineDb({
   tables: {
     teachers,
+    catagories,
     categories,
     authors,
     posts,
