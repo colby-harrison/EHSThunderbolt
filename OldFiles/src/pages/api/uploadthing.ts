@@ -1,11 +1,11 @@
-import { createRouteHandler } from 'uploadthing/server';
+import { createRouteHandler } from "uploadthing/server";
 
-import { ourFileRouter } from '@/server/uploadthing';
+import { ourFileRouter } from "@/server/uploadthing";
 
 const handlers = createRouteHandler({
-  router: ourFileRouter,
-  config: {
-    token: import.meta.env.UPLOADTHING_TOKEN,
-  },
+	router: ourFileRouter,
+	config: {
+		token: import.meta.env.UPLOADTHING_TOKEN,
+	},
 });
 export { handlers as GET, handlers as POST };

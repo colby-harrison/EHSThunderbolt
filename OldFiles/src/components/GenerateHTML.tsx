@@ -1,7 +1,7 @@
-import { generateHTML } from '@tiptap/html';
-import { extensions } from './TextEditor';
-import parse from 'html-react-parser';
+import { generateHTML } from "@tiptap/html";
+import parse from "html-react-parser";
+import { extensions } from "./TextEditor";
 
 export function GenerateHTML(ContentInput: { type: string; content: [] }) {
-  return parse(generateHTML(ContentInput, extensions));
+	return parse(generateHTML(ContentInput, extensions));
 }

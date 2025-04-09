@@ -1,16 +1,16 @@
 export default function HeaderBtn({
-  text,
-  href,
+	text,
+	href,
 }: {
-  text: string;
-  href: string;
+	text: string;
+	href: string;
 }) {
-  return (
-    <a
-      href={href}
-      className=" hover:bg-ehs-gray/50 text-xs md:text-xl font-bold rounded p-2"
-    >
-      {text}
-    </a>
-  );
+	return (
+		<a
+			href={href}
+			className=" rounded p-2 font-bold text-xs hover:bg-ehs-gray/50 md:text-xl"
+		>
+			{text}
+		</a>
+	);
 }

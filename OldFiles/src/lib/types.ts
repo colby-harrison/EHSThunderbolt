@@ -4,107 +4,107 @@
 
 // Start of database types
 export type teacher = {
-  id: number;
-  name: string;
-  picture: string;
-  job: string;
+	id: number;
+	name: string;
+	picture: string;
+	job: string;
 };
 
 export type author = {
-  id: string;
-  clerkId: string;
-  name: string;
-  admin: boolean;
+	id: string;
+	clerkId: string;
+	name: string;
+	admin: boolean;
 };
 
 export type category = {
-  id: string;
-  name: string;
+	id: string;
+	name: string;
 };
 
 export type post = {
-  id: string;
-  title: string;
-  description: string;
-  content:
-    | {
-        type: string;
-        content: [];
-      }
-    | string;
-  author: string;
-  category: string;
-  catagory: string;
-  needsReview: boolean;
-  published: boolean;
-  image: string;
-  date: Date;
+	id: string;
+	title: string;
+	description: string;
+	content:
+		| {
+				type: string;
+				content: [];
+		  }
+		| string;
+	author: string;
+	category: string;
+	catagory: string;
+	needsReview: boolean;
+	published: boolean;
+	image: string;
+	date: Date;
 };
 
 export type teacherCreate = {
-  name: string;
-  picture: string;
-  job: string;
+	name: string;
+	picture: string;
+	job: string;
 };
 
 export type authorCreate = {
-  clerkId: string;
-  name: string;
-  admin: boolean;
+	clerkId: string;
+	name: string;
+	admin: boolean;
 };
 
 export type categoryCreate = {
-  name: string;
+	name: string;
 };
 
 export type postCreate = {
-  title: string;
-  description: string;
-  content: string;
-  author: string;
-  category: string;
-  needsReview: boolean;
-  published: boolean;
-  image: string;
+	title: string;
+	description: string;
+	content: string;
+	author: string;
+	category: string;
+	needsReview: boolean;
+	published: boolean;
+	image: string;
 };
 
 export type postCreateFinal = {
-  title: string;
-  description: string;
-  content: string;
-  author: string;
-  category: string;
-  catagory: string;
-  needsReview: boolean;
-  published: boolean;
-  image: string;
-}
+	title: string;
+	description: string;
+	content: string;
+	author: string;
+	category: string;
+	catagory: string;
+	needsReview: boolean;
+	published: boolean;
+	image: string;
+};
 
 export type image = {
-  id: string;
-  fullUrl: string;
-  size: number;
-  type: string;
-  author: string;
+	id: string;
+	fullUrl: string;
+	size: number;
+	type: string;
+	author: string;
 };
 
 export type tbtv = {
-  id: string;
-  title: string;
-  url: string;
+	id: string;
+	title: string;
+	url: string;
 };
 
 export type imageCreate = {
-  fileName: string;
-  fileBuffer: ArrayBuffer;
-  size: number;
-  type: string;
-  author: string;
+	fileName: string;
+	fileBuffer: ArrayBuffer;
+	size: number;
+	type: string;
+	author: string;
 };
 
 export type tbtvCreate = {
-  title: string;
-  url: string;
+	title: string;
+	url: string;
 };
 
 // End of database types
@@ -115,10 +115,10 @@ export type tbtvCreate = {
  * used to make modular forms easily
  */
 export type FormInput = {
-  name: string;
-  type: string;
-  placeholder: string;
-  required: boolean;
+	name: string;
+	type: string;
+	placeholder: string;
+	required: boolean;
 };
 
 // audit log types
@@ -126,16 +126,16 @@ export type FormInput = {
  * Type for audit log creation
  */
 export type auditLogCreate = {
-  table: string;
-  action: string;
-  user: string;
-  admin: boolean;
-  data: string;
+	table: string;
+	action: string;
+	user: string;
+	admin: boolean;
+	data: string;
 };
 /**
  * Type for audit log
  */
 export type auditLog = auditLogCreate & {
-  id: number;
-  date: Date;
+	id: number;
+	date: Date;
 };

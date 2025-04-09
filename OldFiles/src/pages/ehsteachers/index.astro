@@ -1,10 +1,10 @@
 ---
-import Layout from '@/layouts/MainLayout.astro';
-import TeacherCard from '@/components/ehsteachers/Card';
-import data from '@/server/queries';
-import type { types } from '@/lib';
+import TeacherCard from "@/components/ehsteachers/Card";
+import Layout from "@/layouts/MainLayout.astro";
+import type { types } from "@/lib";
+import data from "@/server/queries";
 const dataRaw = await data.get.all.teachers();
-import { db, teachers, eq } from 'astro:db';
+import { db, eq, teachers } from "astro:db";
 // eslint-disable-next-line id-length
 const Teachers = dataRaw.sort((a, b) => a.job.localeCompare(b.job));
 
@@ -12,32 +12,32 @@ const userData = await Astro.locals.currentUser();
 
 let isAdmin = true;
 if (!import.meta.env.DEV) {
-  if (userData) {
-    if (userData.publicMetadata.isAdmin) {
-      isAdmin = true;
-    }
-  }
+	if (userData) {
+		if (userData.publicMetadata.isAdmin) {
+			isAdmin = true;
+		}
+	}
 }
-if (Astro.request.method === 'POST' && isAdmin) {
-  const formData = await Astro.request.formData();
-  console.log(formData);
-  if (formData.get('type') === 'update') {
-    const teacherData = formData;
-    const teacherObject: types.teacher = {
-      id: Number(teacherData.get('id')),
-      name: String(teacherData.get('name')),
-      picture: String(teacherData.get('picture')),
-      job: String(teacherData.get('job')),
-    };
-    await db
-      .update(teachers)
-      .set(teacherObject)
-      .where(eq(teachers.id, teacherObject.id))
-      .catch((err) => {
-        console.log(err);
-      });
-    return Astro.redirect('/ehsteachers');
-  }
+if (Astro.request.method === "POST" && isAdmin) {
+	const formData = await Astro.request.formData();
+	console.log(formData);
+	if (formData.get("type") === "update") {
+		const teacherData = formData;
+		const teacherObject: types.teacher = {
+			id: Number(teacherData.get("id")),
+			name: String(teacherData.get("name")),
+			picture: String(teacherData.get("picture")),
+			job: String(teacherData.get("job")),
+		};
+		await db
+			.update(teachers)
+			.set(teacherObject)
+			.where(eq(teachers.id, teacherObject.id))
+			.catch((err) => {
+				console.log(err);
+			});
+		return Astro.redirect("/ehsteachers");
+	}
 }
 ---
 
