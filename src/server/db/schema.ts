@@ -1,29 +1,78 @@
-// Example model schema from the Drizzle docs
-// https://orm.drizzle.team/docs/sql-schema-declaration
-
 import { sql } from "drizzle-orm";
 import { index, sqliteTableCreator } from "drizzle-orm/sqlite-core";
 
-/**
- * This is an example of how to use the multi-project schema feature of Drizzle ORM. Use the same
- * database instance for multiple projects.
- *
- * @see https://orm.drizzle.team/docs/goodies#multi-project-schema
- */
 export const createTable = sqliteTableCreator(
-	(name) => `EHSThunderbolt_${name}`,
+  (name) => `${name}`,
+);
+
+export const categories = createTable(
+  "categories",
+  (d) => ({
+    id: d.text().primaryKey(),
+    subcategoryOf: d.text(),
+    name: d.text().notNull(),
+  }),
+  (t) => [index("name_idx").on(t.name)],
+);
+
+export const images = createTable(
+  "images",
+  (d) => ({
+    id: d.text().primaryKey(),
+    fullUrl: d.text().notNull(),
+    size: d.integer().notNull(),
+    type: d.text().notNull(),
+    author: d.text().notNull(),
+  }),
+  (t) => [index("author_idx").on(t.author)],
+);
+
+export const tbtv = createTable(
+  "tbtv",
+  (d) => ({
+    id: d.text().primaryKey(),
+    title: d.text().default("").notNull(),
+    url: d.text().notNull(),
+  }),
+);
+
+export const auditLog = createTable(
+  "auditLog",
+  (d) => ({
+    id: d.integer().primaryKey({ autoIncrement: true }),
+    table: d.text().notNull(),
+    action: d.text().notNull(),
+    user: d.text().notNull(),
+    admin: d.integer().default(sql`(FALSE)`).notNull(),
+    data: d.text().notNull(),
+    date: d.text().default(sql`(CURRENT_TIMESTAMP)`).notNull(),
+  }),
+  (t) => [index("table_idx").on(t.table)],
+);
+
+export const teachers = createTable(
+  "teachers",
+  (d) => ({
+    id: d.integer({ mode: "number" }).primaryKey({ autoIncrement: true }),
+    name: d.text(),
+    picture: d.text().default("https://kzekz7a45c.ufs.sh/f/bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU"),
+    job: d.text(),
+  })
 );
 
 export const posts = createTable(
-	"post",
-	(d) => ({
-		id: d.integer({ mode: "number" }).primaryKey({ autoIncrement: true }),
-		name: d.text({ length: 256 }),
-		createdAt: d
-			.integer({ mode: "timestamp" })
-			.default(sql`(unixepoch())`)
-			.notNull(),
-		updatedAt: d.integer({ mode: "timestamp" }).$onUpdate(() => new Date()),
-	}),
-	(t) => [index("name_idx").on(t.name)],
+  "posts",
+  (d) => ({
+    id: d.text().primaryKey(),
+    title: d.text().notNull(),
+    description: d.text(),
+    image: d.text().default("https://kzekz7a45c.ufs.sh/f/bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU").notNull(),
+    content: d.text().notNull(),
+    author: d.text().notNull(),
+    category: d.text().default("-1").notNull(),
+    catagory: d.text().default("-1").notNull(),
+    needsReview: d.integer().default(sql`(TRUE)`).notNull(),
+    published: d.integer().default(sql`(FALSE)`).notNull(),
+    date: d.text().default(sql`(CURRENT_TIMESTAMP)`).notNull(),
+  }),
 );

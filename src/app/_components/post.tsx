@@ -1,5 +1,7 @@
 "use client";
 
+// @ts-nocheck - this file is kept as a reference for making client-side queries
+
 import { useState } from "react";
 
 import { api } from "@/trpc/react";
