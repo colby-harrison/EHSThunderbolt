@@ -267,19 +267,7 @@ export function AppSidebar() {
 
 // track sidebar state
 function useSidebarState(collapsibleNumber: number) {
-	const [isOpen, setIsOpen] = React.useState(() => {
-		const savedOpenState = sessionStorage.getItem(
-			`main-sidebar-collapsible-${collapsibleNumber}Open`,
-		);
-		return savedOpenState ? JSON.parse(savedOpenState) : true;
-	});
-
-	React.useEffect(() => {
-		sessionStorage.setItem(
-			`main-sidebar-collapsible-${collapsibleNumber}Open`,
-			JSON.stringify(isOpen),
-		);
-	}, [isOpen, collapsibleNumber]);
+	const [isOpen, setIsOpen] = React.useState(true);
 
 	return [isOpen, setIsOpen] as const; // Explicitly return a tuple
 }
