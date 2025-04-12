@@ -5,8 +5,7 @@ import { useState } from "react";
 import { api } from "@/trpc/react";
 
 /**
- * @deprecated - This is an example of how to use trpc client side. This code does not work.
- * @returns {JSX.Element}
+ * @deprecated This is an example of how to use trpc client side. This code does not work. Use of this code will cause a build error.
  */
 export function LatestPost() {
 	// @ts-expect-error - This works, just this file is used as an example on how to use trpc client side.

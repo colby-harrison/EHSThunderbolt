@@ -8,7 +8,6 @@ import Link from "next/link";
 
 export function NavigationWidget() {
   const [categories] = api.category.getAll.useSuspenseQuery();
-	
 
   return (
     <Suspense fallback={<div>Loading...</div>}>
