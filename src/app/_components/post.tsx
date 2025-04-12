@@ -1,16 +1,20 @@
 "use client";
 
-// @ts-nocheck - this file is kept as a reference for making client-side queries
-
 import { useState } from "react";
 
 import { api } from "@/trpc/react";
 
+/**
+ * @deprecated - This is an example of how to use trpc client side. This code does not work.
+ * @returns {JSX.Element}
+ */
 export function LatestPost() {
+	// @ts-expect-error - This works, just this file is used as an example on how to use trpc client side.
 	const [latestPost] = api.post.getLatest.useSuspenseQuery();
 
 	const utils = api.useUtils();
 	const [name, setName] = useState("");
+	// @ts-expect-error - This works, just this file is used as an example on how to use trpc client side.
 	const createPost = api.post.create.useMutation({
 		onSuccess: async () => {
 			await utils.post.invalidate();
