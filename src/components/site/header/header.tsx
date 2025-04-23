@@ -15,7 +15,7 @@ export function Header() {
 			<img
 				src={artboard.src}
 				alt="EHS Thunderbolt WordMark"
-				className="h-full w-full drop-shadow-2xl"
+				className="h-full w-3/4 drop-shadow-2xl mx-auto"
 			/>
 			{/* <LatestPostsBar /> */}
 			{/* This removes home page navbar on mobile devices */}
