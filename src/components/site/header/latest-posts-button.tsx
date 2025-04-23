@@ -1,3 +1,5 @@
+// Temporarily disabled
+
 "use client";
 // Start of imports
 import { useIsMobile } from "@/hooks/use-mobile";

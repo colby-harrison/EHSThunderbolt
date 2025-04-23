@@ -21,7 +21,7 @@ export default function RootLayout({
 	children,
 }: Readonly<{ children: React.ReactNode }>) {
 	return (
-		<html lang="en" className={`${geist.variable} dark h-screen w-screen`}>
+		<html lang="en" className={`${geist.variable} dark max-h-screen max-w-screen`}>
 			<body className="h-screen w-screen">
 				<TRPCReactProvider>
 					<Layout>{children}</Layout>

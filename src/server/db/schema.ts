@@ -74,3 +74,11 @@ export const posts = createTable("posts", (d) => ({
 	published: d.integer().default(sql`(FALSE)`).notNull(),
 	date: d.text().default(sql`(CURRENT_TIMESTAMP)`).notNull(),
 }));
+
+export const navbarCategories = createTable(
+	"navbarCategories",
+	(d) => ({
+		id: d.integer().primaryKey({ autoIncrement: true }),
+		categoryId: d.text().notNull(),
+	}),
+);
