@@ -31,7 +31,7 @@ export default function NavigationWidget() {
 							{category.categoryId !== "-1" ? (
 								<HeaderBtn
 									text={
-										categoryList.find((c) => c.id === category.categoryId)?.name
+										categoryList.find((c) => c.id === category.categoryId)?.name!
 									}
 									href={`/category/${category.categoryId}`}
 									key={index}
