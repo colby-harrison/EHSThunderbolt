@@ -14,7 +14,7 @@ export function Header() {
 		<header className="w-full bg-header text-ehs-white">
 			<img
 				src={artboard.src}
-				alt=""
+				alt="EHS Thunderbolt WordMark"
 				className="h-full w-full drop-shadow-2xl"
 			/>
 			{/* <LatestPostsBar /> */}
