@@ -51,7 +51,7 @@ export const teachers = createTable("teachers", (d) => ({
 	picture: d
 		.text()
 		.default(
-			"https://kzekz7a45c.ufs.sh/f/bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU",
+			"bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU",
 		),
 	job: d.text(),
 }));
@@ -63,7 +63,7 @@ export const posts = createTable("posts", (d) => ({
 	image: d
 		.text()
 		.default(
-			"https://kzekz7a45c.ufs.sh/f/bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU",
+			"bt0EuG5lPH505nfkSNHmmQCn1kDqg8htKYWxpoiJ9OjyvdaU",
 		)
 		.notNull(),
 	content: d.text().notNull(),
