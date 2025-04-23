@@ -22,7 +22,7 @@ export function Navbar() {
 						/>
 					</a>
 				</div>
-				<div className="flex basis-1/3 flex-row items-center justify-center gap-4 max-md:hidden"></div>
+				<div className="flex basis-1/3 flex-row items-center justify-center gap-4 max-md:hidden" />
 				<div className="flex flex-auto basis-1/2 flex-row items-center justify-end gap-2 pr-2 md:basis-1/3">
 					{/* <ThemeToggle /> */}
 					{/* Start of Auth buttons */}

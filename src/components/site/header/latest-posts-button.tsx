@@ -82,7 +82,9 @@ export function LatestPostsBar() {
 				) : (
 					<>
 						<div
-							className={`relative z-10 bg-arrow-right-bottom p-1 pr-10 text-ehs-black`}
+							className={
+								"relative z-10 bg-arrow-right-bottom p-1 pr-10 text-ehs-black"
+							}
 						>
 							<h1 className="whitespace-nowrap bg-ehs-white font-bold text-2xl">
 								Latest posts

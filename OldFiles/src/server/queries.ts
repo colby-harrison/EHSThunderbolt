@@ -218,9 +218,8 @@ export default {
 						!Number.isNaN(pagestemp)
 					) {
 						return Math.ceil(pagestemp);
-					} else {
-						return 0;
 					}
+					return 0;
 				},
 				/**
 				 * Get the total number of pages for authors
@@ -239,9 +238,8 @@ export default {
 						!Number.isNaN(pagestemp)
 					) {
 						return Math.ceil(pagestemp);
-					} else {
-						return 0;
 					}
+					return 0;
 				},
 				/**
 				 * Get the total number of pages for categories | does not include "uncategorized"
@@ -259,9 +257,8 @@ export default {
 						!Number.isNaN(pagestemp)
 					) {
 						return Math.ceil(pagestemp);
-					} else {
-						return 0;
 					}
+					return 0;
 				},
 				/**
 				 * Get the total number of pages for posts
@@ -279,9 +276,8 @@ export default {
 						!Number.isNaN(pagestemp)
 					) {
 						return Math.ceil(pagestemp);
-					} else {
-						return 0;
 					}
+					return 0;
 				},
 				/**
 				 * Get the total number of pages for images
@@ -299,9 +295,8 @@ export default {
 						!Number.isNaN(pagestemp)
 					) {
 						return Math.ceil(pagestemp);
-					} else {
-						return 0;
 					}
+					return 0;
 				},
 			},
 		},
@@ -352,9 +347,8 @@ export default {
 							!Number.isNaN(pagestemp)
 						) {
 							return Math.ceil(pagestemp);
-						} else {
-							return 0;
 						}
+						return 0;
 					},
 				},
 			},

@@ -13,11 +13,11 @@ export default async function AuthorCard({ AuthorID }: { AuthorID: string }) {
 					src={user.imageUrl}
 					alt={
 						user.username?.slice(0, 2) ||
-						(user.firstName + " " + user.lastName).slice(0, 2)
+						`${user.firstName} ${user.lastName}`.slice(0, 2)
 					}
 					className="mr-2 inline-flex h-12 w-12 rounded-full border"
 				/>
-				{user.username || user.firstName + " " + user.lastName}
+				{user.username || `${user.firstName} ${user.lastName}`}
 			</p>
 		</div>
 	);

@@ -39,7 +39,7 @@ export default async function CategoriesCard() {
 								key={category.id}
 							>
 								<div className="w-full">{category.name}</div>
-								{category.id != "-1" && (
+								{category.id !== "-1" && (
 									<DeleteBtn
 										table="categories"
 										id={category.id}

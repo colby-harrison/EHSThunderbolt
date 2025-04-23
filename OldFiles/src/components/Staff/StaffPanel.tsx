@@ -180,7 +180,7 @@ const StaffPanel: React.FC = () => {
 							name="summary"
 							className="w-full rounded border border-gray-300 bg-white p-2 text-gray-900 dark:border-gray-700 dark:bg-gray-700 dark:text-gray-100"
 							required
-						></textarea>
+						/>
 					</div>
 					<div>
 						<label className="mb-1 block text-gray-900 dark:text-gray-100">

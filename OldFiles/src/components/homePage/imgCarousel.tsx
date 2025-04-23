@@ -97,7 +97,7 @@ const Carousel: React.FC<CarouselProps> = ({ slides }) => {
 						className={`h-3 w-3 rounded-full ${
 							index === currentSlide ? "bg-gray-600" : "bg-gray-400"
 						}`}
-					></button>
+					/>
 				))}
 			</div>
 		</div>

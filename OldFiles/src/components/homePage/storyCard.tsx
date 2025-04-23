@@ -23,7 +23,7 @@ const StoryCard: React.FC<StoryProps> = ({ title, summary, date }) => {
 				{expanded
 					? summary
 					: summary.length > 100
-						? summary.substring(0, 100) + "..."
+						? `${summary.substring(0, 100)}...`
 						: summary}
 			</p>
 			<div className="mt-2 text-blue-500 text-sm">

@@ -9,7 +9,7 @@ export function PostCard(data: { post: types.post; category: types.category }) {
 		<a href={`/post/${post.id}`}>
 			<AspectRatio ratio={16 / 9}>
 				<Card.Card
-					className={`flex h-full flex-col justify-between`}
+					className={"flex h-full flex-col justify-between"}
 					style={{
 						backgroundImage: `url(${post.image})`,
 						backgroundSize: "cover",
