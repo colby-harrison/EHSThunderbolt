@@ -1,6 +1,6 @@
 // Header
 
-import artboard from "@/assets/ThunderBolt.png";
+import artboard from "@/assets/UTF-8Artboard 5.png";
 import { Widgets } from "@/components/widgets";
 // Start of imports
 import { useIsMobile } from "@/hooks/use-mobile";
