@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 
-export const TeacherWidget = dynamic(
+export const Card = dynamic(
 	() => import("../../teachers/teachers-card"),
 	{ ssr: false },
 );

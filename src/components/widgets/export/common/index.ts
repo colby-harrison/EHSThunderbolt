@@ -2,12 +2,12 @@
 
 import dynamic from "next/dynamic";
 
-export const CategoryNavigationWidget = dynamic(
+export const CategoryNavigation = dynamic(
 	() => import("../../common/navigation-categories"),
 	{ ssr: false },
 );
 
-export const HeaderNavbarWidget = dynamic(
+export const HeaderNavbar = dynamic(
 	() => import("../../common/navigation-navbar"),
 	{ ssr: false },
 );

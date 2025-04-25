@@ -19,6 +19,7 @@ export default async function Category({
         <div>
           <h1 className="prose-h1">{category.name}</h1>
         </div>
+        <Widgets.Category.Carousel categoryId={category.id} />
       </main>
     </HydrateClient>
   );
