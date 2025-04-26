@@ -16,6 +16,7 @@ export function LatestPost() {
 	// @ts-expect-error - This works, just this file is used as an example on how to use trpc client side.
 	const createPost = api.post.create.useMutation({
 		onSuccess: async () => {
+			// @ts-expect-error - This works, just this file is used as an example on how to use trpc client side.
 			await utils.post.invalidate();
 			setName("");
 		},
