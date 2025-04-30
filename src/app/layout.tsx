@@ -25,6 +25,9 @@ export default function RootLayout({
 			lang="en"
 			className={`${geist.variable} dark max-h-screen max-w-screen`}
 		>
+			<head>
+				<link rel="sitemap" href="https://nextjs.ehsthunderbolt.org/sitemap-index.xml" />
+			</head>
 			<body className="h-screen w-screen">
 				<TRPCReactProvider>
 					<Layout>{children}</Layout>

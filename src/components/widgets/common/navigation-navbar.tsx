@@ -28,7 +28,7 @@ export default function NavigationWidget() {
 				<div className="hidden h-full grid-cols-7 gap-2 p-2 lg:grid">
 					{categories.map((category, index) => (
 						<>
-							{category.categoryId !== "-1" ? (
+							{category.categoryId !== -1 ? (
 								<HeaderBtn
 									text={
 										categoryList.find((c) => c.id === category.categoryId)?.name!

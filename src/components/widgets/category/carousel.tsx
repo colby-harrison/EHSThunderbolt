@@ -5,7 +5,7 @@ import { api } from "@/trpc/react";
 import Autoplay from "embla-carousel-autoplay";
 import router from "next/router";
 
-export default function CarouselWidget({ categoryId }: { categoryId: string }) {
+export default function CarouselWidget({ categoryId }: { categoryId: number }) {
   const [posts] = api.posts.getRecentByCategory.useSuspenseQuery({
     categoryId,
     limit: 5,

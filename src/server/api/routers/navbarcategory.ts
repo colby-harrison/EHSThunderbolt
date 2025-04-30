@@ -21,7 +21,7 @@ export const navbarCategoryRouter = createTRPCRouter({
 		.input(
 			z.object({
 				id: z.number(),
-				categoryId: z.string(),
+				categoryId: z.number(),
 			}),
 		)
 		.mutation(async ({ input, ctx }) => {

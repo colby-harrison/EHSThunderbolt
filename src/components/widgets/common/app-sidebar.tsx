@@ -85,7 +85,7 @@ export default function AppSidebar() {
 									</SidebarMenuItem>
 									{categories.map((category, index) => (
 										<>
-											{category.categoryId !== "-1" && (
+											{category.categoryId !== -1 && (
 												<SidebarMenuItem key={index}>
 													<SidebarMenuButton asChild>
 														<Link href={`/category/${category.categoryId}`}>

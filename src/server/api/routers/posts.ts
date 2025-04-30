@@ -34,7 +34,7 @@ export const postsRouter = createTRPCRouter({
       return await getCachedResult();
     }),
   getById: publicProcedure
-    .input(z.object({ id: z.string() }))
+    .input(z.object({ id: z.number() }))
     .query(async ({ input, ctx }) => {
       const getCachedResult = unstable_cache(
         async () =>
@@ -51,7 +51,7 @@ export const postsRouter = createTRPCRouter({
       return await getCachedResult();
     }),
   getRecentByCategory: publicProcedure
-    .input(z.object({ categoryId: z.string(), limit: z.number().default(10) }))
+    .input(z.object({ categoryId: z.number(), limit: z.number().default(10) }))
     .query(async ({ input, ctx }) => {
       const getCachedResult = unstable_cache(
         async () =>
@@ -68,4 +68,32 @@ export const postsRouter = createTRPCRouter({
       );
       return await getCachedResult();
     }),
+  getsitemappage: publicProcedure
+    .input(z.object({ page: z.number().default(1) }))
+    .query(async ({ input, ctx }) => {
+      const getCachedResult = unstable_cache(
+        async () =>
+          ctx.db
+            .select()
+            .from(posts)
+            .orderBy(desc(posts.date))
+            .limit(100)
+            .offset((input.page - 1) * 10),
+        [`sitemap-${input.page}-posts`],
+        {
+          revalidate: 60 * 60 * 24, // 1 day
+        }
+      );
+      return await getCachedResult();
+    }),
+  getcount: publicProcedure.query(async ({ ctx }) => {
+    const getCachedResult = unstable_cache(
+      async () => ctx.db.$count(posts),
+      ["posts-count"],
+      {
+        revalidate: 60 * 60 * 24, // 1 day
+      }
+    );
+    return await getCachedResult();
+  }),
 });

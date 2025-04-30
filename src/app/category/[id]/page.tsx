@@ -11,7 +11,7 @@ export default async function Category({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const category = await api.category.getById({ id });
+  const category = await api.category.getById({ id: parseInt(id) });
   if (!category) return NextResponse.rewrite("/404");
   return (
     <HydrateClient>

@@ -6,9 +6,13 @@ export const createTable = sqliteTableCreator((name) => `${name}`);
 export const categories = createTable(
   "categories",
   (d) => ({
-    id: d.text().primaryKey(),
+    id: d.integer({ mode: "number" }).primaryKey({ autoIncrement: true }),
     subcategoryOf: d.text(),
     name: d.text().notNull(),
+    createdAt: d
+      .text()
+      .default(sql`(CURRENT_TIMESTAMP)`)
+      .notNull(),
   }),
   (t) => [index("name_idx").on(t.name)]
 );
@@ -26,7 +30,7 @@ export const images = createTable(
 );
 
 export const tbtv = createTable("tbtv", (d) => ({
-  id: d.text().primaryKey(),
+  id: d.integer({ mode: "number" }).primaryKey({ autoIncrement: true }),
   title: d.text().default("").notNull(),
   url: d.text().notNull(),
 }));
@@ -59,7 +63,7 @@ export const teachers = createTable("teachers", (d) => ({
 }));
 
 export const posts = createTable("posts", (d) => ({
-  id: d.text().primaryKey(),
+  id: d.integer({ mode: "number" }).primaryKey({ autoIncrement: true }),
   title: d.text().notNull(),
   description: d.text(),
   image: d
@@ -68,8 +72,7 @@ export const posts = createTable("posts", (d) => ({
     .notNull(),
   content: d.text().notNull(),
   author: d.text().notNull(),
-  category: d.text().default("-1").notNull(),
-  catagory: d.text().default("-1").notNull(),
+  category: d.integer({ mode: "number" }).default(-1).notNull(),
   needsReview: d
     .integer()
     .default(sql`(TRUE)`)
@@ -86,7 +89,7 @@ export const posts = createTable("posts", (d) => ({
 
 export const navbarCategories = createTable("navbarCategories", (d) => ({
   id: d.integer().primaryKey({ autoIncrement: true }),
-  categoryId: d.text().notNull(),
+  categoryId: d.integer({ mode: "number" }).default(-1),
 }));
 
 export const kv = createTable(
