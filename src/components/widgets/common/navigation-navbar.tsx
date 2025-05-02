@@ -11,7 +11,7 @@ export default function NavigationWidget() {
 	const [categoryList] = api.category.getAll.useSuspenseQuery();
 	return (
 		<>
-			{!categories ? (
+			{!categories || !categoryList ? (
 				<div className="hidden h-full grid-cols-7 gap-2 p-2 lg:grid">
 					<div>Loading...</div>
 					<div />

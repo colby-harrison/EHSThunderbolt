@@ -15,3 +15,7 @@ export const HeaderNavbar = dynamic(
 export const AppSidebar = dynamic(() => import("../../common/app-sidebar"), {
 	ssr: false,
 });
+
+export const TBTVBanner = dynamic(() => import("../../common/tbtv-banner"), {
+	ssr: false,
+});

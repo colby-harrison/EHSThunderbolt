@@ -4,6 +4,7 @@ import { categoryRouter } from "./routers/category";
 import { navbarCategoryRouter } from "./routers/navbarcategory";
 import { teacherRouter } from "./routers/teacher";
 import { kvRouter } from "./routers/kv";
+import { TBTVRouter } from "./routers/tbtv";
 
 /**
  * This is the primary router for your server.
@@ -16,6 +17,7 @@ export const appRouter = createTRPCRouter({
 	navbarCategory: navbarCategoryRouter,
 	teacher: teacherRouter,
 	kv: kvRouter,
+	tbtv: TBTVRouter,
 });
 
 // export type definition of API
