@@ -5,6 +5,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
 import { api } from "@/trpc/react";
 import Link from "next/link";
+import React from "react";
 
 export default function NavigationWidget() {
   const [categories] = api.navbarCategory.getAll.useSuspenseQuery();
@@ -25,17 +26,16 @@ export default function NavigationWidget() {
         const categoryName = matchingCategory?.name || "Unknown";
         
         return (
-					<>
+					<React.Fragment key={index}>
             {categoryIdNum !== null && categoryIdNum !== -1 ? (
               <HeaderBtn
                 text={categoryName}
                 href={`/category/${categoryIdNum}`}
-								key={index}
               />
             ) : (
-              <div key={index} />
+              <div />
             )}
-					</>
+					</React.Fragment>
         );
       })}
       <HeaderBtn text='2025 Grads' href='/grads' />
