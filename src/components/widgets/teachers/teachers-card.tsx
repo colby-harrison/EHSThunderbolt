@@ -28,7 +28,7 @@ export default function TeacherCard({
 				<CardDescription>{teacher.job}</CardDescription>
 			</CardHeader>
 			<CardContent>
-				<img src={imageURL} alt={teacher.name!} />
+				<img src={imageURL} alt={teacher.name!} loading="lazy" />
 			</CardContent>
 		</Card>
 	);
