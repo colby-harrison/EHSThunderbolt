@@ -9,7 +9,7 @@ export default function NavigationWidget() {
 	const [categories] = api.category.getAll.useSuspenseQuery();
 	if (!categories)
 		return (
-			<div className="w-full max-w-xs rounded-lg border border-sidebar-border bg-sidebar text-sidebar-foreground shadow-xl h-80">
+			<div className="w-full rounded-lg border border-sidebar-border bg-sidebar text-sidebar-foreground shadow-xl h-80">
 				<div className="border-sidebar-border border-b-2 p-4 shadow-xl">
 					<h2 className="font-bold text-xl">Categories</h2>
 				</div>
@@ -24,7 +24,7 @@ export default function NavigationWidget() {
 			</div>
 		);
 	return (
-		<div className="w-full max-w-xs rounded-lg border border-sidebar-border bg-sidebar text-sidebar-foreground shadow-xl h-80">
+		<div className="w-full rounded-lg border border-sidebar-border bg-sidebar text-sidebar-foreground shadow-xl h-80">
 			<div className="border-sidebar-border border-b-2 p-4 shadow-xl">
 				<h2 className="font-bold text-xl">Categories</h2>
 			</div>

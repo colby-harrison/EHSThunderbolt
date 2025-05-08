@@ -11,7 +11,7 @@ const config = {
       {
         source: "/cdn/ut/:id", //proxy UploadThing files (unblocks images when on school devices)
         destination: "https://kzekz7a45c.ufs.sh/f/:id",
-      },
+      }
     ];
   },
 };
