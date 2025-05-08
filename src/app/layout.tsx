@@ -24,15 +24,9 @@ export default function RootLayout({
   return (
     <html
       lang='en'
-      className={`${geist.variable} dark max-h-screen max-w-screen`}
+      className={`${geist.variable} dark`}
     >
-      <head>
-        <link
-          rel='sitemap'
-          href='https://nextjs.ehsthunderbolt.org/sitemap-index.xml'
-        />
-      </head>
-      <body className='h-screen w-screen'>
+      <body className='h-dvh w-dvw overflow-hidden'>
         <ConvexClientProvider>
           <TRPCReactProvider>
             <Layout>{children}</Layout>

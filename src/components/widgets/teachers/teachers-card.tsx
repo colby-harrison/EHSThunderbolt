@@ -20,7 +20,7 @@ export default function TeacherCard({
 	isAdmin,
 }: { teacher: Teacher; isAdmin?: boolean }) {
 	void isAdmin;
-	const imageURL = `https://kzekz7a45c.ufs.sh/f/${teacher.picture}`;
+	const imageURL = `/cdn/ut/${teacher.picture}`;
 	return (
 		<Card>
 			<CardHeader>

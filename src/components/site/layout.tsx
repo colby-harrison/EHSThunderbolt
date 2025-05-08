@@ -14,7 +14,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 			{/* <Progress /> */}
 			<main className="h-full w-full">
 				<Navbar />
-				<div className="h-[calc(100vh-3rem)]">
+				<div className="h-[calc(100dvh-3rem)]">
 					<Widgets.Common.AppSidebar />
 					<div className="h-full w-full overflow-y-scroll px-2 pb-2">
 						<Header />
