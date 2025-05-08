@@ -26,7 +26,7 @@ export default function RootLayout({
       lang='en'
       className={`${geist.variable} dark`}
     >
-      <body className='h-dvh w-dvw overflow-hidden'>
+      <body className='h-dvh w-dvw overflow-y-scroll'>
         <ConvexClientProvider>
           <TRPCReactProvider>
             <Layout>{children}</Layout>
