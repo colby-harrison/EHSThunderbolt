@@ -9,19 +9,17 @@ import type React from "react";
 // End of imports
 
 export function Layout({ children }: { children: React.ReactNode }) {
-	return (
-		<SidebarProvider>
-			{/* <Progress /> */}
-			<main className="h-full w-full">
-				<Navbar />
-				<div className="">
-					<Widgets.Common.AppSidebar />
-					<div className="h-full w-full overflow-y-scroll px-2 pb-2">
-						<Header />
-						{children}
-					</div>
-				</div>
-			</main>
-		</SidebarProvider>
-	);
+  return (
+    <SidebarProvider>
+      {/* <Progress /> */}
+      <main className='h-full w-full'>
+        <Navbar />
+        <Widgets.Common.AppSidebar />
+        <div className='px-2 pb-2'>
+          <Header />
+          {children}
+        </div>
+      </main>
+    </SidebarProvider>
+  );
 }

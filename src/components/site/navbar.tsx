@@ -10,7 +10,7 @@ import { ModeToggle } from "./mode-toggle";
 
 export function Navbar() {
   return (
-    <header className='w-full p-2 sticky top-0 z-50 bg-linear-to-t from-background/0 to-90% to-background'>
+    <header className='w-full p-2 sticky top-0 z-50 bg-linear-to-t from-transparent to-90% to-background'>
       <div className='flex h-12 flex-row rounded-lg border border-sidebar-border bg-sidebar text-sidebar-foreground shadow'>
         <div className='flex basis-1/2 flex-row items-center justify-start gap-4 pl-2 md:basis-1/3'>
           <SidebarTrigger />
