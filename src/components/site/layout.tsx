@@ -1,0 +1,25 @@
+"use client";
+import { Header } from "@/components/site/header/header";
+import { Navbar } from "@/components/site/navbar";
+// Start of imports
+import { SidebarProvider } from "@/components/ui/sidebar";
+import { Widgets } from "@/components/widgets";
+import type React from "react";
+// import Progress from "./progressbar";
+// End of imports
+
+export function Layout({ children }: { children: React.ReactNode }) {
+  return (
+    <SidebarProvider>
+      {/* <Progress /> */}
+      <main className='h-full w-full'>
+        <Navbar />
+        <Widgets.Common.AppSidebar />
+        <div className='px-2 pb-2'>
+          <Header />
+          {children}
+        </div>
+      </main>
+    </SidebarProvider>
+  );
+}
