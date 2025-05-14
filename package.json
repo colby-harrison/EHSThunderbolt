@@ -20,6 +20,7 @@
 		"convex": "convex"
 	},
 	"dependencies": {
+		"@clerk/nextjs": "^6.19.3",
 		"@hookform/resolvers": "^5.0.1",
 		"@libsql/client": "^0.14.0",
 		"@mux/mux-node": "^11.0.2",
