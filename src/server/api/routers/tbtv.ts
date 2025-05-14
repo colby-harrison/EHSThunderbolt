@@ -13,7 +13,7 @@ export const TBTVRouter = createTRPCRouter({
           ctx.db.select().from(tbtv),
         [`all-tbtv-urls`],
         {
-          revalidate: 1, // 1 hour
+          revalidate: 60 * 60, // 1 hour
         },
       );
       return await getCachedResult();
