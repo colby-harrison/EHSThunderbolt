@@ -9,16 +9,7 @@ export default async function Page() {
   return (
     <HydrateClient>
       <main className='container mx-auto grid grid-cols-1 gap-4 py-2 sm:grid-cols-2 md:grid-cols-3'>
-        {
-          env.NODE_ENV === "development" && (
-            <MuxPlayer
-              playbackId=''
-              autoPlay
-              className='sm:col-span-2 sm:row-span-2 w-full h-full aspect-video'
-              accentColor='#62C6F2'
-            />
-          ) /* If approved by the district, replace "playbackId" with the playback ID of the live stream */
-        }
+        <Widgets.TBTV.Live />
         <div className='w-full h-full aspect-video'>
           <h1 className='prose-h1'>TBTV</h1>
           <p className='prose-p'>East High School's Student News Brodcast.</p>

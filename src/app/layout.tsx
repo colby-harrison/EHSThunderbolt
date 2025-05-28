@@ -7,9 +7,8 @@ import { Layout } from "@/components/site/layout";
 import { TRPCReactProvider } from "@/trpc/react";
 import { ConvexClientProvider } from "@/components/ConvexClientProvider";
 
-import {
-  ClerkProvider,
-} from '@clerk/nextjs'
+import { ClerkProvider } from "@clerk/nextjs";
+import { GlobalProvider } from "@/components/global-provider";
 
 export const metadata: Metadata = {
   title: "EHS Thunderbolt",
@@ -27,18 +26,17 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <ClerkProvider>
-    <html
-      lang='en'
-      className={`${geist.variable} dark`}
-    >
-      <body className='h-dvh w-dvw max-w-dvw'>
-        <ConvexClientProvider>
-          <TRPCReactProvider>
-            <Layout>{children}</Layout>
-          </TRPCReactProvider>
-        </ConvexClientProvider>
-      </body>
-    </html>
+      <GlobalProvider>
+        <html lang='en' className={`${geist.variable} dark`}>
+          <body className='h-dvh w-dvw max-w-dvw'>
+            <ConvexClientProvider>
+              <TRPCReactProvider>
+                <Layout>{children}</Layout>
+              </TRPCReactProvider>
+            </ConvexClientProvider>
+          </body>
+        </html>
+      </GlobalProvider>
     </ClerkProvider>
   );
 }
