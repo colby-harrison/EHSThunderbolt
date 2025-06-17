@@ -6,6 +6,7 @@ export default function PostHeader() {
   const metaData = useMetadataData();
   const mdtDateString = `${metaData.metadataData.date}T00:00:00-06:00`;
   const dateObjectMDT = new Date(mdtDateString);
+  const image = metaData.metadataData.coverImage ? metaData.metadataData.legacy === true ? `/post/legacy/image/${metaData.metadataData.coverImage}` : `/cdn/ut/${metaData.metadataData.coverImage}` : null;
   return (
     <header>
       <h1 className='text-ehs-blue'>{metaData.metadataData.title}</h1>
@@ -22,7 +23,11 @@ export default function PostHeader() {
           </p>
         )
       ) : null}
-      <img src={metaData.metadataData.coverImage} alt='cover' />
+      {
+        image ? (
+          <img src={image} alt={metaData.metadataData.title} />
+        ) : null
+      }
     </header>
   );
 }

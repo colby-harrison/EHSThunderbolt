@@ -3,7 +3,7 @@ title: "Marching, Marching, Marching"
 date: 2016-01-20
 categories: 
   - "archives"
-coverImage: "FullSizeRender.jpg"
+coverImage: "FullSizeRender2.jpg"
 author: "adviser"
 ---
 

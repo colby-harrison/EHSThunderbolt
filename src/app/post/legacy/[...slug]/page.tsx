@@ -17,7 +17,7 @@ export default async function Page({
 
   return (
     <>
-      <MetadataDataUpdater data={test.frontmatter as MetadataData} />
+      <MetadataDataUpdater data={{legacy: true, ...test.frontmatter} as MetadataData} />
       <Post />
     </>
   );

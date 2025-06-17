@@ -3,7 +3,7 @@ title: "Cheyenne East Wrestling Team Prepares for State Championships"
 date: 2025-02-26
 categories: 
   - "wrestling"
-coverImage: "Untitled.jpg"
+coverImage: "Untitled(2).jpg"
 author: "Bentley307"
 ---
 

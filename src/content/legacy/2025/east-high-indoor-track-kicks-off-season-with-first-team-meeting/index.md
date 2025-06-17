@@ -3,7 +3,7 @@ title: "East High Indoor Track Kicks Off Season with First Team Meeting"
 date: 2025-01-08
 categories: 
   - "track"
-coverImage: "OIP.jpg"
+coverImage: "OIP(2).jpg"
 author: "daytonrhoades"
 ---
 

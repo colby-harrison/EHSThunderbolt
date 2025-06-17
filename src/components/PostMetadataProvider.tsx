@@ -13,8 +13,9 @@ export interface MetadataData {
   title: string;
   date: string;
   categories: string[];
-  coverImage: string;
+  coverImage?: string;
   excerpt?: string;
+  legacy?: boolean;
   author?: {
     name: string;
     role: string;
@@ -35,7 +36,7 @@ export const MetadataProvider: React.FC<{ children: ReactNode }> = ({
     title: "",
     date: "",
     categories: [],
-    coverImage: "",
+    legacy: false,
   });
 
   return (

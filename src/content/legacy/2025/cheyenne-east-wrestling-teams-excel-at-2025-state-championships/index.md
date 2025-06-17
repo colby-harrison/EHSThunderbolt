@@ -4,7 +4,7 @@ date: 2025-03-03
 categories: 
   - "sports"
   - "wrestling"
-coverImage: "images.jpg"
+coverImage: "images(2).jpg"
 author: "Bentley307"
 ---
 

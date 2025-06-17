@@ -3,7 +3,7 @@ title: "Thunderbirds in Action: Sports Update"
 date: 2015-09-25
 categories: 
   - "archives"
-coverImage: "volleyball.jpg"
+coverImage: "volleyball2.jpg"
 author: "adviser"
 ---
 

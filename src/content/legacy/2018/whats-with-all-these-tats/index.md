@@ -3,7 +3,7 @@ title: "What's with all these tats!?"
 date: 2018-01-04
 categories: 
   - "archives"
-coverImage: "image1.jpeg"
+coverImage: "image1(2).jpeg"
 author: "adviser"
 ---
 

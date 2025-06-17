@@ -4,7 +4,7 @@ date: 2025-03-03
 categories: 
   - "basketball"
   - "sports"
-coverImage: "th.jpg"
+coverImage: "th(2).jpg"
 author: "ITZJ307"
 ---
 

@@ -3,7 +3,7 @@ title: "Thunderbirds Hit the Track: East High's Outdoor Season Begins"
 date: 2025-03-17
 categories: 
   - "track"
-coverImage: "OIP.jpg"
+coverImage: "OIP(3).jpg"
 author: "daytonrhoades"
 ---
 
