@@ -5,6 +5,7 @@ categories:
   - "football"
   - "sports"
 coverImage: "maxresdefault.jpg"
+author: "camerongriffin"
 ---
 
 On October 10th, 2024, the Cheyenne East sophomore football team delivered an impressive performance, defeating Central 61-21 at Central High School. The game kicked off at 4 PM, and the Thunderbirds quickly made their presence felt on the field.

@@ -4,6 +4,7 @@ date: 2018-05-11
 categories: 
   - "archives"
 coverImage: "Prom-2018-232.jpg"
+author: "adviser"
 ---
 
 ![](images/Prom-2018-31-239x475.jpg)

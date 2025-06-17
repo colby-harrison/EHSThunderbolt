@@ -3,6 +3,7 @@ title: "Mugg's Shot"
 date: 2018-03-12
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 Flying through the water for four years straight is the best decision Jackson Mugg ever made. Practicing twice a day for three months can be tiring, but anyone going after a state title makes it a lifestyle.

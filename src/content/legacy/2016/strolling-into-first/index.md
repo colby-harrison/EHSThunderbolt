@@ -4,6 +4,7 @@ date: 2016-11-22
 categories: 
   - "archives"
 coverImage: "0730160954eedit.jpg"
+author: "adviser"
 ---
 
 When most people hear the word parade they probably think of marching bands or classic cars cruising by, not an orchestra. Strolling Strings is here to change that. They can be heard from blocks away, with their Thunderbird blue violins playing in unison. People jump up every time, dancing and clapping along to the classic “Train Songs”, which features “Orange Blossom Special” and train whistles blaring from the instruments.

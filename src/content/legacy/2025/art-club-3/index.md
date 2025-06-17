@@ -8,6 +8,7 @@ categories:
   - "news"
   - "studentlife"
 coverImage: "OIP.jpg"
+author: "Kassey"
 ---
 
 The Art Club has been busy this season with exciting activities and successful events. Here’s what’s happening:

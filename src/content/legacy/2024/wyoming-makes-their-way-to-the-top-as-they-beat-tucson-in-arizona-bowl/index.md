@@ -3,6 +3,7 @@ title: "Wyoming makes their way to the top as they beat Tucson in Arizona Bowl"
 date: 2024-09-23
 categories: 
   - "archives"
+author: "AStensgaardlee"
 ---
 
 ![](images/IMG_1740.jpeg)

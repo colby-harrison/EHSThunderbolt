@@ -3,6 +3,7 @@ title: "Talking Their Way to the Top"
 date: 2023-10-11
 categories: 
   - "archives"
+author: "NKopack"
 ---
 
  

@@ -4,6 +4,7 @@ date: 2019-11-18
 categories: 
   - "archives"
 coverImage: "IMG-6298-rotated.jpeg"
+author: "LanaN"
 ---
 
 As vibrant colors of red and yellow race through our sky-reaching forests, waves of black snow fall, and Earth’s lungs collapse in a massacre of flames. Once a painted canvas of beautiful blues, is now smudged with our empty chip bags and plastic bottles. Skyscrapers of white ice shrunken down and defeated in the blink of a second. Our life, our home, and our earth, giving out. Reflecting in our ignorant glassy eyes, we watch.

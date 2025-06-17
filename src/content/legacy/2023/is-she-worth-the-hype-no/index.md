@@ -3,6 +3,7 @@ title: "Is She Worth the Hype... No"
 date: 2023-11-20
 categories: 
   - "archives"
+author: "kwilliams"
 ---
 
 Taylor Swift is arguably one of the most successful female artists of the generation, however the hype is overrated. In my opinion, her music sounds like retail music, something you would hear when shopping in a mall. Don’t get me wrong, she is girl bossing and showing that women can fill the same stadiums as the men that Americans praise for running around in leggings tackling each other. Her music is easy to listen to and that is why people are so drawn to it. There are no concepts that make people rethink or challenge their beliefs.

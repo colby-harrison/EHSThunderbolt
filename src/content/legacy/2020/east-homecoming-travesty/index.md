@@ -4,6 +4,7 @@ date: 2020-10-08
 categories: 
   - "archives"
 coverImage: "IMG_0144.jpg"
+author: "adviser"
 ---
 
 Due to COVID-19 restrictions, East High school has had to sacrifice many of its annual traditions this year. The most recent was the Homecoming dance. Many of the students at East High were hoping things could go back to normal and are sad to see that isn’t quiet the case yet.

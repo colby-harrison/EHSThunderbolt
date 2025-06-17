@@ -5,6 +5,7 @@ categories:
   - "news"
   - "studentlife"
 coverImage: "classroom-2093743_1280.jpg"
+author: "colby_harrison34"
 ---
 
 Dear Department of Education,

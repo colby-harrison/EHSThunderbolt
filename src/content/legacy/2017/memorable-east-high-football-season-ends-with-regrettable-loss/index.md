@@ -4,6 +4,7 @@ date: 2017-11-16
 categories: 
   - "archives"
 coverImage: "Jacob-Byk-WTE.jpg"
+author: "adviser"
 ---
 
 There is nothing wrong with declaring the 2017 football season as one of East High’s best. With a defense and offense both ranked in the top three in 4A, this year’s squad posted an 8-2 record heading into the 4A semi-final playoff game.

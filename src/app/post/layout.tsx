@@ -1,10 +1,17 @@
 import { MetadataProvider } from "@/components/PostMetadataProvider";
+import { Widgets } from "@/components/widgets";
 
-export default function PostLayout({ children }: { children: React.ReactNode }) {
+export default function PostLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <MetadataProvider>
-      
-      {children}
+      <section className='prose'>
+        <Widgets.Post.Header />
+        {children}
+      </section>
     </MetadataProvider>
   );
 }

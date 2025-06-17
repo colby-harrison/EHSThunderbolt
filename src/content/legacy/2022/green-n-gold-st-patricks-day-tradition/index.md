@@ -4,6 +4,7 @@ date: 2022-03-20
 categories: 
   - "archives"
 coverImage: "2ce57e8d-63ca-4376-ae79-ca4ccc2a3ed7.jpg"
+author: "ljones"
 ---
 
 When most think of Saint Patrick’s Day, the first image to come to mind is that of green, leprechauns, and pots of gold-wrapped chocolate. While this is what the holiday has evolved to, there is more behind the tradition. 

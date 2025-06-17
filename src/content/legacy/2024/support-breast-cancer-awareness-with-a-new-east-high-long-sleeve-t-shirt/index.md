@@ -4,6 +4,7 @@ date: 2024-10-21
 categories: 
   - "schoolstore"
 coverImage: "breats-cancers-glove-design-.png"
+author: "nataliermoore"
 ---
 
 We are excited to introduce a special line of breast cancer awareness long-sleeve t-shirts, available now at the T-Bird Nest for just $15! These sleek black shirts feature a bold, eye-catching design on the back, along with a symbolic pink ribbon on the right sleeve to honor the fight against breast cancer. A smaller logo is also placed on the upper left corner of the front for a subtle yet stylish touch.

@@ -4,6 +4,7 @@ date: 2015-06-01
 categories: 
   - "archives"
 coverImage: "20150530-EastKarlyThompson03-ms.gif"
+author: "adviser"
 ---
 
 According to all-knowing Wikipedia, "a sports dynasty is a team that dominates their sport or league for an extraordinary length of time. The definition of dynasty by academics implies a single leader over the bulk of that period, a great example being John Wooden who led the college basketball powerhouse UCLA Bruins." Hello, Lady Thunderbird soccer!

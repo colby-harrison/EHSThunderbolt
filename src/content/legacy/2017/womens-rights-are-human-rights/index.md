@@ -4,6 +4,7 @@ date: 2017-02-10
 categories: 
   - "archives"
 coverImage: "women-march2.jpg"
+author: "adviser"
 ---
 
 Imagine over 1,000 voices chanting the same inspiring words.

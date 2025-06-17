@@ -4,6 +4,7 @@ date: 2015-11-09
 categories: 
   - "archives"
 coverImage: "makenize.jpg"
+author: "adviser"
 ---
 
 Freshman MacKenzie Marler displayed the result of her hard work and dedication in the SaberCat Invitational by knocking off the long-standing school record cross country time.

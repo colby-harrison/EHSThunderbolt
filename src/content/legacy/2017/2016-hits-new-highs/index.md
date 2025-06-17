@@ -4,6 +4,7 @@ date: 2017-01-12
 categories: 
   - "archives"
 coverImage: "20162edit.jpg"
+author: "adviser"
 ---
 
 2016 brought about all sorts of changes and new problems. The Zika virus affected many, Adele’s return, Leonardo DiCaprio’s Oscar, and much more, all received headlines. Some of East High’s more popular topics were:

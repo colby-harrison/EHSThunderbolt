@@ -3,6 +3,7 @@ title: "A Cultural Change"
 date: 2022-05-13
 categories: 
   - "archives"
+author: "tcassat"
 ---
 
 Moving schools can cause a lot of nerves, and creates a lot of changes for an individual. Now imagine moving countries. Two juniors, Louisa Vilaplana and Ben Draper, gave their insight on some of the biggest changes they faced in their exchange student experiences.  

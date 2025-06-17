@@ -4,6 +4,7 @@ date: 2025-02-10
 categories: 
   - "clubsandactivities"
 coverImage: "IMG_0861.png"
+author: "123456789"
 ---
 
 We wanted to take a moment to celebrate the incredible accomplishments of our Speech & Debate team over the past few weeks. Our students have been working hard, and their efforts have paid off with outstanding performances at three recent tournaments. If you have any of these students in class, please take a moment to congratulate them on their success!

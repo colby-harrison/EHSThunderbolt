@@ -3,6 +3,7 @@ title: "Experiencing the College Lifestyle"
 date: 2021-11-05
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 The University of Wyoming High School Summer Institute is a way for sophomores to experience and live the college life style. They get the opportunity to meet new people and find out what career path you want to do in the future. They get to live in the dorms and eat in the college cafeteria for 3 weeks. They get to experience what college classes are like, without the stress of homework. They get to have the opportunity to choose their classes and learn new skills. HSI also has benefits such as interacting with the sorority houses, learning about ACT scores, earning college credit, and getting a scholarship booster. 

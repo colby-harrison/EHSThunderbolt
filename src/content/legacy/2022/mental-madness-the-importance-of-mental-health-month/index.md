@@ -3,6 +3,7 @@ title: "Mental Madness: the Importance of Mental Health Month"
 date: 2022-10-31
 categories: 
   - "archives"
+author: "msteen"
 ---
 
 Dictionary.com defines mental health as “a person’s condition with regard to their psychological and emotional well-being.” The importance of mental health might not be widely known, but it is nonetheless important in our day-to-day lives. 

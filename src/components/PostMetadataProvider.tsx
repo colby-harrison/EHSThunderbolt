@@ -14,6 +14,11 @@ export interface MetadataData {
   date: string;
   categories: string[];
   coverImage: string;
+  excerpt?: string;
+  author?: {
+    name: string;
+    role: string;
+  } | string;
 }
 
 interface MetadataContextType {

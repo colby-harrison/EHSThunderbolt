@@ -3,6 +3,7 @@ title: "Book Club Tries Something New"
 date: 2022-04-29
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 Book club is trying something new this year as they move into their seasonal read.  

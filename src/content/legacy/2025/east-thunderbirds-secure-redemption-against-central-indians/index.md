@@ -5,6 +5,7 @@ categories:
   - "basketball"
   - "sports"
 coverImage: "Screenshot-2025-01-29-085840.png"
+author: "gagestoddard7"
 ---
 
 After falling to Central High School in their last matchup, the East High School Thunderbirds made sure history didn’t repeat itself. On Wednesday night, they delivered a strong performance, taking down the Central Indians with a 58-51 victory. The win not only avenged their previous loss but also ended a four-game road slump, improving East’s record to 7-7 for the season.

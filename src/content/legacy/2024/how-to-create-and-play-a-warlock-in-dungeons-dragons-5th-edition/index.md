@@ -5,6 +5,7 @@ categories:
   - "clubsandactivities"
   - "dnd"
 coverImage: "HexbladeWarlock.jpg"
+author: "asherconyers"
 ---
 
 The _Warlock_ is one of the most unique and versatile spellcasters in _Dungeons & Dragons_ 5th Edition (D&D 5E), known for their mysterious pacts with powerful entities. Whether you’re a seasoned player looking for a new challenge or a beginner drawn to the Warlock’s dark and arcane flavor, this guide will walk you through how to create and play one. (Note: this is for the 2014 rules and classes, not the most recent 2024 class.)

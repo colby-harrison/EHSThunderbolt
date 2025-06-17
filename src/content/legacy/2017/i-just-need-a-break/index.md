@@ -4,6 +4,7 @@ date: 2017-04-13
 categories: 
   - "archives"
 coverImage: "Brit2.jpg"
+author: "adviser"
 ---
 
 Spring break is easily one of the most anticipated weeks. Not only does it mean that school is almost over, but it’s finally warm enough for kids to get out and enjoy themselves. Each year we hear stories of all of the cool things that kids did over spring break. Some of your fellow peers traveled to faraway places, but others just stayed home and enjoyed their days off.

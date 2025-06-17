@@ -5,6 +5,7 @@ categories:
   - "community"
   - "news"
 coverImage: "DALL·E-2025-03-24-14.54.46-A-nostalgic-view-of-East-High-School-with-a-large-banner-that-reads-East_Central-50th-Reunion-hanging-near-the-entrance.-The-school-building-is-well.webp"
+author: "colby_harrison34"
 ---
 
 Attention East High alumni! The East/Central 50th Reunion is coming up, and we want to make sure all classmates can find the information they need. We’ve attached links to **Visit Cheyenne** and the official **East/Central 50th Reunion Information** to help you plan for the event.

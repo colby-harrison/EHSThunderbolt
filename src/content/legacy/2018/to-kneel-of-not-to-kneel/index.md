@@ -4,6 +4,7 @@ date: 2018-01-25
 categories: 
   - "archives"
 coverImage: "professional-football-player-nfl-praying-160577.jpg"
+author: "adviser"
 ---
 
 What does the National Anthem really mean to you? Is it a symbol for nationalism and unconditional love for the USA? Or is the anthem a way of representing the freedom of speech and expression we enjoy as Americans?

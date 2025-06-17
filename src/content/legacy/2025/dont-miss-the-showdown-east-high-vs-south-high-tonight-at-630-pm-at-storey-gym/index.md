@@ -5,6 +5,7 @@ categories:
   - "basketball"
   - "sports"
 coverImage: "63cb5bc9e6f77.image-1.jpg"
+author: "riellys1098"
 ---
 
 Hey, Thunderbirds! Tonight’s the night we’ve all been waiting for – the epic matchup between East High and South High! The energy will be through the roof as our teams go head-to-head in what promises to be an unforgettable game. Whether you're a die-hard fan or just looking for a fun way to spend your evening, this is the place to be.

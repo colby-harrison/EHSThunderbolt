@@ -4,6 +4,7 @@ date: 2018-03-23
 categories: 
   - "archives"
 coverImage: "Jump-ball.jpg"
+author: "adviser"
 ---
 
 Long practices. Tough games. Critical evaluations. Constant discussion on what they can do better. The East High boys basketball team has been following this regime since November. Why? The team set their sights on the 4A State Title.

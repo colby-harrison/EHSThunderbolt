@@ -4,6 +4,7 @@ date: 2016-12-06
 categories: 
   - "archives"
 coverImage: "IMG_8033edit.jpg"
+author: "adviser"
 ---
 
 Senior Liam Guille may be best known for his performance as Professor Harold Hill from the _Music Man_, or even leading the homecoming pep rally with East’s school song. Now Liam is on to bigger things and furthering his singing career by heading to Grapevine, Texas to participate in National Honor Choir.

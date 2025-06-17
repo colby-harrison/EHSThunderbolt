@@ -4,6 +4,7 @@ date: 2015-03-25
 categories: 
   - "archives"
 coverImage: "Soccer-Track.gif"
+author: "adviser"
 ---
 
 Spring is here which means the start of outdoor sports, including track, and boys' and girls' soccer. Practices just started Monday, March 16, for all the teams and are already starting their 2015  season up.

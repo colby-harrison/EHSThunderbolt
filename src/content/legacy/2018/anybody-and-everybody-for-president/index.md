@@ -4,6 +4,7 @@ date: 2018-01-25
 categories: 
   - "archives"
 coverImage: "OPFP393-NAVY-HPOST.jpg"
+author: "adviser"
 ---
 
 Kanye for President 2020! #OprahForPresident. Run The Rock 2020.

@@ -4,6 +4,7 @@ date: 2017-05-30
 categories: 
   - "archives"
 coverImage: "20170516_0947210.jpg"
+author: "adviser"
 ---
 
 Practice, patience, and persistence paid off for the EHS boys’ golf team as they wrapped up a conference championship at the Bell Nob Golf course in Gillette.

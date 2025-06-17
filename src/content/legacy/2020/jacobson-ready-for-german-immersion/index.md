@@ -4,6 +4,7 @@ date: 2020-05-06
 categories: 
   - "archives"
 coverImage: "NEWS-Steele-Jacobson-Pic2.jpg"
+author: "adviser"
 ---
 
 As they like to say: “If you’re going in, go all in!” And EHS sophomore Steele Jacobson is going all in with a new experience in Germany. In mid-April, Mary Johnson, East High German teacher, announced Jacobson was recently selected to participate in the Congress Bundestag Youth Exchange (CBYX) for the coming 2020-2021 school year.

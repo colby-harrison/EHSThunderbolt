@@ -5,6 +5,7 @@ categories:
   - "news"
   - "studentlife"
 coverImage: "DALL·E-2025-02-25-12.56.42-A-stylish-winter-fashion-scene-at-a-high-school-featuring-students-in-a-hallway-wearing-layered-outfits.-Some-students-are-dressed-chicly-with-stylis-1.webp"
+author: "colby_harrison34"
 ---
 
 The winter season offers more than just unique activities, fun holidays, and opportunities to enjoy the snow. It also offers us the opportunity to express ourselves through our attire in ways that would be unbearable in the summer heat. Students were able to showcase their winter fashion which has a wide variety of tastes. Ranging from focusing on cozy comfort to smooth and stylish, we saw a variety of winter styles in the hallway.

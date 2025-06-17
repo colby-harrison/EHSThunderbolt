@@ -5,6 +5,7 @@ categories:
   - "golf"
   - "sports"
 coverImage: "20241007_145704000_iOS-e1728487039474.jpg"
+author: "gagestoddard7"
 ---
 
 The East High varsity girls' golf team wrapped up a successful season by competing at the State Championships at Valley View Golf Course in Afton, Wyoming. Led by Coach Todd Oswald and Coach Paul Hartigan, the team demonstrated incredible resilience and hard work to earn their spot among the best in the state.

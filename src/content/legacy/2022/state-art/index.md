@@ -4,6 +4,7 @@ date: 2022-05-13
 categories: 
   - "archives"
 coverImage: "unnamed.jpg"
+author: "chayes"
 ---
 
 Throughout April Students within Wyoming have been submitting art pieces for potential scholarships and chances to win ribbons. East artists started by submitting their pieces in a local county art show for the chance to win a variation of scholarships and/ or ribbons. At the county show there were three possible ribbons to receive, a VIP (beginner artists choice), a Laramie county ribbon ( professional artists choice), Or a generic ribbon ( teachers choice). If a student won a Laramie County ribbon their piece makes it to state. Students at East had the opportunity to go to state by bus if they signed up within the art rooms, one of those students being junior Delaney Wilson.

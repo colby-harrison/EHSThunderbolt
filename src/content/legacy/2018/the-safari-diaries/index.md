@@ -4,6 +4,7 @@ date: 2018-05-21
 categories: 
   - "archives"
 coverImage: "IMG_0283.jpg"
+author: "adviser"
 ---
 
 The excitement of seeing wild elephants for the first time was too much to handle. After getting stuck in Atlanta, flying for a whole day, and dealing with a drought, the elephants were breathtaking. Follow along with this experience as Stephani Sommer and Avalon Skinner tell their story of nine IB students travelling to South Africa over the 2018 spring break.

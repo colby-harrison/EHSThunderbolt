@@ -5,6 +5,7 @@ categories:
   - "basketball"
   - "sports"
 coverImage: "strannigan-tourney-pic.webp"
+author: "nataliermoore"
 ---
 
 The East Boys basketball team showcased their skill and determination at the Strannigan Tournament in Riverton, delivering an impressive 4-0 performance. Starting the season strong under the leadership of new head Coach Johnson, the varsity team has been living up to their motto this year: "Locked In."

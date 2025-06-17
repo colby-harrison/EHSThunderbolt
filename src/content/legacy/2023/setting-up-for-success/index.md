@@ -3,6 +3,7 @@ title: "Setting up for Success"
 date: 2023-11-15
 categories: 
   - "archives"
+author: "NKopack"
 ---
 
 This October, Cheyenne East’s DECA chapter attended the first conference of the year. MEC, or the Marketing Entrepreneurship Conference.  Members of DECA visited the University of Wyoming all day, attending workshops and tours. Most importantly, they competed for the first time. The chapter brought back ten top performers. Four of them earned two awards, one in their speaking event, and another based off their DECA test scores. This conference is the only one to happen before State. That means attending competitors get just one opportunity to truly practice before the national qualifying tournament. 

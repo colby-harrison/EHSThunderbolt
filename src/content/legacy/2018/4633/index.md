@@ -4,6 +4,7 @@ date: 2018-02-26
 categories: 
   - "archives"
 coverImage: "Coaches-Romsa.jpg"
+author: "adviser"
 ---
 
 Cheyenne East didn’t have an individual state champion, but won the title that mattered most Saturday night at Casper Events Center.

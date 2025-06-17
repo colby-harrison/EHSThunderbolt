@@ -5,6 +5,7 @@ categories:
   - "clubsandactivities"
   - "dnd"
 coverImage: "BloodHunter.jpg"
+author: "asherconyers"
 ---
 
 The _Blood Hunter_ is a unique and dark class in _Dungeons & Dragons_ 5th Edition, created by Matthew Mercer of _Critical Role_. Blending martial prowess with dark, supernatural powers, Blood Hunters are monster-slaying warriors who channel their own blood to fuel arcane power. A perfect choice for players looking for a mysterious, powerful, and somewhat self-sacrificial character, this guide will walk you through creating and playing a Blood Hunter in D&D 5E.

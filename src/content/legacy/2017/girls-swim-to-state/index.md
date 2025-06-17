@@ -4,6 +4,7 @@ date: 2017-12-07
 categories: 
   - "archives"
 coverImage: "Tbird-logo.jpg"
+author: "adviser"
 ---
 
 Following months of tough practices, mental blocks and meets every weekend, the girls swim team went to the Wyoming Girls 4A State Swim and Dive. Led by Captains Kelly Farris, Briley Phipps and Maci Stewart, the girls headed up for the last meet of the year with four divers and seven swimmers.

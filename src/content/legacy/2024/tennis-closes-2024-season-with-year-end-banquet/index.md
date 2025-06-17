@@ -5,6 +5,7 @@ categories:
   - "sports"
   - "tennis"
 coverImage: "tennis1.jpg"
+author: "colby_harrison34"
 ---
 
 Last week, on Tuesday, October 8th, East High School Tennis held its year-end banquet at Sandford's Pub and Grub to celebrate the conclusion of a memorable season. The evening was filled with camaraderie, reflection, and appreciation as players, parents, and coaches gathered to honor the achievements of the tennis program.

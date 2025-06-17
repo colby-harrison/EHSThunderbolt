@@ -4,6 +4,7 @@ date: 2016-11-04
 categories: 
   - "archives"
 coverImage: "Elephants-Graveyard.jpg"
+author: "adviser"
 ---
 
 The East High drama department put on its fall show ‘Elephant’s Graveyard’ on October 12th and 13th. The show, directed by Ms. Christina Zarr of the EHS drama department, revolves around the small town of Erwin, Tennessee, and the day that Spark’s World Famous Circus is set to perform there, along with their famous elephant Mary. The play is based on the true and tragic events that unfolded on the fateful day that the circus came to town. The cast of the show had to put special care into their performances in order to convey to the audience the real and raw emotion involved with such a tragic event.

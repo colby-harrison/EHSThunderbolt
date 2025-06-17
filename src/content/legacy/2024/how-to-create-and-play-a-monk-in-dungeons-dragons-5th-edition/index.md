@@ -5,6 +5,7 @@ categories:
   - "clubsandactivities"
   - "dnd"
 coverImage: "Monkv2.png"
+author: "asherconyers"
 ---
 
 The _Monk_ is one of the most unique and dynamic classes in _Dungeons & Dragons_ 5th Edition (D&D 5E). Known for their unarmed combat skills, agility, and mystical powers, Monks bring an exciting mix of martial arts and supernatural abilities to the game. For players who enjoy high mobility, close-combat prowess, and a spiritual edge, the Monk is a rewarding choice.

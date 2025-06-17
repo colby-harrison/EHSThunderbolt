@@ -4,6 +4,7 @@ date: 2025-02-10
 categories: 
   - "studentlife"
 coverImage: "east-tbtv.jpeg"
+author: "RBrow07"
 ---
 
 Every morning at Cheyenne East High School, students and staff rely on the daily broadcast to start their day with important information. Whether it’s updates on lunch menus, upcoming sports games, club meetings, or special events, the broadcast serves as a central hub for everything happening in and around the school. With a mix of announcements, interviews, and occasional fun segments, the broadcast keeps the school community engaged and informed.

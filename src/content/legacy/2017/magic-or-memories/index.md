@@ -4,6 +4,7 @@ date: 2017-04-18
 categories: 
   - "archives"
 coverImage: "Disney.jpg"
+author: "adviser"
 ---
 
 Being high school students born from 1998-2003, we are the generation that was born into Disney movies- Cinderella, Sleeping Beauty, The Lion King, Finding Nemo- we grew up watching them every day. We knew the songs, loved the characters, and watched the movies any chance we got. Now that we have entered our teen years, we would expect to not still be constantly surrounded by all things Disney.

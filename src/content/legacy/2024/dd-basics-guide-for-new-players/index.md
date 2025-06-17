@@ -5,6 +5,7 @@ categories:
   - "clubsandactivities"
   - "dnd"
 coverImage: "D-n-D-scaled.webp"
+author: "asherconyers"
 ---
 
 **Welcome to the World of Dungeons & Dragons (D&D) 5th Edition!** Whether you’re completely new to the game or have heard about D&D and are curious, this guide will help you understand the basics and prepare you for your first adventure.

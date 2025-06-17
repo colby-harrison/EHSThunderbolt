@@ -4,6 +4,7 @@ date: 2015-05-06
 categories: 
   - "archives"
 coverImage: "Mushroomhead012-ms.gif"
+author: "adviser"
 ---
 
 Where: Atlas Theatre Apr 16

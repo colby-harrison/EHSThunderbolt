@@ -4,6 +4,7 @@ date: 2015-06-01
 categories: 
   - "archives"
 coverImage: "20150528-EastCalebPushcar01-ms.gif"
+author: "adviser"
 ---
 
 Cheyenne East forward Caleb Pushcar had successful surgery to repair damage to his C6 and C7 vertebrae on Saturday in Salt Lake City.

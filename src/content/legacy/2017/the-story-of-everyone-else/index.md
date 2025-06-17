@@ -4,6 +4,7 @@ date: 2017-05-05
 categories: 
   - "archives"
 coverImage: "BW-1.jpg"
+author: "adviser"
 ---
 
 ###### (The following story is a compilation of the experiences of many members of the class of 2017.)

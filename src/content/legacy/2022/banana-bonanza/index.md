@@ -4,6 +4,7 @@ date: 2022-10-26
 categories: 
   - "archives"
 coverImage: "charlesdeluvio-0v_1TPz1uXw-unsplash.jpg"
+author: "ceicholtz"
 ---
 
 Bananas are an important source of potassium; potassium is a word we’ve all heard of, but do we really know what role potassium plays in our everyday life? No, of course not, nobody really pays attention in health during the nutrition unit, especially if you’re an athlete. Chances are you’ve been told about the benefits of fruits and vegetables since you could understand what those words meant, but the words may have gone in one ear and out the other, so nobody can blame us for not knowing what exactly the importance of potassium is.

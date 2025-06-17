@@ -5,6 +5,7 @@ categories:
   - "clubsandactivities"
   - "rotc"
 coverImage: "IMG_5236-e1728500340442.jpg"
+author: "Mikah_Robles"
 ---
 
 The Reserve Officers' Training Corps (ROTC) is a college-based program designed to train students to become future leaders in the military while developing essential life skills. Available in universities across the U.S., the program is not just about preparing students for military service, but it also emphasizes the importance of values like citizenship, integrity, and personal responsibility. 

@@ -3,6 +3,7 @@ title: "Prank'd"
 date: 2017-05-26
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 Walking into the school first thing on May 22 was a shock. A horse skeleton in the lobby, balloons in the toilets, and chairs hanging from the ceiling greeted the students of East High. It was all remnants of the class of 2017, and their final salute to high school.

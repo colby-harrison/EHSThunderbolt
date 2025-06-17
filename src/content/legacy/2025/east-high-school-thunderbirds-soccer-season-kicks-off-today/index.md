@@ -5,6 +5,7 @@ categories:
   - "soccer"
   - "sports"
 coverImage: "641cf7835a222.webp"
+author: "riellys1098"
 ---
 
 The wait is finally over! The East High School Thunderbirds soccer team officially kicks off their season today, March 10th, with the first practice of the year. The excitement is building as the team gets back onto the field, ready to prepare for what promises to be an intense and action-packed season.

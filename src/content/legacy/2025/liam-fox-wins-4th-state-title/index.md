@@ -4,6 +4,7 @@ date: 2025-03-03
 categories: 
   - "wrestling"
 coverImage: "liam.jpg"
+author: "reidhorton47"
 ---
 
 Liam Fox rocked back onto his heels, let out a deep sigh and pointed both index fingers toward the ceiling.

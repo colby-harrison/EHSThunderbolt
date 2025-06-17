@@ -4,6 +4,7 @@ date: 2016-03-03
 categories: 
   - "archives"
 coverImage: "steven.jpg"
+author: "adviser"
 ---
 
 Throughout the season, the Thunderbird wrestlers have had a consistent showing, which has lead to them being one of the top 4A teams in Wyoming, and one of the most consistent T-Birds has been senior Steven Lahnert.

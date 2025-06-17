@@ -4,6 +4,7 @@ date: 2020-10-16
 categories: 
   - "archives"
 coverImage: "debate.jpg"
+author: "adviser"
 ---
 
 Cleveland Ohio, the first presidential debate between President Trump and Democrat Joe Biden. This was one of the most immature debates America has ever witnessed. With Trump constantly interrupting Biden and Biden calling Trump names it wasn’t what you would call professional. 

@@ -4,6 +4,7 @@ date: 2015-02-06
 categories: 
   - "archives"
 coverImage: "career-center-web.jpg"
+author: "adviser"
 ---
 
 The Wyoming House Education Committee voted 6-3 on Friday, January 30, to the proposed House Bill 198 that, if put into law, would raise the high school dropout age and grade to 17 years of age and/or completion of grade 11.

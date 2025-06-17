@@ -3,6 +3,7 @@ title: "Free Fallin'"
 date: 2021-11-05
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 On the long record of the things to do on both Mrs. Heather Tyrrell and Mrs. Cynthia Prevedel’s bucket lists, skydiving was high at the top, they finally fulfilled this late September. They both decided to test their bravery at Mile High Skydiving Center in Loveland and their aerial experiences exceeded their expectations. 

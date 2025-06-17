@@ -4,6 +4,7 @@ date: 2015-09-23
 categories: 
   - "archives"
 coverImage: "uriah.jpg"
+author: "adviser"
 ---
 
 With a new quarterback and almost a completely new offensive line, the Thunderbird football team looks to reestablish their claim to the state title. The disappointing finish last year has driven the T-birds to refocus and recommit themselves to return to Laramie and the state title game.

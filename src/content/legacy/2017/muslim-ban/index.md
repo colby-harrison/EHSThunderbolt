@@ -4,6 +4,7 @@ date: 2017-02-23
 categories: 
   - "archives"
 coverImage: "muslimarticle.jpg"
+author: "adviser"
 ---
 
 You’re on your way home from a business trip, and you can’t wait to see your family, who you haven’t seen in months, but when you get to the airport you hear something about a ban on your country. You are confused and you look around and everyone seems very distressed. Then you find a security guard and find out that your country was one of 7 that was temporally banned in an executive order by Donald trump, and now you are stranded.

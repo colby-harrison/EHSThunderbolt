@@ -4,6 +4,7 @@ date: 2024-11-08
 categories: 
   - "news"
 coverImage: "OIF.jpg"
+author: "Bentley307"
 ---
 
 As the 2024 election season reaches its final stages, anticipation is at an all-time high. This election cycle is not only pivotal due to the issues at stake but also because of the changing dynamics in American political engagement. From record-breaking early voter turnouts to heightened interest in down-ballot races, the 2024 elections highlight how every level of governance—from local officials to the presidency—holds crucial influence over the nation’s path forward.

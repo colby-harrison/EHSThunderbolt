@@ -4,6 +4,7 @@ date: 2016-04-27
 categories: 
   - "archives"
 coverImage: "Batman-v-Superman-Dawn-of-Justice-20161.jpg"
+author: "adviser"
 ---
 
 Who says the ultimate power needs to be the ultimate good? Just because there is power doesn't mean there is heroics. Batman Vs Superman: Dawn Of Justice brings the fear of power to the light. Betrayal from hero to hero, with the determination of vengeance causing the question of the true ability of heroism.

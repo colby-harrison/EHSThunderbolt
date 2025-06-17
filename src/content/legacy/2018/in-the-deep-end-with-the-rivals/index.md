@@ -4,6 +4,7 @@ date: 2018-11-04
 categories: 
   - "archives"
 coverImage: "GS-Nicci-2.jpg"
+author: "adviser"
 ---
 
 Did you know the pool here at east is technically illegal, according to the NFHS rules? The National Federation of High Schools have standards that schools are required to meet. Pools need to be 12 feet deep for swimmers to dive.

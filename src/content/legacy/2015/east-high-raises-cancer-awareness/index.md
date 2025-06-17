@@ -4,6 +4,7 @@ date: 2015-10-20
 categories: 
   - "archives"
 coverImage: "pink-crowd.jpg"
+author: "adviser"
 ---
 
 Okie Blanchard Stadium was expected to be a sea of blue on October 15 when the Evanston Red Devils’ football team rolled into town. Instead, the T-Birds switched out their blue for varying shades of pink.

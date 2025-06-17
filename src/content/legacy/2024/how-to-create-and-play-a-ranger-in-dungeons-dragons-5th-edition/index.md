@@ -5,6 +5,7 @@ categories:
   - "clubsandactivities"
   - "dnd"
 coverImage: "Ranger.jpg"
+author: "asherconyers"
 ---
 
 The _Ranger_ class in _Dungeons & Dragons_ 5th Edition (D&D 5E) is a versatile and adaptable class, combining elements of martial prowess and spellcasting with nature-based skills and abilities. Rangers excel in tracking, exploring, and dealing damage at range or in close combat. They can act as scouts, survivalists, or guides, offering invaluable support and firepower in both the wilderness and on the battlefield. This guide will take you through building and playing a Ranger to get the most out of your adventures.

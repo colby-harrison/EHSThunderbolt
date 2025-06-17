@@ -4,6 +4,7 @@ date: 2015-04-22
 categories: 
   - "archives"
 coverImage: "kyliejenner.gif"
+author: "adviser"
 ---
 
 The latest social media trend is leaving its mark on teenagers, in more ways than one. "Kylie Jenner lips" has exploded across Twitter, Instagram and Facebook and is leaving teens with bruised faces and pride.

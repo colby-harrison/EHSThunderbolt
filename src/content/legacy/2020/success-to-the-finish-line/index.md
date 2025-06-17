@@ -4,6 +4,7 @@ date: 2020-10-19
 categories: 
   - "archives"
 coverImage: "4Q8A2381.jpg"
+author: "adviser"
 ---
 
 Cross Country is a sport full of running on open surface courses on dirt and grass. They all stick together as a team through the season motivating each other to the finish line. The runners are called Harriers they are individuals that take on other individuals from other schools.

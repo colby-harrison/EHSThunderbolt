@@ -3,6 +3,7 @@ title: "Kicking Off the Season"
 date: 2022-05-13
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 After 4 years of waiting, the seniors of the East girls' soccer team finally get to play Kelly Walsh and Natrona for the pre-season games. Every year, these 2 highly anticipated games get cancelled due to harsh weather. Since these games are not regular season games, because Kelly Walsh and Natrona are not in our conference, they have never been rescheduled. After a long wait and hopes for good weather, our girls' soccer team will be able to play the 2 teams from Casper. 

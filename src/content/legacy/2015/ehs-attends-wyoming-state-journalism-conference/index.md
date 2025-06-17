@@ -3,6 +3,7 @@ title: "EHS Attends Wyoming State Journalism Conference"
 date: 2015-10-26
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 State Championships aren't just for sports. The Wyoming High School Student Press Association's (WHSSPA) Wyoming High School Journalism Convention (WHSJC) is the state championship of high school newspaper and yearbook. The WHSJC provides yearbook and newspaper students with the opportunity to enter their work for the chance to win state titles and to attend workshops to strengthen their skills. The 2015-2016 Thunderbolt and EHS yearbook staffs attended this year's WHSJC and even entered some of their work. The results were fantastic.

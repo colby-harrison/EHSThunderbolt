@@ -4,6 +4,7 @@ date: 2019-08-30
 categories: 
   - "archives"
 coverImage: "20190815_090901.jpg"
+author: "adviser"
 ---
 
 In preparation for the upcoming state marching band competition, the East High Marching Band went to Estes Park for band camp. The ideas behind the time at camp are to build relationships, focus on timings and presentation, and practice songs for State. The EHS marching band is known as one of the strongest programs in the state.  

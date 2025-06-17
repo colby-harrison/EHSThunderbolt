@@ -4,6 +4,7 @@ date: 2016-12-20
 categories: 
   - "archives"
 coverImage: "say-no-1.jpg"
+author: "adviser"
 ---
 
 Drugs in the media are portrayed as back alley deals and meet-ups in Walmart parking lots. Although, when you are in high school, it is nothing like that. In elementary school, we used to innocently pass notes back and forth. In high school, the hand-offs are much more malicious.

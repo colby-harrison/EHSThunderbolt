@@ -4,6 +4,7 @@ date: 2019-02-08
 categories: 
   - "archives"
 coverImage: "Durango-Brian-Mead3.jpg"
+author: "adviser"
 ---
 
 East high school, south high school, and central high school all come together as the Wyo team and competitively race in mountain biking. The competitive team has 4 races which are held in Colorado on Saturdays and Sundays. Members of the competitive team should plan $150-$200 per race for lodging, food, travel, and race fees. Scholarships for this are available. All coaches and ride leaders are voluntary, unpaid positions.  The team is a city wide, composite team of riders, from 9th\-12th grade, coed. The team is a club sport with no funding from the schools. The season is roughly from August-October. They hold their practices at North Cheyenne Community Park, on Tuesdays and Thursdays from 5-7pm.

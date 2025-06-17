@@ -4,6 +4,7 @@ date: 2024-10-07
 categories: 
   - "studentlife"
 coverImage: "minga.png"
+author: "marleywilson"
 ---
 
 At East High School, the introduction of the Minga pass tool has transformed the way students navigate their daily routines. Designed to simplify the process of requesting passes for class changes, bathroom breaks, and other activities, this innovative tool is available on iPads, making it accessible and user-friendly.

@@ -5,6 +5,7 @@ categories:
   - "art-club"
   - "clubsandactivities"
 coverImage: "Plant-Perfect-Garden-Center-Bismarck-Guide-to-Pumpkin-Varieties-jack-be-little-pumpkin.jpg.jpg"
+author: "Kassey"
 ---
 
 The Art Club is back in action, supporting the school's football games by running the concession stand. We use this opportunity to raise money for our trips to art installations and cultural experiences. Our next big fundraiser will be during the football game on **October 11th at 5 PM**, and we're calling on all Art Club members to help out! If you're available, please Talk to Ms. Pearson to lend a hand—your support is crucial to making our fundraising efforts a success.

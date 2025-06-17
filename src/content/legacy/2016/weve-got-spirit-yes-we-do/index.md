@@ -4,6 +4,7 @@ date: 2016-10-25
 categories: 
   - "archives"
 coverImage: "evieed.jpg"
+author: "adviser"
 ---
 
 V-I-C-T-O-R-Y! Victory is our battle cry! The halls of East High echoed with crazy school spirit all in anticipation of the annual homecoming week. Favorite college t-shirts, dresses from the 1920’s, and black and blue face paint all filled the halls throughout the week. The excitement built up daily, until the game against Laramie on Friday night and spilled over to Saturday’s dance.

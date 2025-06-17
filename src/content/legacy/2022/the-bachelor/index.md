@@ -3,6 +3,7 @@ title: "The Bachelor"
 date: 2022-05-13
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 The epic season finale of the bachelor aired on Tuesday March 14th on ABC news network, it was said to be the “most dramatic season finale ever” and it proved to be when it ended up without an engagement. Women all over the world love to watch the bachelor and its sister series the Bachelorette. But why is it so popular, with 3.8 million viewers, you have to wonder what makes it so good for people to watch. According to the times magazine article, “Why are so many people obsessed with the bachelor” the show characterized by its extravagant dates, abundance of champagne and end goal of getting engaged by the season finale. And to be blunt, people like mind numbing drama to relieve the stress of their lives at the end of the day.  

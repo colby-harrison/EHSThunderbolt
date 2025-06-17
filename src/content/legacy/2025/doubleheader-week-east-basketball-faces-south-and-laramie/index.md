@@ -5,6 +5,7 @@ categories:
   - "basketball"
   - "sports"
 coverImage: "southvseast.jpg"
+author: "nataliermoore"
 ---
 
 East High basketball is gearing up for a exciting week ahead, with back-to-back doubleheaders against fierce rivals South and Laramie. This stretch of games will be a true test for both the boys’ and girls’ teams as they push through the heart of conference play.

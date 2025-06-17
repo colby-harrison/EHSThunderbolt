@@ -4,6 +4,7 @@ date: 2024-10-30
 categories: 
   - "studentlife"
 coverImage: "Canvaslogo_5566b629-3876-4acf-b880-ea0d76334eff-prv.jpg"
+author: "RBrow07"
 ---
 
 Canvas has quickly become an essential platform for Cheyenne East High School students, making it easier to keep up with assignments, grades, and feedback. Teachers and students alike find the tool invaluable for staying organized and communicating more effectively.

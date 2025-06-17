@@ -4,6 +4,7 @@ date: 2024-11-08
 categories: 
   - "clubsandactivities"
 coverImage: "thumbnail_east-wins-big-at-rock-springs-1-1.png"
+author: "123456789"
 ---
 
 We’re thrilled to announce that the Cheyenne East Speech and Debate team delivered an outstanding performance at the season-opening tournament in Rock Springs this past weekend, securing 1st place in the 4A Sweepstakes competition! Competing against 12 teams from across Wyoming, our students showed incredible skill, dedication, and sportsmanship, setting a new bar for excellence in the state.

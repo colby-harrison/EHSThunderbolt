@@ -3,6 +3,7 @@ title: "East dominates at Annual Taco John’s Tournament"
 date: 2022-01-19
 categories: 
   - "archives"
+author: "tcassat"
 ---
 
 The annual Taco John’s tournament went extremely well for our girls' and boys' basketball teams. After a couple of long weekends of traveling the teams were able to play in their home thunderbird gym for the first time in almost two years do to Covid and the construction in the gyms. The teams also experienced some adversity in the games against Rock Springs and Natrona. However, they were able to pull through and took a hard-fought win against both teams.

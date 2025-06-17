@@ -3,6 +3,7 @@ title: "Your Future Ahead..."
 date: 2018-05-03
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 Starting a new school can be hard. The first days of High school can be terrifying. You might be scared because it’s a huge school, and you don’t yet know anyone. Or the fear of walking what seems like miles to math class can be a little intimidating. Each fall East High holds a freshman orientation to welcome new students so they can become more comfortable with the halls and class locations. East’s freshman orientation welcomes incoming ninth graders and introduces them to the T-Bird way.

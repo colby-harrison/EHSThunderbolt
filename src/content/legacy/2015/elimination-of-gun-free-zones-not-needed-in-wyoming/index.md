@@ -4,6 +4,7 @@ date: 2015-02-19
 categories: 
   - "archives"
 coverImage: "Gun-Free-Zones.gif"
+author: "adviser"
 ---
 
 Since his first election in 2010 Governor Matt Mead has worked to make Wyoming a “gun-friendly state”, but after the recent State House approval of House Bill 114 Wyoming may become just a bit _too_ “gun-friendly” for comfort. House Bill 114 – also known as the Wyoming Repeal Gun Free Zone Act - would allow guns to be carried on public K-12, college, and university campuses as long as the carrier has a concealed weapons carry permit. Legal permit carriers would be able to carry at sporting and other events put on by public schools.

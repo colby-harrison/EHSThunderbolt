@@ -5,6 +5,7 @@ categories:
   - "football"
   - "sports"
 coverImage: "attachment-1-7-fixed-450.webp"
+author: "dwood.8"
 ---
 
 The Cheyenne East Thunderbirds kicked off the 2024 football season in style, securing a decisive 37-6 victory over the Laramie Plainsmen on opening night of 4A football. With a new-look roster, the T-Birds have shown that their winning ways remain intact, thanks to stellar performances from their key players.

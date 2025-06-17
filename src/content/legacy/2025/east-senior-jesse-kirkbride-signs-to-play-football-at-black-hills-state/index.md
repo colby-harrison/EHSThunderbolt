@@ -7,6 +7,7 @@ categories:
   - "football"
   - "news"
 coverImage: "Screenshot-2025-02-10-at-8.30.47 AM.jpeg-2025-02-10-15_31_10.png"
+author: "ITZJ307"
 ---
 
 East High senior guard Jesse Kirkbride has achieved his dream of playing college football, signing with Black Hills State University in Spearfish, South Dakota, for the upcoming season.

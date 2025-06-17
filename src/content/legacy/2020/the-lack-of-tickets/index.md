@@ -4,6 +4,7 @@ date: 2020-10-14
 categories: 
   - "archives"
 coverImage: "IMG-1803-e1602688739833.jpeg"
+author: "LanaN"
 ---
 
 The rules for social distancing have prohibited the amount of people that are allowed at each game. For each student who is playing or performing can only have 2 tickets each for their parents. It creates an issue for kids with bigger families. To help Emily Schwaiger, 11, and her little sister Madison Schwaiger, 8, had four tickets in total and didn’t need all of them, so they gave up some of their tickets to a friend in need.

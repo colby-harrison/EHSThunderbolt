@@ -3,6 +3,7 @@ title: "CNA Program Offered at East High"
 date: 2022-03-23
 categories: 
   - "archives"
+author: "tcassat"
 ---
 
 Are you planning on joining the medical field after high school? East High offers a great program to get you prepared for the future! The CNA (certified nursing assistant) program, taught by Mrs. Quick,  allows students to learn the skills of a CNA, use those skills in the work environment, and get prepared to take their certification at the end of the year.

@@ -3,6 +3,7 @@ title: "Kicking Cancers Butt"
 date: 2021-11-05
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 Some of the strongest people in the world are the people who have survived cancer. Between seven doctors they could not decide if Kerridwyn Cohick- Stoner, 10 had either chronic recurrent multifocal osteomyelitis (CRMO) or bone cancer. When Cohick-Stoner was eight years old, she first found out about having cancer. 

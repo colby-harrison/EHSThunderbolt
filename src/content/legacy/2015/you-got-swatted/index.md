@@ -4,6 +4,7 @@ date: 2015-10-26
 categories: 
   - "archives"
 coverImage: "CWalston-53-69.jpg"
+author: "adviser"
 ---
 
 The Lady T-birds have been the talk of the town these past weeks as they’ve passed, set, and hit their way through 29 games with their eyes on the prize. As of right now, the T-birds have a season of 27-1, giving them the top seed going into regionals. The volleyball team has worked hard to achieve their spot.

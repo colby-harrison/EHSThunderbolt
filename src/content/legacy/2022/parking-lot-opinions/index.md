@@ -3,6 +3,7 @@ title: "Parking Lot Opinions"
 date: 2022-05-13
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 The school parking lot has been the talk of the school for two years now, every student has an opinion on the parking lot situation, but unfortunately, you’re going to hear mine. The parking lot has been out of commission for far too long, the students have had to resort to parking in all kinds of places, and not to mention it makes the parking lot much more dangerous. Kaylee Cully, 12, has much to say about the condition of our parking lot.

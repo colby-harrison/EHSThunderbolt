@@ -4,6 +4,7 @@ date: 2022-04-29
 categories: 
   - "archives"
 coverImage: "Morgan-Halverson.jpg"
+author: "adviser"
 ---
 
 The East High School sensation Thundershack was reinstated at the school this past semester and has since taken the students by storm. After a two-year hiatus, the culinary classes have returned to running the Thundershack, going from room to room each period to take students’ orders. For the entire block, the students in the culinary classes work hard to make and deliver food to each class. 

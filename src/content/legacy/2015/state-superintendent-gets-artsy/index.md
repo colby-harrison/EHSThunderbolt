@@ -4,6 +4,7 @@ date: 2015-10-26
 categories: 
   - "archives"
 coverImage: "DSCN1668.jpg"
+author: "adviser"
 ---
 
 Wyoming Department of Education superintendent Jillian Balow paid East a visit on October 6 to sit in on a project in Mrs. Newman’s art classes. The surrealistic art exhibit, supplied by the University of Wyoming Ann Simpson Art Mobile, “travels across the 97,914 square miles of Wyoming sharing museum quality artwork with communities that may otherwise have limited access to original art,” according to the University of Wyoming art museum website. Mrs. Balow saw this as an opportunity to see hands-on projects working in Wyoming classrooms.

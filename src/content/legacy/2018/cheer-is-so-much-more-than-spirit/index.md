@@ -4,6 +4,7 @@ date: 2018-03-02
 categories: 
   - "archives"
 coverImage: "Steph-135.jpg"
+author: "adviser"
 ---
 
 Cheerleading is more than spirit and pom-poms. It’s more than rallying the crowd late in the game. It’s commitment, passion, and teamwork.

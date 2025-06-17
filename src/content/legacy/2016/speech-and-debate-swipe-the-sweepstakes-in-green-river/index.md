@@ -4,6 +4,7 @@ date: 2016-01-11
 categories: 
   - "archives"
 coverImage: "speech-and-debate-GR.jpg"
+author: "adviser"
 ---
 
 The Cheyenne East speech and debate team seized the day at the Green River Invitational, on December 11 and 12, winning the Sweepstakes by having the most team points of the tournament. At the Green River tournament, East won Sweepstakes, which means that they had more higher-scoring members than any other team.

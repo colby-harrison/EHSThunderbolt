@@ -4,6 +4,7 @@ date: 2015-03-17
 categories: 
   - "archives"
 coverImage: "WTE-Mike-Smith-print.jpg"
+author: "adviser"
 ---
 
 On a dry, windy Wyoming day, a fire burned several fields near Triumph High School and South High School on Sunday.  The fires, located just north of College Drive, burned several acres, according to the local fire department.

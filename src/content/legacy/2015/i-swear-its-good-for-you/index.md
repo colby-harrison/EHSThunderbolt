@@ -4,6 +4,7 @@ date: 2015-05-06
 categories: 
   - "archives"
 coverImage: "0_2_no_swearing.jpg"
+author: "adviser"
 ---
 
 There are times in our lives when we all need a word or phrase that is stronger than the rest, one that conveys the true emotion and passion of the moment. In other words, once in a while, we all need a nice, strong curse word.

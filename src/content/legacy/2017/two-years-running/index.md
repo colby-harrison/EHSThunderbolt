@@ -4,6 +4,7 @@ date: 2017-01-10
 categories: 
   - "archives"
 coverImage: "IMG_3180.jpg"
+author: "adviser"
 ---
 
 This is it- the final moments of State Drama. “In third place… Campbell County!” The anticipation build, and the students become still. “Second place goes to… Cheyenne Central!” After a moment of congratulatory claps, scattered hushes come from all around the auditorium. Every breath becomes held. “And in first place…” Everyone leans forward, the collective question running through their minds- who had won? And then “Cheyenne East!” After a moment of pure shock and applause rains down from the auditorium all for the team in blue.

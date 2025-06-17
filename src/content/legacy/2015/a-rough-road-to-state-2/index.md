@@ -4,6 +4,7 @@ date: 2015-03-18
 categories: 
   - "archives"
 coverImage: "statebball.jpg"
+author: "adviser"
 ---
 
 The Thunderbirds boys basketball team kicked off the season with high expectations and plenty of recognition, but, after a wild season of ups and downs, no one team seemed to want to take control of the state.

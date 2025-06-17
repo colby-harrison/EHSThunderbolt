@@ -3,6 +3,7 @@ title: "My Body My Choice"
 date: 2021-11-05
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 Many students throughout East High School have different opinions on the mask mandate for the schools in our district. If you walked throughout the school and in between classes and paid attention, you would be able to tell who's for it and who's against it because of the way people wear their masks. Some classes have kids wearing them correctly, wearing them below their noses or underneath their chin or sometimes even they have it completely off. This is how you can mostly tell who is against or for the mask mandate at the schools of Cheyenne.  

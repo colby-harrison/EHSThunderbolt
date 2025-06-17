@@ -4,6 +4,7 @@ date: 2016-03-03
 categories: 
   - "archives"
 coverImage: "IMG_7831.gif"
+author: "adviser"
 ---
 
 Teachers and staff enjoyed a free breakfast courtesy of the East High FFA on Wednesday, February 24. The FFA students hosted the teachers in the East High Ag Shop and served coffee, biscuits, gravy, and fruit. The teachers who attended the breakfast also got the chance to meet the Agriculture Department's pigs.

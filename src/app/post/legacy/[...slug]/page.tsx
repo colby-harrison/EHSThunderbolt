@@ -12,14 +12,12 @@ export default async function Page({
   const test = await import(
     `@/content/legacy/${slug.join("/")}/index.md`
   );
-  console.log(test.frontmatter);
-  console.log(test.default);
 
   const Post = test.default;
 
   return (
     <>
-      {/* <MetadataDataUpdater data={metadata as MetadataData} /> */}
+      <MetadataDataUpdater data={test.frontmatter as MetadataData} />
       <Post />
     </>
   );

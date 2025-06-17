@@ -3,6 +3,7 @@ title: "Vaulting to the Top"
 date: 2022-02-28
 categories: 
   - "archives"
+author: "idelong"
 ---
 
 Our girls pole vaulting team are working hard this season with their new coach, Greg Sawyer. Coach Sawyer is a formal division 1 athlete, competing in track, and basketball. The team is thrilled to learn from him, and excited for the opportunity to work with him. So far, these girls have competed in six meets, Caydence Eicholtz, has placed top five in every meet that she’s competed in, making her the top vaulter for East High.  Caydence puts in lots of hard work during the off season and is excited to see it pay off.

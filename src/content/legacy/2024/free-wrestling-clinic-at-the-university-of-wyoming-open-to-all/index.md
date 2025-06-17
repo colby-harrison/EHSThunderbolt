@@ -5,6 +5,7 @@ categories:
   - "sports"
   - "wrestling"
 coverImage: "image_attachment.jpg"
+author: "Bentley307"
 ---
 
 **Introduction:**

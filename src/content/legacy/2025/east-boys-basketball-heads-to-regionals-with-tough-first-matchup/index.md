@@ -5,6 +5,7 @@ categories:
   - "basketball"
   - "sports"
 coverImage: "REGIONAL-BRACKET.jpg"
+author: "nataliermoore"
 ---
 
 The Cheyenne East boys' basketball team is gearing up for a tough regional tournament, and the best part? They're playing in their hometown! East will take on Thunder Basin in the first round on March 6 at 1:30 p.m., and they need their fans to show out and bring the energy.

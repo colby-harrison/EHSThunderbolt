@@ -5,6 +5,7 @@ categories:
   - "clubsandactivities"
   - "dnd"
 coverImage: "IMG_0052.jpeg"
+author: "asherconyers"
 ---
 
 The Sorcerer class in Dungeons & Dragons 5th Edition (D&D 5E) is for players who want to embody innate magical power. Unlike Wizards who study magic or Warlocks who make pacts, Sorcerers are born with magic flowing through their veins. Whether it’s a gift from a dragon ancestor, a blessing of wild magic, or a mark of celestial favor, Sorcerers are potent spellcasters with a deep connection to their magical abilities. This guide will help you create and play a Sorcerer, from choosing your origin to casting powerful spells in battle.

@@ -5,6 +5,7 @@ categories:
   - "golf"
   - "sports"
 coverImage: "20241021_141414000_iOS.jpg"
+author: "gagestoddard7"
 ---
 
 The annual golf banquet was held recently at the Cheyenne Airport Golf Course, where Coach Todd Oswald praised both the girls and boys varsity teams for their dedication and impressive performances this season.

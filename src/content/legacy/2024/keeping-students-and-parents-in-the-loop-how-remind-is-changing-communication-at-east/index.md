@@ -4,6 +4,7 @@ date: 2024-10-30
 categories: 
   - "studentlife"
 coverImage: "IMG_0229.png"
+author: "RBrow07"
 ---
 
 In an effort to improve communication between students, teachers, and parents, Cheyenne East High School has adopted the Remind app. This app has become a valuable tool for staying informed about school activities, from sports events to academic announcements. By using Remind, teachers and staff can quickly send out messages, updates, and reminders, ensuring everyone is on the same page.

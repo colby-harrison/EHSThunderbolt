@@ -4,6 +4,7 @@ date: 2023-10-13
 categories: 
   - "archives"
 coverImage: "gender-inequality-photo.png"
+author: "dwood"
 ---
 
 Gender inequality remains a large issue today, with ongoing differences seen in many aspects of life, including education, employment, and leadership roles. Despite substantial efforts to address these imbalances, much work remains to achieve true gender equality.

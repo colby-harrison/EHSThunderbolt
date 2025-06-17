@@ -4,6 +4,7 @@ date: 2016-05-13
 categories: 
   - "archives"
 coverImage: "leg.jpg"
+author: "adviser"
 ---
 
 It’s been a long day - bouncing between classes, learning new concepts, taking tests. A long day like this can take a lot out of you. Late night practices, early morning quizzes. Sometimes it seems as if there’s just not enough hours in the day. A worn out mind and a sore body. Being so involved can take its toll, but the rewards make it all worth it. Senior Elizabeth Kassel’s typical day is the epitome of this crazy life.

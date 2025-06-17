@@ -4,6 +4,7 @@ date: 2015-04-15
 categories: 
   - "archives"
 coverImage: "images5GKFVVGO.jpg"
+author: "adviser"
 ---
 
 There’s nothing like the sound of battle in the morning, the rise and fall of kings or the magnificent sight of a fire-breathing dragon.

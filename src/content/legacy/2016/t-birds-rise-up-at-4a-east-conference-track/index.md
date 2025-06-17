@@ -3,6 +3,7 @@ title: "In Pictures: T-Birds Rise Up at 4A East Conference Track Meet"
 date: 2016-05-16
 categories: 
   - "archives"
+author: "adviser"
 ---
 
  

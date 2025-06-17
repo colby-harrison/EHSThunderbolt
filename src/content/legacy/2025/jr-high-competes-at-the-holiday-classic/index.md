@@ -5,6 +5,7 @@ categories:
   - "carey-connection"
   - "clubsandactivities"
 coverImage: "Original-Finalists-Reindeer-Games-2024.png"
+author: "123456789"
 ---
 
 As East hosts its annual Speech and Debate competition the Holiday Classic they open a Jr. High division for younger competitors to allow them to compete and get practice before they join the High school division. They opened a section of rooms for the Jr. High division during the holiday classic and they opened the events Platform, Debate, and Interpretation. The competitors went through 3 rounds of competing with volunteer judges. The Jr high division was also added into the High School Awards having their own section for recognition, the competitors and there places are as following:

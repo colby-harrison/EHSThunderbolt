@@ -4,6 +4,7 @@ date: 2015-05-15
 categories: 
   - "archives"
 coverImage: "images1243F935.jpg"
+author: "adviser"
 ---
 
 Boxing fans across the country and around the world cried over the so-called "fight of the century." Complaints poured in to claim it  was a waste of time and money. According to espn.com, "it generated a live gate of approximately $74 million, and the pay-per-view television audience -- at about $100 per buy -- is expected to shatter the pay-per-view buy record (2.48 million) and pay-per-view revenue record ($150 million) set by previous Mayweather fights. In all, organizers expect the fight to generate some $400 million."

@@ -3,6 +3,7 @@ title: "Exploring Creativity in Three Dimensions: Inside Our 3D Printing Club"
 date: 2025-01-06
 categories: 
   - "3dpr"
+author: "Mikah_Robles"
 ---
 
 By Mikah Robles

@@ -4,6 +4,7 @@ date: 2016-04-27
 categories: 
   - "archives"
 coverImage: "promposals-2.jpg"
+author: "adviser"
 ---
 
 The simple act of asking someone to prom has become one of the biggest trends amongst high school teenagers. The new way to snag a prom date? A promposal, an elaborate invitation way beyond the traditional flowers and a smile. The promposal has been sweeping the nation via social media and, in some cases local news stories, as it grows in extravagance and frequency. Several East High students have come up with their own promposals in hopes of wowing their prospective dates.

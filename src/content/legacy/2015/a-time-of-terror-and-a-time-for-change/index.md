@@ -4,6 +4,7 @@ date: 2015-12-21
 categories: 
   - "archives"
 coverImage: "paris-peace-sign.jpg"
+author: "adviser"
 ---
 
 Hundreds of residents and tourists crowded the base of the stage at a concert by The Eagles of Death Metal on November 14, 2015. The Bataclan theatre was jumping with intense music and voices screaming the lyrics. Suddenly, explosions and gunfire cracked the air. Bullets whizzed through the air, sometimes making contact with their targets. People barreled toward the door and flooded the streets. Many people found themselves face to face with a black mask and an AK-47.

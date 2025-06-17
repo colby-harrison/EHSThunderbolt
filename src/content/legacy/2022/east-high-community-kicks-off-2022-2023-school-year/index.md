@@ -4,6 +4,7 @@ date: 2022-09-28
 categories: 
   - "archives"
 coverImage: "99F33BCB-D50D-4F6A-B098-87242AE37F47.jpeg"
+author: "ljones"
 ---
 
 The website vocabulary.com defines unity as, “being together or at one with someone or something. It’s the opposite of being divided. This is a word for togetherness or oneness. When a bunch of people at as one and are on the same page, they’re displaying unity. When people are bickering and disorganized, there’s no unity. In any group or cause, unity can be hard to find and maintain.”

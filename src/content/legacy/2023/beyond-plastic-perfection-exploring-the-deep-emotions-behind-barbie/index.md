@@ -3,6 +3,7 @@ title: "Beyond Plastic Perfection: Exploring the Deep Emotions Behind Barbie"
 date: 2023-10-13
 categories: 
   - "archives"
+author: "SPrime"
 ---
 
 ![](images/IMG_3135-203x300.jpeg)

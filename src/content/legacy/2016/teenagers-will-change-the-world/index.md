@@ -4,6 +4,7 @@ date: 2016-05-09
 categories: 
   - "archives"
 coverImage: "genZWeb.jpg"
+author: "adviser"
 ---
 
 Many people, especially those who are older, say that from here on out the world is doomed. They say that the last good generation has long passed. They say that kids these days don’t have work ethic and spend too much time on their cell phones, complaining on social media about trivial things.

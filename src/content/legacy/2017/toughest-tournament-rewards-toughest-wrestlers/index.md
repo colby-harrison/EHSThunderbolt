@@ -4,6 +4,7 @@ date: 2017-03-10
 categories: 
   - "archives"
 coverImage: "7550.jpg"
+author: "adviser"
 ---
 
 At one of the biggest wrestling tournaments in the region, it’s not uncommon to see the best wrestlers go down in defeat. To win at Ron Thon is to win state. It’s the only weekend all year that you can find every weight class, every school and every wrestler battling for one title. To win your weight class at Ron Thon is to declare you are the best wrestler, without doubt, in the state of Wyoming.

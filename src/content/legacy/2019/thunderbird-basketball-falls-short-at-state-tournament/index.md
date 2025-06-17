@@ -4,6 +4,7 @@ date: 2019-03-11
 categories: 
   - "archives"
 coverImage: "IMG_9783.jpg"
+author: "adviser"
 ---
 
 No one plays a sport to lose. No one puts in hundreds of hours of practice for second place. Every real competitor wants to win. No one goes into a season planning to fall short of their goals.

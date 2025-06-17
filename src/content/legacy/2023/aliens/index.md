@@ -3,6 +3,7 @@ title: "Aliens?"
 date: 2023-10-13
 categories: 
   - "archives"
+author: "LRonning"
 ---
 
 Do aliens exist? Do you ever think you see a shooting stair in the sky and think it looks like a flying saucer? Do you ever think you see a little non-human figure running around? This is a really interesting question and one that NASA has been trying to understand, explore, and figure out figure out for a long time. We have not yet discovered life on any other planet, and we have not seen any scientifically supported evidence for extraterrestrial life.

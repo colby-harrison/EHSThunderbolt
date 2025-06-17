@@ -4,6 +4,7 @@ date: 2025-04-18
 categories: 
   - "schoolstore"
 coverImage: "new-hoodie-line.png"
+author: "nataliermoore"
 ---
 
 We heard you, T-Birds — and we delivered! The T-Bird Nest is now offering an exciting new limited edition hoodie line for just **$25**! These fresh designs come in three bold color options: **Columbia Blue, White, and Black**, featuring the sharp and spirited “East” logo to rep your school in style.

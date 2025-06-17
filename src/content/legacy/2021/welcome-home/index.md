@@ -3,6 +3,7 @@ title: "Welcome Home"
 date: 2021-11-05
 categories: 
   - "archives"
+author: "ceicholtz"
 ---
 
 The homecoming dance was a night to remember, from the dinner, to the pictures, to the actual dance, it was a night full of fun. As the first dance after COVID, it had high expectations, fortunately everyone seems to think those expectations were met. “It was a lot of fun it was a real blast, I had the time of my life,” said Katya Wiggam, 11.

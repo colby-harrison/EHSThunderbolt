@@ -4,6 +4,7 @@ date: 2021-12-15
 categories: 
   - "archives"
 coverImage: "east-winter-triad.jpg"
+author: "ljones"
 ---
 
 The East triad winter concert was a unique experience this year for the students. Rather than separate the schools as usual, elementary students, junior high, and high school students converged at the Storey Gym for a concert to remember. 

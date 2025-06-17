@@ -3,6 +3,7 @@ title: "Rock Springs Speech"
 date: 2016-11-08
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 November 7th and 8th, the speech and debate teams travelled to Rock Springs to show their talent. Many students came away with great accomplishments and experiences.

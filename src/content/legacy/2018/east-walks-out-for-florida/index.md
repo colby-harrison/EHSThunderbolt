@@ -4,6 +4,7 @@ date: 2018-05-07
 categories: 
   - "archives"
 coverImage: "walkoutpicture.jpg"
+author: "adviser"
 ---
 
 In early February, a tragedy struck Parkland, Florida, when a former student of Marjory Stoneman Douglas High School killed 14 students, 3  teachers, and injured many more.

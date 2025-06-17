@@ -4,6 +4,7 @@ date: 2020-10-13
 categories: 
   - "archives"
 coverImage: "4Q8A0109.jpg"
+author: "chayes"
 ---
 
 For the past couple of weeks, East has faced storms of smoke and orange skies. This has been affecting air quality making it dangerous for people to go outside for things like sports, band, or P.E. class. 

@@ -5,6 +5,7 @@ categories:
   - "clubsandactivities"
   - "dnd"
 coverImage: "IMG_0049.jpeg"
+author: "asherconyers"
 ---
 
 In _Dungeons & Dragons_ 5th Edition (D&D 5E), the _Bard_ is a charismatic, versatile character who uses music, speech, and magic to inspire allies, deceive foes, and control the battlefield. Known for their flexibility, Bards are adept at supporting their teammates while remaining effective in combat and social situations. Whether you’re new to D&D or looking to expand your skills, this guide will walk you through creating and playing a Bard in D&D 5E.

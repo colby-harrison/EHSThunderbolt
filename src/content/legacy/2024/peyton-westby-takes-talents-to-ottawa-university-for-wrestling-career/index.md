@@ -6,6 +6,7 @@ categories:
   - "news"
   - "wrestling"
 coverImage: "IMG_2406-2024-12-18-21_43_40.jpg"
+author: "ITZJ307"
 ---
 
 Peyton Westby, a rising star in the wrestling world, is set to take his skills to Ottawa University in Kansas, where he will continue his athletic career. Known for his work ethic and dedication to his team, Westby’s coaches have praised his relentless drive and willingness to contribute in any way necessary to help the team succeed.

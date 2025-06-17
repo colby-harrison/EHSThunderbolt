@@ -4,6 +4,7 @@ date: 2016-04-27
 categories: 
   - "archives"
 coverImage: "Cookies-OnLine.gif"
+author: "adviser"
 ---
 
 Everyone loves Girl Scout cookies, and cookie season is everyone's favorite time of year next to, maybe, football season. From the sweetest, silkiest, most mouth-watering cookies to the healthiest, plainest, most nutrient-filled cookies, everyone has a favorite. If you had to pick one, just one, which would be yours?

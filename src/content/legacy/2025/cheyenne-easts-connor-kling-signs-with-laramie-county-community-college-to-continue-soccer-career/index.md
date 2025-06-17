@@ -8,6 +8,7 @@ categories:
   - "soccer"
   - "sports"
 coverImage: "663edfa4ed4a4.webp"
+author: "ITZJ307"
 ---
 
 Cheyenne East senior Connor Kling made a major decision about his future on Monday when he signed with Laramie County Community College (LCCC) to continue his soccer career. The commitment allows Kling to stay close to his family while pursuing his passion for soccer and studying kinesiology.

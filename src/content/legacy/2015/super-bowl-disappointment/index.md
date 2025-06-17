@@ -4,6 +4,7 @@ date: 2015-02-25
 categories: 
   - "archives"
 coverImage: "imagesJ6BUD3MD.jpg"
+author: "adviser"
 ---
 
 Everyone, in some form, knows the “important” parts of the Super Bowl by the next day, even if your TV wasn’t on.  All the media sites went crazy again for Super Bowl XLIX’s half-time show, the plays, the players, and of course, the infamous Super Bowl commercials. This year, like every year, controversy erupted during every break.  Sure, some of the advertisements were funny, but this year more serious turns caught everyone off guard.  People complained and the internet exploded with criticism.

@@ -3,6 +3,7 @@ title: "Is College Necessary for Success?"
 date: 2018-01-29
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 ![](images/MaxPixel.freegreatpicture.com-Scroll-Graduation-Cap-Student-University-2148715.jpg)

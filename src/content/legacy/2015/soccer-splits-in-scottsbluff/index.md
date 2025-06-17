@@ -4,6 +4,7 @@ date: 2015-04-27
 categories: 
   - "archives"
 coverImage: "D-Kroeger-101.gif-soccer1.gif"
+author: "adviser"
 ---
 
 Cheyenne East girls soccer team took over the Scottsbluff Bearcats on Saturday, April 25, and beat the home town 8-0. In the first half Junior Abby Morillon scored a hat trick. Sophomores Katie Loken and Jessie Erickson added two goals each and Morillon had a pair of assists, which had the Lady Thunderbirds winning their third game of the week. Senior Micayla Ross added a late goal. The Lady Thunderbirds host Central Indians at 6 p.m. Friday.

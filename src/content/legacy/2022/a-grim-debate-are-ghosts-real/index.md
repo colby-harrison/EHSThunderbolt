@@ -4,6 +4,7 @@ date: 2022-10-24
 categories: 
   - "archives"
 coverImage: "20221024_153017000_iOS.jpg"
+author: "emayfield"
 ---
 
 The great debate: are ghosts real? Or just a figment of one's imagination? 

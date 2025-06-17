@@ -5,6 +5,7 @@ categories:
   - "clubsandactivities"
   - "dnd"
 coverImage: "IMG_0053.jpeg"
+author: "asherconyers"
 ---
 
 The Wizard is one of the most iconic classes in Dungeons & Dragons, bringing a blend of vast magical knowledge and high-powered spells to the game. With a wide variety of spells and specialties to choose from, Wizards have the potential to change the course of any adventure with a flick of their wrist. This guide will cover how to create and play a Wizard in D&D 5th Edition, whether you’re aiming to be the arcane scholar, master of illusions, or a fearsome evoker.

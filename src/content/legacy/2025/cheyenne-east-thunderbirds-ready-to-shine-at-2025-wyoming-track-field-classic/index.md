@@ -4,6 +4,7 @@ date: 2025-05-02
 categories: 
   - "track"
 coverImage: "681429.png"
+author: "daytonrhoades"
 ---
 
 he Cheyenne East High School track and field team is gearing up for the prestigious 2025 Wyoming Track & Field Classic, scheduled for **Friday, May 2nd** at **Kelly Walsh High School** in Casper. Field events will commence at **4:00 P.M.**, followed by track events at **4:30 P.M.**​

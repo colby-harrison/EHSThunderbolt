@@ -4,6 +4,7 @@ date: 2020-05-06
 categories: 
   - "archives"
 coverImage: "SPORTS-Basketball-PIC.jpg"
+author: "adviser"
 ---
 
 Basketball is one of the best sports at East High for packing the stands and getting the crowd on their feet. This season was no different. Many sports fans across the state admitted that Cheyenne might be the home to the best basketball teams in the state, and the Thunderbirds proved, week in and week out, both our boys and girls belonged in that conversation.

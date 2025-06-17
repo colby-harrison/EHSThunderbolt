@@ -4,6 +4,7 @@ date: 2015-04-06
 categories: 
   - "archives"
 coverImage: "pinky.jpg"
+author: "adviser"
 ---
 
 Pinky Jane or “Pinky,” a fixture in the EHS Ag Department for two years, recently passed away due to complications from the birth of her second litter.

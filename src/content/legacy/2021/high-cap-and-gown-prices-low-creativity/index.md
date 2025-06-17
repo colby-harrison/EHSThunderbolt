@@ -3,6 +3,7 @@ title: "High Cap and Gown Prices, Low Creativity"
 date: 2021-11-05
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 Being the first year that gets to keep their cap and gown the seniors are beginning to set their expectations for their graduation attire. Alison Crock, 12, explains here expectations for her cap and gown, “I’m just trying to make it my own and not make it look like everyone else, put something different on mine that no one will know.” This thought is synonymous within the senior class. “It’s gonna look sick,” says senior Nick Colgan. Expectations for the cap and gowns are high and new ideas for how they’re going to be customized run rampant. Despite the seniors being able to keep their gowns this year the school administration has kept limitations on what can be customized, the caps can’t be decorated and must stay blue and black. Putting a cap on their creativity has many seniors feeling scammed, they must buy the garments, but aren’t allowed to express themselves with it.  

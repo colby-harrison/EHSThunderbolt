@@ -4,6 +4,7 @@ date: 2019-01-08
 categories: 
   - "archives"
 coverImage: "copy1-e1546967303260.jpg"
+author: "adviser"
 ---
 
 Everyone gets inspired by something, whether it’s from a hobby you enjoy, watching television, a school club you’re involved in, or even sports.  Inspiration comes when you see something that excites and motivates you to make something out of it.  Rabecca Northcutt was inspired by art. “I went to classes to find what my talent is”, she said.  Her art teacher, Mr. Roswell, introduced her to the making of jewelry and she finally found something she enjoyed doing and later found out she was good at. 

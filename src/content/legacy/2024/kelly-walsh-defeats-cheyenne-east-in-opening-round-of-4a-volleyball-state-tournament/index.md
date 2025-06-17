@@ -5,6 +5,7 @@ categories:
   - "sports"
   - "volleyball"
 coverImage: "672d39779caf4.webp"
+author: "ITZJ307"
 ---
 
 Cheyenne East faced an uphill battle in its opening match at the Wyoming Class 4A state volleyball tournament in Casper WY, falling in straight sets to top-seeded Kelly Walsh, 25-13, 25-14, 25-19. Despite an early push, the Thunderbirds struggled with 25 attack errors, which ultimately sealed their fate against a consistent and athletic Trojans squad.

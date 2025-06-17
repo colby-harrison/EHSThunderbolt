@@ -4,6 +4,7 @@ date: 2024-12-18
 categories: 
   - "basketball"
 coverImage: "63f29346b7076.jpg"
+author: "daytonrhoades"
 ---
 
 The Cheyenne East High School boys' basketball team is ready to tip off their season on December 12 at the Strannigan Tournament in Riverton. The tournament marks the first test of the year, offering an opportunity for teams across the state to showcase their skills and gauge their progress.

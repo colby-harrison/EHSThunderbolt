@@ -3,6 +3,7 @@ title: "Spring Break Thursday Show"
 date: 2015-03-27
 categories: 
   - "archives"
+author: "brantzt"
 ---
 
 Hosted by Aaron Loken, Erik Garnica-Cole, and Anthony Hernandez;

@@ -4,6 +4,7 @@ date: 2022-10-26
 categories: 
   - "archives"
 coverImage: "232587DC-6784-4D8A-A3F5-373E016CDDBE.jpeg"
+author: "kupton"
 ---
 
 \[gallery align="undefined" background="undefined" background\_color="undefined" border="undefined" border\_color="undefined" border\_size="undefined" shadow="undefined" ids="7403,7408,7407,7406,7405,7404,7402"\]

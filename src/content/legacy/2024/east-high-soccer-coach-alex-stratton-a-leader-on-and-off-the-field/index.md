@@ -5,6 +5,7 @@ categories:
   - "soccer"
   - "sports"
 coverImage: "Stratton-e1728073939376.webp"
+author: "riellys1098"
 ---
 
 Alex Stratton has made a significant impact as the head coach of East High School's soccer team, leading the program with passion, dedication, and a vision for success. Under his guidance, the team has not only improved its performance but also fostered a culture of teamwork and sportsmanship.

@@ -5,6 +5,7 @@ categories:
   - "clubsandactivities"
   - "studentlife"
 coverImage: "deca.jpeg"
+author: "nataliermoore"
 ---
 
 This weekend, our East High DECA Chapter showcased their business acumen at the State Career Development Conference, proving once again why they are a force to be reckoned with. Competing against students from across the state, these T-Birds demonstrated skill, strategy, and professionalism, earning top placements in multiple categories.

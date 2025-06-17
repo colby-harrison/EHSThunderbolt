@@ -5,6 +5,7 @@ categories:
   - "clubsandactivities"
   - "dnd"
 coverImage: "IMG_0051.jpeg"
+author: "asherconyers"
 ---
 
 The Rogue is a classic Dungeons & Dragons character known for their agility, stealth, and cunning. In D&D 5E, Rogues are experts in dealing quick, precise damage while dodging attacks, staying hidden, and disabling traps. They’re incredibly versatile, capable of shining in both combat and non-combat scenarios. If you’re new to D&D or just looking to master the Rogue class, this guide will give you everything you need to create a memorable and effective Rogue.

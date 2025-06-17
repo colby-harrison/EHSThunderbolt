@@ -4,6 +4,7 @@ date: 2015-04-10
 categories: 
   - "archives"
 coverImage: "spoon.jpg"
+author: "adviser"
 ---
 
 Being a teenager is hard enough - school, sleep, studying, friends, family, fun. There's just so many hours in a week.

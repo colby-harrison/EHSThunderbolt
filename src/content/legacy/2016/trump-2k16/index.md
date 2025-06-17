@@ -4,6 +4,7 @@ date: 2016-12-06
 categories: 
   - "archives"
 coverImage: "Trump1-e1481044888568.jpg"
+author: "adviser"
 ---
 
 In the US we are dealing with unfair trade, overpriced healthcare, universal terrorism, and much more, but President-elect Trump has a plan for everything.  President-elect Donald Trump has stated that he will make America great again by proposing new ideas about trade deals, unemployment, illegal immigration, universal healthcare, and ISIS.

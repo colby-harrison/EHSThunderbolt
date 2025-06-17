@@ -5,6 +5,7 @@ categories:
   - "sports"
   - "tennis"
 coverImage: "Regionals.jpg"
+author: "colby_harrison34"
 ---
 
 For the first time since 2010, the East High School boys tennis team made an impressive showing, claiming second place at the South Regional tournament. This marks a significant milestone for the team, reflecting the dedication and determination they've put into improving their game over the past few years.

@@ -4,6 +4,7 @@ date: 2017-01-05
 categories: 
   - "archives"
 coverImage: "CFD2edit.jpg"
+author: "adviser"
 ---
 
 “Take me back to old Wyoming I've been away too long I want to hear the meadow lark singin' this cowboy's favorite song.” _Take me back to Old Wyoming_ by Chris Ledoux.

@@ -6,6 +6,7 @@ categories:
   - "community"
   - "studentlife"
 coverImage: "Fall-on-the-Farm-e1728310259502.jpg"
+author: "colby_harrison34"
 ---
 
 Last weekend, East High School's FFA and SkillsUSA organizations hosted their much-anticipated **Fall on the Farm** event, transforming the school grounds at 2800 East Pershing into a lively fall festival. Running from 9 a.m. to 4 p.m. on Saturday and 9 a.m. to 2 p.m. on Sunday, the event attracted families, students, and community members for two full days of autumn-themed fun.

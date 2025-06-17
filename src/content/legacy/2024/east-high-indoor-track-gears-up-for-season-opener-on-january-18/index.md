@@ -4,6 +4,7 @@ date: 2024-11-22
 categories: 
   - "track"
 coverImage: "attachment-Taliah-Morris-fixed.jpg"
+author: "daytonrhoades"
 ---
 
 East High Indoor Track Gears Up for Season Opener on January 18

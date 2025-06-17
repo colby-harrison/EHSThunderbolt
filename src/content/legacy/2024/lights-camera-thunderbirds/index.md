@@ -4,6 +4,7 @@ date: 2024-10-17
 categories: 
   - "tbtv"
 coverImage: "camera.webp"
+author: "colby_harrison34"
 ---
 
 Each school day from 9:17 to 9:27, students and staff tune in to Thunderbird Television (TBTV) for their daily news broadcast. Whether it’s weather updates, sports and activity announcements, or details on upcoming club events, TBTV has it covered. Run by Mr. Miller and a dedicated team of student broadcasters, the live show is a must-watch for everyone at East High School.

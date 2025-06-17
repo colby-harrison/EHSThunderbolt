@@ -4,6 +4,7 @@ date: 2024-12-18
 categories: 
   - "studentlife"
 coverImage: "R.png"
+author: "RBrow07"
 ---
 
 In today’s digital world, creativity is more important than ever. That’s where Canva comes in, a powerful and easy-to-use design platform that’s revolutionizing how students and teachers approach visual projects. Whether you’re crafting a presentation, creating social media graphics, or designing posters for a class project, Canva offers the tools you need to bring your ideas to life.

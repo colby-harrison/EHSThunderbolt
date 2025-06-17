@@ -4,6 +4,7 @@ date: 2015-09-23
 categories: 
   - "archives"
 coverImage: "scorchtrials.jpg"
+author: "adviser"
 ---
 
 The _Maze Runner_ films are another installment of the overwhelming amount of dystopian series for the teenage population, but unlike most of these movies such as the _Hunger Games_, _Divergent, The Giver_, the _Scorch Trials_ have a sense of horror and perplexment to them.

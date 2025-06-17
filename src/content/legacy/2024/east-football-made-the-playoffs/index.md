@@ -2,6 +2,7 @@
 title: "East Football Made the Playoffs"
 date: 2024-11-08
 coverImage: "thumbnail_Image.jpg"
+author: "daytonrhoades"
 ---
 
 East Thunderbirds Clinch Playoff Spot as 3rd Seed, Set to Face Thunder Basin at Home on Friday, November 1st

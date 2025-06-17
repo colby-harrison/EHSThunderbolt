@@ -3,6 +3,7 @@ title: "Trunk or Treat"
 date: 2023-11-15
 categories: 
   - "archives"
+author: "ARayl"
 ---
 
 October 29 East high clubs and activities handed out candy. The students created fun activities in classrooms to entertain the trick or treaters. “I ensured that every kid got plenty of candy!” said Loriana Walter, 11. This was also awesome because it kept the kids inside to avoid the cold weather. Student council members had a Disney themed room.

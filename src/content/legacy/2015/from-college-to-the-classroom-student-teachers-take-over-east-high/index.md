@@ -4,6 +4,7 @@ date: 2015-04-13
 categories: 
   - "archives"
 coverImage: "studentteaching.gif"
+author: "adviser"
 ---
 
 The second semester calls for a student teacher invasion, and this year, the East High community has six student teachers scattered throughout the building. This is one of the final steps before they become working teachers, and they're sharing their experiences with us.

@@ -4,6 +4,7 @@ date: 2021-12-02
 categories: 
   - "archives"
 coverImage: "IMG_7945.jpg"
+author: "adviser"
 ---
 
 High school football games can often come down to one play, one moment, one batted pass. Thunderbird football expects every player to step up and make that one big play. In one of the most exciting and intense games of the year, cornerback Kaleb Romero stepped up and did just that, batting down a pass at just the right moment to lock up a Thunderbird win over the Central Indians. 

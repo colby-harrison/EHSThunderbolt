@@ -4,6 +4,7 @@ date: 2015-05-01
 categories: 
   - "archives"
 coverImage: "lily1.gif"
+author: "adviser"
 ---
 
 The Thunderbird track team rolled into Colorado and found several of their athletes on the podium at the LoboCat Roundup in Fort Collins, on Friday, April 24.

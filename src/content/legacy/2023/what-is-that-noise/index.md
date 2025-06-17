@@ -4,6 +4,7 @@ date: 2023-10-13
 categories: 
   - "archives"
 coverImage: "Alarm-Photo.png"
+author: "dfenton"
 ---
 
 Thousands of phones pinging, and radios buzzing, like an amber alert but “scarier”? A nationwide alert is set to go off October 4th, 2023.  The question everyone keeps asking, “Why would this even be necessary to do?”. According to CBS News, it is marking the 7th nationwide Emergency Alert System ever conducted. Previous tests have been conducted between 2011 and 2021, but this is only the third test for wireless alerts, and the second for all cell phones. So, to revisit a major question getting asked, why is the feature even necessary?

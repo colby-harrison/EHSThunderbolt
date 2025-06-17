@@ -4,6 +4,7 @@ date: 2016-05-17
 categories: 
   - "archives"
 coverImage: "golf.jpg"
+author: "adviser"
 ---
 
 Mariah Farden has been consistently one of East’s best golfers over the past few years. She continued that trend at the Torrington Invite on Friday, May 7. At that tournament, Farden once again led the field, shooting a 6-over-par to take the win, while teammate Logan Kasten split third place with Jo Maillot from Douglas.

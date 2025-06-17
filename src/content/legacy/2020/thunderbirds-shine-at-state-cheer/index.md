@@ -4,6 +4,7 @@ date: 2020-05-06
 categories: 
   - "archives"
 coverImage: "SPORTS-Cheer-State-PIC.jpg"
+author: "adviser"
 ---
 
 Cheerleading requires an extreme amount of bravery, flexibility, courage, strength, and so much more. The athletes must work through mental blocks and injuries if they hope to become the best in the state. Sitting in the stands, fans only see a sliver of the talent and skill needed to be the best, but behind the scenes these athletes are pushing themselves to show what they can do individually and as a team.

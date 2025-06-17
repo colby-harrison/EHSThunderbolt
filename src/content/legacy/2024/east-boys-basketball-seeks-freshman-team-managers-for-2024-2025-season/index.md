@@ -6,6 +6,7 @@ categories:
   - "sports"
   - "studentlife"
 coverImage: "East-CE-Logo-with-Talons.png"
+author: "nataliermoore"
 ---
 
 The East Boys' Basketball program is looking for dedicated freshman team managers to join for the 2024-2025 season. This is a fantastic opportunity to work closely with the freshman A and B basketball teams under the guidance of Coach Will and Coach Simmons. Managers play an essential role in the success of the team, handling game preparations, assisting with practice needs, and supporting players and coaches throughout the season.

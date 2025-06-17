@@ -3,6 +3,7 @@ title: "Festive or Frightful?"
 date: 2021-11-05
 categories: 
   - "archives"
+author: "chayes"
 ---
 
 Festive and frightful come together in Henry Selick's twisted film _The Nightmare Before Christmas._ Although this movie is a classic the big question still remains, is it a Christmas movie or a Halloween movie?

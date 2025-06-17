@@ -4,6 +4,7 @@ date: 2025-01-31
 categories: 
   - "basketball"
 coverImage: "basketball-1.jpg"
+author: "reidhorton47"
 ---
 
 Cheyenne East and Cheyenne Central battled in a heated cross-town rivalry matchup. In a game filled with momentum swings and intense competition, the Thunderbirds emerged victorious, defeating the Indians 58-51 in front of a packed crowd.

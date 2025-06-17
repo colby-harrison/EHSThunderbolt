@@ -4,6 +4,7 @@ date: 2017-10-24
 categories: 
   - "archives"
 coverImage: "drummajors.jpg"
+author: "adviser"
 ---
 
 Summer practice is exhausting. The sun blasts the team as they run through plays. Two practices a day wears them down. No matter the weather, they must practice. There’s new formations and timing. Every piece must have perfect rhythm. So many things to learn

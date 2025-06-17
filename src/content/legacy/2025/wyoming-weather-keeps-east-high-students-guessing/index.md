@@ -4,6 +4,7 @@ date: 2025-03-17
 categories: 
   - "news"
 coverImage: "DALL·E-2025-03-17-15.23.45-A-Wyoming-high-school-student-scraping-frost-off-a-car-on-a-cold-morning-with-a-background-showing-a-mix-of-snow-covered-ground-and-sunny-skies.-The-.webp"
+author: "colby_harrison34"
 ---
 
 In Wyoming, the season of spring doesn't always make itself apparent. While other states are experiencing warmer temperatures, Wyoming residents are still scraping frost off their cars and shoveling snow. Some students at East High School have mixed feelings about our state’s weather. “I don’t enjoy Wyoming winters because of the wind and how dead everything looks. I would rather live in Oregon because I love the weather there and how it has beach and forests.” Says Kylie Demelas, 10. Although the cold isn’t for everyone, there are definitely those who enjoy Wyoming weather.

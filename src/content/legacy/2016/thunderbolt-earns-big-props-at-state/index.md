@@ -4,6 +4,7 @@ date: 2016-12-20
 categories: 
   - "archives"
 coverImage: "IMG_0681.jpg"
+author: "adviser"
 ---
 
 The East High journalism and yearbook staffs attended this year’s Wyoming State Journalism Conference in Casper, WY, in early October. This annual conference is hosted by the Wyoming High School Student Press Association to recognize and award outstanding high school newspapers and yearbooks in the state of Wyoming. This year was another success for the competitors from East.

@@ -2,6 +2,7 @@
 title: "Saturday's Loss: School Falls Short Against the Campbell County Camels, 64-71"
 date: 2025-02-26
 coverImage: "67a7cf6443ba9.webp"
+author: "riellys1098"
 ---
 
  

@@ -4,6 +4,7 @@ date: 2015-05-06
 categories: 
   - "archives"
 coverImage: "Bartlett.gif"
+author: "adviser"
 ---
 
 The Wyoming Association of Secondary School Principals (WASSP) recently named EHS Assistant Principal Fawn Bartlett as the State Assistant Principal of the Year. Mrs. Bartlett has been with Laramie County School District #1 for 13 years and has served as an Assistant Principal at East High for nine.

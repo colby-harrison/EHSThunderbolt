@@ -5,6 +5,7 @@ categories:
   - "clubsandactivities"
   - "dnd"
 coverImage: "Paladin.jpg"
+author: "asherconyers"
 ---
 
 The _Paladin_ is one of the most iconic classes in _Dungeons & Dragons_ 5th Edition (D&D 5E), combining divine magic with martial prowess. Known for their dedication to a sacred oath, Paladins serve as champions of their chosen ideals, wielding both steel and holy power to protect the innocent and smite evil. If you're new to D&D or looking for a powerful, inspiring character to play, this guide will help you create and play a Paladin in D&D 5E.

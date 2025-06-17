@@ -4,6 +4,7 @@ date: 2025-03-17
 categories: 
   - "track"
 coverImage: "OIP.jpg"
+author: "daytonrhoades"
 ---
 
 Cheyenne East's outdoor track team has officially started practice, with athletes gearing up for an exciting season ahead. After weeks of preparation and training, the team is set to compete in their first meet on March 22nd.

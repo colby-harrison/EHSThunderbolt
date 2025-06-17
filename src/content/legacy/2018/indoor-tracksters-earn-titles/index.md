@@ -3,6 +3,7 @@ title: "Indoor Tracksters Earn Titles"
 date: 2018-03-23
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 The indoor track team had a great showing at the 2018 WY State Indoor Track Championships held in Gillette. The T-Birds brought home three individual championships and one relay championship.

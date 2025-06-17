@@ -5,6 +5,7 @@ categories:
   - "football"
   - "sports"
 coverImage: "rock-springs.jpg"
+author: "camerongriffin"
 ---
 
 On October 19th, 2024, the East JV football team delivered an impressive performance against Rock Springs, clinching a decisive victory at Rock Springs High School. The game kicked off at 10 a.m., and fans were treated to an exciting display of athleticism and teamwork from the East squad.

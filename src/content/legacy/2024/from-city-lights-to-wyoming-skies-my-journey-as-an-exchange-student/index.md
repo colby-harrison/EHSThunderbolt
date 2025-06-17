@@ -5,6 +5,7 @@ categories:
   - "news"
   - "studentlife"
 coverImage: "grand-teton-1728536_1280.jpg"
+author: "colby_harrison34"
 ---
 
 As an exchange student in America, I arrived with a mix of excitement and curiosity, mostly shaped by what I had seen in movies and on social media. I experienced big cities, fast-paced lifestyle, and diverse cultural experiences. However, being placed in Wyoming was a surprise that quickly changed my view of the U.S.

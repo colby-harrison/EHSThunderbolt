@@ -3,6 +3,7 @@ title: "School Starts Too Early"
 date: 2019-10-02
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 Do you find yourself struggling to wake up in the morning? Maybe falling asleep in your classes? Well you’re not alone. An average students’ day will include school (7:45- 2:45), Sports or clubs (3:00- 6:00) and homework, causing many late nights which means less sleep. The amount of sleep adolescents get can affect their performance in school and impact their grades. Many schools around the US have acknowledged this problem and pushed back their start times to 9 or 10, unfortunately, Cheyenne has not made a change.  

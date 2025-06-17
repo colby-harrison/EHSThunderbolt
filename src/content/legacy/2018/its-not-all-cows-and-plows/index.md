@@ -4,6 +4,7 @@ date: 2018-09-15
 categories: 
   - "archives"
 coverImage: "Expo-Challeni-13.jpg"
+author: "adviser"
 ---
 
 Agriculture plays a big role in Wyoming, but agriculture is not all just farming and livestock. Every year the Laramie County Cowbells ask the Frontier FFA for help hosting the Ag Expo. The Ag Expo is a two-day event that is held at the Archer Fairgrounds, were the Cowbells invite all the fourth graders in the country to come and participate. The students go through rotations throughout the day learning about the different aspects of agriculture.

@@ -3,6 +3,7 @@ title: "State String Clinic"
 date: 2016-12-02
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 A reminder of the orchestra talent in Wyoming youth played out across Jackson, Wyoming at the end of October when high school students from across the state gathered there for three days to improve their technical and orchestral skills. These students were separated into three orchestras-A, B, and C-and each one practiced either three or four pieces for two days. At the end of the second day, the orchestras put on a concert for teachers, fellow students, and local Jackson residents.

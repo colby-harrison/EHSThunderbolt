@@ -5,6 +5,7 @@ categories:
   - "sports"
   - "wrestling"
 coverImage: "b495d4cb-54d3-45bb-90d2-c43e7797ee3c.webp"
+author: "Bentley307"
 ---
 
 The junior varsity wrestling team is gearing up for an exciting weekend as they head to Poudre, Colorado, to compete in a highly anticipated tournament this Saturday. The event promises to be a thrilling showcase of skill, determination, and team spirit as wrestlers from various schools come together to test their mettle on the mat.

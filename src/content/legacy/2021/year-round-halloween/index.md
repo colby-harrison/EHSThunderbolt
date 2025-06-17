@@ -3,6 +3,7 @@ title: "Year-Round Halloween"
 date: 2021-11-05
 categories: 
   - "archives"
+author: "khiller"
 ---
 
 Fear doesn’t just happen during Halloween. Fear is normal, it happens all the time to everyone. Its one of the most basic human emotions. Fright is the body’s way of protecting us from the bad.

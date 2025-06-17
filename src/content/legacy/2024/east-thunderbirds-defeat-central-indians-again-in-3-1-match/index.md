@@ -5,6 +5,7 @@ categories:
   - "sports"
   - "volleyball"
 coverImage: "Screenshot-2024-10-21-at-8.24.09 AM.jpeg-2024-10-21-14_24_36-e1729701633378.png"
+author: "ITZJ307"
 ---
 
 For the second time this season, the Central Indians fell to the East Thunderbirds, suffering a 3-1 loss on Wednesday. This defeat mirrored their September matchup and continued Central's recent struggles on the road.

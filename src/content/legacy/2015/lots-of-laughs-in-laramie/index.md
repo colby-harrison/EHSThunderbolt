@@ -4,6 +4,7 @@ date: 2015-12-11
 categories: 
   - "archives"
 coverImage: "Gaffigan.jpg"
+author: "adviser"
 ---
 
 From the old man in his posh tweed and tie to the college kid in his ripped jeans and hoodie, fans of comedy gathered to spend a Saturday evening on the UW Campus laughing about five kids, the struggles of exercise, and Hot Pockets. They were here to see the world renowned stand-up comedian Jim Gaffigan.

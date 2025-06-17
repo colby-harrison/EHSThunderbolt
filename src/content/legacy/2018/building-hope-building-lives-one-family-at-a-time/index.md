@@ -4,6 +4,7 @@ date: 2018-02-14
 categories: 
   - "archives"
 coverImage: "Habitat-for-Humanity-Picture.jpg"
+author: "adviser"
 ---
 
 Do you know what it’s like to build houses for people who really need it? Well, the students of East High teamed up with Habitat for Humanity to do just that along with South High and Central High students.

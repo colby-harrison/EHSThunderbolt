@@ -3,6 +3,7 @@ title: "2017 TBTV Halloween Show"
 date: 2017-11-01
 categories: 
   - "archives"
+author: "brantzt"
 ---
 
 1. Sam & Keely- Q&A

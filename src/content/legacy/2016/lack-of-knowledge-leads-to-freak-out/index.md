@@ -4,6 +4,7 @@ date: 2016-02-03
 categories: 
   - "archives"
 coverImage: "calendar.jpg"
+author: "adviser"
 ---
 
 Are you one of the hundreds of kids freaking out and losing your mind thinking that you lost some vacation time? Well you’re not alone. Many students don’t realize that even though our breaks are shorter this year, we are still going to school just as many days if we were to get out at the normal time due to the schedule change. The school boards attempt to get us out of school early caused a lot of uproar from the students and community. Though the students didn’t like it, the school board had good reasons behind the change.

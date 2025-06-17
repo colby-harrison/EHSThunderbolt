@@ -4,6 +4,7 @@ date: 2018-05-23
 categories: 
   - "archives"
 coverImage: "nuclear-deal.jpg"
+author: "adviser"
 ---
 
  Iran, the source of the "When America finds out there's oil" meme and a lot of conflict. On the 8th of May Trump announced that he is pulling the United States out of the "disastrous" Iran Nuclear deal despite the warnings from numerous U.S. allies such as former Secretary of State John Kerry, Britain's Foreign Secretary Boris Johnson, and even Iranian President Hassan Rouhani warned Trump against this. Now there's obviously a few questions regarding this; what was the Iran Nuclear Deal and what did it do? Why is Trump so against it? And what will happen now that the United States is out of it? 

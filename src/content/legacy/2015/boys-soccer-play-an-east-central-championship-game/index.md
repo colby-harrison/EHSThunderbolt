@@ -4,6 +4,7 @@ date: 2015-06-01
 categories: 
   - "archives"
 coverImage: "20150529-EastFinleyMcIlwaine01-ms.gif"
+author: "adviser"
 ---
 
 The Thunderbirds battled their way through a tough state tournament 250 miles away from home only find themselves up against a school located less than five miles from their home campus. Not only was the opponent familiar to them, but it also turned out to be their long-time rival, Cheyenne Central.

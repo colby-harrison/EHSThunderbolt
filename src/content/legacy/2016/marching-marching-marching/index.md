@@ -4,6 +4,7 @@ date: 2016-01-20
 categories: 
   - "archives"
 coverImage: "FullSizeRender.jpg"
+author: "adviser"
 ---
 
 Stepping to the metronome in the hot summer sun. Lengthy rehearsals learning intricate pieces of music. Hours, weeks, even months of preparation were put in for four minutes of fame. This past January, 20 T-birds had their four minutes of fame the in the annual Tournament of Roses parade.

@@ -4,6 +4,7 @@ date: 2016-11-04
 categories: 
   - "archives"
 coverImage: "IMG_0703-2.jpg"
+author: "adviser"
 ---
 
 A booming cheer floods the field as the football players scramble to the end zone. With the ball firmly gripped in one hand, each player trying to keep up with the pace, the running back eyes the goal line. The rest of his team had done what they could to give the back an opportunity to score six points. He plunges into the end zone, putting the T-Birds on top for good.

@@ -4,6 +4,7 @@ date: 2018-03-14
 categories: 
   - "archives"
 coverImage: "berg2-1.jpg"
+author: "adviser"
 ---
 
 ![](images/berg2.jpg)A notorious name, well-talked about around the school, and fun it's no wonder East history and government teacher Mr. Berg's The Apprentice leaves a lasting impression on students.  In a classroom centered on your ability to make history and government come to life through group projects, The Apprentice can teach students what an average classroom can't.

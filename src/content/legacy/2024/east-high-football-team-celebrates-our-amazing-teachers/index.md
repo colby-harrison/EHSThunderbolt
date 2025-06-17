@@ -5,6 +5,7 @@ categories:
   - "football"
   - "studentlife"
 coverImage: "Jesse-Teacher-5596563.png"
+author: "123456789"
 ---
 
 Our Cheyenne East High School Football Team is excited to take a moment to recognize and celebrate some of the incredible teachers who have had a positive impact on the lives of our student-athletes. Each year, our senior football players come together to share their gratitude for the educators who have helped shape their high school experience, both on and off the field. This tradition is one of the highlights of our season, and we are proud to honor those who dedicate themselves to inspiring and empowering our students.

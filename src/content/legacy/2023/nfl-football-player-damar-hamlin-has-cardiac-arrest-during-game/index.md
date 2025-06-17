@@ -4,6 +4,7 @@ date: 2023-03-22
 categories: 
   - "archives"
 coverImage: "ClemsonTigerNet-Damar-Hamiln.jpg"
+author: "chayes"
 ---
 
 On January 2nd, during the Bengal’s and Bills football game, player number three, Damar Hamlin, collapsed on the field after attempting a tackle against the opposing team player Tee Higgins. The daring move resulted in cardiac arrest for Hamlin, leading to his heart stopping on the field.

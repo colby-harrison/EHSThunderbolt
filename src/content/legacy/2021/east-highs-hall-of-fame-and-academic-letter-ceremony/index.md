@@ -4,6 +4,7 @@ date: 2021-12-06
 categories: 
   - "archives"
 coverImage: "6.jpg"
+author: "khiller"
 ---
 
 \[gallery ids="6924,6923,6922,6921,6920"\]

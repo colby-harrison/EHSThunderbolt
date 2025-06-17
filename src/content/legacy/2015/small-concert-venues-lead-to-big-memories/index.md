@@ -4,6 +4,7 @@ date: 2015-06-01
 categories: 
   - "archives"
 coverImage: "concert.gif"
+author: "adviser"
 ---
 
 On a rainy and cold May Saturday outside the Fillmore Auditorium in Denver, it'd be easy to assume no one is waiting outside for long to see a concert. Yet on May 9, around noon, there was already a line down the block full of flannel and skinny jean-clad teens waiting for All Time Low. It was five hours before the doors even open, and the crowd gathered quickly. Nearly all of the girls had crazy colors in their hair and dark eyeliner, and many were decked out in all the band merchandise they could fit into one outfit. Surrounding the crowd was a strong showing of local bands who played their songs and handed out sample CD's and promotion posters. The most dominate sounds were the friendly greetings of fellow fans and those making new friends with anyone next to them in line, including myself. I had never felt so at home.

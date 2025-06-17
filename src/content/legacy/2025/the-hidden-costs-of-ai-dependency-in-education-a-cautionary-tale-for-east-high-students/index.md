@@ -4,6 +4,7 @@ date: 2025-03-21
 categories: 
   - "news"
 coverImage: "20190225_header.jpg"
+author: "colby_harrison34"
 ---
 
 At East High School, like many other schools across the United States, the number of students using AI is continuously growing. Studies show that about 86% of students in the U.S. use AI to complete their work or study. While AI can be a useful and unique tool for learning, its overuse— especially when students rely on it to do their work for them— can have a lot of consequences. Students may not realize that using AI in this way limits their ability to learn and encourages them to depend on technology. Depending on technology can negatively impact their time management skills. With AI allowing students to complete assignments quickly and effortlessly, they may struggle with work ethics and meeting deadlines in real-world scenarios where these tools are unavailable. Eventually, this could affect their ability to perform effectively in professional settings.

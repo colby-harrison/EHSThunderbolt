@@ -2,6 +2,7 @@
 title: "East High Thunderbirds to Face Central High in Rivalry Game at Storey Gym"
 date: 2025-02-26
 coverImage: "IMG_9062.jpg"
+author: "riellys1098"
 ---
 
 This Friday, February 28th, the East High Thunderbirds are gearing up to take on their biggest rivals, Central High School, in what promises to be an exciting basketball game at Storey Gym at 7:30 PM. With both teams looking to claim victory, the stakes are high, and the energy will be electric.

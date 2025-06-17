@@ -4,6 +4,7 @@ date: 2025-05-05
 categories: 
   - "studentlife"
 coverImage: "PNG-image.png"
+author: "RBrow07"
 ---
 
 At Cheyenne East High School, the energy doesn't stop when the final bell rings. In fact, for many students, that's when the real learning-and fun-begins. With a wide variety of clubs and student organizations available, East High offers something

@@ -3,6 +3,7 @@ title: "We The People"
 date: 2022-02-28
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 Do you remember that cute little competition you did in 5th grade called We the People? Well turns out it’s not just a part of the elementary experience, but an actual competition that people from all over compete in. The students of East High are some of the many that worked until they dropped on their material.  

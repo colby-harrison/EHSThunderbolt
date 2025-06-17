@@ -5,6 +5,7 @@ categories:
   - "soccer"
   - "sports"
 coverImage: "rh93pu7m.png"
+author: "riellys1098"
 ---
 
 The East High Boys Soccer team is ready to hit the field for their first game of the season this Friday, March 21st, against Scottsbluff at Scottsbluff High School. The anticipation is building as both teams prepare for what promises to be an exciting start to the season.

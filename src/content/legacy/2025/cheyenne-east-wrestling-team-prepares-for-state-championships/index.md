@@ -4,6 +4,7 @@ date: 2025-02-26
 categories: 
   - "wrestling"
 coverImage: "Untitled.jpg"
+author: "Bentley307"
 ---
 
 The Cheyenne East High School wrestling team is gearing up for the Wyoming High School Activities Association (WHSAA) State Wrestling Championships, scheduled from February 27 to March 1, 2025, at the Ford Wyoming Center in Casper.

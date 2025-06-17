@@ -8,6 +8,7 @@ categories:
   - "sports"
   - "studentlife"
 coverImage: "Screenshot-2024-10-30-at-8.26.07 AM.jpeg-2024-10-30-14_26_52.png"
+author: "ITZJ307"
 ---
 
 Braden Pearson, a highly sought-after baseball recruit, has recently made the decision to change his college commitment. Initially committed to the University of Texas, where he was the 9th recruit of the year, Pearson has decided to shift his path. Texas's baseball program ultimately signed a total of 23 recruits, which altered the initial dynamics and opportunities that Pearson had hoped for. This larger recruiting class meant that Pearson’s prospects for visibility and development, both as a pitcher and an outfielder, might have been limited.

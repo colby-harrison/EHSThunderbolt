@@ -4,6 +4,7 @@ date: 2020-05-06
 categories: 
   - "archives"
 coverImage: "SPORTS-Indoor-Track-PIC.jpg"
+author: "adviser"
 ---
 
 To most, track is a challenging sport, full of opportunities, and a chance to face off against the best competition. For East High’s indoor track team, it’s a lifestyle and about committing yourself to one goal - excellence. These gifted athletes love what they do and put everything into being the best.

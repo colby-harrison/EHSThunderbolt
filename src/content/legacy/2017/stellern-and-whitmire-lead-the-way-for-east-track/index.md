@@ -4,6 +4,7 @@ date: 2017-05-03
 categories: 
   - "archives"
 coverImage: "7376.jpg"
+author: "adviser"
 ---
 
 East High’s Cosette Stellern has been one of the more dominating athletes in Cheyenne. She has helped the Lady Thunderbirds win multiple state titles in volleyball and basketball and has spent the last four years as one of the top female shot put and discus competitors in the state. This year the University of Wyoming-bound senior is still out in front of her competition.

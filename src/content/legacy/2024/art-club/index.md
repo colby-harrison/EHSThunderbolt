@@ -7,6 +7,7 @@ categories:
   - "news"
   - "studentlife"
 coverImage: "safe-trick-or-treat.jpg"
+author: "Kassey"
 ---
 
 The Art Club’s pumpkin painting event on October 15th was a great success! Many members, along with their siblings and parents, showed up and contributed their creativity to paint some truly impressive pumpkins. The atmosphere was filled with laughter and the smell of fresh paint as everyone enjoyed the festive activity. From spooky designs to playful and colorful pumpkins, each creation added a unique touch to the event.

@@ -4,6 +4,7 @@ date: 2020-10-16
 categories: 
   - "archives"
 coverImage: "SuicideFactsImage.png"
+author: "adviser"
 ---
 
 As students we aren’t very aware of our resources when it comes to suicide. According to, _Wyoming Department of Health_, “It is estimated that every 13 minutes someone in the United States takes their life.” There are many people out there trying to help people struggling with the thoughts of suicide, so here are some resources.

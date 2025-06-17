@@ -4,6 +4,7 @@ date: 2015-11-09
 categories: 
   - "archives"
 coverImage: "peanuts.jpg"
+author: "adviser"
 ---
 
 Science says we need about 7-8 hours of sleep, but what happens if we don’t? There are many reasons we don’t get enough sleep. From staying up late to finish work or waking up too early because of school, missing out on a few hours of rest can be tough on a teenager. While most of us dread nodding off in class, do you realize how dangerous a bad night’s sleep can be?

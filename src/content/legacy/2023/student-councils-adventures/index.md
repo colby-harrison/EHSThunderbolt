@@ -4,6 +4,7 @@ date: 2023-01-06
 categories: 
   - "archives"
 coverImage: "IMG-6773.png"
+author: "ceicholtz"
 ---
 
 W.A.S.C. is a student council workshop where the members go to vote on who they want to represent the student councils of every school all over Wyoming. They vote on who will be the state president, vice president, and secretary. They go to do fun activities like tie-dying shirts for a state wide t-shirt exchange with other schools, attending workshops like how to be interviewed, how to dance, and how to plan pep rallies, all while learning valuable leadership skills along the way.

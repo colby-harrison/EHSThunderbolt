@@ -4,6 +4,7 @@ date: 2015-02-27
 categories: 
   - "archives"
 coverImage: "percy.jpg"
+author: "adviser"
 ---
 
 No matter how hard a director tries, some books are better off staying books. When it comes to _The Lighting Thief_  by Rick Riordan, the film adaptation does a poor job of holding onto key pieces of the story.

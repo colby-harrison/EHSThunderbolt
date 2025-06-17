@@ -4,6 +4,7 @@ date: 2015-03-11
 categories: 
   - "archives"
 coverImage: "IMG_4398.gif"
+author: "adviser"
 ---
 
 The East High drama department's production of  _The Great Gatsby_ premiers tonight in EHS Performance Hall. The Thunderbirds production of this classic story features a large cast and an amazing array of talent.   The director, drama teacher Christina Zarr, decided to double-cast the show to give enough opportunities to East high's many skilled actors. This performance will feature the East High advanced theater class students and create a wonderful opportunity to spend a Wednesday and Friday night.

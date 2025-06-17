@@ -4,6 +4,7 @@ date: 2020-05-06
 categories: 
   - "archives"
 coverImage: "FEATURE-Student-Week-Yuan-PIC.jpg"
+author: "adviser"
 ---
 
 East High School takes pride in calling itself “The School of Excellence,” and nothing proves that excellence more than the students. Three of East’s best were named LCSD1 Students of The Week for the 2019-2020 school year.

@@ -4,6 +4,7 @@ date: 2016-02-10
 categories: 
   - "archives"
 coverImage: "TBTV_MollyGjervold-9.jpg"
+author: "adviser"
 ---
 
 Have you ever wondered what really goes on in the East High TV studio during the morning announcements, or how much preparation the crew has before broadcasting every morning? While Mrs. Brantz and her team do a good job of making it look easy, it's a very detailed process that takes time to get relatively close to perfection.

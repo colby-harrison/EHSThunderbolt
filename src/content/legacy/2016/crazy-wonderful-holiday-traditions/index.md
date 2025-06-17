@@ -4,6 +4,7 @@ date: 2016-01-04
 categories: 
   - "archives"
 coverImage: "Christmas-Presents-010.gif"
+author: "adviser"
 ---
 
 In southern Germany, the Bavarian Highlanders fire off hand-held mortars to salute the Christmas holidays. They dress up in straw bales and devil masks to run through the town. The citizens of Greenland enjoy a meal of _mattak_ - raw whale skin and blubber - and _kiviak_ - dead, fermented seal and birds. In Japan, thanks to a 1974 advertising campaign, many families eat at KFC on Christmas Eve.

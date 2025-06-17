@@ -4,6 +4,7 @@ date: 2015-04-19
 categories: 
   - "archives"
 coverImage: "TBirds_Soccer_640x640_000-1.gif"
+author: "adviser"
 ---
 
 Saturday, April 18, was not a good day for the Thunderbird soccer teams. Both the girls and boys varsity soccer teams returned from a long road trip and suffered losses to the Sheridan Broncs.

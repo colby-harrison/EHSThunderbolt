@@ -5,6 +5,7 @@ categories:
   - "cross-country"
   - "sports"
 coverImage: "cross-country.jpg"
+author: "AnthonyI"
 ---
 
 The Cheyenne East Cross Country team delivered strong performances at the 4A East Conference Championships on Friday, with both the girls' and boys' teams showing impressive determination and skill.

@@ -4,6 +4,7 @@ date: 2020-10-13
 categories: 
   - "archives"
 coverImage: "Corban-Stensass.jpg"
+author: "jwest"
 ---
 
 Grab your friends and family and head on down to Cheyenne's car cruise, on Carey Ave. Here in Cheyenne there is a car cruise held every Saturday night to help local charities and organizations to raise money and awareness. The car cruise is not just about the charities, is about people in Cheyenne coming together and having fun showing off their cars and being with their friends.

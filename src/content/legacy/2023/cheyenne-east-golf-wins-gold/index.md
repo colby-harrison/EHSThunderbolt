@@ -3,6 +3,7 @@ title: "Cheyenne East Golf Wins Gold"
 date: 2023-10-13
 categories: 
   - "archives"
+author: "HBrekhus"
 ---
 
 ![](images/State-Golf-pic.jpg)The Cheyenne East High golf team dominated the competition to win their first state championship since 1986. The team was led by outstanding performer Daniel Meyer who won the individual state championship in Wyoming 4A. The team had a remarkable season after winning the Douglas Invite, Conference, and the state title.

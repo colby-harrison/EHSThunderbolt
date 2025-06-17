@@ -4,6 +4,7 @@ date: 2016-03-28
 categories: 
   - "archives"
 coverImage: "aakatie1.jpg"
+author: "adviser"
 ---
 
 Every year begins with the same call - "Let's win State!" And every year, eight teams meet in Casper to battle their way to being named champion. The Lady Thunderbirds rolled into the state tournament on March 10-12 with high expectations and a clear call to win state.

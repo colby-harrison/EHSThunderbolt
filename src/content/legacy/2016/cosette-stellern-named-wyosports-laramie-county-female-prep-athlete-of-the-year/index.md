@@ -4,6 +4,7 @@ date: 2016-06-22
 categories: 
   - "archives"
 coverImage: "Stellern.gif"
+author: "adviser"
 ---
 
 Trophies can’t be hoisted in front of hundreds or thousands without first putting in work in the view of only a few, if not all alone. Banners wouldn’t hang in gyms for fans to see if not for the blood, sweat and tears shed when the stands were empty. Those are the firm beliefs held by Cheyenne East junior Cosette Stellern. Sports are all she’s ever known, and they’re what she’s dedicated her life to.

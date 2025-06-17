@@ -4,6 +4,7 @@ date: 2015-02-25
 categories: 
   - "archives"
 coverImage: "Nelson-J-92.jpg"
+author: "adviser"
 ---
 
 Although the Thunderbird swim team has historically been one of the top swim teams in the state they haven’t won a state title since 1975. This year the swim team looks to change that with a powerful group of seniors and strong up and coming group of underclassmen. Their 107-70 win over Green River made for a record-breaking night and an even better senior night. The team broke several records, including the 200 yard freestyle relay team of seniors Ben Wisdorf, Trevor Adrian, Hunter Marshall, and Robert Brown who won with the time of 1:32.11. The 400 free relay team of Ben Wisdorf, Nate Montgomery, Robert Brown, and Hunter Marshall East broke a 25 year-old record with the time of 3:23.92.

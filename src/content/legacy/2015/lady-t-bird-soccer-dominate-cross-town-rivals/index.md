@@ -4,6 +4,7 @@ date: 2015-05-05
 categories: 
   - "archives"
 coverImage: "soccerhuddle.gif"
+author: "adviser"
 ---
 
 The 2015 edition of the infamous cross-town rival game between the East Lady T-Birds and the Central Lady Indians turned into a blowout.

@@ -4,6 +4,7 @@ date: 2020-05-06
 categories: 
   - "archives"
 coverImage: "SPORTS-Buell-MaxPreps-PIC.jpg"
+author: "adviser"
 ---
 
 Cheyenne East senior Ky Buell was chosen as the Wyoming basketball Player of the Year by Maxpreps.com. The website chose to honor a player in all 50 states and the District of Columbia at the conclusion of the season. Some state tournaments were shortened or canceled, like Wyoming, by COVID-19.

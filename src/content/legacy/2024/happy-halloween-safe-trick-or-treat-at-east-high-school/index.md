@@ -4,6 +4,7 @@ date: 2024-10-18
 categories: 
   - "community"
 coverImage: "safe-trick-or-treat.jpg"
+author: "colby_harrison34"
 ---
 
 East High School is excited to invite families to our Safe Trick or Treat event on Sunday, October 27th, 2024, from 2 PM to 4 PM at the front door entrance. This fun and family-friendly event will provide a safe environment for trick-or-treating, with plenty of candy and activities for all ages.

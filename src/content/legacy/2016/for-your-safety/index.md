@@ -4,6 +4,7 @@ date: 2016-10-13
 categories: 
   - "archives"
 coverImage: "brace-positon-picture.jpg"
+author: "adviser"
 ---
 
 If you are a passenger on a plane, how would you react if they had to make an emergency landing? The flight attendants tell you to get into the brace position immediately for your safety. But what if the purpose of this positon is to kill you instantly? Be safe while traveling by plane, if you do so often, no one wants see anyone get hurt.

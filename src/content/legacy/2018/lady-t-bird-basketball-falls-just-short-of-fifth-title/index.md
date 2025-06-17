@@ -4,6 +4,7 @@ date: 2018-03-23
 categories: 
   - "archives"
 coverImage: "Gbbedit-3.jpg"
+author: "adviser"
 ---
 
 The Lady Thunderbird basketball team expects to win every year. Not everyone else always believes in them, but there is an expectation in the Thunderdome.

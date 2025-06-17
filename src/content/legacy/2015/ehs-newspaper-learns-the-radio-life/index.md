@@ -4,6 +4,7 @@ date: 2015-01-30
 categories: 
   - "archives"
 coverImage: "boss.jpg"
+author: "adviser"
 ---
 
 While radio broadcasting has been around since the early 1900s, most of us don’t know exactly how the music gets to the speakers of our car. Imagine sitting in silence during rush hour and listening to the noisy trucks beside you, not being able to listen to your favorite song. While radio stations are commonly overlooked, they’re quite fascinating and really important. Without radios, or radio stations, music wouldn’t travel across the world as easily as it does today. Without radio providing the news and information of the day, the world would be less informed.

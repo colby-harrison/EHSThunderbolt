@@ -4,6 +4,7 @@ date: 2016-01-11
 categories: 
   - "archives"
 coverImage: "FB_IMG_1452540288404-1-1.jpg"
+author: "adviser"
 ---
 
 It's the moment you've been waiting for all weekend. You're sitting in a crowd of drama students from across the state, waiting to hear if your team placed in the state competition. Hand in hand with your teammates, your stomach doing somersaults, you wait for the verdict. Suddenly you hear the magic words announced, "And the 1st place, 4A winner of this year's Wyoming State Drama Competition is...Cheyenne East High School!"

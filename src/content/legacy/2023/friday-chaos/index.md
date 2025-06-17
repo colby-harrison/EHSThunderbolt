@@ -3,6 +3,7 @@ title: "Friday Chaos"
 date: 2023-10-11
 categories: 
   - "archives"
+author: "ARayl"
 ---
 
 Students and teachers are struggling to get ahead of this new Friday schedule. Every student has the same lunch and must sign up for an enrichment class. They also have an intervention time where students are given time to do homework or go to other classes they may need help in.

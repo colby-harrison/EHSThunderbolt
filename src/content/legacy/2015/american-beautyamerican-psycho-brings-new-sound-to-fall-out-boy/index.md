@@ -4,6 +4,7 @@ date: 2015-03-11
 categories: 
   - "archives"
 coverImage: "FOBAlbum-e1426084762348.png"
+author: "adviser"
 ---
 
 If you want to dance like Uma Thurman, Fall Out Boy is the band you're looking for.

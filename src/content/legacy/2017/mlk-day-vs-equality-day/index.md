@@ -4,6 +4,7 @@ date: 2017-02-02
 categories: 
   - "archives"
 coverImage: "mlkedit.jpg"
+author: "adviser"
 ---
 
 Every third Monday in January, Americans celebrate Martin Luther King Jr. Day, in honor of Dr. Martin Luther King Jr., a civil rights activist who was shot in 1968. In 49 states, this federal holiday is explicitly referred to as Martin Luther King Jr. Day, but here in Wyoming the holiday is called Equality Day.

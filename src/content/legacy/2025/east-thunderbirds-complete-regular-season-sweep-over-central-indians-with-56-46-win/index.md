@@ -5,6 +5,7 @@ categories:
   - "basketball"
   - "sports"
 coverImage: "th.jpg"
+author: "ITZJ307"
 ---
 
 In a highly competitive matchup between the East Thunderbirds and the Central Indians, East emerged victorious with a 56-46 win, completing the regular season sweep over their rivals. The game started strong for East with key contributions from Cam Hassler and Treyden Johnson, while Central’s Tyler Hernandez and Tyler Davis kept it close throughout the first quarter.

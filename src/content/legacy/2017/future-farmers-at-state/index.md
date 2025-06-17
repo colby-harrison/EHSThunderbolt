@@ -4,6 +4,7 @@ date: 2017-04-25
 categories: 
   - "archives"
 coverImage: "FFA_Emblem_Podcasts_Blue_Bckgd-e1493743038446.jpg"
+author: "adviser"
 ---
 
 Cheyenne East FFA participants showed off their Agricultural Leadership skills in a multi-event, statewide competition in order to earn the privilege of attending the National Convention and Expo held in Indianapolis this October. The students competed at LCCC the week of April 6.

@@ -5,6 +5,7 @@ categories:
   - "3dpr"
   - "clubsandactivities"
 coverImage: "Screenshot-2024-11-06-090142-1.png"
+author: "123456789"
 ---
 
 We are excited to announce that the Cheyenne East Computer Science Department is officially registering to compete in the Cyber-in-a-Box School Video Challenge for the 2024-2025 school year! This is a fantastic opportunity for our students to apply their skills in cybersecurity, creativity, and teamwork while exploring a crucial topic: _Exploring the Energy Industry and its Connected Devices_.

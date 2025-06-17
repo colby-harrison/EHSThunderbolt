@@ -4,6 +4,7 @@ date: 2018-04-27
 categories: 
   - "archives"
 coverImage: "jenna-dyed-hair.jpg"
+author: "adviser"
 ---
 
 Crimson red, bubblegum pink, and sky blue. Hippies in the 60s grew their hair down their back, and the rebels now dye their hair. So what is the issue with coloring your hair all kinds of neon?

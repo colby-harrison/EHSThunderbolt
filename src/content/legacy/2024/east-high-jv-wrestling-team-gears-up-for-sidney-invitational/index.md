@@ -4,6 +4,7 @@ date: 2024-12-18
 categories: 
   - "wrestling"
 coverImage: "DALL·E-2024-12-18-07.49.41-An-action-packed-wrestling-scene-at-a-high-school-gymnasium-featuring-young-athletes-competing-in-a-junior-varsity-wrestling-tournament.-The-gym-is-bu.webp"
+author: "Bentley307"
 ---
 
 The Cheyenne East High School Junior Varsity (JV) wrestling team is set to compete in the Sidney Invitational this Saturday, December 21, 2024, at Sidney High School in Sidney, Nebraska.

@@ -4,6 +4,7 @@ date: 2025-03-17
 categories: 
   - "studentlife"
 coverImage: "IMG_1235.png"
+author: "123456789"
 ---
 
 East Speech and Debate won big at the 2025 Hole-in-the-Wall District National Qualifying Tournament at LCCC this past weekend. East took **1st in Speech Sweepstakes**, **1st in Debate Sweepstakes**, and **1st in Overall Sweepstakes**. In addition, East Senior **Rosie Zubrod** was awarded the prestigious title of 2025 Hole-in-the-Wall District Student of the Year. Senior **Brayden Lyday** also earned the rare “Four-Time Qualifier” title, for which he will be recognized at Nationals this summer. East High Head Coach, **Marcus Viney**, also earned the 2025 Hole-in-the-Wall District Coach of the Year. Finally, East High head principal **Marc Kerschner** was recognized as 2025 Hole-in-the-Wall District Administrator of the Year.

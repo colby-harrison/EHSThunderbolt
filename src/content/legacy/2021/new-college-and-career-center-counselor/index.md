@@ -3,6 +3,7 @@ title: "New College and Career Center Counselor"
 date: 2021-11-05
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 Mrs. Steil is new to the East High staff team, and she has made difference. Over the past few months, she has gotten seniors on the right track for what they want to do for college or their future. “She does an awesome job of reaching out to seniors rather than waiting for them to come to her, which makes it a lot easier to get help,” senior Avery Van Pelt said, “She helped me a lot with sending my transcript to colleges and has such a great attitude every time I see her.”

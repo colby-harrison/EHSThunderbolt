@@ -5,6 +5,7 @@ categories:
   - "sports"
   - "wrestling"
 coverImage: "IMG_4805.jpg"
+author: "nataliermoore"
 ---
 
 The Cheyenne East girls' wrestling team captured the regional championship with an impressive performance at the East Regional tournament. Freshman Abigail Clay led the charge, pinning Torrington’s Cathryn Reimer in just 20 seconds to claim the 235-pound title. Despite competing in a smaller bracket, Clay remained confident in her state qualification.

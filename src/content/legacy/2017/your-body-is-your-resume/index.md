@@ -4,6 +4,7 @@ date: 2017-01-12
 categories: 
   - "archives"
 coverImage: "Stock-Images-EMGN4-e1484239645475.jpg"
+author: "adviser"
 ---
 
 Imagine you go to the Dentist for your bi-annual cleaning, you check in with the receptionist and take a seat. A little while later, your hygienist calls you back. You get a bit of an uneasy feeling because the hygienist has full sleeve tattoos and their earlobes are sagging. You start to feel grossed out and and you wonder why would anyone do that to themselves. Then you start to feel bad for judging them. But, then you remember that they made that decision to get that tattoo therefore, they are putting themselves up for judgment, so you don’t feel bad. Like everything, tattoos and piercings are okay in moderation. But, in excesses they become unprofessional and abrasive.

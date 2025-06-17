@@ -4,6 +4,7 @@ date: 2016-04-27
 categories: 
   - "archives"
 coverImage: "Online-Date-ONLINE.gif"
+author: "adviser"
 ---
 
 Online dating has become huge for people who can’t find love in their own area or people who just lack the experience of dating in general. Soon, there will be so many people meeting online that parents will have to tell their children that they first met over the soft glow of a laptop monitor and the gentle clicking of the “send” key.

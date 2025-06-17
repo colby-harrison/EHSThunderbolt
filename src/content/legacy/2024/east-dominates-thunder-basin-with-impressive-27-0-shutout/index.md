@@ -4,6 +4,7 @@ date: 2024-11-08
 categories: 
   - "football"
 coverImage: "hunter-salle.webp"
+author: "reidhorton47"
 ---
 
 In an impressive display of teamwork and skill, the Cheyenne East varsity football team shut out Thunder Basin with a commanding 27-0 victory. The game, marked by standout plays from all sides of the field, showcased East’s defensive strength, explosive special teams, and a consistent ground game led by Keyshawn Brown.

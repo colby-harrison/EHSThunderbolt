@@ -4,6 +4,7 @@ date: 2015-01-28
 categories: 
   - "archives"
 coverImage: "Unbroken-web.jpg"
+author: "adviser"
 ---
 
 “If you can take it, you can make it,” these eight words hold so much meaning to the life of Louis Zamperini (Jack O’Connell), in the movie _Unbroken,_ directed by Angelina Jolie. This remarkable true story is the epitome of inspiration.  Following his life in the military and being a Japanese Prisoner of War during WWII, Louis gives a cruel and hopeless situation a light at the end of the tunnel.

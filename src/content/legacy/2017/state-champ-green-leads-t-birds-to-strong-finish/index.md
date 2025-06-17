@@ -4,6 +4,7 @@ date: 2017-03-10
 categories: 
   - "archives"
 coverImage: "IMG_5601B.jpg"
+author: "adviser"
 ---
 
 It’s a dream. A dream that doesn’t very often come true. Most young athletes start their careers with the hopes and aspirations that someday, someway, they will be named champions. It’s what makes the extra practices worth it. It’s what makes the time in the weight room not feel like a waste. It’s what summers spent at camp, and winters spent in the wrestling room, are all about. A state championship. A dream.

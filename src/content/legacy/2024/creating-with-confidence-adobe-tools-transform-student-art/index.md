@@ -4,6 +4,7 @@ date: 2024-12-18
 categories: 
   - "studentlife"
 coverImage: "30-adobe-1024.webp"
+author: "RBrow07"
 ---
 
 Art education at Cheyenne East High School is evolving with the introduction of Adobe apps like Adobe Express, Photoshop, Illustrator, and Lightroom. These powerful tools provide students with professional-grade technology to create, edit, and enhance their artwork with ease.

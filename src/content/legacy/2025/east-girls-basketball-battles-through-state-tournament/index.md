@@ -5,6 +5,7 @@ categories:
   - "basketball"
   - "sports"
 coverImage: "east-lady-thunderbirds.jpg"
+author: "nataliermoore"
 ---
 
 CHEYENNE, Wyo. – The Cheyenne East Girls Basketball team proved their dominance throughout the season, heading into the 4A Girls Basketball State Championship Tournament as one of the top teams in Wyoming. After securing the 4A East Regional Championship, the Lady Thunderbirds looked to continue their success in Casper.

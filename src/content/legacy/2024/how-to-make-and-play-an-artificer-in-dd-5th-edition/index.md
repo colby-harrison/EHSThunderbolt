@@ -5,6 +5,7 @@ categories:
   - "clubsandactivities"
   - "dnd"
 coverImage: "ArtificerArdy.jpg"
+author: "asherconyers"
 ---
 
 The _Artificer_ is a unique and relatively new addition to _Dungeons & Dragons_ 5th Edition, originally introduced in _Eberron: Rising from the Last War_ and further expanded in _Tasha's Cauldron of Everything_. Artificers are inventors and master crafters, combining technology and magic to create devices, enchant weapons, and enhance the abilities of their allies. Whether you're a beginner or a seasoned player, this guide will show you how to build and play an Artificer in D&D 5E.

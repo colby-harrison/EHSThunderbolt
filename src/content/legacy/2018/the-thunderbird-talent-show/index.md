@@ -4,6 +4,7 @@ date: 2018-05-01
 categories: 
   - "archives"
 coverImage: "Talent-Show.jpg"
+author: "adviser"
 ---
 
 Imagine this, center stage looking out into a crowd full of your peers.  Heart rate increases as your chest thumps, the primal instinct of fear pumping adrenaline through your veins. For some this fear can be overwhelming but the performers at the East talent show have learned to morph their emotions into an art form. One such performer is Ingrid Taylor. 

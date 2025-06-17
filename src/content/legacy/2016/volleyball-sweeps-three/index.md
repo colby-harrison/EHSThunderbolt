@@ -3,6 +3,7 @@ title: "Volleyball Sweeps Three"
 date: 2016-10-18
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 The East T-birds put out a 3 match sweep at the Casper invitational. They swept Mountain View (25-9), (25-13), Douglas (25-16), (25-19), and Rocksprings (25-7), (25-9)

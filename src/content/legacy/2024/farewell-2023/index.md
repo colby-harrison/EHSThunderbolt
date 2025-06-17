@@ -3,6 +3,7 @@ title: "Farewell, 2023"
 date: 2024-01-17
 categories: 
   - "archives"
+author: "BAbe"
 ---
 
 Fireworks, countdown, and celebrations took place Sunday night across the ![](images/new-year-2024-600x337.jpg) globe, as people bid farewell to the year 2023 and welcomed 2024. In the Unites States, we all know the traditions: The ball drop at Times Square, sharing a kiss with a loved one at the stroke of midnight, and countless amounts of fireworks. 

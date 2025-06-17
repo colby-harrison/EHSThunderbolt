@@ -4,6 +4,7 @@ date: 2019-03-12
 categories: 
   - "archives"
 coverImage: "SpeechDebate-1.jpeg"
+author: "adviser"
 ---
 
 As they’ve done all year, East High Speech and Debate rolled into another tournament and came away victorious. Only this time, the tournament meant a little more. For the second year in a row, the team has earned the title of State Champion.

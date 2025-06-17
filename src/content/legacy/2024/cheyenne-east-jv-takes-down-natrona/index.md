@@ -5,6 +5,7 @@ categories:
   - "football"
   - "sports"
 coverImage: "NC-6.webp"
+author: "daytonrhoades"
 ---
 
 In a nail-biting game last Friday night, East High School edged out Natrona County with a narrow 14-7 victory. The game was defined by intense defense and key offensive plays, making it a matchup that kept fans on the edge of their seats until the final whistle.

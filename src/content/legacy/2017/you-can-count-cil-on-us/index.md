@@ -4,6 +4,7 @@ date: 2017-01-12
 categories: 
   - "archives"
 coverImage: "stuco.jpg"
+author: "adviser"
 ---
 
 A small group of students here at East add to the spirit and learn a sense of leadership by helping organize and execute several events, but they tend to go unrecognized.

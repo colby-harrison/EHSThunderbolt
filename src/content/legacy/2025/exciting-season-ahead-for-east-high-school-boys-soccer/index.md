@@ -4,6 +4,7 @@ date: 2025-01-08
 categories: 
   - "soccer"
 coverImage: "1ctlp5j2.png"
+author: "riellys1098"
 ---
 
 As the winter months wind down, all eyes are turning to the upcoming boys soccer season at East High School. With a fresh crop of talent ready to take the field and a strong returning core, this year's schedule is one fans won’t want to miss. Whether you're a die-hard supporter or new to the sport, there's something special about watching young athletes come together to compete for glory.

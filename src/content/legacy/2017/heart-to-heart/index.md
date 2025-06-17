@@ -4,6 +4,7 @@ date: 2017-05-25
 categories: 
   - "archives"
 coverImage: "Guille.jpg"
+author: "adviser"
 ---
 
 A senior at East High has been chosen as one of four students in Wyoming to be recognized nationally for the Prudential Spirit of Community Awards. Liam Guille worked with the East Interact Club to put together multiple fundraisers, hold a raffle, and collect money from local Rotary Club members. His aim was to raise enough money to supply a child in China with a life-saving heart surgery.

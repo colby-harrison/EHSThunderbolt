@@ -4,6 +4,7 @@ date: 2024-10-25
 categories: 
   - "football"
 coverImage: "east-football.jpg"
+author: "reidhorton47"
 ---
 
 In an exhilarating matchup that kept fans on the edge of their seats, the Cheyenne East sophomore football team emerged victorious with a hard-fought 51-48 win over their Guernsey. With a well-balanced approach and strategic schemes, both on offense and defense, the T-Birds secured a thrilling victory that showcased their grit and teamwork.

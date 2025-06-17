@@ -3,6 +3,7 @@ title: "Barstool Instagram Pages"
 date: 2022-02-28
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 Everyone loves some good competition, but what about competition through social media? Cheyenne East had a barstool sport made on Instagram, with everyone wondering who the person behind the screen is. It’s all you hear about when walking through the hallways, they post daily, talking about the competitors that come through our territory.  While no one really knows how or when this page started, it started a trend within the Laramie County 1 school district, and then it spread throughout the whole state of Wyoming. The page is a fun and appropriate way to mess with other schools we go against, especially focusing on our cross- town rivals Central. 

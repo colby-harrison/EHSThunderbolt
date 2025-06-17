@@ -5,6 +5,7 @@ categories:
   - "clubsandactivities"
   - "dnd"
 coverImage: "IMG_0036.jpeg"
+author: "asherconyers"
 ---
 
 Clerics in Dungeons & Dragons 5th Edition (D&D 5E) are often seen as healers, but they’re far more than just the party’s medic. Clerics channel divine power granted by their gods, giving them unique access to spells and abilities that can heal, defend, and deal damage. In D&D 5E, they are one of the most versatile classes, with different divine domains offering distinct flavors, playstyles, and roles within a party.

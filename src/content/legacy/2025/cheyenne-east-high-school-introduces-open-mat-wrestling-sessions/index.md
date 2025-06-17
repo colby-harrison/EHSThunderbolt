@@ -5,6 +5,7 @@ categories:
   - "sports"
   - "wrestling"
 coverImage: "th.jpg"
+author: "Bentley307"
 ---
 
 Cheyenne East High School has launched Open Mat wrestling sessions, offering students a valuable opportunity to enhance their skills ahead of the competitive season. These sessions are held every Tuesday and Thursday morning from 6:15 to 7:15 a.m., starting October 8th, in the school's wrestling room.

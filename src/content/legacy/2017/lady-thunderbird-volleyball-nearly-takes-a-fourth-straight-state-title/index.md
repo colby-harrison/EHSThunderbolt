@@ -4,6 +4,7 @@ date: 2017-11-16
 categories: 
   - "archives"
 coverImage: "Byk-11.jpg"
+author: "adviser"
 ---
 
 When you spend the last three years dominating your opponents the way East High volleyball has dominated, you can expect a target on your back. Every team you play brings their “A” game, and you can expect nothing but their best.

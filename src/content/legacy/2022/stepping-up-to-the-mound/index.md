@@ -3,6 +3,7 @@ title: "Stepping Up to the Mound"
 date: 2022-04-29
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 With the spring season starting, home pitcher Jaylyn Christenson, 11 stepped up and made a name for herself at the first invite of the season with 17 strikeouts and only having four hits get by her. 

@@ -4,6 +4,7 @@ date: 2016-02-10
 categories: 
   - "archives"
 coverImage: "piglets.jpg"
+author: "adviser"
 ---
 
 After struggling to realize the realities of owning animals, and suffering a major disappointment, the Frontier FFA chapter here at East High is back with a new set of pigs. For the last two school years, the FFA students have studied a pig's reproductive process through housing live pigs in the school. This year, East is home to two sows, Oakley and Annie, and their piglets.

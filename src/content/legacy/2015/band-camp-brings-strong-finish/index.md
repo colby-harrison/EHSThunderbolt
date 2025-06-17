@@ -4,6 +4,7 @@ date: 2015-10-21
 categories: 
   - "archives"
 coverImage: "IMG_8000-edited.jpg"
+author: "adviser"
 ---
 
 When people hear the terms "pre-season camp" or "summer practice," their minds tend to naturally jump to football, but the East High Marching Band takes their pre-season and camp just as seriously.

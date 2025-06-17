@@ -4,6 +4,7 @@ date: 2017-10-24
 categories: 
   - "archives"
 coverImage: "Stephani-2-e1508856903422.jpg"
+author: "adviser"
 ---
 
 A seam opens in the offensive line. The running back lowers his shoulders and heads foor the gap. A linebacker spots the move and closes fast. Two bodies collide and the back stays down.

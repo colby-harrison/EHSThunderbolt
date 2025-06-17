@@ -5,6 +5,7 @@ categories:
   - "sports"
   - "wrestling"
 coverImage: "Carey-Junior-High.jpg"
+author: "Bentley307"
 ---
 
 Carey Junior High School is gearing up for its highly anticipated annual wrestling tournament, where young athletes from all over the region will gather to showcase their skills and determination on the mat. This year’s tournament promises to be an exciting event filled with intense matchups and incredible sportsmanship, and Carey’s wrestling program is looking to the community for support in making it a smooth, memorable experience.

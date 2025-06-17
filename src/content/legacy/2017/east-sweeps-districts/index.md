@@ -3,6 +3,7 @@ title: "East Sweeps Districts"
 date: 2017-03-14
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 Travel Baseball, travel basketball, how about travel speech and debate? In June select students from across the country, will travel to Birmingham, Alabama to compete at the national speech and debate tournament. But before they even can pack their bags, students must first qualify at a local district tournament.

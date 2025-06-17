@@ -4,6 +4,7 @@ date: 2017-10-24
 categories: 
   - "archives"
 coverImage: "DSC_1122-e1508857468584.jpg"
+author: "adviser"
 ---
 
 Practicing for months may not always end up like you’d expect.

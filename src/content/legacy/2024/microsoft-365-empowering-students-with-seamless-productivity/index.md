@@ -4,6 +4,7 @@ date: 2024-11-22
 categories: 
   - "studentlife"
 coverImage: "images.jpg"
+author: "RBrow07"
 ---
 
 Microsoft 365 allows students to use premium versions of popular apps like Word, Excel, PowerPoint, Outlook, Teams, and OneDrive. Whether you’re crafting an essay in Word, building a presentation in PowerPoint, or organizing data in Excel, these apps are designed to help you tackle any school project with ease.

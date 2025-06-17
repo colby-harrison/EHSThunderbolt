@@ -2,6 +2,7 @@
 title: "East Is 1st At Camel Classic"
 date: 2025-02-10
 coverImage: "East-Speech-Debate-Wins-at-Camel-Classic-2025.png"
+author: "123456789"
 ---
 
 The Cheyenne East Speech and Debate team earned another **1st place victory** at the annual Camel Classic, hosted by Campbell County High School in Gillette this past weekend. Competing against tough teams from Wyoming and South Dakota, the T-Birds stepped up and brought home the championship trophy. With strong performances across the board, East competitors proved hard to beat. As we prepare for our National Qualifier in a couple of weeks, the team is carrying strong momentum and ready for the next challenge. Individual awards include:

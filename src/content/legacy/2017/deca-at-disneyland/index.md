@@ -4,6 +4,7 @@ date: 2017-05-02
 categories: 
   - "archives"
 coverImage: "ICDC-e1493742513244.jpg"
+author: "adviser"
 ---
 
 Anaheim, California is usually known for Disneyland and California Adventure. However, between April 26 and 29, 20,000 visitors flocked there for another reason, the DECA International Career and Development Conference. ICDC is an international scale competition for DECA members who qualified through their state competition.

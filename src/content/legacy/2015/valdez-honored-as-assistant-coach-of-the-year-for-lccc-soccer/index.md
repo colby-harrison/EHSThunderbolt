@@ -4,6 +4,7 @@ date: 2015-04-10
 categories: 
   - "archives"
 coverImage: "valdez.gif"
+author: "adviser"
 ---
 
 CHEYENNE, WYO. –  Ms. Rebecca Valdez, East High social studies teacher and Laramie County Community College women’s soccer assistant coach, has been named the North Region Junior College Assistant Coach of Year by the National Soccer Coaches of American Association for her work with the Golden Eagles program.

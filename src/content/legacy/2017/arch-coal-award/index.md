@@ -4,6 +4,7 @@ date: 2017-05-26
 categories: 
   - "archives"
 coverImage: "Tbird-logo.jpg"
+author: "adviser"
 ---
 
 The Arch Coal Teacher’s Achievement Award is one of the most prestigious awards to be awarded in West Virginia and Wyoming. On May 19, East High’s Mrs. Megan Moench was announced as the recipient of the annual award. From winning the award, Mrs. Moench won a distinctive plaque and a personal cash award of $3,500.

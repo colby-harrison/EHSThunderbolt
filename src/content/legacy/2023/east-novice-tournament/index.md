@@ -3,6 +3,7 @@ title: "East Novice Tournament"
 date: 2023-11-15
 categories: 
   - "archives"
+author: "BAbe"
 ---
 
 [![](images/20231115_190830770_iOS-1.heic)](https://ehsthunderbolt.com/wp-content/uploads/2023/11/20231115_190830770_iOS-1.heic)[![](images/20231115_190830770_iOS.heic)](https://ehsthunderbolt.com/wp-content/uploads/2023/11/20231115_190830770_iOS.heic)Speech and Debate changes lives, it builds confidence, boosts classroom performance, improves communication, and increases critical thinking skills to prepare students for college. East High provides itself on providing life skills vital to a young person’s success in the future.

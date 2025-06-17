@@ -3,6 +3,7 @@ title: "East Boys Soccer Beats Laramie"
 date: 2015-05-15
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 Junior Caleb Pushcar scored within the first three minutes of the game, with a little help from sophomore Quinn Hunt, to the lead the boys Thunderbird soccer team to a 2-1 victory against Laramie. The T-Birds squared off against the Plainsmen on Tuesday, May 12, at the UW North 40 fields, in Laramie.

@@ -4,6 +4,7 @@ date: 2016-11-15
 categories: 
   - "archives"
 coverImage: "IMG_1267.jpg"
+author: "adviser"
 ---
 
 The Lady Thunderbirds swim team went up to Gillette and competed at the 4A Girls State Swim and Dive Championship meet. Over the two competition days, four swimmers made consolation finals and two divers made finals. East placed 9th overall at the meet held at the Gillette Aquatic Center on October 28 and 29.

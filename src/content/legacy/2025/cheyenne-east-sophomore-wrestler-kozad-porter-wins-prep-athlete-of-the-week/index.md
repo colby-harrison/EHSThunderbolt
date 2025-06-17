@@ -4,6 +4,7 @@ date: 2025-02-10
 categories: 
   - "wrestling"
 coverImage: "koazad-porter.webp"
+author: "reidhorton47"
 ---
 
 Porter went 5-0 with two pins and a technical fall on Saturday to win the 132-pound bracket at the 67th Rocky Welton Invitational in Garden City, Kansas. Those efforts earned him Prep Athlete of the Week honors from WyoSports’ Cheyenne staff.

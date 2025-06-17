@@ -4,6 +4,7 @@ date: 2025-02-10
 categories: 
   - "wrestling"
 coverImage: "4A-Wrestling.webp"
+author: "Bentley307"
 ---
 
 The Cheyenne East High School wrestling team is gearing up for a significant event on Saturday, February 24, 2025. On this date, the Thunderbirds will compete in a varsity wrestling meet against Green River High School and Kelly Walsh High School. The event is scheduled to commence at 12:00 am, though it's advisable to verify the exact timing as the date approaches.

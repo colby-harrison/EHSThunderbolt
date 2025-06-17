@@ -4,6 +4,7 @@ date: 2019-11-08
 categories: 
   - "archives"
 coverImage: "IMG_0035.jpg"
+author: "adviser"
 ---
 
 You walk onto the tennis court, its sunny outside and your very nervous. This is the feeling every tennis player feels before a match. Tennis is a mental sport if you are not mentally ready before a match you will come off the court defeated. Tennis is not the easiest of sports, players are constantly running around and hitting the ball giving it their all. People see tennis as a laid-back easy sport, and they thought wrong unless they’ve tried it. Many new kids tried out for the sport including most freshman, all new kids that joined said that they were very nervous the first day at practice, but the nerves went away little by little every day.

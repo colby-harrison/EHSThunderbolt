@@ -4,6 +4,7 @@ date: 2016-05-09
 categories: 
   - "archives"
 coverImage: "cong.-awards_-Molly-Gjervold-2.jpg"
+author: "adviser"
 ---
 
 Fifteen East High students were recognized by the United States Congress for their accomplishments in the areas of volunteer community service, personal development, physical fitness, and exploration into new areas and cultures. The Congressional Award is a program that awards scholarships to students who want to better themselves, as well as their communities.

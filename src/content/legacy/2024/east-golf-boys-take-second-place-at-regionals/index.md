@@ -5,6 +5,7 @@ categories:
   - "golf"
   - "sports"
 coverImage: "regional-golf.jpg"
+author: "colby_harrison34"
 ---
 
 The Cheyenne East boys golf team narrowly missed out on the 4A conference title, finishing just one stroke behind the champions to claim second place at regionals. Despite the close margin, the Thunderbirds are determined to make a strong run at defending their state title next week.

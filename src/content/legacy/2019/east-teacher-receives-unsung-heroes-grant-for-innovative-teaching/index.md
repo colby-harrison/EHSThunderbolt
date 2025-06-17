@@ -4,6 +4,7 @@ date: 2019-02-08
 categories: 
   - "archives"
 coverImage: "Lucero.jpg"
+author: "adviser"
 ---
 
 Jill Lucero, a business teacher at East High, recently received notice she was the recipient of a $2,000 national grant for innovative teaching from Voya Financial. She earned the award with her program “Don’t Delay, Invest Today.”

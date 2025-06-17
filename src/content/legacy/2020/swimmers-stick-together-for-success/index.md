@@ -4,6 +4,7 @@ date: 2020-10-13
 categories: 
   - "archives"
 coverImage: "IMG_1418.jpg"
+author: "adviser"
 ---
 
 Swimming can be difficult and lonely sport, so the best teams know winning starts with attitude and taking care of each other. Over the summer, the girls swim team came together as one. They spent their time practicing and bonding with team activities.

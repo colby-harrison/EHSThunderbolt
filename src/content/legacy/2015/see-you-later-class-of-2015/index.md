@@ -4,6 +4,7 @@ date: 2015-05-29
 categories: 
   - "archives"
 coverImage: "IMG_3436.gif"
+author: "adviser"
 ---
 
 Once again, another school year is coming to an end, and it's time for the senior class to depart the halls of East High School. The class of 2015 made their own fair share of lifelong memories, but they've decided to tell their side of the story...

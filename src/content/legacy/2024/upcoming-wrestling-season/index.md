@@ -4,6 +4,7 @@ date: 2024-11-13
 categories: 
   - "wrestling"
 coverImage: "Tbird-logo.jpg"
+author: "Mikah_Robles"
 ---
 
 Get Ready for the Wrestling Season!

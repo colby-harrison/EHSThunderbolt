@@ -4,6 +4,7 @@ date: 2020-05-06
 categories: 
   - "archives"
 coverImage: "G1.jpg"
+author: "adviser"
 ---
 
 With most schools and districts shut down for the foreseeable future, many schools struggled to find ways to connect with their students. One idea that popped into a few teachers' minds was the concept of a virtual theme week.

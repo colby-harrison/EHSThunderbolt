@@ -3,6 +3,7 @@ title: "East High band hosts triad marching event, looking for recruits"
 date: 2021-12-02
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 East High School is known across the state as one of the top high school marching band programs in the region. It's not just about leading a stadium of fans for the National Anthem or rallying the students with the school song. It’s also about practicing long hours, enduring day-long bus trips, and never fearing the heat and cold of Wyoming weather. It takes a special kind of person to put on the Columbia Blue and meet the expectations of the best band around. Performing across Wyoming, neighboring states, and, at times, the country, the program depends on a steady stream of top-notch musicians.  

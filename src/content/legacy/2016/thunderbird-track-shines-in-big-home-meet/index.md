@@ -4,6 +4,7 @@ date: 2016-05-04
 categories: 
   - "archives"
 coverImage: "tranch.jpg"
+author: "adviser"
 ---
 
 There's something to be said about track athletes and their fans. To be successful at track, an athlete needs to have patience, commitment and resilience - patience in earning a win, commitment to put in the time, and the resilience to bounce back from adversity and tragedy. Like the athlete, the fan of track and field also requires those same traits - the patience to sit in the stands for hours on end, the commitment to support a runner through wind and snow, and the resilience to watch a favorite son or daughter stumble and fall time and time again. Track athletes and their fans are a special kind of tough.

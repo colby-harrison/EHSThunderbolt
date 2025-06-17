@@ -4,6 +4,7 @@ date: 2016-12-20
 categories: 
   - "archives"
 coverImage: "buisnessmen-with-tattoos.png"
+author: "adviser"
 ---
 
 In American society today, it is not uncommon to see nearly everyone sporting a tattoo or piercing. Young teenagers, professional business men and even senior citizens use their bodies to make a personal statement. Over 40% of working Americans have a tattoo, according to STAPAW, and 83% have piercings.

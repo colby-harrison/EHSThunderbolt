@@ -5,6 +5,7 @@ categories:
   - "football"
   - "sports"
 coverImage: "GZ8A8018-e1728316239874.jpg"
+author: "reidhorton47"
 ---
 
 On October 5th, the Cheyenne East Junior Varsity football team delivered an impressive performance at home, securing a 50-29 victory over Kelly Walsh. The game kicked off at 10 a.m. at Okie Blanchard Stadium, where the Thunderbirds showed dominance on both sides of the ball.

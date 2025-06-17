@@ -4,6 +4,7 @@ date: 2015-01-28
 categories: 
   - "archives"
 coverImage: "CWalstonEastGradsWeb.jpg"
+author: "adviser"
 ---
 
 Even though graduation feels as if it’s not coming fast enough for the class of 2015, it’ll actually be here in just a few short months. As many seniors know, a large amount of preparation needs to be done to attend a college in the fall, and getting a bad case of pre-graduation laziness won’t help at all.

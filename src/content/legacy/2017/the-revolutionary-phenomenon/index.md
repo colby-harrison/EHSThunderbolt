@@ -4,6 +4,7 @@ date: 2017-04-18
 categories: 
   - "archives"
 coverImage: "hamilton.jpg"
+author: "adviser"
 ---
 
 Many people, when asked about the man on the $10 bill used, to respond with “I don’t know”. However, within the past two years, many people now know who’s on the $10 bill. It just so happens to be the first Secretary of the Treasury, Alexander Hamilton, whose name, now thanks to the hit Broadway musical _Hamilton: An American Musical_, is now very well known.

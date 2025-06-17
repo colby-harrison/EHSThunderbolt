@@ -4,6 +4,7 @@ date: 2016-11-01
 categories: 
   - "archives"
 coverImage: "tours.jpg"
+author: "adviser"
 ---
 
 It’s late, hours past the time your parents have gone to bed, and there you are, surrounded in darkness, the only sound is the clicking of the mouse as you refresh the musician’s page. The frustration building they said they would be releasing concert dates and tickets sometime that night. You refresh the page, again and again, then suddenly city names and dates flood your screen and you frantically search for a city or venue in your state... yet there’s none. You start looking for a venue in a city that’s a couple hours’ drive at most- and the closet you can get is eight hours away.

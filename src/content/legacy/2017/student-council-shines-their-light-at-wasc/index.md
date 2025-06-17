@@ -4,6 +4,7 @@ date: 2017-12-01
 categories: 
   - "archives"
 coverImage: "Stephani-61.jpg"
+author: "adviser"
 ---
 
 If you walked into a room full of people dancing and screaming how would you feel? Probably overwhelmed. But for student council kids, it’s a welcoming sight.

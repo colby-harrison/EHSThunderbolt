@@ -4,6 +4,7 @@ date: 2017-03-10
 categories: 
   - "archives"
 coverImage: "spirit-2.jpg"
+author: "adviser"
 ---
 
 When you walk into a basketball game, what do you expect to see?

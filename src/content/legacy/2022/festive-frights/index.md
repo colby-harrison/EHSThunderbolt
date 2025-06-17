@@ -3,6 +3,7 @@ title: "Festive Frights"
 date: 2022-10-24
 categories: 
   - "archives"
+author: "mdoughty"
 ---
 
 La Selle, Colorado is home to the popular Fritzler Farm Park. Open until October 30th, the park contains a corn maze, pumpkin patch, paintball station, games, food, and so much more.

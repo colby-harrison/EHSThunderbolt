@@ -4,6 +4,7 @@ date: 2015-09-23
 categories: 
   - "archives"
 coverImage: "IMG_5965.gif"
+author: "adviser"
 ---
 
 Your stomach tightens and your palms start to sweat as you walk through the door. Terrified, you look around the lobby in hopes of finding one friendly face. The unknown reaches out and grabs you as you stare across a sea of strangers. It's the first day of school and everyone braces themselves for new schedules, homework, and making friends.

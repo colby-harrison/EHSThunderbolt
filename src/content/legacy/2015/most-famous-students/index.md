@@ -4,6 +4,7 @@ date: 2015-12-21
 categories: 
   - "archives"
 coverImage: "east-high1.jpg"
+author: "adviser"
 ---
 
 Mr. Rick Roddam works for local radio station KGAB AM 650. According to Rick, here’s five of the most accomplished former Thunderbirds to ever roam the halls at Cheyenne East:

@@ -4,6 +4,7 @@ date: 2019-06-29
 categories: 
   - "archives"
 coverImage: "IMG_0075.jpg"
+author: "adviser"
 ---
 
 In late June, the East High chapter of Future Business Leaders of America headed to the national FBLA convention in San Antonio, Texas. FBLA is recognized as the largest business student organization in the world, and student chapter representatives made appearances from across the globe. FBLA has 230,000 members and 5,200 chapters, all meeting once a year to meet and compete against each other. 

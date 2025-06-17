@@ -4,6 +4,7 @@ date: 2021-11-01
 categories: 
   - "archives"
 coverImage: "IMG_5041.jpg"
+author: "idelong"
 ---
 
 \[gallery ids="6795,6797,6796,6794,6793,6792"\]

@@ -4,6 +4,7 @@ date: 2025-03-17
 categories: 
   - "studentlife"
 coverImage: "IMG_1236.png"
+author: "123456789"
 ---
 
 East High School's Speech & Debate team has once again proven their dominance, securing the 2025 Wyoming State Championship! This incredible victory was a full-team effort, with every member contributing to the overall success. Their dedication, talent, and passion for speech and debate were on full display, earning East High its third consecutive state title—a historic three-peat!

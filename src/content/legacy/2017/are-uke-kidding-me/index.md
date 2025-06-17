@@ -4,6 +4,7 @@ date: 2017-05-25
 categories: 
   - "archives"
 coverImage: "kenzieedit.jpg"
+author: "adviser"
 ---
 
 What’s the deal with the new Ukulele craze?

@@ -4,6 +4,7 @@ date: 2017-02-21
 categories: 
   - "archives"
 coverImage: "fake-news-e1487698689673.jpg"
+author: "adviser"
 ---
 
 James Alefantis and his family fell victim to fake news after Edgar Welsh had bombarded their mom and pop pizzeria in Washington D.C. Welsh had read online that the Ping Pong Comet Pizzeria was harboring children sex slaves as part of a sex ring ran by Hillary Clinton. Without checking the source to see if the information was reliable, he drove six hours to the restaurant where he fired handguns and an AR-15 into the ceiling. He was later apprehended without harming anyone. Welsh was totally to blame for his reaction to the news, however he is not to blame for his information. His sense of blind vigilante justice negatively impacted others.

@@ -4,6 +4,7 @@ date: 2022-02-15
 categories: 
   - "archives"
 coverImage: "352b709a-bad0-455a-9ba3-9f4370b47b8f.jpg"
+author: "ljones"
 ---
 
 This past year the East High School boys’ basketball teams have taken their games by storm, bringing a determination and thirst for victory that has been mostly unrivaled all season. With minimal losses for the varsity and sophomore teams and a positive record for junior varsity, the season has gone well. 

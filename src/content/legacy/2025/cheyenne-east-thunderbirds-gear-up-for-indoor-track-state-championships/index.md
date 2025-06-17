@@ -4,6 +4,7 @@ date: 2025-03-03
 categories: 
   - "track"
 coverImage: "thumbnail_IMG_1551.jpg"
+author: "daytonrhoades"
 ---
 
 The Cheyenne East High School indoor track and field team is gearing up for the upcoming Wyoming High School Indoor Track State Championships. The event is scheduled for March 7-8, 2025, at the Campbell County Recreation Center Fieldhouse in Gillette. citeturn0search2

@@ -5,6 +5,7 @@ categories:
   - "clubsandactivities"
   - "dnd"
 coverImage: "Fighter.jpg"
+author: "asherconyers"
 ---
 
 The _Fighter_ class in _Dungeons & Dragons_ 5th Edition is one of the most accessible, flexible, and versatile classes in the game, making it ideal for players of all experience levels. Fighters are skilled warriors, capable of excelling in physical combat, defense, and tactics, and they are adaptable to a range of weapons and fighting styles.

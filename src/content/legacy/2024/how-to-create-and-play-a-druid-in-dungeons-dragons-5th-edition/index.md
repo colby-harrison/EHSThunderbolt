@@ -5,6 +5,7 @@ categories:
   - "clubsandactivities"
   - "dnd"
 coverImage: "IMG_0050.webp"
+author: "asherconyers"
 ---
 
 The _Druid_ in _Dungeons & Dragons_ 5th Edition (D&D 5E) is a versatile and powerful spellcasting class that embodies the natural world. Drawing power from the earth, sky, and living things around them, Druids can shapeshift into animals, heal, control elements, and wield powerful spells. If you’re intrigued by the wild, appreciate a balanced connection with nature, or simply love the idea of transforming into beasts, the Druid class is an exciting choice. This guide will help you create and play a Druid in D&D 5E.

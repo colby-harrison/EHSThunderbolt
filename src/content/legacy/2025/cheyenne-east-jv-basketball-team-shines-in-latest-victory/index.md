@@ -4,6 +4,7 @@ date: 2025-01-08
 categories: 
   - "basketball"
 coverImage: "basketball.jpg"
+author: "reidhorton47"
 ---
 
 The Cheyenne East boys’ JV basketball team delivered an impressive performance on the court, defeating Riverton with a commanding 72-46 win. The game, which took place before Christmas break, showcased the team’s skill, determination, and teamwork as they outplayed their opponents from start to finish.

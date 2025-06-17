@@ -4,6 +4,7 @@ date: 2018-02-14
 categories: 
   - "archives"
 coverImage: "IMG_7548.jpg"
+author: "adviser"
 ---
 
 In early February, 38 East students boarded a bus to the Cheyenne’s Radisson Hotel. Each one was in his or her impeccable best - navy blue blazer, black skirt or dress pants, and hair in a professional style. The students carried project boards and notes, prepared to compete. State DECA had arrived and East was ready to dominate.

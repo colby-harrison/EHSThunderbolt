@@ -4,6 +4,7 @@ date: 2015-04-10
 categories: 
   - "archives"
 coverImage: "welders.gif"
+author: "adviser"
 ---
 
 Most people, as they think about all the characteristics of a state champion, don't think of cold steel and flames. They don't imagine the sight of sparks and the roar of a torch, but three East High seniors Zakk Keller, Dax Cathcart, and Oakley Cathcart just changed all that. The group traveled to Gillette College to compete in the state SkillsUSA welding and fabrication competition on March 26-27 and brought home the district's first welding championship.

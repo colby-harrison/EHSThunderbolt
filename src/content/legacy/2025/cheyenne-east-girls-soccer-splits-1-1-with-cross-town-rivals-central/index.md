@@ -4,6 +4,7 @@ date: 2025-04-30
 categories: 
   - "soccer"
 coverImage: "soccer.webp"
+author: "reidhorton47"
 ---
 
 On Thursday, long-time rivals Cheyenne East and Cheyenne Central met on the soccer pitch at Okie Blanchard Stadium with 2 very close matches. In the boys' showdown, Cheyenne Central got a pair of goals from Andy Lam to hold off East 2-1. Central is coming off a 2nd place finish at the 4A State Tournament in 2024, going 17-2 on the season. The Tribe finished the weekend with a 1-0 loss to Thunder Basin so they sit at 3-1 on the year.

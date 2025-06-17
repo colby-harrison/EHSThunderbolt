@@ -5,6 +5,7 @@ categories:
   - "football"
   - "sports"
 coverImage: "Natrona-Vs-Cheyenne-East-Football.webp"
+author: "camerongriffin"
 ---
 
 In a spirited matchup on a crisp autumn evening, the Cheyenne East junior varsity football team faced off against Lingle Fort Laramie, ultimately succumbing to a 49-20 defeat. The game was a testament to the determination of both teams, showcasing a mix of explosive plays and hard-fought battles on the field.

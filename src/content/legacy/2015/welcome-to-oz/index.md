@@ -4,6 +4,7 @@ date: 2015-05-08
 categories: 
   - "archives"
 coverImage: "prom-pic.gif"
+author: "adviser"
 ---
 
 Teenagers prepare for weeks, months, or even the whole year, for one of the biggest events in their short high school career. Nothing can make a teenager shake with excitement quite like Prom. Nerves. Fear. Excitement! For the girls, pampering and beauty are so important. For boys, making sure they can take care of the expenses is high on their list.

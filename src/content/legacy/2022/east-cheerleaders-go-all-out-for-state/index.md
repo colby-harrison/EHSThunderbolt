@@ -4,6 +4,7 @@ date: 2022-02-28
 categories: 
   - "archives"
 coverImage: "20220214_162854000_iOS.jpg"
+author: "adviser"
 ---
 
 The East cheer team went to state and won second in the coed division, third in the all-girl division, fourth in game day division, and fifth in dance which is the highest we have placed in dance. We were the only team that brought home multiple awards. One of the struggles that came up this year was sickness which caused issues for the team. Ellie Swanson,11, is very dedicated to going to state.  

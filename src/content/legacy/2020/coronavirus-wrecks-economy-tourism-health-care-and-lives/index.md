@@ -4,6 +4,7 @@ date: 2020-05-06
 categories: 
   - "archives"
 coverImage: "NEWS-Coronavirus-PIC-1.jpg"
+author: "adviser"
 ---
 
 COVID-19, also known as the coronavirus, is having huge impacts around the world. According to www.worldometers.info/coronavirus/, as of April 23, there are more than 2.6 million cases and more than 185,000 deaths worldwide. As countries advise people to stay home more, the numbers are slowing, but they continue to rise every day.

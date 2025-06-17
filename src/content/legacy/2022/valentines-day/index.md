@@ -3,6 +3,7 @@ title: "Valentine's Day"
 date: 2022-02-28
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 With Valentine's Day right around the corner, everyone is excited and eager to celebrate the holiday in their own way. Everyone has their own opinion of Valentine’s Day. Some people think that Valentine’s Day is an unofficial holiday and is overrated, while others think that Valentine’s Day is special and should be celebrated with family, friends or a significant other. Self-love is also important to most people on Valentine’s Day. Sometimes buying yourself chocolate, flowers and gifts is just what you need to feel “the love” on Valentine’s Day. 

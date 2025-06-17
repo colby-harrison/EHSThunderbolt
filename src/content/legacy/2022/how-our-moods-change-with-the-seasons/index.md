@@ -3,6 +3,7 @@ title: "Seasonal Mood Switch"
 date: 2022-10-12
 categories: 
   - "archives"
+author: "edray"
 ---
 
 As the air gets colder and the leaves start to change, all Wyoming high school students know what to expect; a brutally long fall and winter await us as we move into October. Dreary, rainy, and chilly days make everyday tasks uninviting or even daunting.

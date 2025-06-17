@@ -3,6 +3,7 @@ title: "The Quarterback Behind the Scenes"
 date: 2021-11-17
 categories: 
   - "archives"
+author: "kculley"
 ---
 
 Hard work and dedication. Practice after practice. Being a quarterback is more than just throwing the ball to his receivers. There are only seconds to think about what you’re doing and there’s strategy behind every throw. While everyone is yelling at Gavin Goff, 12, for making the smallest mistake, he feels like the worlds on his shoulders. On the outside this position may look easy, on the inside, being the quarterback takes a lot.

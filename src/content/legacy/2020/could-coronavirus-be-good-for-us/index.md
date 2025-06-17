@@ -4,6 +4,7 @@ date: 2020-05-06
 categories: 
   - "archives"
 coverImage: "GG4.jpg"
+author: "adviser"
 ---
 
 Despite all the disaster surrounding COVID-19, there may just be a little bit of a silver lining to it all. There is no doubt, the coronavirus is a massive challenge for the world. People are dying by the thousands, millions are sick, and economies are crashing. These are terrifying times. But, through it all, and although it may not be mainstreamed, the world may become a better place due, at least partly, to COVID-19. Many good things are happening around the world that are making a big impact.

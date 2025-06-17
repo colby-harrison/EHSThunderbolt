@@ -4,6 +4,7 @@ date: 2018-02-22
 categories: 
   - "archives"
 coverImage: "image1.jpeg"
+author: "adviser"
 ---
 
 The sound of hundreds of voices and instruments could be heard echoing in Evanston high school with January hosting Wyoming’s All-State band, orchestra, and choir. Representing East was 28 students that all passed an audition to be accepted into All-State music.

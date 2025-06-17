@@ -4,6 +4,7 @@ date: 2025-03-19
 categories: 
   - "basketball"
 coverImage: "east-lady-thunderbirds.jpg"
+author: "reidhorton47"
 ---
 
 The Thunderbirds lost 47-43 to No. 3 Sheridan, resulting in a third consecutive semifinal loss. East couldn’t overcome offensive struggles, shooting just 4-of-22 (18.2%) in the second half, and 1-of-13 (7.69%) from 3-point range overall.

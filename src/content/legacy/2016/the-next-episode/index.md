@@ -4,6 +4,7 @@ date: 2016-03-07
 categories: 
   - "archives"
 coverImage: "Kylo_Ren_confronts_Rey_and_Finn.gif"
+author: "adviser"
 ---
 
 Hunted by an empire that controls half the galaxy, stranded in a desert of shifting sands, but there’s a town over the next dune, or maybe the next, or the next. All without the pilot he’d saved only to lose in the infinite shifting sands. The mutinous storm trooper, Finn, trudged through the sand desperate for water and a small droid that he had lost his first and only friend for.

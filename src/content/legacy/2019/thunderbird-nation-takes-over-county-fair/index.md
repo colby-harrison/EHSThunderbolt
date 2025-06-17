@@ -4,6 +4,7 @@ date: 2019-08-13
 categories: 
   - "archives"
 coverImage: "IMG-5445.jpg"
+author: "adviser"
 ---
 
 East High proudly boasts one of the strongest Ag programs in the state. From raising livestock to community service to creating ag awareness, the East High programs are leaders in the state.  

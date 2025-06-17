@@ -4,6 +4,7 @@ date: 2020-05-06
 categories: 
   - "archives"
 coverImage: "OPINION-Covis-worst-PIC.jpg"
+author: "adviser"
 ---
 
 Right at this very moment the world is under a crisis, and it has a horrible name – COVID-19, the coronavirus. This virus is affecting everything and everyone. When it first started, many doubted it would ever reach American shores, but then people started getting sick fast and dying. That’s when people started to get scared and go into panic mode. And that’s when people began to get ugly.

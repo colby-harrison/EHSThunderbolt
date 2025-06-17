@@ -5,6 +5,7 @@ categories:
   - "3dpr"
   - "clubsandactivities"
 coverImage: "Food.jpg"
+author: "colby_harrison34"
 ---
 
 On Wednesday, October 9th, 2024, the East High School 3D Print and Robotics Club hosted an open house, welcoming students curious about technology and creativity. Held in Mr. Harrison’s classroom, room 508, the event showcased a variety of student-made projects and innovative tools, drawing in a crowd of 10 to 15 attendees.

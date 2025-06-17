@@ -4,6 +4,7 @@ date: 2025-03-17
 categories: 
   - "studentlife"
 coverImage: "East-CE-Logo-with-Talons.png"
+author: "ITZJ307"
 ---
 
 Spring Break is almost here, but before juniors can enjoy their time off, there's one big event coming up – the ACT test at 7:20 AM! 🌅

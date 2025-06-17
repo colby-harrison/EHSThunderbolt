@@ -4,6 +4,7 @@ date: 2015-02-25
 categories: 
   - "archives"
 coverImage: "hith-valentine.jpg"
+author: "adviser"
 ---
 
 What is Valentine’s Day? Why do we celebrate it? Well most people think it is all romance and love but it actually the death day of a martyr named St. Valentine. Most historians agree Valentine was a Roman priest, but the rest of the story is debated. Some say that he was a priest that was going against the law and married young couples and was executed, others say he was executed for helping Christians escape Rome, one where he wasn’t put to death says that he was sent to prison and sent the very first valentine to the jailers daughter. There is also another explanation given that says that valentine was just a figurehead for the church trying to Christianize a pagan festival. So when you say “will you be my valentine” realize you are saying “will you be my dead catholic priest”.

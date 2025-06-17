@@ -4,6 +4,7 @@ date: 2015-02-19
 categories: 
   - "archives"
 coverImage: "CWalston-22.gif"
+author: "adviser"
 ---
 
 A blast from the past hit East High students with the _Back to the Future_ Turnabout dance, put on by the DECA club on Saturday, February 7. Many students attended the film-themed dance and shook off the stress of the week to enjoy a night full of fun and free of homework.

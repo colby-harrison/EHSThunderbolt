@@ -4,6 +4,7 @@ date: 2015-09-23
 categories: 
   - "archives"
 coverImage: "DSC_0023.gif"
+author: "adviser"
 ---
 
 It was before the chill of fall when almost 400 incoming freshmen gathered in the East High School auditorium to learn of their fate for the next four years. A feeling of anxiety and anticipation filled the room, high school was about to begin.

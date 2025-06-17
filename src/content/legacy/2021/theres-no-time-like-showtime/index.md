@@ -3,6 +3,7 @@ title: "There's No Time Like Showtime"
 date: 2021-11-05
 categories: 
   - "archives"
+author: "swhittecar"
 ---
 
 There are a variety of activities to participate in during summer in Cheyenne. For some FFA (Future Farmers of America) and 4H (Head, Heart, Hands, Health) members, many of them choose to spend their summer working hard to get ready for the Laramie County Fair. This year the fair was from August 4th to August 14th, although the exhibitors spend much more time than that in preparation. Haylie Turley, senior, is an FFA and 4H Member who worked hard this year and showed in the fair.

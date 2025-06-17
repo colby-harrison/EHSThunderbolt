@@ -5,6 +5,7 @@ categories:
   - "clubsandactivities"
   - "ffa"
 coverImage: "IMG_2241-e1728485064439.jpg"
+author: "A.Ruppert"
 ---
 
 The excitement is building as students prepare for the upcoming National FFA Meat Judging Competition, taking place in Indianapolis, Indiana, from October 23-26, 2024. This prestigious event will showcase the talents of FFA members as they put their meat evaluation skills to the test. With participants honing their abilities in meat science, the competition promises to be an inspiring experience for future leaders in agriculture.

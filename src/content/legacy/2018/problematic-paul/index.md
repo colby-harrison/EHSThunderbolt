@@ -4,6 +4,7 @@ date: 2018-02-12
 categories: 
   - "archives"
 coverImage: "logan-paul.png"
+author: "adviser"
 ---
 
 At this point, who hasn’t heard of Logan Paul? Due to videos like catchy song parodies, pranks, and dopey holiday videos, Paul is an internet phenomenon for multiple reasons. However, arguably the most memorable moment in his internet presence was the moment he uploaded his video entitled “We found a dead body in the Japanese Suicide Forest”.

@@ -4,6 +4,7 @@ date: 2016-11-15
 categories: 
   - "archives"
 coverImage: "Blaine-McCartney-WT-E.jpg"
+author: "adviser"
 ---
 
 The East High varsity girls’ volleyball team just made history by winning their third-straight Class 4A championship. EHS swept Kelly Walsh in the championship match, winning in three sets, with scores of 25-20, 25-18, and 25-23. This state championship is East’s fourth in five seasons.  East junior Duquesne Moratzka had the winning kill, as the shot ricocheted off the arm of Kelly Walsh’s Hadley Lloyd and into the stands, securing the Lady T-Birds’ championship win in the third set.

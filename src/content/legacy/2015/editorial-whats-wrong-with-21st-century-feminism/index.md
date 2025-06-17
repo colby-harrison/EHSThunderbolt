@@ -4,6 +4,7 @@ date: 2015-12-16
 categories: 
   - "archives"
 coverImage: "Feminism-Article-Animation.jpg"
+author: "adviser"
 ---
 
 No votes. No position of authority. No ownership of land. One hundred years ago women were classified as second class citizens, but today, women can run for the Office of the President. What got us here? Why did this all change?

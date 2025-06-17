@@ -3,6 +3,7 @@ title: "Single Parents Lead to Independent Children"
 date: 2018-01-29
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 Many kids face the struggle of being raised in a one-parent home. Too many kids with single parents are just happy with having a roof over their head and food to eat. According to the US Census Bureau, from 1960 to 2016, the percentage of children living with only their mother nearly tripled from 8 to 23 percent, and single father percentages rose from 1 to 4 percent.

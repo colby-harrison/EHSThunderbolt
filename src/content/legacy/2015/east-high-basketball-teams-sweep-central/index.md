@@ -4,6 +4,7 @@ date: 2015-02-23
 categories: 
   - "archives"
 coverImage: "trophy.jpg"
+author: "adviser"
 ---
 
 No matter how it ends, the rivalry is always one of the best in the state. The biannual East-Central games are knock-down, drag-out fights, and a conference title is often on the line. Anger and cries of disappointment rear their ugly heads as often as cheers and screams of victory, and the 2015 edition did not disappoint.

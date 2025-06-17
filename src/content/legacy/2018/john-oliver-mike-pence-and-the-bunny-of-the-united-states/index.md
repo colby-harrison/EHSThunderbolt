@@ -4,6 +4,7 @@ date: 2018-05-01
 categories: 
   - "archives"
 coverImage: "marlon-bundo.jpg"
+author: "adviser"
 ---
 
 In in a time of crazy politics, national scandals and, White House firings, even a child's book can't escape the pure insanity of today's politics.

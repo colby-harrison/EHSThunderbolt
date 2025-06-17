@@ -4,6 +4,7 @@ date: 2015-11-20
 categories: 
   - "archives"
 coverImage: "Fogg.gif"
+author: "adviser"
 ---
 
 Everyone dreams of the spotlight. Oh, for the chance to make a difference. To be special. Maybe, famous, for just a minute. On October 30, sophomore Jake Fogg got his chance. After bowling over the Rock Springs blocker, Jake got a hand on a Tiger extra point kick attempt and helped his T-Bird teammates advance to the semi-finals with a 14-13 playoff victory in the 4A playoffs. After a game full of nasty hits and big plays, Jake didn't grasp how big of a difference he made until the teams headed to the locker room.

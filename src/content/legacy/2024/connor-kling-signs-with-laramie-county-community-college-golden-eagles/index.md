@@ -2,6 +2,7 @@
 title: "Connor Kling Signs with Laramie County Community College Golden Eagles"
 date: 2024-12-18
 coverImage: "663edfa4ed4a4.webp"
+author: "riellys1098"
 ---
 
 Cheyenne East High School senior, Connor Kling, has made an exciting commitment to continue his athletic and academic journey by signing with the Laramie County Community College (LCCC) Golden Eagles. The standout athlete, known for his dedication on the field, will now join one of the region's top programs after this season.

@@ -4,6 +4,7 @@ date: 2023-11-15
 categories: 
   - "archives"
 coverImage: "IMG_0326.jpeg"
+author: "HBrekhus"
 ---
 
 There are high hopes this year for the Cheyenne East Wrestling team after last year they placed 5th as a team at state last year. With 7 placers two of which were runner ups, and their was one state champion. With the season almost here, some of the T-Bird wrestlers are already on the mat, preparing for this upcoming year.

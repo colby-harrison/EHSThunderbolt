@@ -4,6 +4,7 @@ date: 2015-11-04
 categories: 
   - "archives"
 coverImage: "state-buckettttt.jpg"
+author: "adviser"
 ---
 
 The East High Lady Thunderbird Swimming and Diving team prepared for the state swim meet all season long. The team traveled to Gillette for the tournament with nine qualifiers and five non-qualifiers to compete.

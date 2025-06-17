@@ -4,6 +4,7 @@ date: 2016-09-27
 categories: 
   - "archives"
 coverImage: "Briley.jpg"
+author: "adviser"
 ---
 
 Between school, homework, having a job, and spending time with loved ones how could anybody have time for anything else? EHS Junior Briley Phipps has found the time for all of this, plus some extra time to be one of the top divers at East High.

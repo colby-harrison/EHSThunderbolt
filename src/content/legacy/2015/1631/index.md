@@ -4,6 +4,7 @@ date: 2015-05-06
 categories: 
   - "archives"
 coverImage: "notes.gif"
+author: "adviser"
 ---
 
 Hanging with good friends and listening to good music is a nice way to spend a warm, summer Friday night in Cheyenne.

@@ -4,6 +4,7 @@ date: 2015-04-15
 categories: 
   - "archives"
 coverImage: "IMG_39011.gif"
+author: "adviser"
 ---
 
 The Cheyenne East golf teams hosted the Cheyenne Invite on Friday, April 10, at the Airport Golf Course. The boys' team placed fourth at with a final score of 325, while the girls’ placed fifth at 331, led by senior Peyton GrandPre's ninth place finish.

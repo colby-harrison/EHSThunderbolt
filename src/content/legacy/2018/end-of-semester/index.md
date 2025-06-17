@@ -4,6 +4,7 @@ date: 2018-01-31
 categories: 
   - "archives"
 coverImage: "end-semester.jpg"
+author: "adviser"
 ---
 
 Many kids struggle to keep their grades up at the end of semester because they get overwhelmed with GVC’s, missing work, and maybe just because the class is hard for them.

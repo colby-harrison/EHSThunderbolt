@@ -4,6 +4,7 @@ date: 2016-12-02
 categories: 
   - "archives"
 coverImage: "IMG_9642edit.jpg"
+author: "adviser"
 ---
 
 Being part of the International Baccalaureate program is not only being a part of a unique group at East High, but it’s being part of a special group of people from around the world that are joined together by one common thing. The International Baccalaureate program is a group of schools around the world that all come together to teach students similar curriculum, by linking classes and students together through education.

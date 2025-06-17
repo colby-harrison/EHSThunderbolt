@@ -4,6 +4,7 @@ date: 2016-02-08
 categories: 
   - "archives"
 coverImage: "6765.Budget_2D00_Cuts_2D00_image.jpg"
+author: "adviser"
 ---
 
 The teachers in the state of Wyoming that received pay raises in 2015 might be losing their raises because of budget cuts in 2016. The $6 million spent on teachers raises that were provided across 2015 might be needed to be cut for the 2017-2018 biennium, according to Kari Eakins, communications director for the Wyoming Department of Education in a wyomingnews.com article.

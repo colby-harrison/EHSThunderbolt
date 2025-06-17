@@ -3,6 +3,7 @@ title: "Fall Favorites"
 date: 2022-10-31
 categories: 
   - "archives"
+author: "tcassat"
 ---
 
 What’s better than a big comfy hoodie and a pumpkin spice latte?

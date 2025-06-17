@@ -3,6 +3,7 @@ title: "East Sweeps South Bison"
 date: 2015-04-22
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 East High soccer was looking to set a better tone for the season, and two strong wins against South High is helping to set them up for a run at conference.

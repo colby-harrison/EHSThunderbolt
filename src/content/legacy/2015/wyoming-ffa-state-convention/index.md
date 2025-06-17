@@ -4,6 +4,7 @@ date: 2015-04-20
 categories: 
   - "archives"
 coverImage: "FFA-logo.gif"
+author: "adviser"
 ---
 
 Blue corduroy jackets swarmed Cheyenne during the 88th annual State FFA Convention. Future Farmers of America members from across Wyoming met in the capital city to face off in a variety of events and meet fellow members. All of Cheyenne seemed to be involved as the Civic Center in downtown Cheyenne hosted nightly sessions, the Holiday Inn held the Career Development Events (CDEs), and LCCC hosted the judging competitions. Even Mayor Rick Kaysen made an appearance to speak at one of the nightly sessions. East High’s Frontier FFA was another big contender in the state convention as they competed in six CDEs, earning a Top Six Chapters recognition and a state title.

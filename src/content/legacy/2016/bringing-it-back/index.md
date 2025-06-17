@@ -4,6 +4,7 @@ date: 2016-10-07
 categories: 
   - "archives"
 coverImage: "HofF.jpg"
+author: "adviser"
 ---
 
 As their feet stepped back onto the familiar tile and their eyes landed on the ropes framing the mosaic in the middle of the East High lobby, new inductees into the East High Hall of Fame, Randy Epler, Troy Dumas, Diane Sanchez, and Ken Uhrich breathed in the same air they had during the days they spent in these halls. Each one shared some advice with the students who went above and beyond academically at the annual academic letter ceremony. Around 120 students had a cumulative GPA of 3.75 and were rewarded with an academic letter or medal for their perseverance on September 23.

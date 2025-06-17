@@ -4,6 +4,7 @@ date: 2025-01-08
 categories: 
   - "track"
 coverImage: "OIP.jpg"
+author: "daytonrhoades"
 ---
 
 The East High Thunderbirds’ indoor track season officially began with the team’s first meeting, held in the health rooms at 3:15 p.m. Athletes gathered to hear from the coaching staff, learn about the season's expectations, and connect with their teammates.

@@ -4,6 +4,7 @@ date: 2016-11-08
 categories: 
   - "archives"
 coverImage: "IMG_2769-edit.jpg"
+author: "adviser"
 ---
 
 With several seniors answering questions like “where do you see yourself in five years?” and “what animal do you relate to the most?” the annual Mr. T-Bird competition that takes the stage every year during homecoming. It is a light-hearted competition that ultimately determines which senior boy has the most spirit. However, this year Jarom Brown was crowned as Mr. T-Bird with a new aspect added; Samantha Jurkowski was on his arm as Ms. T-Bird, the new competition for senior girls which was introduced in the hopes of changing things up a bit.

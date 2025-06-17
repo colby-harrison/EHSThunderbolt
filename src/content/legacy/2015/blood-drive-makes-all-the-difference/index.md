@@ -4,6 +4,7 @@ date: 2015-04-15
 categories: 
   - "archives"
 coverImage: "welsh-9-edit.jpg"
+author: "adviser"
 ---
 
 There are many reasons to host a blood drive. Whether it's community goodwill or sharing the gift of life, blood drives are essential to the health of many ill and injured people. East High School hosts three blood drives each year to do all they can to help with the needs of the community. On Tuesday, April 14, the EHS Key Club, in cooperation with United Blood Services, hosted the final blood drive of the year.

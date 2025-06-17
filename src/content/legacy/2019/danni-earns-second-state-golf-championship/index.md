@@ -4,6 +4,7 @@ date: 2019-01-04
 categories: 
   - "archives"
 coverImage: "2-blakedanni.jpg"
+author: "adviser"
 ---
 
 Standing at the top of the podium has become a habit for East High senior Blake Danni. This past September, he managed to bring home a 4A state golf championship for the second year in a row.

@@ -4,6 +4,7 @@ date: 2017-03-14
 categories: 
   - "archives"
 coverImage: "IMG_5609-1.jpg"
+author: "adviser"
 ---
 
 \[gallery ids="3703,3699,3698,3706,3707"\]

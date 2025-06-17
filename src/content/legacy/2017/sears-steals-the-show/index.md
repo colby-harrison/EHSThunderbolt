@@ -4,6 +4,7 @@ date: 2017-10-24
 categories: 
   - "archives"
 coverImage: "image1-1-e1509565345419.jpeg"
+author: "adviser"
 ---
 
 1 in 230. Often, when we hear a statistic like this, it’s linked to negative ideas. But for one senior at East, it’s his claim to fame.

@@ -4,6 +4,7 @@ date: 2015-04-20
 categories: 
   - "archives"
 coverImage: "Kingsman.jpg"
+author: "adviser"
 ---
 
 Rating: R (for sequences of strong violence, language, and some sexual content)

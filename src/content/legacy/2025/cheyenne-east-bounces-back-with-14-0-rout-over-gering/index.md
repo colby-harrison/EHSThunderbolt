@@ -5,6 +5,7 @@ categories:
   - "soccer"
   - "sports"
 coverImage: "663edfa4ed4a4.webp"
+author: "ITZJ307"
 ---
 
 After a tough start to their season, the Cheyenne East Thunderbirds responded in a big way.

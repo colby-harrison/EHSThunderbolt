@@ -3,6 +3,7 @@ title: "New Years"
 date: 2024-01-17
 categories: 
   - "archives"
+author: "LRonning"
 ---
 
 Coming back from the new year

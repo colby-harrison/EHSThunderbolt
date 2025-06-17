@@ -4,6 +4,7 @@ date: 2018-02-28
 categories: 
   - "archives"
 coverImage: "nick1.jpg"
+author: "adviser"
 ---
 
 Growing up, the most common question asked is: "what do you want to be when you grow up?" To answer in short- not yet. Despite the hundreds of times high schoolers are asked, many can't answer with something straight.

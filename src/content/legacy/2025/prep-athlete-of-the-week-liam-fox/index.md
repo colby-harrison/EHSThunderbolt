@@ -7,6 +7,7 @@ categories:
   - "sports"
   - "wrestling"
 coverImage: "IMG_0130.webp"
+author: "ITZJ307"
 ---
 
 CHEYENNE, Wyo. — East High School senior wrestler Liam Fox had an undefeated championship week, showcasing his skills as a 150-pound competitor.

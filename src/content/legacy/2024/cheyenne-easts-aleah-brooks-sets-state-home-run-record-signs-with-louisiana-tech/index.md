@@ -7,6 +7,7 @@ categories:
   - "news"
   - "sports"
 coverImage: "attachment-brooks-4-fixed.webp"
+author: "ITZJ307"
 ---
 
 Cheyenne, WY – Aleah Brooks, a standout player for the Cheyenne East softball team, has been making waves in high school sports with her remarkable power at the plate. The senior infielder recently set a new state record for home runs in a single season, belting an impressive 15 homers in 2024.

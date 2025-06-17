@@ -4,6 +4,7 @@ date: 2022-02-17
 categories: 
   - "archives"
 coverImage: "Chapter-speech-pic.jpg"
+author: "adviser"
 ---
 
 Trying to reach a goal or better oneself can often feel a lot like climbing a very tall ladder. At the beginning, you may not be able to see the top, but you have to keep climbing, one step at a time

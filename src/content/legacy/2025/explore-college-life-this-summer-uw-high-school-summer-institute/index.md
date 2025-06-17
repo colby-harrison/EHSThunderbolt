@@ -4,6 +4,7 @@ date: 2025-03-17
 categories: 
   - "news"
 coverImage: "DALL·E-2025-03-17-15.28.41-A-vibrant-summer-scene-on-a-college-campus-with-students-attending-a-summer-program.-The-image-shows-a-group-of-diverse-high-school-students-walking-a.webp"
+author: "colby_harrison34"
 ---
 
 Thinking about college? But not sure if you can see yourself doing it! Check out the University of Wyoming’s High School Summer Institute. It is a month long and they offer different programs from science to history and art. This also offers a great opportunity to put yourself out there and make some new friends!

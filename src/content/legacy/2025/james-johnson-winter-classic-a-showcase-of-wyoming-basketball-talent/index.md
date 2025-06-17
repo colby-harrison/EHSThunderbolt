@@ -5,6 +5,7 @@ categories:
   - "basketball"
   - "sports"
 coverImage: "James-Johnson-Logo.png"
+author: "nataliermoore"
 ---
 
 The annual James Johnson Winter Classic basketball tournament is set to tip off from January 9-11, bringing teams from across Wyoming to compete in a weekend of exciting matchups. Participating schools include Kelly Walsh, Campbell County, Natrona, Sheridan, and many more, with games hosted at all Cheyenne High schools: East, Central, and South.

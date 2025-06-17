@@ -4,6 +4,7 @@ date: 2024-10-21
 categories: 
   - "football"
 coverImage: "keyshawn.jpg"
+author: "reidhorton47"
 ---
 
 In a hard-fought rivalry game, the Cheyenne East varsity football team emerged victorious against Central High School, securing a 23-15 win. The game, marked by intense competition and key plays, saw East maintain their composure and deliver when it mattered most.

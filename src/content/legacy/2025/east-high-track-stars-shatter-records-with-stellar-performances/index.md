@@ -4,6 +4,7 @@ date: 2025-02-10
 categories: 
   - "track"
 coverImage: "attachment-Guevara-Kalliff.jpg"
+author: "daytonrhoades"
 ---
 
 ### Maggie Madsen's Remarkable 1600M Record

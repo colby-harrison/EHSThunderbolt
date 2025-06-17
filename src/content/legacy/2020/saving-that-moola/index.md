@@ -4,6 +4,7 @@ date: 2020-12-04
 categories: 
   - "archives"
 coverImage: "image000001.jpg"
+author: "LanaN"
 ---
 
 The spread of the virus caused more people to worry about the traditional Black Friday festivities. Standing in long lines and the big crowds are not exactly Covid friendly. For the older population this encouraged them to stay home and shop online.

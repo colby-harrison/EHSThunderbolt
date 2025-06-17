@@ -4,6 +4,7 @@ date: 2015-09-23
 categories: 
   - "archives"
 coverImage: "yearbook-camp.jpg"
+author: "adviser"
 ---
 
 When the last day of school rolled around, all of the loose ends of the year were tied up for the majority of East High students, but not for the 2015-2016 yearbook staff.

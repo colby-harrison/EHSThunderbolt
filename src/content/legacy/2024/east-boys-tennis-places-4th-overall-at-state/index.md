@@ -5,6 +5,7 @@ categories:
   - "sports"
   - "tennis"
 coverImage: "Boys-Tennis-State-4th.jpg"
+author: "colby_harrison34"
 ---
 
 Boys took 4th place at state last weekend!

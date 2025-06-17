@@ -2,6 +2,8 @@
 title: "Don’t Miss the Deal: XL Slice and Drink for Just $5 at Mr. Jim’s Pizza!"
 date: 2025-01-29
 coverImage: "IMG_2683.jpeg"
+excerpt: "Pizza Lovers, This One’s for You! 🍕   Big appetite, small budget? Mr. Jim’s Pizza has you covered! For a limited time, grab an **XL slice** of your favorite pizza and a **fountain drink** for just **$5**.   Stop by today and treat yourself to a deal that’s as hot as their ovens! Don’t wait—your taste buds (and wallet) will thank  🕒 Available now at 4001 Laramie Street.   👉 *Hurry in before it’s gone!*"
+author: "Mikah_Robles"
 ---
 
 By Mikah Robles

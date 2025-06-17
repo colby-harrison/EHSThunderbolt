@@ -4,6 +4,7 @@ date: 2024-11-22
 categories: 
   - "studentlife"
 coverImage: "unnamed.png"
+author: "RBrow07"
 ---
 
 In today’s digital age, staying organized is more important than ever for students balancing multiple classes and assignments. Fortunately, Microsoft OneDrive provides an easy-to-use platform to streamline your schoolwork. Available to students at Cheyenne East High School and beyond, OneDrive offers features that help you save, organize, and share your files effortlessly.

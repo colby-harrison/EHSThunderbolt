@@ -4,6 +4,7 @@ date: 2022-12-06
 categories: 
   - "archives"
 coverImage: "Caydence-54.jpg"
+author: "ceicholtz"
 ---
 
 The tennis team of East High School did remarkably well this season with a 3rd place during regionals and 7th place at state. Emma Dray, 12, a one doubles player and her partner Zoey Woods, 11, were the only females to make it to the second day of regionals. “I was so excited to make it to the second day of regionals with Zoey because we worked so hard all season and tournament to get there. We were kind of disappointed because we lost a 3 and a half hour match that went to a 3rd set tiebreaker in the semi-finals, but a 3rd place finish was still pretty cool.” says Dray.

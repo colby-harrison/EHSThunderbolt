@@ -3,6 +3,7 @@ title: "A Long Road Ahead"
 date: 2021-12-06
 categories: 
   - "archives"
+author: "tcassat"
 ---
 
 After earning the state title last year, Lady Tbird basketball holds a big target on their back for this 2021-2022 season. Defending state champions may hold a lot of pressure for the girls and push them to maintain their title. In an interview with the head coach, Eric Westling says,  “I think it’s always harder the second time to do something that nobody thought you were gonna do, and repeating that same kind of outcome gets to be harder because now everyone knows how good our program is.” 

@@ -4,6 +4,7 @@ date: 2015-04-08
 categories: 
   - "archives"
 coverImage: "FullSizeRender-1.jpg"
+author: "adviser"
 ---
 
 After a cold, long winter, most of us dream of getting away and really taking a break during Spring Break. While some of us are stuck home, hanging out with little to do, others take off and see the world. If you were one of those couch surfing the daytime soaps instead of body surfing the waves in a tropical resort, maybe you can gain a little inspiration from these adventurers:

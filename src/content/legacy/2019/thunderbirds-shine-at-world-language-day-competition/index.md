@@ -4,6 +4,7 @@ date: 2019-03-12
 categories: 
   - "archives"
 coverImage: "IMG_20190309_093610880-1.jpg"
+author: "adviser"
 ---
 
 As our ability to reach out around the world grows with every technological advance, clear communication is the key to a successful dialogue.

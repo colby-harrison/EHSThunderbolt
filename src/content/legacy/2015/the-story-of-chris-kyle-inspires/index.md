@@ -4,6 +4,7 @@ date: 2015-03-06
 categories: 
   - "archives"
 coverImage: "fb_share.jpg"
+author: "adviser"
 ---
 
 In the scariest places in the world, and during the scariest times in a soldier’s life, saving lives often means taking lives. For American sniper Chris Kyle, this defined ten years of his life as he served our country as the most lethal sniper in United States history. Kyle once told a magazine that he wished that he could calculate the number of people he had saved. He stated that he wasn’t a hero, and that he was just a regular guy. However, I couldn’t imagine this hero being more wrong.

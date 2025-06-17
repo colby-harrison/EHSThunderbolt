@@ -4,6 +4,7 @@ date: 2016-10-06
 categories: 
   - "archives"
 coverImage: "campus_camera.jpg"
+author: "adviser"
 ---
 
 You’re running toward the doors from the back of the parking lot with one minute until the doors will lock. As you reach for the door thinking you made it, you hear the “click” and realize the doors have locked on you. Have you been a victim of this scenario? Has this ever happened to you? Well, you’re not alone. Many EHS students have also felt the joy of security. While many students, and even some staff members, are not very happy about the change, the school district had a very serious reason behind the change.

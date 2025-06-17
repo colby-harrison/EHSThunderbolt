@@ -5,6 +5,7 @@ categories:
   - "basketball"
   - "studentlife"
 coverImage: "Join-us-as-we-work_page-0001.jpg"
+author: "nataliermoore"
 ---
 
 This Thanksgiving season, the boys' basketball teams from East, Central, and South High Schools are teaming up for a heartwarming cause. On Saturday, November 23rd, from noon to 6 PM, the teams will be at four local grocery stores collecting food donations for the Comea Shelter on Lincolnway.

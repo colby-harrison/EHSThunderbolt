@@ -3,6 +3,7 @@ title: "Just a Yard Short"
 date: 2023-11-20
 categories: 
   - "archives"
+author: "MDahill"
 ---
 
 [![](images/20231111_220920659_iOS-2.heic)](https://ehsthunderbolt.com/wp-content/uploads/2023/11/20231111_220920659_iOS-2.heic)[![](images/20231111_220920659_iOS-1.heic)](https://ehsthunderbolt.com/wp-content/uploads/2023/11/20231111_220920659_iOS-1.heic)As the Cheyenne east football team drove up to Laramie for a rematch against the Sheridan Broncs, hoping this year will be better than last. The T-Birds were second in State after losing to Sheriden before the playoffs, making Sheridan the new number one.

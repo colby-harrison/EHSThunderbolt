@@ -4,6 +4,7 @@ date: 2019-11-12
 categories: 
   - "archives"
 coverImage: "IMG_9911.jpg"
+author: "adviser"
 ---
 
 Across the country 18.2 million people are given special recognition one day throughout the year. This Veterans Day, East high wanted to give special recognition to the staff that have dedicated their lives to making our country better. From the armed forces to the classroom, these brave men and women of East have truly impacted the lives of every student they have met.  Mrs. Linda Shields is just one of the many veterans that work here at East.  

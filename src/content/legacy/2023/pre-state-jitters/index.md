@@ -3,6 +3,7 @@ title: "Pre-State Jitters"
 date: 2023-01-13
 categories: 
   - "archives"
+author: "chayes"
 ---
 
 With the 2023 Wyoming state cheer and dance competition being this month, the newbies of the Cheyenne East High Cheer team express their excitement.

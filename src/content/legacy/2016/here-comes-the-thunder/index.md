@@ -4,6 +4,7 @@ date: 2016-11-01
 categories: 
   - "archives"
 coverImage: "edit3-1.jpg"
+author: "adviser"
 ---
 
 Within the past few years, East has adopted the slogan ‘Tradition Starts Here.’ Now, East is finally living up to that statement by beginning their very own tradition: ‘The Thunderchant’ led by East’s very own Thunder God.

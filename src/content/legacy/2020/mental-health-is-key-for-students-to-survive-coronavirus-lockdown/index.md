@@ -4,6 +4,7 @@ date: 2020-05-20
 categories: 
   - "archives"
 coverImage: "E5-1.jpg"
+author: "adviser"
 ---
 
 Even when the world is trapped inside, and East High’s students' lives grind to a halt, there is a lot we can do as a school to help our community. As boredom sets in, what better way to pass time than help those around you? Social action has been linked to positive mental health, and there are various forms of compassion that may help a student get through these boring and nervous times.

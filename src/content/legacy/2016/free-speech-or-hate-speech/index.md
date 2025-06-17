@@ -4,6 +4,7 @@ date: 2016-10-20
 categories: 
   - "archives"
 coverImage: "Confederate-Flag-1.jpg"
+author: "adviser"
 ---
 
 Diesel trucks with billowing black smoke and an obnoxious rumbling sound, barrel down the road, the Confederate flag trailing behind, leaving a wake of hate and bigotry. They then make their way into the “hate-free” school parking lot, with little regard for how their flag affects the students around them.

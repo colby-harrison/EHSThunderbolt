@@ -4,6 +4,7 @@ date: 2024-10-30
 categories: 
   - "clubsandactivities"
   - "rotc"
+author: "Mikah_Robles"
 ---
 
 Drill teams consist of cadets who perform military maneuvers and routines, often in a synchronized manner. These teams participate in various events, including competitions, parades, and ceremonial functions, showcasing their skills and representing their institutions.

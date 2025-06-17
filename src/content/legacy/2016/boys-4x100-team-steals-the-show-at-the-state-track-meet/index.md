@@ -4,6 +4,7 @@ date: 2016-05-23
 categories: 
   - "archives"
 coverImage: "100-meter-regionals.jpg"
+author: "adviser"
 ---
 
 East’s boys 4x100 relay team stole the show on Friday, May 20, at the Wyoming State Track and Field Meet, held in Casper. In what is arguably the most exciting and popular race, consisting of four team members, each racing 100 meters, handing off a baton, and trying to be the first across the finish line, in usually under 44 seconds, the Thunderbirds blasted off the starting line to finish in 42.90 seconds. The T-Bird team consists of junior Justus Whitmire, senior Tyler Peeples, junior Kyler Freeman, and senior Cole Jensen.

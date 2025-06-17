@@ -3,6 +3,7 @@ title: "The Central East Rivalry Lives On"
 date: 2022-03-23
 categories: 
   - "archives"
+author: "edray"
 ---
 
 Every East High student knows about the age old rivalry between Central and East. Basketball games are especially prone to bringing large crowds out of the woodworks to support their team. The student section is well aware of the tension on and off the court, but how do the athletes feel in the moment? Unfortunately for the second time in a row, Central’s athletes came out on top.

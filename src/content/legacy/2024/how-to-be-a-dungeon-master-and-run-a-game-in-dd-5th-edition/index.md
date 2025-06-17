@@ -5,6 +5,7 @@ categories:
   - "clubsandactivities"
   - "dnd"
 coverImage: "DM.jpg"
+author: "asherconyers"
 ---
 
 Being a Dungeon Master (DM) is one of the most rewarding roles in _Dungeons & Dragons_. As a DM, you’re the storyteller, the referee, and the person who brings the world to life for your players. If you're new to this role, running a _D&D 5th Edition_ game may seem daunting, but with some guidance and practice, you'll be able to create an exciting and memorable experience for your players. This article will walk you through the essentials of being a Dungeon Master, from preparation to gameplay tips, so you can confidently run your first adventure.

@@ -3,6 +3,7 @@ title: "Mario Kart in Real Life"
 date: 2022-01-19
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 Winter came late this year, but now it is rolling in fast. East is filled with a range of driving skills when Sophomores are learning to drive for the first time and teachers have years of experience under their belt. As Cheyenne temperatures drop, the range in skill becomes plain to see as the snow is white and it can be dangerous driving this time of year. Snow falls through the night making it difficult to see the parking lines and the roads become slick with ice.

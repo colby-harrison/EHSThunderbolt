@@ -4,6 +4,7 @@ date: 2019-04-19
 categories: 
   - "archives"
 coverImage: "group1.jpg"
+author: "adviser"
 ---
 
 Across America, a huge need for master tradespeople exists. With the baby boomer generation retiring, a huge opportunity awaits millennials and Generation Z to earn positions in trade careers. Aside from mass job openings, there's always a need for metal fabricators, welders, plumbers, carpenters, and more. Because trades are always in demand, there's ample opportunity and strong job security.

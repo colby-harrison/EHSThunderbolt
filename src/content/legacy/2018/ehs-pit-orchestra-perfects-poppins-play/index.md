@@ -4,6 +4,7 @@ date: 2018-04-19
 categories: 
   - "archives"
 coverImage: "Steph-57.jpg"
+author: "adviser"
 ---
 
 The colorful costumes, bright sets, and funny accents are more than enough to remind you of the time and energy required by the cast and crew to perform a musical. But to make it a musical, you must have one important element -the music, of course.

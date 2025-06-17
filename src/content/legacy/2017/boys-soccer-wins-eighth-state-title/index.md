@@ -3,6 +3,7 @@ title: "Boys’ Soccer Wins Eighth State Title"
 date: 2017-05-30
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 \[caption id="attachment\_4051" align="aligncenter" width="667"\]![](images/5888-667x1000.jpg)Staff There’s nothing better than that winning feeling running through your blood. Feeling 500 lbs lifted from your shoulders and relief rushing over you-crying with your friends, jumping up and down, and shouting at the top of your lungs.

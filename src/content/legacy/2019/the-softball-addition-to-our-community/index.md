@@ -3,6 +3,7 @@ title: "The Softball Addition to Our Community"
 date: 2019-11-20
 categories: 
   - "archives"
+author: "LanaN"
 ---
 
 Batter up! This was the dream of many girls especially here at East High School and across the state.  Now it’s come true. Laramie County School District 1 recently passed the bill approving softball as a school funded activity. Many people are ecstatic that such a sport is now a part of our sports culture, the new opportunities presented to the student body are life changing. 

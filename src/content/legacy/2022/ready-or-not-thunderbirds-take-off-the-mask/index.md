@@ -3,6 +3,7 @@ title: "Ready or not, Thunderbirds take off the mask"
 date: 2022-02-17
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 For the last two years, Covid-19 has dominated the headlines. Some claim we can control the virus with masks, vaccines, quarantining, and social distancing, while others cheer for letting it run its course. One place where some of the most emotional disagreements have occurred is within our schools.

@@ -5,6 +5,7 @@ categories:
   - "cross-country"
   - "track"
 coverImage: "maggie.webp"
+author: "reidhorton47"
 ---
 
 Cheyenne East sophomore runner Maggie Madsen was chosen as the Gatorade Wyoming Girls Cross County Player of the Year award winner for the 2024-25 year on Thursday. Madsen is the first winner from the Thunderbirds program chosen for the Gatorade honor. Madsen is now a finalist for the Gatorade National Cross County Player of the Year award, which will be announced later this month.

@@ -4,6 +4,7 @@ date: 2019-10-04
 categories: 
   - "archives"
 coverImage: "IMG_2336-e1570205769925.jpeg"
+author: "adviser"
 ---
 
 From the small quiet town of Cheyenne to the very crowded streets of Asia, last June, twelve students traveled to Cambodia, Thailand, and Vietnam for 11 days. Mrs. Zumo, the biology teacher, set up the whole trip because in Asia the students studied biology.  

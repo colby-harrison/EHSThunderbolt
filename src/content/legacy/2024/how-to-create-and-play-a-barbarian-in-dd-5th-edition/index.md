@@ -5,6 +5,7 @@ categories:
   - "clubsandactivities"
   - "dnd"
 coverImage: "IMG_0029.webp"
+author: "asherconyers"
 ---
 
 Barbarians in Dungeons & Dragons 5th Edition (D&D 5E) are fearsome warriors fueled by primal rage. They’re known for their incredible strength, resilience, and ability to withstand devastating blows while dealing out massive damage. Whether you're new to the game or looking for a fun, straightforward class to play, the Barbarian offers a powerful and engaging experience. In this guide, we’ll walk you through how to create and play a Barbarian in D&D 5E.

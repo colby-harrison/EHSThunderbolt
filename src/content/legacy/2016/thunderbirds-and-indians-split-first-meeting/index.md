@@ -4,6 +4,7 @@ date: 2016-04-29
 categories: 
   - "archives"
 coverImage: "A05A7832-2.jpg"
+author: "adviser"
 ---
 
 Some people would argue that there's no more joy in a big rivalry than embarrassing your opponent. Beating your rival by some inconceivable score difference just makes some competitors smile. But, then, others would argue it's not really a rivalry if one team blasts the other. They want a tight score. A close game. A battle. They believe nothing creates more excitement than that last second goal or two evenly-matched teams battling back and forth as leads change over and over. Well, for those who love tight games, the 2016 editions became instant classics.

@@ -4,6 +4,7 @@ date: 2024-11-13
 categories: 
   - "football"
 coverImage: "IMG_0046.webp"
+author: "reidhorton47"
 ---
 
 In a playoff game that will go down as one of the most exciting in recent memory, Cheyenne East stunned Campbell County with a dramatic 35-34 victory in the 4A semi-finals, securing a spot in the state championship for the third consecutive year. The Thunderbirds will face Sheridan in the 4A title game Saturday at 4 p.m. at War Memorial Stadium in Laramie.

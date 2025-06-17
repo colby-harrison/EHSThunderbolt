@@ -3,6 +3,7 @@ title: "Boys State Swim"
 date: 2022-03-23
 categories: 
   - "archives"
+author: "sbailey"
 ---
 
 The Boys Swim Team competed at the state meet. Fighting through all adversity, including not having a pool, the team pushed through and placed 10th overall. Caleb Ruff, 10, was the only swimmer who qualified, he placed 12th in the 200 Yard IM, with a time of 2:15.66.

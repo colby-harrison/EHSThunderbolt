@@ -4,6 +4,7 @@ date: 2024-10-18
 categories: 
   - "community"
 coverImage: "east.jpeg"
+author: "colby_harrison34"
 ---
 
 East High School recently hosted its Parent-Teacher Conferences on Thursday, October 10th, from 4 PM to 8 PM, and Friday, October 11th, from 7:15 AM to 10:45 AM. These conferences provided a valuable opportunity for parents and guardians to meet with teachers and discuss their student’s performance during the first quarter of the school year.

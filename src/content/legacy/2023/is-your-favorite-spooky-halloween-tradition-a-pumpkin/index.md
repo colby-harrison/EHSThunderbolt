@@ -3,6 +3,7 @@ title: "Is your favorite spooky Halloween tradition a pumpkin?"
 date: 2023-10-11
 categories: 
   - "archives"
+author: "SHickey"
 ---
 
  

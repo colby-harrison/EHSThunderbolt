@@ -4,6 +4,7 @@ date: 2017-12-01
 categories: 
   - "archives"
 coverImage: "Faith-162.jpg"
+author: "adviser"
 ---
 
 With over four decades of experience conducting high school orchestra, Bob Mathews is one dedicated teacher. Over the course of his career, Mathews has highlighted all types of music from movies to classical pieces. Teaching at both Carey Junior High and East High music, Mr. Mathews has played a significant role in the East Triad's music department and has deep roots in the Cheyenne music community, playing in many fundraisers and community events with his group, the East High Strolling Strings.

@@ -3,6 +3,7 @@ title: "Frontier FFA Comes To Compete"
 date: 2023-10-13
 categories: 
   - "archives"
+author: "PHall"
 ---
 
 10 out of 10! The Frontier FFA chapter competed against FFA chapters from around the state. At the Archer Fair Grounds August 9th to the 12th. many of the Frontier FFA members showed off not only their summer projects like sheep, pigs, goats, and horses to the judges, but many of the Frontier FFA CDE teams made a statement as well up at the Wyoming state fair.  

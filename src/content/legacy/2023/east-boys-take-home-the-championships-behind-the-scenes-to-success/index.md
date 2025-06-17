@@ -3,6 +3,7 @@ title: "East Boys Take Home the Championships: Behind the Scenes to Success"
 date: 2023-03-22
 categories: 
   - "archives"
+author: "chayes"
 ---
 
 \[caption id="attachment\_7593" align="alignright" width="475"\]![](images/Autumn-M-89-475x317.jpg) Colter McAnelly, Brenden Bohlmann, Coach Rusty Horsley, Garet Schlabs, and Kysar Jolley celebrate East High’s first boys basketball state title since 2006. ([Autumn McPherson](https://ehsthunderbolt.com/staff_profile/autumn-mcpherson/))\[/caption\]

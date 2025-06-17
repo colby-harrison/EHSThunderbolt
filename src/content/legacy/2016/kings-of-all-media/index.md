@@ -4,6 +4,7 @@ date: 2016-05-13
 categories: 
   - "archives"
 coverImage: "IMG_1934.jpg"
+author: "adviser"
 ---
 
 When you watch the evening news, skim the daily newspaper or even crank up the radio, you don’t realize the magic it takes to bring you today’s news.

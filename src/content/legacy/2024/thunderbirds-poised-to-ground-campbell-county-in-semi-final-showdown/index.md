@@ -2,6 +2,7 @@
 title: "Thunderbirds Poised to Ground Campbell County in Semi-Final Showdown"
 date: 2024-11-08
 coverImage: "attachment-1-29-fixed-349.webp"
+author: "daytonrhoades"
 ---
 
 Thunderbirds Poised to Ground Campbell County in Semi-Final Showdown Introduction Today, the East High Thunderbirds are set to take on Campbell County in the semi-finals—a game loaded with anticipation and excitement. With East’s dominant running game and cohesive offensive line, they’ve got the tools to wear down Campbell County, control the clock, and keep the opposing quarterback in check. The Thunderbirds have been relentless on the ground this season, and if they bring that intensity tonight, they may have the clear edge over a pass-reliant Campbell County squad.

@@ -4,6 +4,7 @@ date: 2015-11-04
 categories: 
   - "archives"
 coverImage: "volleyball.jpg"
+author: "adviser"
 ---
 
 Rolling out of a successful weekend at Regionals, and wrapping up a season at 30-1, the varsity volleyball team powered their way through a schedule of few challenges. Now, the team hopes to finish things up and bring home a consecutive state championship. The Lady T-Birds head to Casper on Thursday, November 5, for the Class 4A State Volleyball Tournament.

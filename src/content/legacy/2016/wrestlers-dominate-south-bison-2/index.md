@@ -4,6 +4,7 @@ date: 2016-01-27
 categories: 
   - "archives"
 coverImage: "tyler-shaw.jpg"
+author: "adviser"
 ---
 
 On one of the biggest nights of the year, Senior Night, the Thunderbird wrestling team took advantage of seven T-Bird pins to dominate South High School, 58-18. After a sluggish start, and the T-Birds only leading the match 22-18 after seven matches, the East team rallied with five pins to pull away.

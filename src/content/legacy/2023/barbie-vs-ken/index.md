@@ -3,6 +3,7 @@ title: "Barbie vs. Ken"
 date: 2023-10-11
 categories: 
   - "archives"
+author: "BAbe"
 ---
 
 ![](images/20231011_185600891_iOS.jpg)

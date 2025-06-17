@@ -5,6 +5,7 @@ categories:
   - "sports"
   - "volleyball"
 coverImage: "VB-2024-10-09-14_04_17.jpg"
+author: "ITZJ307"
 ---
 
 In a heated volleyball matchup on Wednesday night, the East Thunderbirds once again fell short against the powerhouse Laramie Plainsmen, losing 3-0. The battle featured two of the state's top teams, but it was the Plainsmen who came out on top, handing East their fourth consecutive loss in the rivalry. Despite showing glimpses of promise, East struggled to maintain momentum as Laramie dominated with set scores of 25-15, 25-20, and 25-13.

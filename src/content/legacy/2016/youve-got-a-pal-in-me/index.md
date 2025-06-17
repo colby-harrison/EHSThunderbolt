@@ -4,6 +4,7 @@ date: 2016-11-01
 categories: 
   - "archives"
 coverImage: "cody-ruby.jpg"
+author: "adviser"
 ---
 
 Stephen Hawking once said, “Quiet people have the loudest minds.” Senior Cody Ruby couldn’t prove this statement more. Cody is the Teacher’s Assistant in the PALS room during his off hours, and he works with the PALS kids- helping them learn and assisting them with things they may need.

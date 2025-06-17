@@ -4,6 +4,7 @@ date: 2022-03-10
 categories: 
   - "archives"
 coverImage: "russia-and-ukraine.webp"
+author: "chayes"
 ---
 
 On February 24th, 2022, Russia invaded Ukraine. Americans’ opinions on the war differ throughout the country, but overall, most have concluded that America is on Ukraine’s side, even if it is just from afar. But what are East High students’ opinions on the matter?

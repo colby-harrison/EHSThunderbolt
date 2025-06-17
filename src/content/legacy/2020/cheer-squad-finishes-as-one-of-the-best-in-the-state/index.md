@@ -4,6 +4,7 @@ date: 2020-05-06
 categories: 
   - "archives"
 coverImage: "C11-1.jpg"
+author: "adviser"
 ---
 
 Thunderbird Cheer rolled into Casper for State Cheer in March with high expectations. After nearly a year of prep, the team wanted championships. They knew they had great routines, and they knew they looked good in their performances, but there's something different about competition - you never know what the judges will think.

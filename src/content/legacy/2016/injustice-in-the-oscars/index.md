@@ -4,6 +4,7 @@ date: 2016-02-01
 categories: 
   - "archives"
 coverImage: "oscars-so-white.jpg"
+author: "adviser"
 ---
 
 The Oscars - Hollywood’s biggest night. The night that, as Neil Patrick Harris has said, represents “Hollywood’s best and whitest – sorry, brightest."

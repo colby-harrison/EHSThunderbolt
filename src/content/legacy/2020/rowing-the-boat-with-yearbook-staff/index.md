@@ -4,6 +4,7 @@ date: 2020-09-16
 categories: 
   - "archives"
 coverImage: "IMG-2096-e1602867037399.png"
+author: "LanaN"
 ---
 
 Every year, the yearbook staff works to present the history of East High School. The book kicks off with Jostens Yearbook Summer Workshop, where staff visits Golden, Colorado to build themes, ideas and stories for the upcoming school year. With the recent pandemic, East staff was instantly put steps behind. “No one realizes how much planning and effort goes into these books. Every year we strive for perfection, and not having that week carved out to solidify plans have caused so much stress” Say’s Senior manager, Bailey Miller.

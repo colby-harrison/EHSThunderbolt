@@ -3,6 +3,7 @@ title: "Drama in Action"
 date: 2021-11-05
 categories: 
   - "archives"
+author: "edray"
 ---
 
 Every year East High puts on a drama production, different from the year before. This years’ musical, _All Together Now_ is very unique because of its style and reflection of life during COVID. “Our whole theme is throughout these songs we say things differently about quarantine and 2020 as a whole, and how we survived through that,” says Emma Mayfield, Junior.

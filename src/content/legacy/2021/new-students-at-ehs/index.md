@@ -3,6 +3,7 @@ title: "New Students at EHS"
 date: 2021-11-15
 categories: 
   - "archives"
+author: "ljones"
 ---
 
 The fall of a new school year at East High School welcomes students in with open arms. Whether new or returning, the atmosphere at the school offers students a friendly and relaxed environment that makes it easy to transition. 

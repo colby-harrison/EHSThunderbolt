@@ -5,6 +5,7 @@ categories:
   - "band"
   - "clubsandactivities"
 coverImage: "Screenshot-2024-11-08-080033.png"
+author: "gagestoddard7"
 ---
 
 The East Thunderbird Marching Band has had an incredible season, achieving remarkable success and recognition in their competitions. On October 5th, the band traveled to the UW/Troopers Invitational, where they performed with energy and precision, earning an Excellent rating. This solid showing was a testament to their hard work and dedication to their craft.

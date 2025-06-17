@@ -4,6 +4,7 @@ date: 2015-03-18
 categories: 
   - "archives"
 coverImage: "justene.jpg"
+author: "adviser"
 ---
 
 The East High Lady Thunderbirds have clearly established that they belong in the top teams in the state. For the third year in a fow, the East girls lost in the state title game. Only Gillette can claim more success, and the Camels seem to be the one team that can upend the T-Birds..

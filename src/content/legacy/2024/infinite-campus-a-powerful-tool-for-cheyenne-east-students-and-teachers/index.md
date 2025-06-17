@@ -4,6 +4,7 @@ date: 2024-10-09
 categories: 
   - "studentlife"
 coverImage: "Infinite-Campus-Logo.png"
+author: "RBrow07"
 ---
 
 Infinite Campus has become a cornerstone of student success at Cheyenne East High School, providing a seamless way to keep everyone informed and on track. The platform, widely used across Laramie County School District #1, offers a simple and efficient way for students, parents, and teachers to stay connected.

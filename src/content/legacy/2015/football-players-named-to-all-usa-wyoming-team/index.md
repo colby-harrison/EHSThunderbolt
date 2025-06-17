@@ -4,6 +4,7 @@ date: 2015-12-31
 categories: 
   - "archives"
 coverImage: "morristackle.jpg"
+author: "adviser"
 ---
 
 Three Thunderbird football players were recently named to the USA TODAY 2015 American Family Insurance ALL-USA Wyoming Football Team. In the article posted on-line, senior Quinn Happold, junior Braden Morris and junior Jacob Ross were recognized for their accomplishments on the football field.

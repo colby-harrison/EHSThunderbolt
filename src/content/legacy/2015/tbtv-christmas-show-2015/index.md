@@ -3,6 +3,7 @@ title: "TBTV Christmas Show 2015"
 date: 2015-12-22
 categories: 
   - "archives"
+author: "brantzt"
 ---
 
 The Elf on the Shelf by Sierra Cobble;

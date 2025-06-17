@@ -3,6 +3,7 @@ title: "Senior Mentoring Opinion"
 date: 2019-10-04
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 For the first time for three years of mentoring, seniors are now required to go to mentoring.  There are mixed feelings about mentoring in the East High School halls this year.  Some seniors may not really care about mentoring, and others might be upset about the sudden change in rules.  For Seniors Dylan Raymond and Logan Kanzler, they get to tell how the new rule makes them feel. 

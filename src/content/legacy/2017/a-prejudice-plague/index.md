@@ -4,6 +4,7 @@ date: 2017-04-11
 categories: 
   - "archives"
 coverImage: "prejudicepic.png"
+author: "adviser"
 ---
 
 Activist are now fighting for recognition in the annual federal census that is taken every ten years, bringing sexual orientation into politics. The data collected by the decennial census is used to distribute billions in funds to accommodate citizens, their local communities, and their needs.

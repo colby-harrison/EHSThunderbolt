@@ -4,6 +4,7 @@ date: 2015-12-21
 categories: 
   - "archives"
 coverImage: "cosettes.jpg"
+author: "adviser"
 ---
 
 One of the quickest recipes for success in sports is to take a bunch of talented players, throw in the state's best coach, and then mix in a good leader or two to make sure the team stays focused. For the last two years, East High volleyball has had the best team, coach, and leader, in the state.

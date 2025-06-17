@@ -3,6 +3,7 @@ title: "Track Team Struggles at State Meet"
 date: 2015-06-01
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 The Thunderbird track team finished a tough 2015 track season with a handful of medals from the 2015 Wyoming 4A State Track Meet held at Harry Geldien Stadium in Casper.

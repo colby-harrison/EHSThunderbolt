@@ -4,6 +4,7 @@ date: 2020-05-06
 categories: 
   - "archives"
 coverImage: "NEWS-Remote-Learning-PIC.jpg"
+author: "adviser"
 ---
 
 COVID-19 as taken a lot away from people everywhere, particularly in our schools. Hallways are quiet, sports are cancelled, classrooms sit silent, and students are now forced to navigate remote learning. Homes are now schools, parents are now teachers, and what used to be the dinner table is now a desk for schoolwork.

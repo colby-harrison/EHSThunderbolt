@@ -4,6 +4,7 @@ date: 2020-10-12
 categories: 
   - "archives"
 coverImage: "IMG-7293.jpeg"
+author: "LanaN"
 ---
 
 Cheyenne’s East High school has been widely affected by the undergoing project of a brand-new pool. The school has experienced two years now of a dysfunctional setting in the natatorium. At first it was just the fix of a new diving board, but more recently the decision was made to rebuild the 60-year-old pool when it failed to meet the latest regulations.   

@@ -4,6 +4,7 @@ date: 2015-09-25
 categories: 
   - "archives"
 coverImage: "volleyball.jpg"
+author: "adviser"
 ---
 
 Lady Thunderbird Golf:

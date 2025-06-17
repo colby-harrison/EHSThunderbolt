@@ -2,6 +2,7 @@
 title: "Wrestling Practice Kicks Off at Cheyenne East High School"
 date: 2024-11-22
 coverImage: "IMG_0006.jpeg"
+author: "Bentley307"
 ---
 
 Attention all wrestlers and aspiring athletes: Cheyenne East High School's wrestling season officially begins on Monday, November 25th! Practice will start promptly at 4:55 PM, so make sure to arrive on time, ready to train hard and kick off the season strong.

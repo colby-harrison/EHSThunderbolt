@@ -5,6 +5,7 @@ categories:
   - "community"
   - "news"
 coverImage: "66f5bf621ddc3.image_.jpg"
+author: "130282"
 ---
 
 Last week, Cheyenne East High School was put on lockdown due to reports of a possible criminal with a weapon in the area. This incident triggered intense discussions among students, parents, and staff about the ever-present concerns over school safety, echoing similar issues seen at schools across the nation.

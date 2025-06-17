@@ -5,6 +5,7 @@ categories:
   - "sports"
   - "wrestling"
 coverImage: "Untitled.jpg"
+author: "Bentley307"
 ---
 
 Cheyenne East High School is planning its annual wrestling awards ceremony to honor the outstanding achievements of its athletes during the 2024-2025 season. While specific details such as the date, time, and venue have yet to be announced, the event will celebrate both individual and team accomplishments.

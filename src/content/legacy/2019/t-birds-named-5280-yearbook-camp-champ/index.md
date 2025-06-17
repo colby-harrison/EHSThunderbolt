@@ -4,6 +4,7 @@ date: 2019-06-30
 categories: 
   - "archives"
 coverImage: "IMG-4788.jpg"
+author: "adviser"
 ---
 
 Summer is supposed to be three months of relaxing and taking a break from school. It marks the end of another long school year. But for one small group of Thunderbirds, summer is the time buckle down and get ready for the coming fall.  

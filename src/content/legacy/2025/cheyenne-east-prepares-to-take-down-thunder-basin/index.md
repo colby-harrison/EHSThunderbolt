@@ -5,6 +5,7 @@ categories:
   - "basketball"
   - "sports"
 coverImage: "Screenshot-2025-02-10-084626.png"
+author: "gagestoddard7"
 ---
 
 The Cheyenne East Thunderbirds are ready to bounce back as they face Thunder Basin this Saturday, February 15, in a crucial home conference matchup. Tip-off is set for 12:30 p.m., and the T-Birds are determined to defend their home court after a tough loss last weekend.

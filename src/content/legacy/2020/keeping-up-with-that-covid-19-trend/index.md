@@ -4,6 +4,7 @@ date: 2020-10-13
 categories: 
   - "archives"
 coverImage: "IMG_5401.jpg"
+author: "LanaN"
 ---
 
 In the world we live in we have made a drastic change in schools and other businesses because of a new virus. East High School has had to take several measures to keep students and teachers safe in the learning environment. Since the start of the school year, students have had to wear a mask in the building as well as get their temperatures taken every time we enter the building. In first period kids must scan a QR code and take a survey about potential symptoms they might have, and they get reminded everyday they go into class that they must take this test. Students also have to get sprayed with hand sanitizer after their temperature is taken and whenever they enter a classroom. On top of that, after classes, teachers must wipe down all the desks and keyboards with the H2Orange.

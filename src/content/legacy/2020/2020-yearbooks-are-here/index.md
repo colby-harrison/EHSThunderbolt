@@ -4,6 +4,7 @@ date: 2020-05-06
 categories: 
   - "archives"
 coverImage: "NEWS-Yearbook-PIC.jpg"
+author: "adviser"
 ---
 
 The East High yearbook staff is excited to announce the arrival of the 2019-2020 yearbook! This year’s theme – Embrace the Legacy – may have never been more appropriate than now. Obviously, with the radical changes in school this year, you don’t want to miss out on this one! The staff waited until the very last minute to submit their final deadline, so they could even include some COVID-19 coverage.

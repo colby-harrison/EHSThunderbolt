@@ -3,6 +3,7 @@ title: "4th Diamond NSDA"
 date: 2022-10-24
 categories: 
   - "archives"
+author: "ljones"
 ---
 
 Imagine coaching for twenty years; the heat of the spotlights, the stress of competing, the nerves filling the room as students present their speeches. 90,000 coaching points, revising somewhere near 30,000 speeches, too many students to count as they're coached to personal perfection.

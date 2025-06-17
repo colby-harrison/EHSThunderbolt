@@ -4,6 +4,7 @@ date: 2016-04-27
 categories: 
   - "archives"
 coverImage: "ThunderShack_Molly-Gjervold-2.jpg"
+author: "adviser"
 ---
 
 It’s that time of the year again, ThunderShack is back! Every year the Culinary I and Culinary II classes come out with a new menu to serve during first and second period classes. This year’s ThunderShack opened Monday, April 11, and will be available until May 19. The menu this year consists of 12 different items that are healthy and tasty.

@@ -4,6 +4,7 @@ date: 2017-04-25
 categories: 
   - "archives"
 coverImage: "cyberbullyingphoto.jpg"
+author: "adviser"
 ---
 
 We live in a culture based on social media which has led to a new form of bullying-Cyber bullying. It use to end when we left school and now it follows us everywhere we go. Cyberbullying is bullying that takes place using electronic technology that affects about 1 in 4 teenagers. Bullying is an aggressive behavior that is repeated over time and can take many forms, such as teasing, taunting, name-calling, or sexual remarks. It can also include intimidation using gestures, spreading rumors, or social exclusion according to The Megan Meir foundation.

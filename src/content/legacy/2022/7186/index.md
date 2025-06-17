@@ -3,6 +3,7 @@ title: "April Fool's"
 date: 2022-05-13
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 April Fool's Day is a day filled with practical jokes, pranks and hoaxes. April Fool’s Day still remains a mystery of how the unofficial holiday first came about. However, there are rumors that April Fool’s Day dates back to 1582 when France switched from the Julian calendar to the Gregorian calendar. Historians believe that in Ancient Rome, April Fool’s Day was a day of festivities and celebration. Followers from the cult of Cybele, dressed up in disguises and mocked fellow Roman citizens.  

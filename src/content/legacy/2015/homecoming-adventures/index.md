@@ -4,6 +4,7 @@ date: 2015-10-26
 categories: 
   - "archives"
 coverImage: "IMG_0075-likyvc.jpg"
+author: "adviser"
 ---
 
 The halls are packed with hundreds of students, the scent of fresh corsages and perfume fills the air. Homecoming 2015 is here.

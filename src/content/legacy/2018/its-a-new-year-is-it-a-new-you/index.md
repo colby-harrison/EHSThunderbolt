@@ -4,6 +4,7 @@ date: 2018-01-12
 categories: 
   - "archives"
 coverImage: "2018-.jpg"
+author: "adviser"
 ---
 
 Every January 1, people across the world set out to achieve something great in the upcoming year. Many promise to stay healthy or do better in school. While most of Thunderbird Nation is pretty close to perfect, the Thunderbolt staff wants to know what goals East High students have for 2018.

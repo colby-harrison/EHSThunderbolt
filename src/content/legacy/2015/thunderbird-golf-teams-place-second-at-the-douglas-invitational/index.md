@@ -4,6 +4,7 @@ date: 2015-05-01
 categories: 
   - "archives"
 coverImage: "grandpre11.gif"
+author: "adviser"
 ---
 
 Both Thunderbird golf teams were able to finish on the podium at the Douglas Invitational on Friday, April 24.

@@ -4,6 +4,7 @@ date: 2025-03-25
 categories: 
   - "studentlife"
 coverImage: "images-1.jpg"
+author: "RBrow07"
 ---
 
 Cheyenne East High School students now have a new and improved way to stay informed about everything happening at school — the EHS Thunderbolt article page. Created with students in mind, the Thunderbolt is an online space dedicated to sharing important updates, event information, and key dates in a way that’s easy to access, easy to read, and always available when you need it.

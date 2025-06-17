@@ -3,6 +3,7 @@ title: "When Words Fail, Music Speaks"
 date: 2022-05-05
 categories: 
   - "archives"
+author: "ljones"
 ---
 
 "Music touches us emotionally, where words alone can't."

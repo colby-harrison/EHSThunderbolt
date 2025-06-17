@@ -4,6 +4,7 @@ date: 2016-05-13
 categories: 
   - "archives"
 coverImage: "twitter-for-ipad.jpg"
+author: "adviser"
 ---
 
 You get home from a long day at work, flop down on the couch and turn on the T.V. CNN pops to life with pictures of mangled, bloody bodies littering some Middle Eastern street. Disgusted, you flip to FOX and there is a video of a woman grieving of her disembodied child. Now it’s MSNBC and a battered toddler is wailing for her parents that will never come. You get bored. You’d rather watch a re-run of “Friends.”

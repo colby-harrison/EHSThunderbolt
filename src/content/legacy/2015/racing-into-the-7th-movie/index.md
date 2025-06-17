@@ -4,6 +4,7 @@ date: 2015-04-24
 categories: 
   - "archives"
 coverImage: "Furious-7.jpg"
+author: "adviser"
 ---
 
 _Furious 7_, the next installment of the _Fast and Furious_ series, and the final movie of the late Paul Walker, finds the team of drivers coming together again to survive yet another challenge from yet another opponent. Serving up a familiar but fresh round of over-the-top thrills, while adding some unexpected drama, _Furious 7_ keeps the money-making franchise moving.

@@ -4,6 +4,7 @@ date: 2015-12-11
 categories: 
   - "archives"
 coverImage: "trophies-drama.jpg"
+author: "adviser"
 ---
 
 It's that time of the year again-time for East High's theater department to put on its annual school musical. The members of the East High theater department have been recognized for their ability to bring their audiences some of the most talented and entertaining shows at the high school level. The school musical has always been the biggest and most exciting show that this award winning theater department puts on and this year will be no exception.

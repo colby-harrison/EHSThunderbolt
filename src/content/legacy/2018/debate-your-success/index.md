@@ -4,6 +4,7 @@ date: 2018-03-12
 categories: 
   - "archives"
 coverImage: "speech-and-debate-online-edit.jpg"
+author: "adviser"
 ---
 
 Wandering the halls in their Sunday-go-to-church clothes murmuring speeches to themselves is what East Speech and Debate does almost every weekend. As the national competition crawls closer and closer, the wandering students feel the pressure.

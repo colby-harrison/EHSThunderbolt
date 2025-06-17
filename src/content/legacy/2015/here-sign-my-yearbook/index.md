@@ -4,6 +4,7 @@ date: 2015-04-15
 categories: 
   - "archives"
 coverImage: "Tbird-logo.jpg"
+author: "adviser"
 ---
 
 Ten years from now, you'll look back on the ‘H.A.G.S’ (Have A Great Summer) and the random phone numbers scrawled in your yearbook and you'll wonder where all the time went. The memories from junior high and high school, as well as the excitement of cracking open that new yearbook, will come streaming back to you. The 2014-2015 yearbooks are coming!

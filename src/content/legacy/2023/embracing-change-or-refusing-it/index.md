@@ -3,6 +3,7 @@ title: "Embracing Change or Refusing It?"
 date: 2023-10-16
 categories: 
   - "archives"
+author: "CTinney"
 ---
 
 \[caption id="attachment\_7648" align="alignnone" width="600"\]![](images/schedule-article-pic-600x294.jpg) Picture of the School Store Logo (Chaisley Tinney).Teachers, administrators, and students alike are torn and thrown into chaos as debates over the new, controversial, Friday schedule continue into the new school year.\[/caption\]

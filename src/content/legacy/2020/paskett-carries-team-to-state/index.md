@@ -4,6 +4,7 @@ date: 2020-10-13
 categories: 
   - "archives"
 coverImage: "IMG_2140.jpg"
+author: "adviser"
 ---
 
 Tennis is a sport not many people know if they will enjoy it because it takes a lot of skill and patience. It's easy to just give up when you aren't getting the hang of it, but eventually practice makes it easier as you put all your time and effort into getting better.

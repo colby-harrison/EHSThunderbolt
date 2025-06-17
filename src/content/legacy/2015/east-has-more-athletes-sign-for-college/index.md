@@ -4,6 +4,7 @@ date: 2015-04-17
 categories: 
   - "archives"
 coverImage: "hatnalez.gif"
+author: "adviser"
 ---
 
 There’s no doubt that East High has great athletes. This year’s class of 2015 is no different. Receiving a college athletic scholarship is the answer to every young athlete's dreams. In March three more Thunderbird athletes signed to play college sports.

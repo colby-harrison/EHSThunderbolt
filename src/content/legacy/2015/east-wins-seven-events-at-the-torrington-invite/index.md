@@ -4,6 +4,7 @@ date: 2015-05-12
 categories: 
   - "archives"
 coverImage: "polevault.gif"
+author: "adviser"
 ---
 
 The Thunderbird track team continued to show flashes of greatness as they won seven events at the Torrington Invite on May 8.

@@ -4,6 +4,7 @@ date: 2017-11-16
 categories: 
   - "archives"
 coverImage: "East-High-Class-of-2017.jpg"
+author: "adviser"
 ---
 
 Can you imagine coming back to your old high school, years after college and making a life somewhere else, and taking in the sights and sounds of East High? What would you remember the most - the sounds of students passing down the halls, the thrill of running onto the football field, or that old feeling of walking around with your best friends at your side?

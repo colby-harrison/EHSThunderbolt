@@ -4,6 +4,7 @@ date: 2019-03-07
 categories: 
   - "archives"
 coverImage: "IMG_9914.jpg"
+author: "adviser"
 ---
 
 In the heat of a battle on the court or field, through the ups and downs of all sorts of seasons, one group always remains loyal to their school and teammates – the cheer squad. East High’s cheer team is well-known for their school spirit, their efforts in the community, and competing against the very best.

@@ -3,6 +3,7 @@ title: "Homework: The Necessary Evil?"
 date: 2019-11-18
 categories: 
   - "archives"
+author: "LanaN"
 ---
 
 Nobody liked the teacher that assigns homework. So why is that? It's obvious that teens don’t like homework because its extra work, something that has a lot of dedicated kids stay up till eleven or twelve PM to do. Then there are the non-dedicated kids who don’t give a care in the world and all it does is affect their grades and make everything worse. 

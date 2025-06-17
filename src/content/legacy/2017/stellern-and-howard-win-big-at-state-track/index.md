@@ -3,6 +3,7 @@ title: "Stellern and Howard Win Big at State Track"
 date: 2017-05-30
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 \[caption id="attachment\_4049" align="alignnone" width="475"\]![](images/20170407-OkieBlanchardInvite_Marina_Howard_01-bm-475x349.jpg) Blaine McCartney/Wyoming Tribune Eagle  

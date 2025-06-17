@@ -4,6 +4,7 @@ date: 2018-10-22
 categories: 
   - "archives"
 coverImage: "Marler.jpg"
+author: "adviser"
 ---
 
 At every competition this year, two names stood out for the East High cross-country squads. Seniors Jeremy Rief and MacKenzie Marler have spent their careers as leaders on the course, and they wrapped up their final years with another strong showing.

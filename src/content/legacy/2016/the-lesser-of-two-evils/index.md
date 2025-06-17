@@ -4,6 +4,7 @@ date: 2016-11-03
 categories: 
   - "archives"
 coverImage: "loveland-trump-rally-copy.png"
+author: "adviser"
 ---
 
 On October 3, 2016, a Trump Rally took place in Loveland, Colorado and a few East High students stopped by to join the cheering crowd.

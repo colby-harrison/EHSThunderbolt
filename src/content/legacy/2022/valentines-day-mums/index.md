@@ -4,6 +4,7 @@ date: 2022-02-28
 categories: 
   - "archives"
 coverImage: "Mum-photo.jpg"
+author: "adviser"
 ---
 
 How does East High show appreciation towards their friends and significant others for Valentine's Day? By having clubs such as Student Council sell Valentines good as a form of fundraising. Not only does this help create money to fund events for student council, such as homecoming, it also creates joy in the faces of our students. Student Councils version of fundraising this year was Mums, a paper heart with attached ribbon that contained a note chosen by the buyer, along with a rose and chocolate. The option of having the President of the student council, Wyatt Olivas, delivering the Mums in style was provided, which is exactly what Alec Gage,9, decided to do.

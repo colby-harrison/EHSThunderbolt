@@ -4,6 +4,7 @@ date: 2024-10-15
 categories: 
   - "community"
 coverImage: "csf-2.jpg"
+author: "colby_harrison34"
 ---
 
 Several East High School teachers are hoping to be awarded Cheyenne Schools Foundation Grants, giving them the opportunity to enhance their curriculum and provide unique learning experiences for students. The grants are made possible by the generosity of local businesses, community members, service groups, and Laramie County School District #1 employees. Each year, the foundation awards approximately $27,000 in grants to teachers across the district.

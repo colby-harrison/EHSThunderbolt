@@ -4,6 +4,7 @@ date: 2025-05-02
 categories: 
   - "track"
 coverImage: "19653.png"
+author: "daytonrhoades"
 ---
 
 CHEYENNE, WY — The Cheyenne East Thunderbirds are set to hit the track this Friday, March 25, as they compete in a highly anticipated early-season meet hosted by crosstown rival Cheyenne Central.

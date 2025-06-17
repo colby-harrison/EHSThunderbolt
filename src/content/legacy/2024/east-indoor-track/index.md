@@ -4,6 +4,7 @@ date: 2024-12-18
 categories: 
   - "track"
 coverImage: "Ami.webp"
+author: "daytonrhoades"
 ---
 
 As winter break comes to an end, athletes are gearing up for the start of the indoor track season. This time of year marks the transition from the festive holiday period to the grind of preparation and competition. With practices set to ta

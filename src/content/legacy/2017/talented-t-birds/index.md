@@ -3,6 +3,7 @@ title: "Talented T-Birds"
 date: 2017-02-14
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 \[gallery ids="3650,3640,3639,3638,3637,3636,3635,3634"\]

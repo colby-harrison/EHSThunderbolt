@@ -3,6 +3,7 @@ title: "Dingo Dogs and Rad Raccoons"
 date: 2021-11-05
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 Alexis Johnson, 11 has a pet like many students at East, but he is very unusual. Dax is a German Shepard mixed with a mystery of other breeds, but he doesn't act like a normal dog.

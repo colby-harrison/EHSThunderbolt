@@ -5,6 +5,7 @@ categories:
   - "golf"
   - "sports"
 coverImage: "Golf.jpg"
+author: "colby_harrison34"
 ---
 
 The Cheyenne East boys golf team secured a strong third-place finish at the Wyoming Class 4A State Golf Tournament, held Saturday at Valli Vu Golf Course in Afton.

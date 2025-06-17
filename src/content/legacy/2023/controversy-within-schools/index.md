@@ -3,6 +3,7 @@ title: "Controversy within schools"
 date: 2023-10-13
 categories: 
   - "archives"
+author: "mtrippel"
 ---
 
 ![](images/cat-ears-600x495.webp)

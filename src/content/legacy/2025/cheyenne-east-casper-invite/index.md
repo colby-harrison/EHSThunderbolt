@@ -4,6 +4,7 @@ date: 2025-01-29
 categories: 
   - "track"
 coverImage: "thumbnail_IMG_1418.jpg"
+author: "daytonrhoades"
 ---
 
 ### **Cheyenne East Indoor Track – Casper Invite Results (Jan. 18, 2025)**

@@ -3,6 +3,7 @@ title: "LHS and EHS Girls Battle to a Tie"
 date: 2015-05-18
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 When two top-ranked teams square off, no one is surprised when things end up pretty even. That's the way is supposed to be.

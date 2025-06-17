@@ -4,6 +4,7 @@ date: 2017-04-11
 categories: 
   - "archives"
 coverImage: "Band-Trailer-e1491928291290.jpg"
+author: "adviser"
 ---
 
 The EHS band department has just been the recipient of a gracious donation. With the help of the primary donors, the Greenwalt family, and the owners of Chadwick Trailers, former EHS band parents, the East High band department is now the proud owner of a brand new trailer for their equipment.

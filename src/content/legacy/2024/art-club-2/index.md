@@ -7,6 +7,7 @@ categories:
   - "community"
   - "studentlife"
 coverImage: "dia-de-los-muertos.jpg"
+author: "Kassey"
 ---
 
 The Art Club is set for an exciting lineup of trips and activities this season! First up, on **November 12**, members will be heading to the **Botanic Gardens** right after school to experience the stunning **Día de los Muertos** exhibit. The bus will depart at 3 PM and return to school at 4:15 PM. This exhibit promises a vibrant look into Mexican traditions honoring loved ones, with intricate ofrendas, colorful papel picado, and more.

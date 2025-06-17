@@ -6,6 +6,7 @@ categories:
   - "news"
   - "sports"
 coverImage: "jade-brown-2.webp"
+author: "ITZJ307"
 ---
 
 Cheyenne East forward **Jade Brown** delivered a standout performance this past weekend, averaging **14 points, 8.5 rebounds, and four blocks** to lead the Thunderbirds to a 2-0 record. Her efforts earned her **Prep Athlete of the Week** honors from W Sports' Cheyenne staff.

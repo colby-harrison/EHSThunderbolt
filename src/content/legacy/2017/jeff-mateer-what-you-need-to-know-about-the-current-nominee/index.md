@@ -4,6 +4,7 @@ date: 2017-10-24
 categories: 
   - "archives"
 coverImage: "Jeff_Mateer.jpg"
+author: "adviser"
 ---
 
 In the year of 2015, President Donald Trump’s federal judge nominee, Jeff Mateer made a speech titled ‘The Church and Homosexuality.” Claims he made throughout the speech have received a mix of criticism and praise.

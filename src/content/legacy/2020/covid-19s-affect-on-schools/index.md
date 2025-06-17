@@ -4,6 +4,7 @@ date: 2020-11-20
 categories: 
   - "archives"
 coverImage: "IMG_0001.jpg"
+author: "chayes"
 ---
 
 There is no doubt that Covid-19 is the biggest news story of 2020. Laramie County School District 1’s biggest job over the summer of 2020 was getting students back in school. The implemented precautions are used to slow and prevent the spread of Covid.  

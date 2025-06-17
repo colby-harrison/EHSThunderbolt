@@ -3,6 +3,7 @@ title: "East girls basketball well-represented for all-stars"
 date: 2017-05-04
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 Each year a select group of players travel north to compete against Montana’s best male and female high school basketball players. This year the 4A state champion East High Lady Thunderbirds will be well-represented in the annual event.

@@ -4,6 +4,7 @@ date: 2017-02-21
 categories: 
   - "archives"
 coverImage: "camdenedit.jpg"
+author: "adviser"
 ---
 
 East High is home to over 15 water fountains, all scattered throughout the halls. Some don’t work, some spray you in the face, and some have water bottle fillers. A common topic among students often involves water fountains, and which is the best. We decided to put this conundrum to rest, with Official Ranking of East’s Water Fountains.

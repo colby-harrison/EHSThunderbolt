@@ -3,6 +3,7 @@ title: "Order Up! Two Doors Down looking for Servers"
 date: 2021-11-05
 categories: 
   - "archives"
+author: "adviser"
 ---
 
 Since the Covid-19 Pandemic all restaurants have lost servers and cooks through the massive shut down, they have been hit hard, with minimal employees it makes it difficult to keep the restaurant open.

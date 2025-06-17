@@ -3,6 +3,7 @@ title: "FFA Pigs"
 date: 2024-01-17
 categories: 
   - "archives"
+author: "ARayl"
 ---
 
 FFA members worked together to help two pigs prepare to give birth this year. Students would come in early in the morning to feed the pigs and clean the pin. These students love the experience, “It’s a great part of our organization”, said Bradly Mucirty, 11.

@@ -4,6 +4,7 @@ date: 2018-05-11
 categories: 
   - "archives"
 coverImage: "aTeam1-1.jpg"
+author: "adviser"
 ---
 
 Any competitor will tell you a big key to winning is consistency. A team must be consistent in how it works, in how it approaches competition, and how it plays. The 2018 edition of East High soccer has struggled with consistency as new players take the lead.

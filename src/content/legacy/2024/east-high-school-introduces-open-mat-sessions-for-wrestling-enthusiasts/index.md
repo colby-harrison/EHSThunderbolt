@@ -4,6 +4,7 @@ date: 2024-10-09
 categories: 
   - "sports"
 coverImage: "5695d96b82495.webp"
+author: "Bentley307"
 ---
 
 Starting October 8th, East High School will be hosting Open Mat sessions for students interested in wrestling. These sessions will be held every Tuesday and Thursday morning from 6:15 a.m. to 7:15 a.m., giving students an excellent opportunity to get extra practice, improve their skills, and prepare for the upcoming wrestling season.

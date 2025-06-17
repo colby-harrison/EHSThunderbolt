@@ -4,6 +4,7 @@ date: 2015-04-15
 categories: 
   - "archives"
 coverImage: "D-Kroeger-10.gif-soccer.gif"
+author: "adviser"
 ---
 
 The boys and girls soccer teams clashed with their cross-town rivals, Central High School, on Friday, April 10, at Riske Field. It was a tough battle for the boys in their win over the Indians, scoring their only goal in overtime and winning 1-0. Senior Finley McIlwaine scored the goal for East, waiting for the perfect opportunity.

@@ -4,6 +4,7 @@ date: 2024-11-22
 categories: 
   - "football"
 coverImage: "football.webp"
+author: "reidhorton47"
 ---
 
 he Cheyenne East Thunderbirds ended their remarkable 2024 football season with a second-place finish after falling to Sheridan 21-0 in the state championship game. Despite the loss, the team’s 9-3 record and impressive run to the final reflect a year of growth, hard work, and determination.

@@ -5,6 +5,7 @@ categories:
   - "soccer"
   - "sports"
 coverImage: "IMG_7652-1-e1728486966892.jpg"
+author: "riellys1098"
 ---
 
 Attention East High School students! We’re excited to announce that our Soccer Open Field sessions, led by head coach Alex Stratton and assistant coach Cody Fournier, will start on Tuesday, October 22, 2024. This is a fantastic opportunity for students to enhance their skills, meet new friends, and gear up for the upcoming soccer season.

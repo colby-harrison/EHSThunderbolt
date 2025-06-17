@@ -5,6 +5,7 @@ categories:
   - "basketball"
   - "sports"
 coverImage: "IMG_4598.jpg"
+author: "nataliermoore"
 ---
 
 The Cheyenne East boys’ basketball team recently made headlines on Wyoming News Now, showcasing their preparation for an exciting new chapter. With a first-year head coach and a mix of seasoned players and fresh talent, the Thunderbirds are determined to continue their legacy of success while promoting their program’s commitment to growth and excellence.
