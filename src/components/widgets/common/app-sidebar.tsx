@@ -20,6 +20,7 @@ import {
 } from "@/components/ui/sidebar";
 import { api } from "@/trpc/react";
 import {
+  Archive,
   BellElectric,
   BicepsFlexed,
   Camera,
@@ -112,10 +113,18 @@ export default function AppSidebar() {
                   })}
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
-                      <a href='/grads'>
+                      <Link href='/legacy'>
+                        <Archive />
+                        <span>Legacy</span>
+                      </Link>
+                    </SidebarMenuButton>
+                  </SidebarMenuItem>
+                  <SidebarMenuItem>
+                    <SidebarMenuButton asChild>
+                      <Link href='/grads'>
                         <GraduationCap />
                         <span>2025 Grads</span>
-                      </a>
+                      </Link>
                     </SidebarMenuButton>
                   </SidebarMenuItem>
                 </SidebarMenu>
