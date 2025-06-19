@@ -12,7 +12,7 @@ export default async function Home() {
       <main className="container mx-auto grid grid-cols-1 gap-4 py-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         <Card.Card className="w-full h-full col-span-2">
           <Card.CardHeader>
-            <Card.CardTitle>Archive/Legacy Posts</Card.CardTitle>
+            <Card.CardTitle>Legacy Posts</Card.CardTitle>
           </Card.CardHeader>
           <Card.CardContent>
             These are posts migrated from the old ehsthunderbolt.com website.
