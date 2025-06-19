@@ -115,7 +115,7 @@ export default function AppSidebar() {
                     <SidebarMenuButton asChild>
                       <Link href='/legacy'>
                         <Archive />
-                        <span>Legacy</span>
+                        <span>Archive</span>
                       </Link>
                     </SidebarMenuButton>
                   </SidebarMenuItem>
