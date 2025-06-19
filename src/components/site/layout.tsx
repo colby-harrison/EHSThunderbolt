@@ -6,7 +6,7 @@ import { SidebarProvider } from "@/components/ui/sidebar";
 import { Widgets } from "@/components/widgets";
 import type React from "react";
 import { Footer } from "./footer/footer";
-import { useGlobalData } from "../global-provider";
+import { useGlobalData } from "../GlobalProvider";
 // import Progress from "./progressbar";
 // End of imports
 

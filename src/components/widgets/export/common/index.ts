@@ -19,3 +19,8 @@ export const AppSidebar = dynamic(() => import("../../common/app-sidebar"), {
 export const TBTVBanner = dynamic(() => import("../../common/tbtv-banner"), {
 	ssr: false,
 });
+
+export const LegacySubpageButton = dynamic(
+	() => import("../../common/legacy-subpage-button"),
+	{ ssr: false },
+);

@@ -15,7 +15,7 @@ export default async function Category({
   if (!category) return NextResponse.rewrite("/404");
   return (
     <HydrateClient>
-      <main className='container mx-auto grid grid-cols-1 gap-4 py-2 sm:grid-cols-2 md:grid-cols-3'>
+      <main className='container mx-auto grid grid-cols-1 gap-4 py-4 sm:grid-cols-2 md:grid-cols-3'>
         <div>
           <h1 className="prose-h1">{category.name}</h1>
         </div>

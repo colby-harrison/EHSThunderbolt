@@ -1,5 +1,4 @@
-import { GlobalDataUpdater } from "@/components/global-provider";
-
+import { GlobalDataUpdater } from "@/components/GlobalProvider";
 
 export default function RootLayout({
   children,
