@@ -2,11 +2,12 @@
 
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
-import { api } from "@/trpc/react";
+import { useQuery } from "convex/react";
+import { api } from "convex@/_generated/api";
 import Link from "next/link";
 
 export default function NavigationWidget() {
-	const [categories] = api.category.getAll.useSuspenseQuery();
+	const categories = useQuery(api.categories.getAll);
 	if (!categories)
 		return (
 			<div className="w-full rounded-lg border border-sidebar-border bg-sidebar text-sidebar-foreground shadow-xl h-80">
@@ -31,9 +32,9 @@ export default function NavigationWidget() {
 			<ScrollArea className="h-full w-auto">
 				<div className="p-4">
 					{categories?.map((category) => (
-						<span key={category.id}>
-							<div className="text-sm" key={category.id}>
-								<Link href={`/category/${category.id}`} className="prose-a">
+						<span key={category._id}>
+							<div className="text-sm" key={category._id}>
+								<Link href={`/category/${category._id}`} className="prose-a">
 									{category.name}
 								</Link>
 							</div>

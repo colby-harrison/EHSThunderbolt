@@ -5,7 +5,7 @@ import { useQuery } from "convex/react";
 import { api } from "convex@/_generated/api";
 
 export default function Live() {
-  const tbtvIsLive = useQuery(api.realtimekv.getByKey, { key: "tbtv_is_live" })?.value == "true";
+  const tbtvIsLive = useQuery(api.kv.getByKey, { key: "tbtv_is_live" })?.value == "true";
   if (!tbtvIsLive) return null;
   return (
     <MuxPlayer

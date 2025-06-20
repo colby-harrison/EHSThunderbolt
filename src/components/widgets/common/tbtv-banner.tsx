@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from "motion/react";
 import Link from "next/link";
 
 export default function TBTVBanner() {
-  const tbtvIsLive = useQuery(api.realtimekv.getByKey, { key: "tbtv_is_live" });
+  const tbtvIsLive = useQuery(api.kv.getByKey, { key: "tbtv_is_live" });
   return (
     <AnimatePresence>
       {tbtvIsLive && tbtvIsLive.value === "true" && (

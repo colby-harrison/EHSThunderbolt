@@ -4,10 +4,8 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 
 import { Layout } from "@/components/site/layout";
-import { TRPCReactProvider } from "@/trpc/react";
 import { ConvexClientProvider } from "@/components/ConvexClientProvider";
-
-import { ClerkProvider } from "@clerk/nextjs";
+import { ConvexAuthNextjsServerProvider } from "@convex-dev/auth/nextjs/server";
 import { GlobalProvider } from "@/components/GlobalProvider";
 
 export const metadata: Metadata = {
@@ -25,18 +23,16 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <ClerkProvider>
+    <ConvexAuthNextjsServerProvider>
       <GlobalProvider>
         <html lang='en' className={`${geist.variable} dark`}>
           <body className='h-dvh w-dvw max-w-dvw'>
             <ConvexClientProvider>
-              <TRPCReactProvider>
                 <Layout>{children}</Layout>
-              </TRPCReactProvider>
             </ConvexClientProvider>
           </body>
         </html>
       </GlobalProvider>
-    </ClerkProvider>
+    </ConvexAuthNextjsServerProvider>
   );
 }
