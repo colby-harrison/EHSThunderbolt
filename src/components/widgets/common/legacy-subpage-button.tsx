@@ -1,10 +1,6 @@
 "use client";
 
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { Separator } from "@/components/ui/separator";
-import { api } from "@/trpc/react";
 import * as Card from "@/components/ui/card";
-import Link from "next/link";
 
 export default function NavigationLegacyButtonWidget({
   path,
