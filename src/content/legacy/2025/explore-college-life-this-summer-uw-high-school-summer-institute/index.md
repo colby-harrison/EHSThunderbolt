@@ -3,7 +3,7 @@ title: "Explore College Life This Summer: UW High School Summer Institute"
 date: 2025-03-17
 categories: 
   - "news"
-coverImage: "DALL·E-2025-03-17-15.28.41-A-vibrant-summer-scene-on-a-college-campus-with-students-attending-a-summer-program.-The-image-shows-a-group-of-diverse-high-school-students-walking-a.webp"
+coverImage: "DALL·E-2025-03-17-15.28.41.webp"
 author: "colby_harrison34"
 ---
 

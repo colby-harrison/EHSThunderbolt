@@ -3,7 +3,7 @@ title: "Charlie Lake Wrestling Tournament: A Showcase of Grit and Talent at Chey
 date: 2024-12-09
 categories: 
   - "wrestling"
-coverImage: "DALL·E-2024-12-09-07.58.51-A-dynamic-scene-of-a-high-school-wrestling-tournament-in-a-gymnasium-featuring-two-wrestlers-in-mid-action-on-a-wrestling-mat-under-bright-gym-lights.webp"
+coverImage: "DALL·E-2024-12-09-07.58.51.webp"
 author: "Bentley307"
 ---
 

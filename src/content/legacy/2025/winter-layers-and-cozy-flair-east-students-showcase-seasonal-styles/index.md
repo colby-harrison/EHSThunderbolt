@@ -4,7 +4,7 @@ date: 2025-03-07
 categories: 
   - "news"
   - "studentlife"
-coverImage: "DALL·E-2025-02-25-12.56.42-A-stylish-winter-fashion-scene-at-a-high-school-featuring-students-in-a-hallway-wearing-layered-outfits.-Some-students-are-dressed-chicly-with-stylis-1.webp"
+coverImage: "DALL·E-2025-02-25-12.56.42.webp"
 author: "colby_harrison34"
 ---
 

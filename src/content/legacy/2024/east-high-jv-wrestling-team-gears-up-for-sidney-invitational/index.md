@@ -3,7 +3,7 @@ title: "East High JV Wrestling Team Gears Up for Sidney Invitational"
 date: 2024-12-18
 categories: 
   - "wrestling"
-coverImage: "DALL·E-2024-12-18-07.49.41-An-action-packed-wrestling-scene-at-a-high-school-gymnasium-featuring-young-athletes-competing-in-a-junior-varsity-wrestling-tournament.-The-gym-is-bu.webp"
+coverImage: "DALL·E-2024-12-18-07.49.41.webp"
 author: "Bentley307"
 ---
 
