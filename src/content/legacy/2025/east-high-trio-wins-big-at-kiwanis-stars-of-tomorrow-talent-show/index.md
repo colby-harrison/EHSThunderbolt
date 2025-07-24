@@ -3,7 +3,7 @@ title: "East High Trio Wins Big at Kiwanis Stars of Tomorrow Talent Show"
 date: 2025-03-17
 categories: 
   - "news"
-coverImage: "DALL·E-2025-03-17-15.32.13-Three-high-school-students-singing-a-jazz-vocal-trio-on-stage-under-bright-stage-lights-with-a-microphone-colorful-backdrop-and-an-excited-audience.webp"
+coverImage: "DALL·E-2025-03-17-15.32.13.webp"
 author: "colby_harrison34"
 ---
 

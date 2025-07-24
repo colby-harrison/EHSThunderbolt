@@ -4,7 +4,7 @@ date: 2024-10-04
 categories: 
   - "golf"
   - "sports"
-coverImage: "Golf.jpg"
+coverImage: "Golf_1.jpg"
 author: "colby_harrison34"
 ---
 

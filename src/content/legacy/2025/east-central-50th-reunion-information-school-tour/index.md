@@ -4,7 +4,7 @@ date: 2025-03-24
 categories: 
   - "community"
   - "news"
-coverImage: "DALL·E-2025-03-24-14.54.46-A-nostalgic-view-of-East-High-School-with-a-large-banner-that-reads-East_Central-50th-Reunion-hanging-near-the-entrance.-The-school-building-is-well.webp"
+coverImage: "DALL·E-2025-03-24-14.54.46.webp"
 author: "colby_harrison34"
 ---
 

@@ -3,7 +3,7 @@ title: "Wyoming Weather Keeps East High Students Guessing"
 date: 2025-03-17
 categories: 
   - "news"
-coverImage: "DALL·E-2025-03-17-15.23.45-A-Wyoming-high-school-student-scraping-frost-off-a-car-on-a-cold-morning-with-a-background-showing-a-mix-of-snow-covered-ground-and-sunny-skies.-The-.webp"
+coverImage: "DALL·E-2025-03-17-15.23.45.webp"
 author: "colby_harrison34"
 ---
 
