@@ -9,8 +9,7 @@ export default async function Category() {
       <Alert variant={"destructive"} className='col-span-2'>
         <AlertTitle>Notice</AlertTitle>
         <AlertDescription>
-          The bell has been ringing roughly a minute early, please account for
-          this.
+          The bell schedule has not yet been updated for the 2025-2026 school year. The calendar has, however, been updated.
         </AlertDescription>
       </Alert>
       <Widgets.BellSchedule.Table />

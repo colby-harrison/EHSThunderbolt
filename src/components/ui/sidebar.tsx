@@ -1,7 +1,7 @@
 "use client";
 import { Slot } from "@radix-ui/react-slot";
 import { type VariantProps, cva } from "class-variance-authority";
-import { PanelLeft } from "lucide-react";
+import { PanelLeft } from "@/components/animate-ui/icons/panel-left";
 import * as React from "react";
 
 // import { useIsMobile } from "@/hooks/use-mobile"
@@ -288,7 +288,7 @@ const SidebarTrigger = React.forwardRef<
 			}}
 			{...props}
 		>
-			<PanelLeft />
+			<PanelLeft animateOnHover />
 			<span className="sr-only">Toggle Sidebar</span>
 		</Button>
 	);

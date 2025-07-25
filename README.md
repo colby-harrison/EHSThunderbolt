@@ -1,29 +1,96 @@
-# Create T3 App
+# EHS Thunderbolt
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Cheyenne East High School's student news website. This platform provides students, staff, and the community with up-to-date news, legacy articles, a teacher directory, bell schedules, and the TBTV student news broadcast.
 
-## What's next? How do I make an app with this?
+## Features
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+- **News Posts & Categories:** Browse and read current news articles organized by category.
+- **Legacy Content Migration:** Access archived posts from the old ehsthunderbolt.com website (2015–present).
+- **Teacher Directory:** View a searchable directory of East High School teachers.
+- **Bell Schedule:** Check the current bell schedule and calendar.
+- **TBTV:** Watch the student-produced TBTV news broadcast and access past episodes.
+- **Modern Widget-Based UI:** Responsive, accessible, and easy to navigate.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Tech Stack
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- [Next.js](https://nextjs.org/) (App Router, SSR)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Convex](https://convex.dev/) (backend/database, auth)
+- [MDX](https://mdxjs.com/) for content
+- [Radix UI](https://www.radix-ui.com/) components
+- [Biome](https://biomejs.dev/) for linting/formatting
+- [Vercel](https://vercel.com/) for deployment
 
-## Learn More
+## Getting Started
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+### Prerequisites
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+- [Node.js](https://nodejs.org/) (v18+ recommended)
+- [pnpm](https://pnpm.io/) (recommended)
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+### Environment Variables
 
-## How do I deploy this?
+Create a `.env` file in the project root. Required variables (see `src/env.js`):
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+```
+CLERK_SECRET_KEY=your_clerk_secret_key
+UPLOADTHING_TOKEN=your_uploadthing_token
+NODE_ENV=development
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+# Add any other required variables as needed
+```
+
+### Install Dependencies
+
+```
+pnpm install
+```
+
+### Development
+
+Start the development server:
+
+```
+pnpm dev
+```
+
+### Convex Backend
+
+Convex is used for backend/database and authentication. To start Convex locally:
+
+```
+pnpm convex dev
+```
+
+See [Convex documentation](https://docs.convex.dev/) for more details.
+
+### Linting & Formatting
+
+Run Biome for linting and formatting:
+
+```
+pnpm check
+```
+
+## Deployment
+
+This project is ready for deployment on [Vercel](https://vercel.com/). The build command is customized to deploy Convex functions:
+
+```
+pnpm convex deploy --cmd 'pnpm run build'
+```
+
+See `vercel.json` for details.
+
+## Project Structure
+
+- `src/app/` — Main Next.js app pages and routes
+- `src/components/` — UI components and widgets
+- `src/content/legacy/` — Legacy posts (MDX)
+- `convex/` — Convex backend functions and schema
+- `public/` — Static assets
+
+## Contributing
+
+Pull requests and suggestions are welcome! Please open an issue or submit a PR.

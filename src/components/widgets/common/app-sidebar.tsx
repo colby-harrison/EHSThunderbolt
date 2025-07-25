@@ -37,11 +37,11 @@ import {
   Sparkle,
   SquareActivity,
   Trophy,
-  UsersRound,
   Video,
 } from "lucide-react";
 import Link from "next/link";
 import React from "react";
+import { UsersRound } from "@/components/animate-ui/icons/users-round";
 // End of imports
 
 export default function AppSidebar() {
@@ -224,7 +224,7 @@ export default function AppSidebar() {
                     <SidebarMenuItem>
                       <SidebarMenuButton asChild>
                         <a href='/ehsteachers'>
-                          <UsersRound />
+                          <UsersRound animateOnHover />
                           <span>EHS Teachers</span>
                         </a>
                       </SidebarMenuButton>
@@ -267,23 +267,23 @@ export default function AppSidebar() {
                       </a>
                     </SidebarMenuButton>
                   </SidebarMenuItem>
-                  {categories.sort((a,b) => a.index - b.index).map((category) => {
-                    if (!category.category) return null;
-                    return (
-                      <React.Fragment key={category.index}>
+                  {categories
+                    .sort((a, b) => a.index - b.index)
+                    .map((category) => {
+                      if (!category.category) return null;
+                      return (
+                        <React.Fragment key={category.index}>
                           <SidebarMenuItem>
                             <SidebarMenuButton asChild>
                               <Link href={`/category/${category.category._id}`}>
                                 <Circle />
-                                <span>
-                                  {category.category.name}
-                                </span>
+                                <span>{category.category.name}</span>
                               </Link>
                             </SidebarMenuButton>
                           </SidebarMenuItem>
-                      </React.Fragment>
-                    );
-                  })}
+                        </React.Fragment>
+                      );
+                    })}
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
                       <Link href='/legacy'>
