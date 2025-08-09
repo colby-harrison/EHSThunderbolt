@@ -4,6 +4,14 @@ import { v } from "convex/values";
 
 export default defineSchema({
   ...authTables,
+  users: defineTable({
+    name: v.optional(v.string()),
+    image: v.optional(v.string()),
+    email: v.optional(v.string()),
+    emailVerificationTime: v.optional(v.number()),
+    isAnonymous: v.optional(v.boolean()),
+    role: v.optional(v.string())
+  }).index("email", ["email"]),
   realtimekv: defineTable({
     key: v.string(),
     value: v.string(),

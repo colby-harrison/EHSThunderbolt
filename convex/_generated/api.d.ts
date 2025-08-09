@@ -21,6 +21,7 @@ import type * as http from "../http.js";
 import type * as kv from "../kv.js";
 import type * as tbtv from "../tbtv.js";
 import type * as teachers from "../teachers.js";
+import type * as users from "../users.js";
 
 /**
  * A utility for referencing Convex functions in your app's API.
@@ -39,6 +40,7 @@ declare const fullApi: ApiFromModules<{
   kv: typeof kv;
   tbtv: typeof tbtv;
   teachers: typeof teachers;
+  users: typeof users;
 }>;
 export declare const api: FilterApi<
   typeof fullApi,

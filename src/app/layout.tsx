@@ -28,7 +28,7 @@ export default function RootLayout({
         <html lang='en' className={`${geist.variable} dark`}>
           <body className='h-dvh w-dvw max-w-dvw'>
             <ConvexClientProvider>
-                <Layout>{children}</Layout>
+              <Layout>{children}</Layout>
             </ConvexClientProvider>
           </body>
         </html>

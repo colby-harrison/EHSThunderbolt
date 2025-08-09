@@ -11,6 +11,7 @@ import {
 
 interface GlobalData {
   showHeader?: boolean;
+  loading?: boolean;
 }
 
 interface GlobalContextType {
@@ -25,6 +26,7 @@ export const GlobalProvider: React.FC<{ children: ReactNode }> = ({
 }) => {
   const [globalData, setGlobalData] = useState<GlobalData>({
     showHeader: true,
+    loading: false,
   });
 
   return (
