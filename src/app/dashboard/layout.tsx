@@ -1,3 +1,4 @@
+import { DashboardProvider } from "@/components/DashboardProvider";
 import { GlobalDataUpdater } from "@/components/GlobalProvider";
 import { DashboardContent } from "@/components/site/dashboard/dashboard-main-layout";
 import { Suspense } from "react";
@@ -11,5 +12,9 @@ export default function Layout({
   writer: React.ReactNode;
   admin: React.ReactNode;
 }) {
-  return <DashboardContent newUser={newUser} writer={writer} admin={admin} />;
+  return (
+    <DashboardProvider>
+      <DashboardContent newUser={newUser} writer={writer} admin={admin} />
+    </DashboardProvider>
+  );
 }

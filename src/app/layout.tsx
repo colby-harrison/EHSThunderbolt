@@ -7,6 +7,7 @@ import { Layout } from "@/components/site/layout";
 import { ConvexClientProvider } from "@/components/ConvexClientProvider";
 import { ConvexAuthNextjsServerProvider } from "@convex-dev/auth/nextjs/server";
 import { GlobalProvider } from "@/components/GlobalProvider";
+import { Toaster } from "@/components/ui/sonner";
 
 export const metadata: Metadata = {
   title: "EHS Thunderbolt",
@@ -28,7 +29,10 @@ export default function RootLayout({
         <html lang='en' className={`${geist.variable} dark`}>
           <body className='h-dvh w-dvw max-w-dvw'>
             <ConvexClientProvider>
-              <Layout>{children}</Layout>
+              <Layout>
+                {children}
+                <Toaster />
+              </Layout>
             </ConvexClientProvider>
           </body>
         </html>

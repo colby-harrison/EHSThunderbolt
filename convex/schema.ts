@@ -4,14 +4,16 @@ import { v } from "convex/values";
 
 export default defineSchema({
   ...authTables,
+  authAccounts: authTables.authAccounts.index('userId', ['userId']),
   users: defineTable({
     name: v.optional(v.string()),
     image: v.optional(v.string()),
     email: v.optional(v.string()),
     emailVerificationTime: v.optional(v.number()),
     isAnonymous: v.optional(v.boolean()),
-    role: v.optional(v.string())
-  }).index("email", ["email"]),
+    role: v.optional(v.string()),
+    reviewed: v.optional(v.boolean())
+  }).index("email", ["email"]).index("reviewed", ["reviewed"]),
   realtimekv: defineTable({
     key: v.string(),
     value: v.string(),
@@ -57,5 +59,7 @@ export default defineSchema({
   }).index("by_category", ["category"]),
   allowedEmails: defineTable({
     email: v.string(),
-  }),
+    name: v.optional(v.string()),
+    userID: v.optional(v.id("users"))
+  }).index("by_email", ["email"]),
 });
