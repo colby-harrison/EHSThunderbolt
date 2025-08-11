@@ -20,7 +20,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { useMutation, usePaginatedQuery } from "convex/react";
+import { useMutation, usePaginatedQuery, useQuery } from "convex/react";
 import { api } from "convex@/_generated/api";
 import {
   ClipboardIcon,
@@ -36,6 +36,7 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import React from "react";
 import { fetchMutation } from "convex/nextjs";
+import { cn } from "@/lib/utils";
 
 export function AllowedEmailsTable() {
   const [loading, setLoading] = useState(false);
@@ -134,6 +135,7 @@ function DeleteDialog({ user }: { user: Doc<"allowedEmails"> }) {
             toast(
               `Deleted ${user.email} from allowed emails and locked ${user.name}'s account`
             );
+            setConfirmationState("")
           }}
         >
           <DialogHeader>
@@ -177,6 +179,7 @@ function CreateDialog() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const addEmail = useMutation(api.allowedemail.addEmail);
+  const alreadyAllowed = useQuery(api.allowedemail.isAllowedEmail, {email})
 
   return (
     <Dialog open={open} onOpenChange={setOpen}>
@@ -192,6 +195,8 @@ function CreateDialog() {
             await addEmail({ name, email });
             setOpen(false);
             toast(`Now allowing ${name}'s email "${email}"`);
+            setName("");
+            setEmail("");
           }}
         >
           <DialogHeader>
@@ -216,13 +221,14 @@ function CreateDialog() {
             </div>
             <div className='grid gap-2'>
               <Label htmlFor='email'>
-                Please Type the {name != "" ? name : "new user"}'s email
+                Please Type the {name != "" ? name : "new user"}'s email {alreadyAllowed && <><br/><br/><span className="text-destructive">Email already allowed</span></>}
               </Label>
               <Input
                 id='email'
                 placeholder={`johndoe@example.com`}
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
+                className={cn(alreadyAllowed && "bg-destructive text-white")}
               />
             </div>
           </div>
@@ -233,7 +239,7 @@ function CreateDialog() {
             <Button
               type='submit'
               variant={"default"}
-              disabled={name === "" || email === ""}
+              disabled={name === "" || email === "" || alreadyAllowed}
             >
               Create
             </Button>

@@ -3,6 +3,7 @@ import { action, internalMutation, mutation, query } from "./_generated/server";
 import { containsBadWord } from "./common_utils";
 import { v } from "convex/values";
 import { api } from "./_generated/api";
+import { paginationOptsValidator } from "convex/server";
 
 export const currentUser = query({
   args: {},
@@ -40,6 +41,20 @@ export const editNameMutation = mutation({
     await ctx.db.patch(args.userID, {
       name: args.name,
       reviewed: args.reviewNeeded,
+      image: `https://api.dicebear.com/9.x/rings/svg?seed=${Array.from(
+        new Uint8Array(
+          await crypto.subtle.digest(
+            "SHA-256",
+            new TextEncoder().encode(
+              args.userID + "-" + crypto.randomUUID() + "-" + args.name
+            )
+          )
+        )
+      )
+        .map((b) => b.toString(16).padStart(2, "0"))
+        .join(
+          ""
+        )}&ringFive=full,eighth,half,quarter&ringFour=half,quarter,full,eighth&ringOne=half,quarter,full,eighth&ringThree=half,quarter,full,eighth&ringTwo=half,quarter,full,eighth`,
     });
   },
 });
@@ -116,5 +131,38 @@ export const deleteEmailFromAccounts = internalMutation({
         ),
       ])
     );
+  },
+});
+
+export const list = query({
+  args: { paginationOpts: paginationOptsValidator },
+  handler: async (ctx, args) => {
+    return await ctx.db
+      .query("users")
+      .order("desc")
+      .paginate(args.paginationOpts);
+  },
+});
+
+export const edit = mutation({
+  args: {
+    ID: v.id("users"),
+    name: v.string(),
+    role: v.string(),
+    reviewed: v.boolean(),
+  },
+  handler: async (ctx, args) => {
+    await ctx.db.patch(args.ID, {
+      name: args.name,
+      role: args.role,
+      reviewed: args.reviewed,
+    });
+  },
+});
+
+export const editReviewStatus = mutation({
+  args: { ID: v.id("users"), reviewed: v.boolean() },
+  handler: async (ctx, args) => {
+    await ctx.db.patch(args.ID, { reviewed: args.reviewed });
   },
 });
