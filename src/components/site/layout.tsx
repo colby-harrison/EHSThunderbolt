@@ -34,14 +34,14 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <main className='h-full w-full'>
         <Navbar style={globalData.navBarStyle!} />
         <Widgets.Common.AppSidebar />
-        <div className={cn('min-h-[calc(100dvh-3rem)]', !pathname.startsWith("/dashboard") && "px-2 pb-2" )}>
+        <div className={cn(globalData.navBarStyle !== "none" ? 'min-h-[calc(100dvh-3rem)]' : 'min-h-dvh', pathname.startsWith("/dashboard") || globalData.navBarStyle === "none" ? "p-0" : "p-2" )}>
           {globalData.showHeader &&
             !pathname.startsWith("/dashboard") &&
             !pathname.startsWith("/auth") && <Header />}
           {children}
         </div>
         {
-          !pathname.startsWith('/auth') && !pathname.startsWith("/dashboard") && <Footer />
+          !pathname.startsWith('/auth') && !pathname.startsWith("/dashboard") && globalData.navBarStyle !== "none" && <Footer />
         }
       </main>
     </SidebarProvider>

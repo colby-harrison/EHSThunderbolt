@@ -26,6 +26,10 @@ const SidebarLinks: props[] = [
     href: "/users",
     title: "Users",
     convexAPI: api.users.usersUnderReview
+  },
+  {
+    href: "/bellschedule",
+    title: "Bell Schedule",
   }
 ];
 

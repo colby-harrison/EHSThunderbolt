@@ -4,7 +4,7 @@ import { v } from "convex/values";
 
 export default defineSchema({
   ...authTables,
-  authAccounts: authTables.authAccounts.index('userId', ['userId']),
+  authAccounts: authTables.authAccounts.index("userId", ["userId"]),
   users: defineTable({
     name: v.optional(v.string()),
     image: v.optional(v.string()),
@@ -12,12 +12,10 @@ export default defineSchema({
     emailVerificationTime: v.optional(v.number()),
     isAnonymous: v.optional(v.boolean()),
     role: v.optional(v.string()),
-    reviewed: v.optional(v.boolean())
-  }).index("email", ["email"]).index("reviewed", ["reviewed"]),
-  realtimekv: defineTable({
-    key: v.string(),
-    value: v.string(),
-  }).index("by_key", ["key"]),
+    reviewed: v.optional(v.boolean()),
+  })
+    .index("email", ["email"])
+    .index("reviewed", ["reviewed"]),
   kv: defineTable({
     key: v.string(),
     value: v.string(),
@@ -50,7 +48,7 @@ export default defineSchema({
     title: v.string(),
     excerpt: v.string(),
     image: v.string(),
-    content: v.string(),
+    content: v.bytes(),
     author: v.string(),
     category: v.id("categories"),
     needsReview: v.boolean(),
@@ -60,6 +58,30 @@ export default defineSchema({
   allowedEmails: defineTable({
     email: v.string(),
     name: v.optional(v.string()),
-    userID: v.optional(v.id("users"))
+    userID: v.optional(v.id("users")),
   }).index("by_email", ["email"]),
+  bellScheduleTab: defineTable({
+    name: v.string(),
+  }),
+  bellScheduleLine: defineTable({
+    tab: v.id("bellScheduleTab"),
+    period: v.string(),
+    periodLine2: v.string(),
+    time: v.string(),
+    timeLine2: v.string(),
+  }).index("by_tab", ["tab"]),
+  files: defineTable({
+    uuid: v.string(),
+    key: v.string(),
+    fullUrl: v.string(),
+    type: v.string(),
+    UploadedBy: v.id("users"),
+  }),
+  sportsScores: defineTable({
+    sport: v.string(),
+    date: v.string(),
+    tbirdScore: v.number(),
+    opponent: v.string(),
+    opponentScore: v.number(),
+  }),
 });

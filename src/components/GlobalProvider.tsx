@@ -12,7 +12,7 @@ import {
 interface GlobalData {
   showHeader?: boolean;
   loading?: boolean;
-  navBarStyle?: "floating" | "brick"
+  navBarStyle?: "floating" | "brick" | "none"
 }
 
 interface GlobalContextType {

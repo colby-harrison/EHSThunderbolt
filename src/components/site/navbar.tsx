@@ -2,7 +2,8 @@ import { SidebarTrigger } from "../ui/sidebar";
 import { ModeToggle } from "./mode-toggle";
 // End of imports
 
-export function Navbar({ style }: { style: "floating" | "brick" }) {
+export function Navbar({ style }: { style: "floating" | "brick" | "none" }) {
+  if (style === "none") return;
   if (style === "brick") {
     return (
       <header className='flex h-12 flex-row border-b border-sidebar-border bg-sidebar text-sidebar-foreground shadow top-0 w-full'>

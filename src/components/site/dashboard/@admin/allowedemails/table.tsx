@@ -4,7 +4,6 @@ import InfiniteScroll from "@/components/ui/infinite-scroll";
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
   TableHead,
   TableHeader,
@@ -25,7 +24,6 @@ import { api } from "convex@/_generated/api";
 import {
   ClipboardIcon,
   Loader2,
-  PlusCircleIcon,
   PlusIcon,
   TrashIcon,
 } from "lucide-react";
@@ -35,7 +33,6 @@ import type { Doc } from "convex@/_generated/dataModel";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import React from "react";
-import { fetchMutation } from "convex/nextjs";
 import { cn } from "@/lib/utils";
 
 export function AllowedEmailsTable() {
@@ -49,12 +46,12 @@ export function AllowedEmailsTable() {
 
   const hasMore = status === "CanLoadMore";
 
-  const next = async () => {
+  const next = () => {
     if (loading || !hasMore) return;
 
     setLoading(true);
     try {
-      await loadMore(6);
+      loadMore(6);
     } finally {
       setLoading(false);
     }

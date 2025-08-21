@@ -4,22 +4,11 @@ import InfiniteScroll from "@/components/ui/infinite-scroll";
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
   TableHead,
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import {
-  Dialog,
-  DialogClose,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
 import {
   useAction,
   useMutation,
@@ -30,20 +19,14 @@ import { api } from "convex@/_generated/api";
 import {
   ClipboardIcon,
   Loader2,
-  PencilIcon,
-  PlusCircleIcon,
-  PlusIcon,
-  TrashIcon,
 } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 import type { Doc } from "convex@/_generated/dataModel";
-import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import React from "react";
 import { Tooltip, TooltipContent } from "@/components/ui/tooltip";
 import { TooltipTrigger } from "@radix-ui/react-tooltip";
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Checkbox } from "@/components/ui/checkbox";
 import {
   Select,
@@ -69,12 +52,12 @@ export function UsersTable() {
 
   const hasMore = status === "CanLoadMore";
 
-  const next = async () => {
+  const next = () => {
     if (loading || !hasMore) return;
 
     setLoading(true);
     try {
-      await loadMore(6);
+      loadMore(6);
     } finally {
       setLoading(false);
     }
@@ -96,7 +79,7 @@ export function UsersTable() {
         {results?.map((item) => (
           <TableRow
             key={item._id}
-            className={cn(!item.reviewed && "bg-destructive text-white")}
+            className={cn(!item.reviewed && "bg-destructive/50 hover:bg-destructive/30 text-white")}
           >
             <TableCell>
               {item.image && (
@@ -121,6 +104,13 @@ export function UsersTable() {
             <TableCell>
               {item.role === "locked" ? (
                 <>Locked</>
+              ) : item.role === "rootadmin" ? (
+                <Tooltip>
+                  <TooltipTrigger>Root Admin</TooltipTrigger>
+                  <TooltipContent>
+                    <p>No one can change this user's role.</p>
+                  </TooltipContent>
+                </Tooltip>
               ) : item._id === currentUser._id ? (
                 <Tooltip>
                   <TooltipTrigger>Admin</TooltipTrigger>

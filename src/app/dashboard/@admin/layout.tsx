@@ -14,7 +14,7 @@ export default function Layout({
         {/* Title Bar */}
         <TitleBar />
         {/* Page */}
-        <div className="p-4 overflow-y-auto">{children}</div>
+        <div className="p-4 overflow-y-auto h-[calc(100dvh-6rem)]">{children}</div>
       </div>
     </div>
   );
