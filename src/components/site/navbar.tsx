@@ -1,5 +1,4 @@
 import { SidebarTrigger } from "../ui/sidebar";
-import { ModeToggle } from "./mode-toggle";
 // End of imports
 
 export function Navbar({ style }: { style: "floating" | "brick" | "none" }) {

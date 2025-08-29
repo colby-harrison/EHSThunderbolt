@@ -84,4 +84,10 @@ export default defineSchema({
     opponent: v.string(),
     opponentScore: v.number(),
   }),
+  banner: defineTable({
+    pages: v.string(),
+    title: v.string(),
+    description: v.string(),
+    type: v.string(),
+  }),
 });
