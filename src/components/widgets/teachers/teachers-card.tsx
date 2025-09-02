@@ -7,9 +7,10 @@ import {
 	CardHeader,
 	CardTitle,
 } from "@/components/ui/card";
+import type { Id } from "convex@/_generated/dataModel";
 
 interface Teacher {
-	id: number;
+	_id: Id<"teachers">;
 	name: string | null;
 	picture: string | null;
 	job: string | null;

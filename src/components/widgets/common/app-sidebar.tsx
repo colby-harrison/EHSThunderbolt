@@ -18,7 +18,8 @@ import {
   SidebarRail,
   SidebarSeparator,
 } from "@/components/ui/sidebar";
-import { api } from "@/trpc/react";
+import { useQuery } from "convex/react";
+import { api } from "convex@/_generated/api";
 import {
   Archive,
   BellElectric,
@@ -36,11 +37,11 @@ import {
   Sparkle,
   SquareActivity,
   Trophy,
-  UsersRound,
   Video,
 } from "lucide-react";
 import Link from "next/link";
 import React from "react";
+import { UsersRound } from "@/components/animate-ui/icons/users-round";
 // End of imports
 
 export default function AppSidebar() {
@@ -55,8 +56,190 @@ export default function AppSidebar() {
     useSidebarState(4);
   // End state saving for collapsibles
 
-  const [categories] = api.navbarCategory.getAll.useSuspenseQuery();
-  const [categoryList] = api.category.getAll.useSuspenseQuery();
+  const categories = useQuery(api.categories.getNavbarCategories);
+  if (!categories) {
+    return (
+      <Sidebar collapsible='offcanvas' variant='floating'>
+        <SidebarHeader />
+        <SidebarContent>
+          <Collapsible
+            className='group/collapsible'
+            open={sidebar_collapsible_1_open}
+            onOpenChange={sidebar_collapsible_1_setOpen}
+          >
+            <SidebarGroup>
+              <SidebarGroupLabel asChild>
+                <CollapsibleTrigger>
+                  EHS ThunderBolt
+                  <ChevronDown className='ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180' />
+                </CollapsibleTrigger>
+              </SidebarGroupLabel>
+              <CollapsibleContent>
+                <SidebarGroupContent>
+                  <SidebarMenu>
+                    <SidebarMenuItem>
+                      <SidebarMenuButton asChild>
+                        <a href='/'>
+                          <House />
+                          <span>Home</span>
+                        </a>
+                      </SidebarMenuButton>
+                    </SidebarMenuItem>
+                    <SidebarMenuItem>
+                      <SidebarMenuButton asChild>
+                        <Link href='/legacy'>
+                          <Archive />
+                          <span>Archive</span>
+                        </Link>
+                      </SidebarMenuButton>
+                    </SidebarMenuItem>
+                    <SidebarMenuItem>
+                      <SidebarMenuButton asChild>
+                        <Link href='/grads'>
+                          <GraduationCap />
+                          <span>2025 Grads</span>
+                        </Link>
+                      </SidebarMenuButton>
+                    </SidebarMenuItem>
+                  </SidebarMenu>
+                </SidebarGroupContent>
+              </CollapsibleContent>
+            </SidebarGroup>
+          </Collapsible>
+          <SidebarSeparator />
+          <Collapsible
+            className='group/collapsible'
+            open={sidebar_collapsible_2_open}
+            onOpenChange={sidebar_collapsible_2_setOpen}
+          >
+            <SidebarGroup>
+              <SidebarGroupLabel asChild>
+                <CollapsibleTrigger>
+                  Media
+                  <ChevronDown className='ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180' />
+                </CollapsibleTrigger>
+              </SidebarGroupLabel>
+              <CollapsibleContent>
+                <SidebarGroupContent>
+                  <SidebarMenu>
+                    <SidebarMenuItem>
+                      <SidebarMenuButton asChild>
+                        <a href='/photos'>
+                          <Camera />
+                          <span>Photos</span>
+                        </a>
+                      </SidebarMenuButton>
+                    </SidebarMenuItem>
+                    <SidebarMenuItem>
+                      <SidebarMenuButton asChild>
+                        <a href='/tbtv'>
+                          <Video />
+                          <span>TBTV</span>
+                        </a>
+                      </SidebarMenuButton>
+                    </SidebarMenuItem>
+                  </SidebarMenu>
+                </SidebarGroupContent>
+              </CollapsibleContent>
+            </SidebarGroup>
+          </Collapsible>
+          <SidebarSeparator />
+          <Collapsible
+            className='group/collapsible'
+            open={sidebar_collapsible_3_open}
+            onOpenChange={sidebar_collapsible_3_setOpen}
+          >
+            <SidebarGroup>
+              <SidebarGroupLabel asChild>
+                <CollapsibleTrigger>
+                  School Info
+                  <ChevronDown className='ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180' />
+                </CollapsibleTrigger>
+              </SidebarGroupLabel>
+              <CollapsibleContent>
+                <SidebarGroupContent>
+                  <SidebarMenu>
+                    <SidebarMenuItem>
+                      <SidebarMenuButton asChild>
+                        <a href='/bellschedule'>
+                          <BellElectric />
+                          <span>Bell Schedule</span>
+                        </a>
+                      </SidebarMenuButton>
+                    </SidebarMenuItem>
+                    <SidebarMenuItem>
+                      <SidebarMenuButton asChild>
+                        <a href='/flextime'>
+                          <BicepsFlexed />
+                          <span>Flex Time</span>
+                        </a>
+                      </SidebarMenuButton>
+                    </SidebarMenuItem>
+                    <SidebarMenuItem>
+                      <SidebarMenuButton asChild>
+                        <a href='https://east.laramie1.org'>
+                          <School />
+                          <span>Offical School Website</span>
+                        </a>
+                      </SidebarMenuButton>
+                    </SidebarMenuItem>
+                    <SidebarMenuItem>
+                      <SidebarMenuButton asChild>
+                        <a href='https://laramie1.org'>
+                          <ShieldHalf />
+                          <span>LCSD1 Website</span>
+                        </a>
+                      </SidebarMenuButton>
+                    </SidebarMenuItem>
+                  </SidebarMenu>
+                </SidebarGroupContent>
+              </CollapsibleContent>
+            </SidebarGroup>
+          </Collapsible>
+
+          <SidebarSeparator />
+          <Collapsible
+            className='group/collapsible'
+            open={sidebar_collapsible_4_open}
+            onOpenChange={sidebar_collapsible_4_setOpen}
+          >
+            <SidebarGroup>
+              <SidebarGroupLabel asChild>
+                <CollapsibleTrigger>
+                  School Staff
+                  <ChevronDown className='ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180' />
+                </CollapsibleTrigger>
+              </SidebarGroupLabel>
+              <CollapsibleContent>
+                <SidebarGroupContent>
+                  <SidebarMenu>
+                    <SidebarMenuItem>
+                      <SidebarMenuButton asChild>
+                        <a href='/thunderboltstaff'>
+                          <Code />
+                          <span>ThunderBolt Staff</span>
+                        </a>
+                      </SidebarMenuButton>
+                    </SidebarMenuItem>
+                    <SidebarMenuItem>
+                      <SidebarMenuButton asChild>
+                        <a href='/ehsteachers'>
+                          <UsersRound animateOnHover />
+                          <span>EHS Teachers</span>
+                        </a>
+                      </SidebarMenuButton>
+                    </SidebarMenuItem>
+                  </SidebarMenu>
+                </SidebarGroupContent>
+              </CollapsibleContent>
+            </SidebarGroup>
+          </Collapsible>
+        </SidebarContent>
+        <SidebarSeparator />
+        <SidebarRail />
+      </Sidebar>
+    );
+  }
   return (
     <Sidebar collapsible='offcanvas' variant='floating'>
       <SidebarHeader />
@@ -84,33 +267,23 @@ export default function AppSidebar() {
                       </a>
                     </SidebarMenuButton>
                   </SidebarMenuItem>
-                  {categories.map((category, index) => {
-                    // Convert categoryId to number for comparison
-                    const categoryIdNum = category.categoryId
-                      ? Number(category.categoryId)
-                      : null;
-
-                    return (
-                      <React.Fragment key={index}>
-                        {categoryIdNum !== -1 && categoryIdNum !== null && (
+                  {categories
+                    .sort((a, b) => a.index - b.index)
+                    .map((category) => {
+                      if (!category.category) return null;
+                      return (
+                        <React.Fragment key={category.index}>
                           <SidebarMenuItem>
                             <SidebarMenuButton asChild>
-                              <Link href={`/category/${category.categoryId}`}>
+                              <Link href={`/category/${category.category._id}`}>
                                 <Circle />
-                                <span>
-                                  {
-                                    categoryList.find(
-                                      (c) => c.id === categoryIdNum
-                                    )?.name
-                                  }
-                                </span>
+                                <span>{category.category.name}</span>
                               </Link>
                             </SidebarMenuButton>
                           </SidebarMenuItem>
-                        )}
-                      </React.Fragment>
-                    );
-                  })}
+                        </React.Fragment>
+                      );
+                    })}
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
                       <Link href='/legacy'>

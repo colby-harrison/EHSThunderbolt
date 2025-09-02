@@ -3,18 +3,18 @@
  * for Docker builds.
  */
 import "./src/env.js";
-import createMDX from '@next/mdx'
-import remarkFrontmatter from 'remark-frontmatter'
-import remarkMdxFrontmatter from 'remark-mdx-frontmatter'
-import { type NextConfig } from 'next'
+import createMDX from "@next/mdx";
+import remarkFrontmatter from "remark-frontmatter";
+import remarkMdxFrontmatter from "remark-mdx-frontmatter";
+import { type NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   async rewrites() {
     return [
       {
-        source: "/cdn/ut/:id", //proxy UploadThing files (unblocks images when on school devices)
-        destination: "https://kzekz7a45c.ufs.sh/f/:id",
-      }
+        source: "/cdn/ut/:id", // proxy UploadThing files (unblocks images when on school devices)
+        destination: process.env.NODE_ENV === "production" ? "https://kzekz7a45c.ufs.sh/f/:id" : "https://ntpz9gsoci.ufs.sh/f/:id",
+      },
     ];
   },
 };
@@ -22,11 +22,11 @@ const nextConfig: NextConfig = {
 const withMDX = createMDX({
   extension: /\.(md|mdx)$/,
   // Add markdown plugins here, as desired
-    options: {
+  options: {
     remarkPlugins: [remarkFrontmatter, remarkMdxFrontmatter],
     rehypePlugins: [],
   },
-})
- 
+});
+
 // Merge MDX config with Next.js config
-export default withMDX(nextConfig)
+export default withMDX(nextConfig);

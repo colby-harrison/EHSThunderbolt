@@ -13,7 +13,18 @@ import type {
   FilterApi,
   FunctionReference,
 } from "convex/server";
-import type * as realtimekv from "../realtimekv.js";
+import type * as ResendOTP from "../ResendOTP.js";
+import type * as allowedemail from "../allowedemail.js";
+import type * as auth from "../auth.js";
+import type * as bellschedule from "../bellschedule.js";
+import type * as categories from "../categories.js";
+import type * as common_utils from "../common_utils.js";
+import type * as files from "../files.js";
+import type * as http from "../http.js";
+import type * as kv from "../kv.js";
+import type * as tbtv from "../tbtv.js";
+import type * as teachers from "../teachers.js";
+import type * as users from "../users.js";
 
 /**
  * A utility for referencing Convex functions in your app's API.
@@ -24,7 +35,18 @@ import type * as realtimekv from "../realtimekv.js";
  * ```
  */
 declare const fullApi: ApiFromModules<{
-  realtimekv: typeof realtimekv;
+  ResendOTP: typeof ResendOTP;
+  allowedemail: typeof allowedemail;
+  auth: typeof auth;
+  bellschedule: typeof bellschedule;
+  categories: typeof categories;
+  common_utils: typeof common_utils;
+  files: typeof files;
+  http: typeof http;
+  kv: typeof kv;
+  tbtv: typeof tbtv;
+  teachers: typeof teachers;
+  users: typeof users;
 }>;
 export declare const api: FilterApi<
   typeof fullApi,

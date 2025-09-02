@@ -3,42 +3,46 @@
 import { HeaderBtn } from "@/components/site/header/header-button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
-import { api } from "@/trpc/react";
+import { api } from "convex@/_generated/api";
+import { useQuery } from "convex/react";
 import Link from "next/link";
 import React from "react";
 
 export default function NavigationWidget() {
-  const [categories] = api.navbarCategory.getAll.useSuspenseQuery();
-  const [categoryList] = api.category.getAll.useSuspenseQuery();
-  
-  if (!categories || !categoryList) return null;
-  
+  const categories = useQuery(api.categories.getNavbarCategories);
+
+  if (!categories) {
+    return (
+      <div className='hidden h-full grid-cols-7 gap-2 p-2 lg:grid'>
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <HeaderBtn text='2026 Grads' href='/grads' />
+        <HeaderBtn
+          text='Offical School Site'
+          href='https://east.laramie1.org'
+        />
+      </div>
+    );
+  }
+
   return (
     <div className='hidden h-full grid-cols-7 gap-2 p-2 lg:grid'>
       {categories.map((category, index) => {
-        // Convert categoryId to a number for comparison
-        const categoryIdNum = category.categoryId ? Number(category.categoryId) : null;
-        
-        // Find the matching category using the numeric value
-        const matchingCategory = categoryIdNum !== null ? 
-          categoryList.find((c) => c.id === categoryIdNum) : null;
-        
-        const categoryName = matchingCategory?.name || "Unknown";
-        
+        if (!category.category) return <div />;
+
         return (
-					<React.Fragment key={index}>
-            {categoryIdNum !== null && categoryIdNum !== -1 ? (
-              <HeaderBtn
-                text={categoryName}
-                href={`/category/${categoryIdNum}`}
-              />
-            ) : (
-              <div />
-            )}
-					</React.Fragment>
+          <React.Fragment key={index}>
+            <HeaderBtn
+              text={category.category.name}
+              href={`/category/${category.category._id}`}
+            />
+          </React.Fragment>
         );
       })}
-      <HeaderBtn text='2025 Grads' href='/grads' />
+      <HeaderBtn text='2026 Grads' href='/grads' />
       <HeaderBtn text='Offical School Site' href='https://east.laramie1.org' />
     </div>
   );

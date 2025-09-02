@@ -1,4 +1,3 @@
-import { HydrateClient } from "@/trpc/server";
 import { Widgets } from "@/components/widgets";
 
 const years = [
@@ -43,15 +42,11 @@ export default async function Page({
   );
   posts.sort((a, b) => a.dateOBJ.getTime() - b.dateOBJ.getTime());
   return (
-    <HydrateClient>
-      <main className='container mx-auto grid grid-cols-1 gap-4 py-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
-        {
-          posts.map((post) => (
-            <Widgets.Post.PostButton {...post} key={post.slug} />
-          ))
-        }
-      </main>
-    </HydrateClient>
+    <main className='container mx-auto grid grid-cols-1 gap-4 py-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
+      {posts.map((post) => (
+        <Widgets.Post.PostButton {...post} key={post.slug} />
+      ))}
+    </main>
   );
 }
 

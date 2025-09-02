@@ -1,15 +1,16 @@
 "use client";
 
 import * as Carousel from "@/components/ui/carousel";
-import { api } from "@/trpc/react";
+import type { Id } from "convex@/_generated/dataModel";
+// import { api } from "@/trpc/react";
 import Autoplay from "embla-carousel-autoplay";
 import router from "next/router";
 
-export default function CarouselWidget({ categoryId }: { categoryId: number }) {
-  const [posts] = api.posts.getRecentByCategory.useSuspenseQuery({
-    categoryId,
-    limit: 5,
-  });
+export default function CarouselWidget({ categoryId }: { categoryId: Id<"categories"> }) {
+  // const [posts] = api.posts.getRecentByCategory.useSuspenseQuery({
+  //   categoryId,
+  //   limit: 5,
+  // });
   return (
     <div className='col-span-2 bg-red-500'>
       <Carousel.Carousel
@@ -23,7 +24,7 @@ export default function CarouselWidget({ categoryId }: { categoryId: number }) {
           }),
         ]}
       >
-        {posts.map((post) => (
+        {/* {posts.map((post) => (
           <Carousel.CarouselItem
             key={post.id}
             onClick={() => router.push(`/post/${post.id}`)}
@@ -34,7 +35,7 @@ export default function CarouselWidget({ categoryId }: { categoryId: number }) {
               className='w-full h-full object-cover'
             />
           </Carousel.CarouselItem>
-        ))}
+        ))} */}
       </Carousel.Carousel>
     </div>
   );

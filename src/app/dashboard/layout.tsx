@@ -1,12 +1,20 @@
+import { DashboardProvider } from "@/components/DashboardProvider";
 import { GlobalDataUpdater } from "@/components/GlobalProvider";
+import { DashboardContent } from "@/components/site/dashboard/dashboard-main-layout";
+import { Suspense } from "react";
 
-export default function RootLayout({
-  children,
-}: Readonly<{ children: React.ReactNode }>) {
+export default function Layout({
+  newUser,
+  writer,
+  admin,
+}: {
+  newUser: React.ReactNode;
+  writer: React.ReactNode;
+  admin: React.ReactNode;
+}) {
   return (
-    <>
-      <GlobalDataUpdater data={{ showHeader: false }} />
-      {children}
-    </>
+    <DashboardProvider>
+      <DashboardContent newUser={newUser} writer={writer} admin={admin} />
+    </DashboardProvider>
   );
 }
