@@ -127,7 +127,7 @@ function DeleteDialog({ user }: { user: Doc<"allowedEmails"> }) {
         <form
           onSubmit={async (event) => {
             event.preventDefault();
-            deleteEmail({ ID: user._id });
+            await deleteEmail({ ID: user._id });
             setOpen(false);
             toast(
               `Deleted ${user.email} from allowed emails and locked ${user.name}'s account`

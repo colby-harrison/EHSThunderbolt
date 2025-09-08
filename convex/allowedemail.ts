@@ -34,10 +34,12 @@ export const deleteEmail = mutation({
   handler: async (ctx, args) => {
     const email = await ctx.db.get(args.ID);
     await ctx.db.delete(args.ID);
-    await ctx.runMutation(internal.users.deleteEmailFromAccounts, {
-      email: email?.email!,
-      Id: email?.userID!,
-    });
+    if (email) {
+      await ctx.runMutation(internal.users.deleteEmailFromAccounts, {
+        email: email?.email!,
+        Id: email?.userID!,
+      });
+    }
   },
 });
 
@@ -59,16 +61,24 @@ export const addUID = mutation({
 });
 
 export const getByEmail = query({
-  args: { email: v.string()},
+  args: { email: v.string() },
   handler: async (ctx, args) => {
-    return await ctx.db.query("allowedEmails").withIndex("by_email", (q) => (q.eq("email", args.email))).first()
-  }
-})
+    return await ctx.db
+      .query("allowedEmails")
+      .withIndex("by_email", (q) => q.eq("email", args.email))
+      .first();
+  },
+});
 
 export const addUIDAction = action({
   args: { UID: v.id("users"), email: v.string() },
   handler: async (ctx, args) => {
-    const allowedemail = await ctx.runQuery(api.allowedemail.getByEmail, {email: args.email})
-    await ctx.runMutation(api.allowedemail.addUID, {UID: args.UID, ID: allowedemail?._id!})
+    const allowedemail = await ctx.runQuery(api.allowedemail.getByEmail, {
+      email: args.email,
+    });
+    await ctx.runMutation(api.allowedemail.addUID, {
+      UID: args.UID,
+      ID: allowedemail?._id!,
+    });
   },
-})
+});
