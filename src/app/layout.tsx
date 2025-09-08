@@ -27,7 +27,7 @@ export default function RootLayout({
     <ConvexAuthNextjsServerProvider>
       <GlobalProvider>
         <html lang='en' className={`${geist.variable} dark`}>
-          <body className='h-dvh w-dvw max-w-dvw'>
+          <body className='h-dvh w-full'>
             <ConvexClientProvider>
               <Layout>
                 {children}
