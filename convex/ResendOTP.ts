@@ -22,7 +22,7 @@ export const ResendOTP = Email({
     // if allowed, continue
     const resend = new ResendAPI(provider.apiKey);
     const { error } = await resend.emails.send({
-      from: "Thunderbolt <thunderbolt@email.ehsthunderbolt.org>",
+      from: `Thunderbolt <thunderbolt@${process.env.EMAIL_DOMAIN}>`,
       to: [email],
       subject: `Sign in to EHS Thunderbolt`,
       text: `Your code is ${token}\n\nThis code will expire in 15 minutes.`,

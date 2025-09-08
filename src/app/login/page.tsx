@@ -15,6 +15,7 @@ export default function SignIn() {
   const { signIn } = useAuthActions();
   const [step, setStep] = useState<"signIn" | { email: string }>("signIn");
   const [email, setEmail] = useState("");
+  const [code, setCode] = useState("");
   const user = useQuery(api.users.currentUser);
   console.log(user);
 
@@ -90,7 +91,7 @@ export default function SignIn() {
             }}
             className='flex flex-col gap-2'
           >
-            <Input name='code' placeholder='Code' type='text' />
+            <Input name='code' placeholder='Code' type='text' value={code} onChange={(e) => setCode(e.target.value)} />
             <Input name='email' value={email} type='hidden' />
             <div className="flex flex-row gap-2 justify-between">
               <Button type='submit'>Continue</Button>

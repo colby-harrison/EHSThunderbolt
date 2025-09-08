@@ -3,7 +3,7 @@
 import { GlobalDataUpdater } from "@/components/GlobalProvider";
 import { useQuery } from "convex/react";
 import { api } from "convex@/_generated/api";
-import Router from "next/router";
+import { useRouter } from "next/navigation";
 
 // Async component that handles the role-based rendering
 export function DashboardContent({
@@ -17,15 +17,17 @@ export function DashboardContent({
 }) {
   const user = useQuery(api.users.currentUser);
   const role = useQuery(api.users.currentUserRole);
-  const router = Router
+  const router = useRouter()
   if (role === undefined || user === undefined) {
     return <GlobalDataUpdater data={{ loading: true }} />;
   }
   if (user === null) {
-    return router.push("/login")
+    router.push("/login")
+    return <></>
   }
   if (user.role === "locked") {
-    return router.push("/")
+    router.push("/")
+    return <></>
   }
   return role === null
     ? newUser

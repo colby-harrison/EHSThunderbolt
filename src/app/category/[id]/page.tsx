@@ -14,7 +14,10 @@ export default async function Category({
 }) {
   const { id } = await params;
   const category = await fetchQuery(api.categories.getById, { id: id as Id<"categories">});
-  if (!category) return NextResponse.rewrite("/404");
+  if (!category) {
+    NextResponse.rewrite("/404");
+    return <div>Category not found</div>;
+  }
   return (
     <main className='container mx-auto grid grid-cols-1 gap-4 py-4 sm:grid-cols-2 md:grid-cols-3'>
       <div>

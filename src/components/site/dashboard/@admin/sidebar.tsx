@@ -11,6 +11,7 @@ interface props {
   href: string;
   title: string;
   convexAPI?: FunctionReference<"query">;
+  subPaths?: string[];
 }
 
 const SidebarLinks: props[] = [
@@ -30,6 +31,10 @@ const SidebarLinks: props[] = [
   {
     href: "/bellschedule",
     title: "Bell Schedule",
+  },
+  {
+    href: "/post",
+    title: "Post",
   }
 ];
 
@@ -54,7 +59,7 @@ function SidebarLink({ href, title, convexAPI }: props) {
   const pathname = usePathname();
   const data = convexAPI && useQuery(convexAPI);
   const fullHREF = "/dashboard" + href;
-  const isPath = pathname === fullHREF;
+  const isPath = pathname === fullHREF || href !== "" && pathname.startsWith(fullHREF + "/");
 
   return (
     <Button
