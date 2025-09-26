@@ -1,0 +1,15 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "entry": [
+    "src/**/*"
+  ],
+  "ignore": [
+    "src/components/**/*",
+    "convex/**/*",
+    "generateKeys.mjs",
+    "src/hooks**/*",
+    "src/server/**/*",
+    "src/lib/**/*",
+    "src/content/legacy/*/posts.ts"
+  ]
+}

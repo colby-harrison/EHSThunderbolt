@@ -4,7 +4,7 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"build": "next build",
+		"build": "knip && next build",
 		"check": "biome check .",
 		"check:unsafe": "biome check --write --unsafe .",
 		"check:write": "biome check --write .",
@@ -14,7 +14,8 @@
 		"start": "next start",
 		"typecheck": "tsc --noEmit",
 		"convex": "convex",
-		"dev:convex": "convex dev"
+		"dev:convex": "convex dev",
+		"knip": "knip"
 	},
 	"dependencies": {
 		"@convex-dev/auth": "^0.0.87",
@@ -139,6 +140,7 @@
 		"@types/react": "^19.1.12",
 		"@types/react-dom": "^19.1.9",
 		"@types/turndown": "^5.0.5",
+		"knip": "^5.64.1",
 		"postcss": "^8.5.6",
 		"tailwindcss": "^4.1.13",
 		"turbo": "2.5.5",
