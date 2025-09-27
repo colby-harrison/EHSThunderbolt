@@ -2,7 +2,6 @@
 import { useAuthActions } from "@convex-dev/auth/react";
 import { api } from "convex@/_generated/api";
 import { useEffect, useState, type ChangeEvent } from "react";
-import { fetchQuery } from "convex/nextjs";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import * as Card from "@/components/ui/card";
@@ -45,12 +44,7 @@ export default function SignIn() {
             onSubmit={async (event) => {
               event.preventDefault();
               const formData = new FormData(event.currentTarget);
-              const allowed = await fetchQuery(
-                api.allowedemail.isAllowedEmail,
-                {
-                  email: formData.get("email") as string,
-                }
-              );
+              const allowed = isAllowed;
               if (!allowed) return;
               void signIn("resend-otp", formData).then(() =>
                 setStep({ email: formData.get("email") as string })

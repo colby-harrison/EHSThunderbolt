@@ -9,7 +9,10 @@ import "react-pdf/dist/Page/AnnotationLayer.css";
 
 export default function CalendarEmbed() {
   const calendar = useQuery(api.kv.getByKey, { key: "calendar" });
-  const calendarURL = `/cdn/ut/${calendar?.value}`;
+  const calendarURL = calendar?.value
+    ? `/cdn/ut/${calendar.value}`
+    : undefined;
+
   const containerRef = useRef<HTMLDivElement>(null);
   const [width, setWidth] = useState<number | null>(null);
 
@@ -26,28 +29,23 @@ export default function CalendarEmbed() {
     return () => observer.disconnect();
   }, []);
 
-  if (!calendar || !calendar.value) {
-    return <div>Loading...</div>;
-  }
-
-  pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
+  // configure worker only once (side effect safe)
+  useEffect(() => {
+    pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
+  }, []);
 
   return (
-    <div ref={containerRef} className='w-full max-w-full overflow-hidden'>
-      {calendarURL ? (
-        <Document file={calendarURL} loading='Loading PDF...'>
-          {width && (
-            <Page
-              pageNumber={1}
-              width={width}
-              renderAnnotationLayer={false}
-              renderTextLayer={false}
-            />
-          )}
+    <div ref={containerRef} className="w-full max-w-full overflow-hidden">
+      {calendarURL && width ? (
+        <Document file={calendarURL} loading={null}>
+          <Page
+            pageNumber={1}
+            width={width}
+            renderAnnotationLayer={false}
+            renderTextLayer={false}
+          />
         </Document>
-      ) : (
-        <div>Loading...</div>
-      )}
+      ) : null}
     </div>
   );
 }
