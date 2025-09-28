@@ -29,8 +29,8 @@ export default function BellScheduleTable() {
   return (
     <Card.Card>
       <Tabs defaultValue={bellSchedule[0]?._id}>
-        <Card.CardHeader>
-          <TabsList>
+          <Card.CardHeader>
+            <TabsList className="w-full">
             {bellSchedule.map((v, index) => {
               return (
                 <TabsTrigger value={v._id} key={index}>

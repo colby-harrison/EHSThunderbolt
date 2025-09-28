@@ -3,13 +3,16 @@ import { Loading } from "@/components/site/loading";
 import { useMutation, useQuery } from "convex/react";
 import { api } from "convex@/_generated/api";
 import { Widgets } from "@/components/widgets";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import {
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+} from "@/components/animate-ui/radix/tabs";
 import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -24,7 +27,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import {
   Dialog,
   DialogClose,
@@ -46,38 +49,55 @@ export default function CardComponent({ user }: { user: Doc<"users"> }) {
     return <Loading />;
   }
   return (
-    <Tabs defaultValue='bellschedule' className='bg-muted rounded-lg w-full'>
+    <Tabs
+      defaultValue='bellschedule'
+      className='bg-muted rounded-lg w-full p-1'
+    >
       <TabsList className='grid w-full grid-cols-2'>
         <TabsTrigger value='bellschedule'>Bell Schedule</TabsTrigger>
         <TabsTrigger value='calendar'>Calendar</TabsTrigger>
       </TabsList>
-      <TabsContent value='bellschedule' className='p-1'>
+      <TabsContent value='bellschedule'>
         <Card>
-          <CardHeader>
-            <CardTitle>Bell Schedule</CardTitle>
-          </CardHeader>
-          <CardContent className='flex flex-row gap-2'>
+          <CardContent className="p-1">
             <div className='w-full'>
               <Tabs
-                defaultValue={bellSchedule[0]?._id}
-                className='bg-muted rounded-lg w-full'
+                defaultValue='edit'
+                className='bg-muted rounded-lg w-full p-1'
               >
                 <TabsList className='flex flex-row w-full gap-1'>
-                  {bellSchedule.map((v, index) => {
-                    return (
-                      <TabsTrigger value={v._id} key={index}>
-                        {v.name}
-                      </TabsTrigger>
-                    );
-                  })}
-                  <CreateTabDialog />
+                  <TabsTrigger value='edit'>Edit</TabsTrigger>
+                  <TabsTrigger value='view'>View</TabsTrigger>
                 </TabsList>
-                {bellSchedule.map((v, index) => {
-                  return <BellScheduleTable item={v} key={index} />;
-                })}
+                <TabsContent value='edit'>
+                  <Card>
+                    <CardContent className="p-1">
+                      <Tabs
+                        defaultValue={bellSchedule[0]?._id}
+                        className='bg-muted rounded-lg w-full p-1'
+                      >
+                        <TabsList className='flex flex-row w-full gap-1'>
+                          {bellSchedule.map((v, index) => {
+                            return (
+                              <TabsTrigger value={v._id} key={index}>
+                                {v.name}
+                              </TabsTrigger>
+                            );
+                          })}
+                          <CreateTabDialog />
+                        </TabsList>
+                        {bellSchedule.map((v, index) => {
+                          return <BellScheduleTable item={v} key={index} />;
+                        })}
+                      </Tabs>
+                    </CardContent>
+                  </Card>
+                </TabsContent>
+                <TabsContent value='view'>
+                  <Widgets.BellSchedule.Table />
+                </TabsContent>
               </Tabs>
             </div>
-            <Widgets.BellSchedule.Table />
           </CardContent>
         </Card>
       </TabsContent>
@@ -86,7 +106,7 @@ export default function CardComponent({ user }: { user: Doc<"users"> }) {
           <CardHeader>
             <CardTitle>Calendar</CardTitle>
           </CardHeader>
-          <CardContent className='flex flex-row gap-2'>
+          <CardContent className='flex flex-col gap-2'>
             <div className='w-full'>
               <h1 className='prose-h1'>Upload new calendar</h1>
               <UploadDropzone
@@ -97,7 +117,7 @@ export default function CardComponent({ user }: { user: Doc<"users"> }) {
                 }}
               />
             </div>
-            <div className="w-1/3">
+            <div className='w-full brightness-50 hover:brightness-100'>
               <Widgets.BellSchedule.Calendar />
             </div>
           </CardContent>
@@ -153,6 +173,10 @@ function CreateTabDialog() {
 function BellScheduleTable({ item }: { item: Doc<"bellScheduleTab"> }) {
   const lines = useQuery(api.bellschedule.getLinesByTab, { tab: item._id });
   const createLine = useMutation(api.bellschedule.createLine);
+
+  // track last created line for autofocus
+  const [lastCreatedId, setLastCreatedId] = useState<string | null>(null);
+
   return (
     <TabsContent value={item._id} className='p-1'>
       <Card>
@@ -173,21 +197,28 @@ function BellScheduleTable({ item }: { item: Doc<"bellScheduleTab"> }) {
             <TableBody>
               {lines &&
                 lines.map((v, index) => {
-                  return <BellScheduleTableRow item={v} key={index} />;
+                  return (
+                    <BellScheduleTableRow
+                      item={v}
+                      key={index}
+                      autoFocus={v._id === lastCreatedId}
+                    />
+                  );
                 })}
             </TableBody>
           </Table>
           <Button
             className='w-full'
-            onClick={() =>
-              createLine({
+            onClick={async () => {
+              const id = await createLine({
                 tab: item._id,
                 period: "",
                 periodLine2: "",
                 time: "",
                 timeLine2: "",
-              })
-            }
+              });
+              setLastCreatedId(id);
+            }}
           >
             Add Line
           </Button>
@@ -248,43 +279,63 @@ function DeleteTabDialog({ item }: { item: Doc<"bellScheduleTab"> }) {
   );
 }
 
-function BellScheduleTableRow({ item }: { item: Doc<"bellScheduleLine"> }) {
+function BellScheduleTableRow({
+  item,
+  autoFocus,
+}: {
+  item: Doc<"bellScheduleLine">;
+  autoFocus?: boolean;
+}) {
   const editLine = useMutation(api.bellschedule.updateLine);
   const delLine = useMutation(api.bellschedule.delLine);
+  const [period, setPeriod] = useState(item.period);
+  const [periodLine2, setPeriodLine2] = useState(item.periodLine2);
+  const [time, setTime] = useState(item.time);
+  const [timeLine2, setTimeLine2] = useState(item.timeLine2);
+
+  // ref for autofocus when row first mounts
+  const periodRef = useRef<HTMLInputElement | null>(null);
+  useEffect(() => {
+    if (autoFocus && periodRef.current) {
+      periodRef.current.focus();
+    }
+  }, [autoFocus]);
+
   return (
     <TableRow>
       <TableCell>
         <Label htmlFor='period'>Period</Label>
         <Input
+          ref={periodRef}
           id='period'
-          value={item.period}
-          onChange={(e) => editLine({ id: item._id, period: e.target.value })}
+          value={period}
+          onChange={(e) => setPeriod(e.target.value)}
+          onBlur={() => editLine({ id: item._id, period })}
         />
         <br />
         <Label htmlFor='periodLine2'>Period Line 2</Label>
         <Input
           id='periodLine2'
-          value={item.periodLine2}
-          onChange={(e) =>
-            editLine({ id: item._id, periodLine2: e.target.value })
-          }
+          value={periodLine2}
+          onChange={(e) => setPeriodLine2(e.target.value)}
+          onBlur={() => editLine({ id: item._id, periodLine2 })}
         />
       </TableCell>
       <TableCell>
         <Label htmlFor='time'>Time</Label>
         <Input
           id='time'
-          value={item.time}
-          onChange={(e) => editLine({ id: item._id, time: e.target.value })}
+          value={time}
+          onChange={(e) => setTime(e.target.value)}
+          onBlur={() => editLine({ id: item._id, time })}
         />
         <br />
         <Label htmlFor='timeLine2'>Time Line 2</Label>
         <Input
           id='timeLine2'
-          value={item.timeLine2}
-          onChange={(e) =>
-            editLine({ id: item._id, timeLine2: e.target.value })
-          }
+          value={timeLine2}
+          onChange={(e) => setTimeLine2(e.target.value)}
+          onBlur={() => editLine({ id: item._id, timeLine2 })}
         />
       </TableCell>
       <TableCell className='flex justify-end'>

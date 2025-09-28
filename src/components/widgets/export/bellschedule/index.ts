@@ -11,3 +11,13 @@ export const Calendar = dynamic(
   () => import("../../bellschedule/calendar"),
   {ssr: false}
 )
+
+export const TableProse = dynamic(
+  () => import("../../bellschedule/table-prose"),
+  {ssr: false}
+)
+
+export const CalendarProse = dynamic(
+  () => import("../../bellschedule/calendar-prose"),
+  {ssr: false}
+)

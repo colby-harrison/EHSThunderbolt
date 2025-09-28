@@ -11,3 +11,8 @@ export const PostButton = dynamic(
 	() => import("../../post/post-button"),
 	{ ssr: false },
 );
+
+export const CodeBlock = dynamic(
+	() => import("../../post/code-block"),
+	{ ssr: false },
+);

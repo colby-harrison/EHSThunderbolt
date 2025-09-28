@@ -7,9 +7,12 @@ import remarkDirective from "remark-directive";
 import remarkFootNotesExtra from "remark-footnotes-extra";
 import rehypeKatex from "rehype-katex";
 import remarkParse from "remark-parse";
+
+// Custom components
 import AlertComponent from "@/components/site/post-components/alert";
 import { Widgets } from "@/components/widgets";
 import Link from "next/link";
+
 
 // Define MdxComponents type
 type MdxComponents = {
@@ -18,6 +21,7 @@ type MdxComponents = {
 
 // Map MDX component names to actual React components
 const components: MdxComponents = {
+  // HTML tag replacements
   // Replace all <a> tags with Next.js <Link> for internal links
   a: ({ href, children, ...props }) => {
     if (!href) return <>{children}</>;
@@ -38,9 +42,21 @@ const components: MdxComponents = {
       </a>
     );
   },
+
+  // Inline code stays as normal <code> (MDX maps inline code by default)
+  code: ({ className, children }) => {
+    if (className?.startsWith("language-")) {
+      // Handle code blocks
+      return <Widgets.Post.CodeBlock className={className}>{children as string}</Widgets.Post.CodeBlock>;
+    }
+    // Inline code
+    return <code className="px-1 py-0.5 bg-accent rounded-lg">{children}</code>;
+  },
+
+  // Custom components
   Alert: AlertComponent,
-  BellSchedule: Widgets.BellSchedule.Table,
-  Calendar: Widgets.BellSchedule.Calendar,
+  BellSchedule: Widgets.BellSchedule.TableProse,
+  Calendar: Widgets.BellSchedule.CalendarProse,
 };
 
 // Single function: turns MDX into a React element you can render.

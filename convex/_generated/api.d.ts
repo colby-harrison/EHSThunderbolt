@@ -22,6 +22,7 @@ import type * as common_utils from "../common_utils.js";
 import type * as files from "../files.js";
 import type * as http from "../http.js";
 import type * as kv from "../kv.js";
+import type * as posts from "../posts.js";
 import type * as tbtv from "../tbtv.js";
 import type * as teachers from "../teachers.js";
 import type * as users from "../users.js";
@@ -44,6 +45,7 @@ declare const fullApi: ApiFromModules<{
   files: typeof files;
   http: typeof http;
   kv: typeof kv;
+  posts: typeof posts;
   tbtv: typeof tbtv;
   teachers: typeof teachers;
   users: typeof users;

@@ -13,3 +13,7 @@ import type { OurFileRouter } from "@/app/api/uploadthing/core";
 
 export const UploadButton = generateUploadButton<OurFileRouter>();
 export const UploadDropzone = generateUploadDropzone<OurFileRouter>();
+
+export function toSnakeCase(str: string) {
+  return str.replace(/([A-Z])/g, (g) => `_${g.toLowerCase()}`);
+}
