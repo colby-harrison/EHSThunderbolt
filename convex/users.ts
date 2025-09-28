@@ -166,3 +166,10 @@ export const editReviewStatus = mutation({
     await ctx.db.patch(args.ID, { reviewed: args.reviewed });
   },
 });
+
+export const getById = query({
+  args: { id: v.id("users") },
+  handler: async (ctx, args) => {
+    return await ctx.db.get(args.id);
+  },
+});

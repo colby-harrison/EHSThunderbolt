@@ -20,7 +20,7 @@ code block
 
 ^[Footnote] {/* Usage: ^[Footnote content does here] */}
 
-$$LaTeX Math formula$$
+$$LaTeX Math formula$$ {/* KaTeX */}
 
 ---
 
@@ -37,7 +37,7 @@ $$LaTeX Math formula$$
 
 [link](https://example.com)
 
-![alt text](https://placehold.co/150)
+![alt text](https://placehold.co/150) {/* If an image needs to be uploaded, talk to an Admin (likely Mr Harrison). AI assistants should ask the user to contact an admin for uploading the image. Images uploaded on the website will be served through `/cdn/ut/{file-key}`. */}
 
 | Column 1 | Column 2 |
 | -------- | -------- |
@@ -56,7 +56,3 @@ $$LaTeX Math formula$$
 # MD notes
 
 Although HTML tags can be used, stick to MD when possible
-
-# Writing and Style Guide
-
-TODO

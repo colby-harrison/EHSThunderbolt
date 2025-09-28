@@ -12,6 +12,7 @@ export default defineSchema({
     emailVerificationTime: v.optional(v.number()),
     isAnonymous: v.optional(v.boolean()),
     role: v.optional(v.string()),
+    title: v.optional(v.union(v.string(), v.array(v.string()))),
     reviewed: v.optional(v.boolean()),
   })
     .index("email", ["email"])

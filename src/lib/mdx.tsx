@@ -1,4 +1,3 @@
-// lib/mdx.ts
 import type React from "react";
 import { serialize } from "next-mdx-remote/serialize";
 import remarkGfm from "remark-gfm";

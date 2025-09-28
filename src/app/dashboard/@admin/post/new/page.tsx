@@ -92,13 +92,18 @@ export default function AdminPage() {
           <TabsTrigger value='editor' onClick={() => setIsNotEditor(false)}>
             Editor
           </TabsTrigger>
-          <TabsTrigger value='preview' onClick={() => setIsNotEditor(true)}>
-            Preview
-          </TabsTrigger>
           <Button
             variant='tab'
             className='w-full'
-            disabled={!post || !metadata.title || !metadata.excerpt || !metadata.image || !metadata.category || !user || !user._id}
+            disabled={
+              !post ||
+              !metadata.title ||
+              !metadata.excerpt ||
+              !metadata.image ||
+              !metadata.category ||
+              !user ||
+              !user._id
+            }
             onClick={() =>
               NewPost(formattedData as NewPostProps).then(() => {
                 toast.success("Post submitted successfully");
@@ -133,7 +138,6 @@ export default function AdminPage() {
             className='h-[calc(100dvh-11.5rem)]'
           />
         </TabsContent>
-        <TabsContent value='preview'>{post}</TabsContent>
       </Tabs>
     </div>
   );

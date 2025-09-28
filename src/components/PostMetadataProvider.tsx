@@ -1,5 +1,6 @@
 "use client";
 
+import type { Id } from "convex@/_generated/dataModel";
 import type React from "react";
 import {
   type ReactNode,
@@ -12,14 +13,14 @@ import {
 export interface MetadataData {
   title: string;
   date: string;
-  categories: string[];
+  categories: string[] | string | Id<"categories"> | Id<"categories">[];
   coverImage?: string;
   excerpt?: string;
   legacy?: boolean;
   author?: {
     name: string;
     role: string;
-  } | string;
+  } | Id<"users">;
 }
 
 interface MetadataContextType {
